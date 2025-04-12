@@ -50,7 +50,7 @@ export default function HeroSection() {
               II Workshop Internacional sobre a<br />
               Poluição Plástica nos Oceanos
             </h2>
-            <p className={`${isMobile ? "text-lg" : "text-xl"} mb-8`}>Transformando Pesquisas em Soluções</p>
+            <p className={`${isMobile ? "text-lg" : "text-xl"} mb-8`}>Transformando Pesquisas em Soluçõess</p>
 
             {isMobile ? (
               <div className="bg-blue-700 p-4 rounded-lg mb-6">
