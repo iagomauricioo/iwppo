@@ -11,7 +11,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="bg-ocean-dark -mx-4 p-4 text-white" id="contato">
+    <div className="bg-blue-700 -mx-4 p-10 text-white" id="contato">
       <h3 className="font-bold text-lg mb-4">Entre em Contato</h3>
 
       <form className="space-y-3">

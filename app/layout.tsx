@@ -10,6 +10,7 @@ const montserrat = Montserrat({
   display: "swap",
 })
 
+
 export const metadata: Metadata = {
   title: "IWPPO - II Workshop Internacional sobre a Poluição Plástica nos Oceanos",
   description: "Workshop Internacional sobre a Poluição Plástica nos Oceanos - Transformando Pesquisas em Soluções",

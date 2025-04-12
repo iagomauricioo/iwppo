@@ -3,11 +3,16 @@
 import { Calendar, MapPin } from "lucide-react"
 import Image from "next/image"
 import { useMobile } from "@/hooks/use-mobile"
+import { Orbitron } from "next/font/google"
+
+const orbitron = Orbitron({ subsets: ['latin'], weight: ['400', '700', '900'] })
+
 
 export default function HeroSection() {
   const isMobile = useMobile()
 
   return (
+    
     <div className="relative" id="inicio">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -20,32 +25,15 @@ export default function HeroSection() {
         {isMobile && (
           <header className="flex justify-between items-center p-4 bg-ocean-dark/80 rounded-lg mx-2 mt-2">
             <div className="flex items-center">
-              <Image src="/logo-iwppo.png" alt="IWPPO Logo" width={120} height={40} className="h-10 object-contain" />
+              <Image src="/logo-iwppo.png" alt="IWPPO Logo" width={180} height={60} className="h-16 object-contain" />
             </div>
-            <button className="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="3" y1="12" x2="21" y2="12"></line>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <line x1="3" y1="18" x2="21" y2="18"></line>
-              </svg>
-            </button>
           </header>
         )}
 
         {/* Hero Section */}
         <section className={`px-6 ${isMobile ? "pt-16 pb-8" : "pt-32 pb-24"} text-white`}>
           <div className={`${isMobile ? "" : "container mx-auto"}`}>
-            <h1 className={`${isMobile ? "text-5xl" : "text-7xl"} font-bold text-ocean-pale mb-2`}>IWPPO</h1>
+            <h1 className={`${orbitron.className} ${isMobile ? "text-5xl" : "text-7xl"} font-bold text-ocean-pale mb-2`}>IWPPO</h1>
             <h2 className={`${isMobile ? "text-2xl" : "text-4xl"} font-semibold leading-tight mb-4`}>
               II Workshop Internacional sobre a<br />
               Poluição Plástica nos Oceanos

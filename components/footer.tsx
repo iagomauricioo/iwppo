@@ -7,7 +7,7 @@ export default function Footer() {
   const isMobile = useMobile()
 
   return (
-    <footer className={`bg-[#0A0F70] text-white ${isMobile ? "p-4" : "py-12"}`}>
+    <footer className={`bg-[#0A0F70] text-white ${isMobile ? "p-5 pb-32" : "py-12"}`}>
       {isMobile ? (
         <>
           <div className="flex items-center mb-3">
