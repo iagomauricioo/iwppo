@@ -1,0 +1,119 @@
+.bg-ocean-dark {
+  background-color: var(--blue-900);
+}
+
+.bg-ocean-medium {
+  background-color: var(--blue-800);
+}
+
+.bg-ocean-regular {
+  background-color: var(--blue-700);
+}
+
+.bg-ocean-light {
+  background-color: var(--blue-600);
+}
+
+.bg-ocean-bright {
+  background-color: var(--blue-500);
+}
+
+.bg-ocean-pale {
+  background-color: var(--blue-400);
+}
+
+.bg-ocean-lighter {
+  background-color: var(--blue-300);
+}
+
+.bg-ocean-lightest {
+  background-color: var(--blue-200);
+}
+
+.bg-ocean-faint {
+  background-color: var(--blue-100);
+}
+
+.text-ocean-dark {
+  color: var(--blue-900);
+}
+
+.text-ocean-medium {
+  color: var(--blue-800);
+}
+
+.text-ocean-regular {
+  color: var(--blue-700);
+}
+
+.text-ocean-light {
+  color: var(--blue-600);
+}
+
+.text-ocean-bright {
+  color: var(--blue-500);
+}
+
+.text-ocean-pale {
+  color: var(--blue-400);
+}
+
+.text-ocean-lighter {
+  color: var(--blue-300);
+}
+
+.text-ocean-lightest {
+  color: var(--blue-200);
+}
+
+.text-ocean-faint {
+  color: var(--blue-100);
+}
+
+.border-ocean-dark {
+  border-color: var(--blue-900);
+}
+
+.border-ocean-medium {
+  border-color: var(--blue-800);
+}
+
+.border-ocean-regular {
+  border-color: var(--blue-700);
+}
+
+.border-ocean-light {
+  border-color: var(--blue-600);
+}
+
+.border-ocean-bright {
+  border-color: var(--blue-500);
+}
+
+.hover\:bg-ocean-dark:hover {
+  background-color: var(--blue-900);
+}
+
+.hover\:bg-ocean-medium:hover {
+  background-color: var(--blue-800);
+}
+
+.hover\:bg-ocean-regular:hover {
+  background-color: var(--blue-700);
+}
+
+.hover\:bg-ocean-light:hover {
+  background-color: var(--blue-600);
+}
+
+.hover\:bg-ocean-bright:hover {
+  background-color: var(--blue-500);
+}
+
+.hover\:text-ocean-pale:hover {
+  color: var(--blue-400);
+}
+
+.hover\:text-ocean-lighter:hover {
+  color: var(--blue-300);
+}
