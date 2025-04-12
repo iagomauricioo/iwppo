@@ -79,7 +79,7 @@ export default function AboutSection() {
         ) : (
           <div className="flex flex-wrap items-center max-w-6xl mx-auto">
             <div className="w-full md:w-1/2 p-6">
-              <img src="/meeting-image.png" alt="Reunião de pesquisadores" className="rounded-lg shadow-lg w-full" />
+              <img src="/reuniao.png" alt="Reunião de pesquisadores" className="rounded-lg shadow-lg w-full" />
             </div>
             <div className="w-full md:w-1/2 p-6">
               <h4 className="text-[#0A0F70] font-bold text-2xl mb-4">II IWPPO 2025</h4>
