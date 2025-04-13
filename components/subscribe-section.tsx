@@ -35,7 +35,7 @@ export default function SubscribeSection() {
         }
     ];
     return (
-        <main className="bg-[#caf0f8] min-h-[65vh] flex flex-col justify-center items-center rounded-lg">
+        <main className="bg-[#caf0f8] min-h-[65vh] hidden sm:flex flex-col justify-center items-center rounded-lg">
             <h2 className="text-[#0A0F70] font-bold text-3xl mb-12 text-center pt-5">Inscrições</h2>
             <section className="flex flex-wrap justify-center gap-6 p-6">
                 {subscribeOptions.map((option, index) => (
