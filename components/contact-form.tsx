@@ -6,9 +6,6 @@ import { useMobile } from "@/hooks/use-mobile"
 export default function ContactForm() {
   const isMobile = useMobile()
 
-  if (!isMobile) {
-    return null // No contact form in desktop view
-  }
 
   return (
     <div className="bg-blue-700 -mx-4 p-10 text-white" id="contato">

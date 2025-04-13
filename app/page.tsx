@@ -8,6 +8,7 @@ import ParticipantsSection from "@/components/participants-section"
 import RegistrationSection from "@/components/registration-section"
 import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
+import SubscribeSection from "@/components/subscribe-section"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <ParticipantsSection />
         <RegistrationSection />
         <ContactForm />
+        <SubscribeSection />
       </main>
 
       <Footer />

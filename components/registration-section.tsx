@@ -20,7 +20,7 @@ export default function RegistrationSection() {
         <div className="bg-[#e6f7fb] p-8 rounded-lg shadow-md">
           <h4 className="text-[#0A0F70] font-bold text-2xl mb-4">Inscrições Abertas</h4>
           <p className="text-gray-700 mb-6">10-12 de Setembro, 2025</p>
-          <button className="bg-[#0077B6] hover:bg-[#0096c7] text-white font-bold py-3 px-8 rounded-full">
+          <button className="bg-blue-800 hover:bg-[#0096c7] text-white font-bold py-3 px-8 rounded-full">
             Inscreva-se Agora
           </button>
         </div>
