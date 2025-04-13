@@ -4,8 +4,8 @@ import { Send } from "lucide-react"
 
 export default function ContactForm() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-800 px-4">
-      <div className="bg-blue-700 p-10 text-white flex flex-col w-full max-w-2xl rounded-lg" id="contato">
+    <div className="min-h-[75vh] flex items-center justify-center bg-white px-4">
+      <div className="bg-[#0A0F70] p-10 text-white flex flex-col w-full max-w-2xl rounded-lg" id="contato">
         <h3 className="font-bold text-lg mb-4 text-center">Entre em Contato</h3>
 
         <form className="space-y-4 flex flex-col items-center">

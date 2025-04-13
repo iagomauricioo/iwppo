@@ -1,5 +1,5 @@
-import { Button } from "./button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./card";
+import { Button } from "./ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
 
 type SubscribeCardProps = {
     title: string;
@@ -18,12 +18,11 @@ export default function SubscribeCard({
 }: SubscribeCardProps) {
     return (
         <Card className="w-72 min-h-[280px] flex flex-col justify-between shadow-md rounded-xl border border-gray-200">
-            <CardHeader className="bg-[#0077B6] rounded-t-xl p-4">
-                <CardTitle className="text-white text-center text-lg font-semibold">
+            <CardHeader className="bg-[#0077B6] rounded-t-xl p-4 h-20 flex items-center justify-center">
+                <CardTitle className="text-white text-center text-xl font-semibold">
                     {title}
                 </CardTitle>
             </CardHeader>
-
             <CardContent className="flex flex-col items-center text-center gap-2 p-6">
                 <h3 className="text-2xl font-bold text-gray-900">{price}</h3>
                 <p className="text-sm text-gray-700">{description}</p>

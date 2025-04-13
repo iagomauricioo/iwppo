@@ -9,6 +9,7 @@ import RegistrationSection from "@/components/registration-section"
 import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
 import SubscribeSection from "@/components/subscribe-section"
+import ComissaoOrganizadora from "@/components/comissao-organizadora"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <TopicsSection />
         <ParticipantsSection />
         <RegistrationSection />
+        <ComissaoOrganizadora />
         <ContactForm />
         <SubscribeSection />
       </main>

@@ -1,4 +1,4 @@
-import SubscribeCard from "./ui/subscribe-card";
+import SubscribeCard from "./subscribe-card";
 
 export default function SubscribeSection() {
     const subscribeOptions = [

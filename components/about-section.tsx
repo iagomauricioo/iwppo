@@ -1,6 +1,7 @@
 "use client"
 
 import { useMobile } from "@/hooks/use-mobile"
+import { Globe, Handshake, SearchCheck, Users } from "lucide-react"
 
 export default function AboutSection() {
   const isMobile = useMobile()
@@ -84,8 +85,7 @@ export default function AboutSection() {
             <div className="w-full md:w-1/2 p-6">
               <h4 className="text-[#0A0F70] font-bold text-2xl mb-4">II IWPPO 2025</h4>
               <p className="text-gray-700 mb-6">
-                Uma iniciativa do Projeto Oceanos de Plástico, do Centro Universitário Cesmac, aprovado pelo CNPq
-                (Processo 4054449/2022-4).
+                O IWPPO nasceu da necessidade de discutir e encontrar soluções para um dos maiores desafios ambientais da atualidade: a poluição plástica nos oceanos. Com origem no CEMEIA e apoio da CAPES (PAEP), nosso workshop reúne especialistas internacionais em uma abordagem interdisciplinar.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center text-gray-700">
@@ -106,38 +106,20 @@ export default function AboutSection() {
                   <span>Endossado pelo Comitê Executivo da ONU</span>
                 </div>
                 <div className="flex items-center text-gray-700">
-                  <svg
-                    className="h-5 w-5 mr-3 text-[#0077B6]"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20 6L9 17L4 12"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <Handshake className="h-5 w-5 mr-3 text-[#0077B6]" />
+                  <span>Cooperação Internacional</span>
+                </div>
+                <div className="flex items-center text-gray-700">
+                  <SearchCheck className="h-5 w-5 mr-3 text-[#0077B6]" />
                   <span>Alinhado com ODS 14 - Vida na Água</span>
                 </div>
                 <div className="flex items-center text-gray-700">
-                  <svg
-                    className="h-5 w-5 mr-3 text-[#0077B6]"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20 6L9 17L4 12"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <span>Cooperação Internacional</span>
+                  <Users className="h-5 w-5 mr-3 text-[#0077B6]" />
+                  <span>500+ participantes</span>
+                </div>
+                <div className="flex items-center text-gray-700">
+                  <Globe className="h-5 w-5 mr-3 text-[#0077B6]" />
+                  <span>30+ países</span>
                 </div>
               </div>
             </div>
