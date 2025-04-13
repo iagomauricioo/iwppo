@@ -1,6 +1,5 @@
 import SubscribeCard from "./ui/subscribe-card";
 
-
 export default function SubscribeSection() {
     const subscribeOptions = [
         {
@@ -32,12 +31,15 @@ export default function SubscribeSection() {
             price: "R$ 0,00",
             description: "Inscrição grátis",
             buttonText: "Confirmar",
-        }
+        },
     ];
+
     return (
-        <main className="bg-[#caf0f8] min-h-[65vh] hidden sm:flex flex-col justify-center items-center rounded-lg">
-            <h2 className="text-[#0A0F70] font-bold text-3xl mb-12 text-center pt-5">Inscrições</h2>
-            <section className="flex flex-wrap justify-center gap-6 p-6">
+        <main className="bg-[#caf0f8] min-h-[65vh] flex flex-col items-center py-12 px-6 rounded-lg">
+            <h2 className="text-[#0A0F70] font-bold text-3xl mb-10 text-center">
+                Inscrições
+            </h2>
+            <section className="flex flex-wrap justify-center gap-8 w-full max-w-7xl">
                 {subscribeOptions.map((option, index) => (
                     <SubscribeCard
                         key={index}
@@ -49,6 +51,5 @@ export default function SubscribeSection() {
                 ))}
             </section>
         </main>
-
-    )
+    );
 }
