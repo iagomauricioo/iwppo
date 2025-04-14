@@ -4,7 +4,7 @@ export default function ProgramacaoPage() {
   const scheduleData = {
     days: [
       {
-        day: "Dia 1",
+        day: "1º Dia",
         date: "10 de Setembro de 2025",
         events: [
           {
@@ -52,7 +52,7 @@ export default function ProgramacaoPage() {
         ],
       },
       {
-        day: "Dia 2",
+        day: "2º Dia",
         date: "11 de Setembro de 2025",
         events: [
           {
@@ -126,7 +126,7 @@ export default function ProgramacaoPage() {
         ],
       },
       {
-        day: "Dia 3",
+        day: "3º Dia",
         date: "12 de Setembro de 2025",
         events: [
           {
