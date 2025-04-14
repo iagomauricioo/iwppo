@@ -11,7 +11,7 @@ export default function ParticipantsSection() {
   }
 
   return (
-    <div id="comissao" className="p-4">
+    <div className="p-4">
       <h3 className="text-ocean-dark font-bold text-lg mb-3">Participantes</h3>
 
       <div className="border border-gray-200 rounded-lg p-3 mb-2 flex items-center">

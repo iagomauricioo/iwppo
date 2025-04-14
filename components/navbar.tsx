@@ -8,17 +8,15 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const links = [
   { href: "#inicio", label: "Início", icon: Home },
+  { href: "#sobre", label: "Sobre", icon: Info },
   { href: "#programacao", label: "Programação", icon: Calendar },
   { href: "#comissao", label: "Comissão", icon: Users },
-  { href: "#sobre", label: "Sobre", icon: Info },
-  { href: "#palestrantes", label: "Palestrantes" },
   { href: "#inscricao", label: "Inscrição" },
   { href: "#contato", label: "Contato" },
 ]
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
-  const isMobile = useMobile()
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 10)

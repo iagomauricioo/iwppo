@@ -78,7 +78,7 @@ const members: MemberProps[] = [
 
 export default function ComissaoOrganizadora() {
   return (
-    <div className="w-full bg-gradient-to-b from-sky-100 to-blue-50 px-4 py-8 md:py-12 rounded-lg">
+    <div className="w-full bg-gradient-to-b from-sky-100 to-blue-50 px-4 py-8 md:py-12 rounded-lg" id="comissao">
       <div className="mx-auto max-w-7xl">
         <h1 className="mb-2 text-center text-3xl font-bold text-blue-900 md:mb-4 md:text-4xl">
           Comissão Organizadora
