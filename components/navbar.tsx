@@ -3,12 +3,13 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Home, Calendar, Users, Info } from "lucide-react"
+import { Home, Calendar, Users, Info, MapPin } from "lucide-react"
 import { useMobile } from "@/hooks/use-mobile"
 
 const links = [
   { href: "#inicio", label: "Início", icon: Home },
   { href: "#sobre", label: "Sobre", icon: Info },
+  { href: "#localizacao", label: "Localização", icon: MapPin },
   { href: "#programacao", label: "Programação", icon: Calendar },
   { href: "#comissao", label: "Comissão", icon: Users },
   { href: "#inscricao", label: "Inscrição" },
