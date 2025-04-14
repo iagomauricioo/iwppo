@@ -11,6 +11,7 @@ import Footer from "@/components/footer"
 import SubscribeSection from "@/components/subscribe-section"
 import ComissaoOrganizadora from "@/components/comissao-organizadora"
 import ProgramacaoSection from "@/components/programacao-section"
+import LocationSection from "@/components/localizacao-section"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <main className="flex-1 bg-white">
         <AboutSection />
+        <LocationSection />
         <TopicsSection />
         <ParticipantsSection />
         <ProgramacaoSection />

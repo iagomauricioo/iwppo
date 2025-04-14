@@ -5,7 +5,7 @@ import { Textarea } from "./ui/textarea";
 
 export default function ContactPage() {
   return (
-    <div className="w-full max-w-6xl mx-auto rounded-lg my-10">
+    <div className="w-full max-w-6xl mx-auto rounded-lg my-10" id="contato">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-blue-900 mb-4">Contato</h1>
         <p className="text-blue-700 max-w-2xl mx-auto">

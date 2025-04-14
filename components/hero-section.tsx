@@ -45,7 +45,7 @@ export default function HeroSection() {
               IWPPO
             </h1>
             <h2 className="text-2xl md:text-4xl font-semibold leading-tight mb-4">
-              2<sup>nd</sup> International Workshop on <br/>
+              2<sup>nd</sup> International Workshop on <br />
               Plastic Pollution in the Oceans
             </h2>
             <p className="text-lg md:text-xl mb-8">
