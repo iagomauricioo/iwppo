@@ -12,7 +12,7 @@ interface MemberProps {
 
 const members: MemberProps[] = [
   {
-    name: "Jessé Marques",
+    name: "Jessé Marques Pavão",
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/2811263859126204",
     title: "",
@@ -51,7 +51,7 @@ const members: MemberProps[] = [
     country: "Reino Unido",
     lattesUrl: "http://lattes.cnpq.br/9442171708024416",
     title: "",
-    image: "/comissao-organizadora/profile.png",
+    image: "/comissao-organizadora/richard.png",
   },
   {
     name: "Katia Viana Cavalcante",
@@ -65,10 +65,10 @@ const members: MemberProps[] = [
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/8723281922978435",
     title: "",
-    image: "/comissao-organizadora/profile.png",
+    image: "/comissao-organizadora/cristiane.png",
   },
   {
-    name: "Fernado J. Dìas Lopez",
+    name: "Fernando J. Dìas Lopez",
     country: "Estrangeiro",
     lattesUrl: null,
     title: "",

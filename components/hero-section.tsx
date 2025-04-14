@@ -45,8 +45,8 @@ export default function HeroSection() {
               IWPPO
             </h1>
             <h2 className="text-2xl md:text-4xl font-semibold leading-tight mb-4">
-              II Workshop Internacional sobre a<br />
-              Poluição Plástica nos Oceanos
+              2<sup>nd</sup> International Workshop on <br/>
+              Plastic Pollution in the Oceans
             </h2>
             <p className="text-lg md:text-xl mb-8">
               Transformando Pesquisas em Soluções
@@ -57,14 +57,14 @@ export default function HeroSection() {
               <div className="flex items-center mb-3 md:mb-2">
                 <Calendar className="h-5 w-5 mr-3 text-white md:text-blue-200" />
                 <span className="text-white md:text-blue-100 text-base md:text-xl">
-                  10-12 Setembro, 2025
+                  17-19 Setembro, 2025
                 </span>
               </div>
 
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 text-white md:text-blue-200" />
                 <span className="text-white md:text-blue-100 text-base md:text-xl">
-                  Centro Universitário Cesmac, Alagoas - Maceió
+                  Centro Cultural João Sampaio, Alagoas - Maceió
                 </span>
               </div>
             </div>
