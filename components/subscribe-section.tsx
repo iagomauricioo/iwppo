@@ -35,7 +35,7 @@ export default function SubscribeSection() {
     ];
 
     return (
-        <main className="bg-[#caf0f8] min-h-[65vh] flex flex-col items-center py-12 px-6 rounded-lg">
+        <main className="bg-[#caf0f8] min-h-[65vh] flex flex-col items-center py-12 px-6 rounded-lg" id="inscricoes">
             <h2 className="text-[#0A0F70] font-bold text-3xl mb-10 text-center">
                 Inscrições
             </h2>

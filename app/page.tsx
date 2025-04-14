@@ -23,8 +23,8 @@ export default function Home() {
         <ParticipantsSection />
         <RegistrationSection />
         <ComissaoOrganizadora />
-        <ContactForm />
         <SubscribeSection />
+        <ContactForm />
       </main>
 
       <Footer />
