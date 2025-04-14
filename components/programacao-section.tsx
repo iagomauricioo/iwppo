@@ -5,7 +5,7 @@ export default function ProgramacaoPage() {
     days: [
       {
         day: "1º Dia",
-        date: "10 de Setembro de 2025",
+        date: "17 de Setembro de 2025",
         events: [
           {
             time: "14:00",
@@ -53,7 +53,7 @@ export default function ProgramacaoPage() {
       },
       {
         day: "2º Dia",
-        date: "11 de Setembro de 2025",
+        date: "18 de Setembro de 2025",
         events: [
           {
             time: "09:00",
@@ -127,7 +127,7 @@ export default function ProgramacaoPage() {
       },
       {
         day: "3º Dia",
-        date: "12 de Setembro de 2025",
+        date: "19 de Setembro de 2025",
         events: [
           {
             time: "09:00",
