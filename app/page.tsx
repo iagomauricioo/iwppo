@@ -12,6 +12,7 @@ import SubscribeSection from "@/components/subscribe-section"
 import ComissaoOrganizadora from "@/components/comissao-organizadora"
 import ProgramacaoSection from "@/components/programacao-section"
 import LocationSection from "@/components/localizacao-section"
+import ComiteCientifico from "@/components/comite-cientifico"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <ProgramacaoSection />
         <RegistrationSection />
         <ComissaoOrganizadora />
+        <ComiteCientifico />
         <SubscribeSection />
         <ContactForm />
       </main>
