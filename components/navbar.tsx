@@ -30,7 +30,7 @@ export default function Navbar() {
       {/* Desktop Navbar */}
       <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 bg-[#0A0F70] text-white shadow-md">
         <div className="container mx-auto flex justify-between items-center px-6 py-3">
-          <Image src="/logo-iwppo.png" alt="IWPPO Logo" width={120} height={40} className="h-10 object-contain" />
+          <Image src="/logo-iwppo.png" alt="IWPPO Logo" width={220} height={0} className="object-contain" />
           <ul className="flex space-x-6 text-sm font-medium">
             {links.map(({ href, label }) => (
               <li key={href}>
