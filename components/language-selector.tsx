@@ -1,4 +1,7 @@
+"use client";
+
 import * as React from "react";
+import { useRouter, usePathname } from "next/navigation";
 import {
   Select,
   SelectContent,
@@ -15,9 +18,12 @@ type LanguageOption = {
 };
 
 export function LanguageSelector() {
+  const router = useRouter();
+  const pathname = usePathname();
+
   const languages: LanguageOption[] = [
     {
-      value: "pt-br",
+      value: "pt",
       label: "Português (BR)",
       icon: <BrazilFlagIcon className="h-4 w-4" />,
     },
@@ -26,13 +32,27 @@ export function LanguageSelector() {
       label: "English (US)",
       icon: <UsaFlagIcon className="h-4 w-4" />,
     },
+    {
+      value: "es",
+      label: "Español (ES)",
+      icon: <span className="text-sm">🇪🇸</span>,
+    },
   ];
 
-  const [selectedLanguage, setSelectedLanguage] =
-    React.useState<string>("pt-br");
+  const currentLang = pathname.split("/")[1];
+  const [selectedLanguage, setSelectedLanguage] = React.useState<string>(currentLang);
+
+  const handleChange = (lang: string) => {
+    setSelectedLanguage(lang);
+
+    const segments = pathname.split("/");
+    segments[1] = lang;
+    const newPath = segments.join("/");
+    router.push(newPath);
+  };
 
   return (
-    <Select value={selectedLanguage} onValueChange={setSelectedLanguage}>
+    <Select value={selectedLanguage} onValueChange={handleChange}>
       <SelectTrigger className="w-[180px] bg-transparent border-none focus:ring-0 focus:ring-offset-0">
         <div className="flex items-center gap-2">
           <Globe className="h-4 w-4" />
