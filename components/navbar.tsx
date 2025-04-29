@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Home, Calendar, Users, Info, MapPin } from "lucide-react";
 import { useMobile } from "@/hooks/use-mobile";
 import { useTranslations } from "next-intl";
+import LanguageSelector from "./language-selector";
 
 const links = [
   { href: "#inicio", label: "Início", icon: Home },
@@ -75,6 +76,7 @@ export default function Navbar() {
                 {t("contato")}
               </Link>
             </li>
+            <LanguageSelector />
           </ul>
         </div>
       </nav>

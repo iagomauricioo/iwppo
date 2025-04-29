@@ -14,5 +14,25 @@
     "comissao": "Comisión",
     "inscricao": "Inscripción",
     "contato": "Contacto"
+  },
+  "AboutSection": {
+    "title": "Sobre el Evento",
+    "section1": {
+      "heading": "II IWPPO 2025",
+      "paragraph": "El IWPPO surgió de la necesidad de debatir y encontrar soluciones a uno de los mayores desafíos ambientales de la actualidad: la contaminación plástica en los océanos. Originado en CEMEIA y con el apoyo de CAPES (PAEP), nuestro taller reúne a expertos internacionales en un enfoque interdisciplinario."
+    },
+    "section2": {
+      "heading": "Nuestro Enfoque",
+      "paragraph": "El taller combina investigación científica, políticas públicas e innovación tecnológica para enfrentar el problema de la contaminación plástica. Con participantes de varios países, promovemos el intercambio de conocimientos y soluciones prácticas."
+    },
+    "highlights": [
+      "Respaldado por el Comité Ejecutivo de la ONU",
+      "Cooperación Internacional",
+      "Alineado con el ODS 14 – Vida Submarina",
+      "500+ participantes",
+      "30+ países",
+      "Década de los Océanos de la ONU"
+    ],
+    "photo_credit": "Foto: @lucasmenesesphoto"
   }
 }
