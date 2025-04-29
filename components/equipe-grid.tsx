@@ -83,7 +83,7 @@ export default function EquipeGrid({
                                             className="mt-1 flex items-center gap-1 text-blue-500 hover:text-blue-700"
                                         >
                                             <ExternalLink className="h-4 w-4" />
-                                            <span>Currículo Lattes</span>
+                                            <span>Lattes</span>
                                         </Link>
                                     )}
                                 </div>

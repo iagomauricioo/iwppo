@@ -78,5 +78,226 @@
         "description": "Interdisciplinary dialogue and exchange of international knowledge."
       }
     }
+  },
+  "ProgramacaoPage": {
+    "days": [
+      {
+        "day": "Day 1",
+        "date": "September 17, 2025",
+        "events": [
+          {
+            "time": "14:00",
+            "title": "Registration",
+            "nature": "",
+            "speakers": "-",
+            "description": ""
+          },
+          {
+            "time": "15:30",
+            "title": "Opening Ceremony",
+            "nature": "Opening",
+            "speakers": "Scott P. Wilson; Jessé Marques Pavão; ...",
+            "description": "Event opening"
+          }
+        ]
+      },
+      {
+        "day": "Day 2",
+        "date": "September 18, 2025",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Oral Presentation Section 1",
+            "location": "",
+            "nature": "Seminar",
+            "speakers": "Marcelo Reis",
+            "description": "Presentation of research conducted by participants"
+          },
+          {
+            "time": "10:40",
+            "title": "Coffee Break",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": "Networking break"
+          },
+          {
+            "time": "11:00",
+            "title": "Researchers Award Ceremony",
+            "location": "",
+            "nature": "Other",
+            "speakers": "Claudio Luis Santos Sampaio",
+            "description": "Session to award researchers who contribute to the event's themes"
+          },
+          {
+            "time": "13:00",
+            "title": "Lunch",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": ""
+          },
+          {
+            "time": "14:00",
+            "title": "Oral Presentation Section 2",
+            "location": "",
+            "nature": "Seminar",
+            "speakers": "Selenobaldo Alexinaldo",
+            "description": "Presentation of research by researchers"
+          },
+          {
+            "time": "15:40",
+            "title": "Coffee Break",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": "Networking break"
+          },
+          {
+            "time": "16:00",
+            "title": "Workshop",
+            "location": "",
+            "nature": "Workshop",
+            "speakers": "Robson Guimarães dos Santos",
+            "description": "Presentation of main research results from the focal points of the Plastic Oceans project"
+          },
+          {
+            "time": "17:30",
+            "title": "Closing Ceremony",
+            "location": "",
+            "nature": "Lecture",
+            "speakers": "Fernando J. Diaz Lopez; Brendan Kelaher; Alejandro Tagliafico",
+            "description": "Event closing ceremony"
+          }
+        ]
+      },
+      {
+        "day": "Day 3",
+        "date": "September 19, 2025",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Technical Visit",
+            "location": "",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Technical visit to Policoncret startup"
+          }
+        ]
+      }
+    ]
+  },
+  "SubscribeSection": {
+    "title": "Subscriptions",
+    "options": [
+      {
+        "title": "Undergraduate Students",
+        "price": "R$ 30.00",
+        "features": [
+          "Registration",
+          "Lectures",
+          "Workshops",
+          "Certificate"
+        ],
+        "buttonText": "Subscribe"
+      },
+      {
+        "title": "Graduate Students",
+        "price": "R$ 70.00",
+        "features": [
+          "Registration",
+          "Lectures",
+          "Workshops",
+          "Certificate"
+        ],
+        "buttonText": "Subscribe"
+      },
+      {
+        "title": "Basic Education Teachers",
+        "price": "R$ 0.00",
+        "features": [
+          "Registration",
+          "Lectures",
+          "Workshops",
+          "Certificate"
+        ],
+        "buttonText": "Subscribe"
+      },
+      {
+        "title": "Professors/Researchers",
+        "price": "R$ 100.00",
+        "features": [
+          "Registration",
+          "Lectures",
+          "Workshops",
+          "Certificate"
+        ],
+        "buttonText": "Participate"
+      },
+      {
+        "title": "Speakers",
+        "price": "R$ 0.00",
+        "features": [
+          "Registration",
+          "Lectures",
+          "Workshops",
+          "Certificate"
+        ],
+        "buttonText": "Confirm"
+      }
+    ]
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us through the channels below or fill out the form.",
+    "contactSection": {
+      "title": "Contact Us",
+      "items": [
+        {
+          "icon": "Mail",
+          "title": "Email",
+          "content": "contact@iwppo.com",
+          "action": "Send email"
+        },
+        {
+          "icon": "Phone",
+          "title": "WhatsApp",
+          "content": "(11) 99999-9999",
+          "action": "Send message"
+        },
+        {
+          "icon": "MapPin",
+          "title": "Address",
+          "content": "Professor Ângelo Neto Street, 51, Maceió, AL, 57051-530"
+        },
+        {
+          "icon": "Clock",
+          "title": "Business Hours",
+          "content": "Monday to Friday: 9am to 6pm"
+        }
+      ]
+    },
+    "formSection": {
+      "title": "Contact Form",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your@email.com"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Message subject"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Type your message here..."
+        }
+      },
+      "submit": "Send Message"
+    }
   }
 }

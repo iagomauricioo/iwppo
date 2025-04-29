@@ -14,7 +14,7 @@ const membrosComissao: MemberProps[] = [
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/2811263859126204",
     title: "",
-    image: "/comissao-organizadora//jesse.png",
+    image: "/comissao-organizadora/jesse.png",
   },
   {
     name: "Selenobaldo Alexinaldo",

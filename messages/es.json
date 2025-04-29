@@ -78,5 +78,226 @@
         "description": "Diálogo interdisciplinario e intercambio de conocimientos internacionales."
       }
     }
+  },
+  "ProgramacaoPage": {
+    "days": [
+      {
+        "day": "Día 1",
+        "date": "17 de Septiembre de 2025",
+        "events": [
+          {
+            "time": "14:00",
+            "title": "Acreditación",
+            "nature": "",
+            "speakers": "-",
+            "description": ""
+          },
+          {
+            "time": "15:30",
+            "title": "Ceremonia de Apertura",
+            "nature": "Apertura",
+            "speakers": "Scott P. Wilson; Jessé Marques Pavão; ...",
+            "description": "Apertura del evento"
+          }
+        ]
+      },
+      {
+        "day": "Día 2",
+        "date": "18 de Septiembre de 2025",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Presentación Oral Sección 1",
+            "location": "",
+            "nature": "Seminario",
+            "speakers": "Marcelo Reis",
+            "description": "Presentación de investigaciones realizadas por los participantes"
+          },
+          {
+            "time": "10:40",
+            "title": "Coffee Break",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": "Intervalo para networking"
+          },
+          {
+            "time": "11:00",
+            "title": "Premiación a Investigadores",
+            "location": "",
+            "nature": "Otro",
+            "speakers": "Claudio Luis Santos Sampaio",
+            "description": "Sesión para premiar a los investigadores que contribuyen con los temas del evento"
+          },
+          {
+            "time": "13:00",
+            "title": "Almuerzo",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": ""
+          },
+          {
+            "time": "14:00",
+            "title": "Presentación Oral Sección 2",
+            "location": "",
+            "nature": "Seminario",
+            "speakers": "Selenobaldo Alexinaldo",
+            "description": "Presentación de investigaciones por los investigadores"
+          },
+          {
+            "time": "15:40",
+            "title": "Coffee Break",
+            "location": "",
+            "nature": "",
+            "speakers": "-",
+            "description": "Intervalo para networking"
+          },
+          {
+            "time": "16:00",
+            "title": "Taller",
+            "location": "",
+            "nature": "Taller",
+            "speakers": "Robson Guimarães dos Santos",
+            "description": "Presentación de los principales resultados de investigación de los puntos focales del proyecto Océanos de Plástico"
+          },
+          {
+            "time": "17:30",
+            "title": "Ceremonia de Clausura",
+            "location": "",
+            "nature": "Conferencia",
+            "speakers": "Fernando J. Diaz Lopez; Brendan Kelaher; Alejandro Tagliafico",
+            "description": "Ceremonia de clausura del evento"
+          }
+        ]
+      },
+      {
+        "day": "Día 3",
+        "date": "19 de Septiembre de 2025",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Visita Técnica",
+            "location": "",
+            "nature": "Otro",
+            "speakers": "-",
+            "description": "Visita técnica a la startup Policoncret"
+          }
+        ]
+      }
+    ]
+  },
+  "SubscribeSection": {
+    "title": "Inscripciones",
+    "options": [
+      {
+        "title": "Estudiantes de Pregrado",
+        "price": "R$ 30.00",
+        "features": [
+          "Inscripción",
+          "Conferencias",
+          "Talleres",
+          "Certificado"
+        ],
+        "buttonText": "Inscribirse"
+      },
+      {
+        "title": "Estudiantes de Posgrado",
+        "price": "R$ 70.00",
+        "features": [
+          "Inscripción",
+          "Conferencias",
+          "Talleres",
+          "Certificado"
+        ],
+        "buttonText": "Inscribirse"
+      },
+      {
+        "title": "Profesores de Educación Básica",
+        "price": "R$ 0.00",
+        "features": [
+          "Inscripción",
+          "Conferencias",
+          "Talleres",
+          "Certificado"
+        ],
+        "buttonText": "Inscribirse"
+      },
+      {
+        "title": "Profesores/Investigadores",
+        "price": "R$ 100.00",
+        "features": [
+          "Inscripción",
+          "Conferencias",
+          "Talleres",
+          "Certificado"
+        ],
+        "buttonText": "Participar"
+      },
+      {
+        "title": "Conferencistas",
+        "price": "R$ 0.00",
+        "features": [
+          "Inscripción",
+          "Conferencias",
+          "Talleres",
+          "Certificado"
+        ],
+        "buttonText": "Confirmar"
+      }
+    ]
+  },
+  "ContactPage": {
+    "title": "Contacto",
+    "subtitle": "Contáctenos a través de los siguientes canales o complete el formulario.",
+    "contactSection": {
+      "title": "Hable con Nosotros",
+      "items": [
+        {
+          "icon": "Mail",
+          "title": "Correo Electrónico",
+          "content": "contacto@iwppo.com",
+          "action": "Enviar correo"
+        },
+        {
+          "icon": "Phone",
+          "title": "WhatsApp",
+          "content": "(11) 99999-9999",
+          "action": "Enviar mensaje"
+        },
+        {
+          "icon": "MapPin",
+          "title": "Dirección",
+          "content": "Calle Professor Ângelo Neto, 51, Maceió, AL, 57051-530"
+        },
+        {
+          "icon": "Clock",
+          "title": "Horario de Atención",
+          "content": "Lunes a Viernes: 9h a 18h"
+        }
+      ]
+    },
+    "formSection": {
+      "title": "Formulario de Contacto",
+      "fields": {
+        "name": {
+          "label": "Nombre",
+          "placeholder": "Su nombre completo"
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "su@email.com"
+        },
+        "subject": {
+          "label": "Asunto",
+          "placeholder": "Asunto del mensaje"
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "Escriba su mensaje aquí..."
+        }
+      },
+      "submit": "Enviar Mensaje"
+    }
   }
 }
