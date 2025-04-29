@@ -1,0 +1,18 @@
+{
+  "HeroSection": {
+    "title": "2º Taller Internacional sobre la Contaminación por Plásticos en los Océanos",
+    "subtitle": "Transformando la investigación en soluciones",
+    "date": "17-19 de septiembre de 2025",
+    "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
+    "register_button": "Inscríbete ahora"
+  },
+  "Navbar": {
+    "inicio": "Inicio",
+    "sobre": "Acerca de",
+    "localizacao": "Ubicación",
+    "programacao": "Programación",
+    "comissao": "Comisión",
+    "inscricao": "Inscripción",
+    "contato": "Contacto"
+  }
+}

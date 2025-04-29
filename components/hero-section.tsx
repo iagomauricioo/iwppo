@@ -3,13 +3,14 @@
 import { Calendar, MapPin } from "lucide-react";
 import Image from "next/image";
 import { Orbitron } from "next/font/google";
-
+import { useTranslations } from "next-intl";
 const orbitron = Orbitron({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
 });
 
 export default function HeroSection() {
+  const t = useTranslations("HeroSection");
   return (
     <div className="relative" id="inicio">
       {/* Background Image */}
@@ -45,32 +46,29 @@ export default function HeroSection() {
               IWPPO
             </h1>
             <h2 className="text-2xl md:text-4xl font-semibold leading-tight mb-4">
-              2<sup>nd</sup> International Workshop on <br />
-              Plastic Pollution in the Oceans
+              {t("title")}
             </h2>
-            <p className="text-lg md:text-xl mb-8">
-              Transformando Pesquisas em Soluções
-            </p>
+            <p className="text-lg md:text-xl mb-8">{t("subtitle")}</p>
 
             {/* Info Box - Estilo diferente para mobile/desktop */}
             <div className="bg-blue-700 p-4 rounded-lg mb-6 md:bg-transparent md:p-0 md:mb-8">
               <div className="flex items-center mb-3 md:mb-2">
                 <Calendar className="h-5 w-5 mr-3 text-white md:text-blue-200" />
                 <span className="text-white md:text-blue-100 text-base md:text-xl">
-                  17-19 Setembro, 2025
+                  {t("date")}
                 </span>
               </div>
 
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 text-white md:text-blue-200" />
                 <span className="text-white md:text-blue-100 text-base md:text-xl">
-                  Centro Cultural João Sampaio, Alagoas - Maceió
+                  {t("location")}
                 </span>
               </div>
             </div>
 
             <button className="w-full md:w-auto bg-ocean-bright hover:bg-ocean-light text-white font-bold py-4 px-8 rounded-full text-lg">
-              Inscreva-se Agora
+              {t("register_button")}
             </button>
           </div>
         </section>

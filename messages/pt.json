@@ -1,0 +1,18 @@
+{
+  "HeroSection": {
+    "title": "2nd International Workshop on Plastic Pollution in the Oceans",
+    "subtitle": "Transformando pesquisas em soluções",
+    "date": "17-19 Setembro, 2025",
+    "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
+    "register_button": "Inscreva-se Agora"
+  },
+  "Navbar": {
+    "inicio": "Início",
+    "sobre": "Sobre",
+    "localizacao": "Localização",
+    "programacao": "Programação",
+    "comissao": "Comissão",
+    "inscricao": "Inscrição",
+    "contato": "Contato"
+  }
+}
