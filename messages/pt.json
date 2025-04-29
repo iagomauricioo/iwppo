@@ -34,5 +34,49 @@
       "Década dos Oceanos da ONU"
     ],
     "photo_credit": "Foto: @lucasmenesesphoto"
+  },
+  "LocationSection": {
+    "title": "Localização",
+    "description": "O evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
+    "address": {
+      "title": "Endereço",
+      "place": "Centro Cultural João Sampaio",
+      "street": "Av. Moreira e Silva, 595",
+      "neighborhood": "Farol, Maceió - AL",
+      "zip": "CEP: 57051-500"
+    },
+    "howToGetThere": {
+      "title": "Como Chegar",
+      "ofCar": "De Carro",
+      "car": "Estacionamento disponível no local.",
+      "ofPublicTransport": "Transporte Público",
+      "publicTransport": "Algumas linhas de ônibus passam perto do local como: 703 e 704. Para mais informações consulte o aplicativo do ",
+      "ofAirport": "Do Aeroporto",
+      "airport": "Aproximadamente 1 hora de carro ou táxi."
+    },
+    "contact": {
+      "title": "Contato do Local",
+      "phoneLabel": "Telefone:",
+      "phone": "(82) 3333-4444",
+      "emailLabel": "Email:",
+      "email": "contato@centroculturaljs.com.br"
+    }
+  },
+  "TopicsSection": {
+    "title": "Tópicos Principais",
+    "items": {
+      "research": {
+        "title": "Pesquisa e Inovação",
+        "description": "Desenvolvimento de soluções tecnológicas e políticas públicas inovadoras."
+      },
+      "circular": {
+        "title": "Economia Circular",
+        "description": "Estratégias de monitoramento, rastreamento e reciclagem de resíduos plásticos."
+      },
+      "cooperation": {
+        "title": "Cooperação Global",
+        "description": "Diálogo interdisciplinar e troca de conhecimentos internacionais."
+      }
+    }
   }
 }

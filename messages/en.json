@@ -34,5 +34,49 @@
       "UN Ocean Decade"
     ],
     "photo_credit": "Photo: @lucasmenesesphoto"
+  },
+  "LocationSection": {
+    "title": "Location",
+    "description": "The event will take place at Centro Cultural João Sampaio, located in Maceió, Alagoas.",
+    "address": {
+      "title": "Address",
+      "place": "Centro Cultural João Sampaio",
+      "street": "Av. Moreira e Silva, 595",
+      "neighborhood": "Farol, Maceió - AL",
+      "zip": "ZIP: 57051-500"
+    },
+    "howToGetThere": {
+      "title": "How to Get There",
+      "car": "Parking available on site.",
+      "ofPublicTransport": "Public Transport",
+      "ofCar": "By Car",
+      "ofAirport": "From the Airport",
+      "publicTransport": "Some bus lines pass near the venue such as: 703 and 704. For more information, check the ",
+      "airport": "Approximately 1 hour by car or taxi."
+    },
+    "contact": {
+      "title": "Venue Contact",
+      "phoneLabel": "Phone:",
+      "phone": "(82) 3333-4444",
+      "emailLabel": "Email:",
+      "email": "contato@centroculturaljs.com.br"
+    }
+  },
+  "TopicsSection": {
+    "title": "Main Topics",
+    "items": {
+      "research": {
+        "title": "Research and Innovation",
+        "description": "Development of technological solutions and innovative public policies."
+      },
+      "circular": {
+        "title": "Circular Economy",
+        "description": "Strategies for monitoring, tracking, and recycling plastic waste."
+      },
+      "cooperation": {
+        "title": "Global Cooperation",
+        "description": "Interdisciplinary dialogue and exchange of international knowledge."
+      }
+    }
   }
 }

@@ -1,8 +1,10 @@
 "use client";
 
 import { MapPin, Navigation, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function LocationSection() {
+  const t = useTranslations('LocationSection');
   return (
     <section
       id="localizacao"
@@ -11,11 +13,10 @@ export default function LocationSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-blue-900 mb-2 md:mb-4">
-            Localização
+            {t('title')}
           </h2>
           <p className="text-sm md:text-base text-blue-700 max-w-2xl mx-auto px-2">
-            O evento será realizado no Centro Cultural João Sampaio, localizado
-            em Maceió, Alagoas.
+            {t('description')}
           </p>
         </div>
 
@@ -43,17 +44,17 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg md:text-xl text-blue-900 mb-1 md:mb-2">
-                    Endereço
+                    {t('address.title')}
                   </h3>
                   <p className="text-blue-700 text-sm md:text-base mb-1">
-                    Centro Cultural João Sampaio
+                    {t('address.place')}
                   </p>
                   <p className="text-gray-600 text-sm md:text-base">
-                    Av. Moreira e Silva, 595
+                    {t('address.street')}
                     <br />
-                    Farol, Maceió - AL
+                    {t('address.neighborhood')}
                     <br />
-                    CEP: 57051-500
+                    {t('address.zip')}
                   </p>
                 </div>
               </div>
@@ -67,21 +68,20 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg md:text-xl text-blue-900 mb-1 md:mb-2">
-                    Como Chegar
+                    {t('howToGetThere.title')}
                   </h3>
                   <div className="space-y-2 md:space-y-3">
                     <p className="text-sm md:text-base text-gray-600">
                       <span className="font-medium text-blue-700">
-                        De Carro:
+                        {t('howToGetThere.ofCar')}
                       </span>{" "}
-                      Estacionamento disponível no local.
+                      {t('howToGetThere.car')}
                     </p>
                     <p className="text-sm md:text-base text-gray-600">
                       <span className="font-medium text-blue-700">
-                        Transporte Público:
+                        {t('howToGetThere.ofPublicTransport')}
                       </span>{" "}
-                      Algumas linhas de ônibus passam perto do local como: 703 e
-                      704. Para mais informações consulte o aplicativo do{" "}
+                      {t('howToGetThere.publicTransport')}
                       <a
                         href="https://play.google.com/store/apps/details?id=br.com.cittabus&hl=pt-br&pli=1"
                         className="underline text-blue-500 hover:text-blue-700"
@@ -92,9 +92,9 @@ export default function LocationSection() {
                     </p>
                     <p className="text-sm md:text-base text-gray-600">
                       <span className="font-medium text-blue-700">
-                        Do Aeroporto:
+                        {t('howToGetThere.ofAirport')}
                       </span>{" "}
-                      Aproximadamente 1 hora de carro ou táxi.
+                      {t('howToGetThere.airport')}
                     </p>
                   </div>
                 </div>
@@ -109,10 +109,10 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg md:text-xl text-blue-900 mb-1 md:mb-2">
-                    Contato do Local
+                    {t('contact.title')}
                   </h3>
                   <p className="text-sm md:text-base text-gray-600 mb-1 md:mb-2">
-                    <span className="font-medium text-blue-700">Telefone:</span>{" "}
+                    <span className="font-medium text-blue-700">{t('contact.phoneLabel')}</span>{" "}
                     (82) 3333-4444
                   </p>
                   <p className="text-sm md:text-base text-gray-600 flex flex-wrap items-center">
