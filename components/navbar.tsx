@@ -4,9 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Home, Calendar, Users, Info, MapPin } from "lucide-react";
-import { useMobile } from "@/hooks/use-mobile";
 import { useTranslations } from "next-intl";
-import LanguageSelector from "./language-selector";
+import { LanguageSelector } from "./language-selector";
 
 const links = [
   { href: "#inicio", label: "Início", icon: Home },
@@ -40,7 +39,7 @@ export default function Navbar() {
             height={0}
             className="object-contain"
           />
-          <ul className="flex flex-wrap justify-center gap-4 text-base md:text-lg">
+          <ul className="flex flex-wrap justify-center gap-4 text-base md:text-md md:min-w-[900px]">
             <li>
               <Link href="#inicio" className="hover:underline">
                 {t("inicio")}
