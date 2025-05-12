@@ -1,6 +1,76 @@
-import EquipeGrid, { MemberProps } from "./equipe-grid";
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef, useEffect, useState } from "react";
+
+interface MemberProps {
+  name: string;
+  title: string;
+  country: string;
+  image: string;
+  lattesUrl: string | null;
+}
 
 export default function ComiteCientifico() {
+  const ref = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+  const isInView = useInView(ref, { 
+    once: false, 
+    amount: 0.1,
+    margin: "0px 0px -100px 0px"
+  });
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const memberVariants = {
+    hidden: { 
+      opacity: 0, 
+      y: isMobile ? 10 : 30,
+      rotateX: isMobile ? 0 : -30,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      rotateX: 0,
+      transition: {
+        type: "spring",
+        stiffness: 100,
+        damping: 12,
+      },
+    },
+  };
+
+  const titleVariants = {
+    hidden: { opacity: 0, x: isMobile ? -20 : -50 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
   const comiteCientifico: MemberProps[] = [
     {
       name: "Feni Dalano Roosevelt Agostinho",
@@ -152,12 +222,71 @@ export default function ComiteCientifico() {
   ];
 
   return (
-    <EquipeGrid
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={isInView || isMobile ? "visible" : "hidden"}
+      variants={containerVariants}
+      className="w-full py-12 bg-white relative z-10 min-h-[200px]"
       id="comite-cientifico"
-      title="Comitê Científico"
-      subtitle="2nd International Workshop on Plastic Pollution in the Oceans"
-      members={comiteCientifico}
-    />
+    >
+      <motion.div
+        variants={titleVariants}
+        className="text-center mb-8 md:mb-12 px-4"
+      >
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+          Comitê Científico
+        </h2>
+        <p className="text-base sm:text-lg md:text-xl text-blue-700 max-w-3xl mx-auto">
+          2nd International Workshop on Plastic Pollution in the Oceans
+        </p>
+        <p className="mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
+          Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos.
+        </p>
+      </motion.div>
+
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto px-2 md:px-4 relative"
+        variants={containerVariants}
+      >
+        {comiteCientifico.map((membro, index) => (
+          <motion.div
+            key={index}
+            variants={memberVariants}
+            whileHover={{
+              scale: 1.03,
+              boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+              transition: { duration: 0.2 }
+            }}
+            className="bg-white rounded-lg p-4 md:p-6 shadow-md flex flex-col items-center relative z-20"
+          >
+            <div className="relative w-32 h-32 md:w-48 md:h-48 mb-3 md:mb-4 overflow-hidden rounded-full">
+              <img
+                src={membro.image}
+                alt={membro.name}
+                className="object-cover w-full h-full"
+                loading="lazy"
+              />
+            </div>
+            <h3 className="text-base sm:text-lg md:text-xl font-semibold text-blue-900 text-center">{membro.name}</h3>
+            {membro.title && <p className="text-sm md:text-base text-blue-700 text-center">{membro.title}</p>}
+            <p className="text-sm md:text-base text-gray-600 text-center">{membro.country}</p>
+            {membro.lattesUrl && (
+              <motion.a
+                href={membro.lattesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 text-sm md:text-base text-blue-500 hover:text-blue-700 transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Ver Lattes
+              </motion.a>
+            )}
+          </motion.div>
+        ))}
+      </motion.div>
+    </motion.div>
   );
 }
 
