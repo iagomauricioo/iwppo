@@ -23,7 +23,7 @@ export default function Parceiros() {
                 alt={parceiro.nome}
                 width={250}
                 height={0}
-                className="object-contain"
+                className="object-contain max-h-[142px]"
               />
             </div>
           ))}
@@ -56,7 +56,7 @@ const parceiros = [
     logo: "/parceiros/oceandecade.png",
   },
   {
-    nome: "Parceiro 5",
-    logo: "/parceiros/policoncret.png",
-  }
+    nome: "Parceiro 6",
+    logo: "/parceiros/athena.png",
+  },
 ]

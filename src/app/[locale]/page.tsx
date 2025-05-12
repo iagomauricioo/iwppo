@@ -13,7 +13,7 @@ import ComissaoOrganizadora from "@/components/comissao-organizadora"
 import ProgramacaoSection from "@/components/programacao-section"
 import LocationSection from "@/components/localizacao-section"
 import ComiteCientifico from "@/components/comite-cientifico"
-import Parceiros from "@/src/components/parceiros"
+import Parceiros from "@/components/parceiros"
 
 export default function Home() {
   return (

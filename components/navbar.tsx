@@ -75,6 +75,11 @@ export default function Navbar() {
                 {t("contato")}
               </Link>
             </li>
+            <li>
+              <Link href="#parceiros" className="hover:underline">
+                {t("parceiros")}
+              </Link>
+            </li>
           </ul>
           <LanguageSelector />
         </div>
@@ -82,8 +87,9 @@ export default function Navbar() {
       {/* Mobile Navbar */}
       <div className="md:hidden fixed bottom-4 left-0 right-0 z-50 flex justify-center px-4">
         <nav
-          className={`bg-white rounded-full shadow-lg transition-all duration-300 ${isScrolled ? "w-auto px-6" : "w-11/12 px-4"
-            }`}
+          className={`bg-white rounded-full shadow-lg transition-all duration-300 ${
+            isScrolled ? "w-auto px-6" : "w-11/12 px-4"
+          }`}
         >
           <ul className="flex items-center justify-between py-3 text-ocean-regular">
             {links.slice(0, 4).map(({ href, label, icon: Icon }) => (
