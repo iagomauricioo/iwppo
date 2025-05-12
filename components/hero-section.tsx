@@ -4,6 +4,7 @@ import { Calendar, MapPin } from "lucide-react";
 import Image from "next/image";
 import { Orbitron } from "next/font/google";
 import { useTranslations } from "next-intl";
+import SeloSustentavel from "./selo-atitude-sustentavel";
 const orbitron = Orbitron({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
@@ -58,7 +59,6 @@ export default function HeroSection() {
                   {t("date")}
                 </span>
               </div>
-
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 text-white md:text-blue-200" />
                 <span className="text-white md:text-blue-100 text-base md:text-xl">

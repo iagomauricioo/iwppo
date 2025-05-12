@@ -14,6 +14,7 @@ import ProgramacaoSection from "@/components/programacao-section"
 import LocationSection from "@/components/localizacao-section"
 import ComiteCientifico from "@/components/comite-cientifico"
 import Parceiros from "@/components/parceiros"
+import ZeroResiduo from "@/components/zero-residuo"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
 
       <main className="flex-1 bg-white">
         <AboutSection />
+        <ZeroResiduo />
         <LocationSection />
         <TopicsSection />
         <ParticipantsSection />
