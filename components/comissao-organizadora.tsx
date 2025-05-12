@@ -13,7 +13,7 @@ const membrosComissao: MemberProps[] = [
     name: "Jessé Marques Pavão",
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/2811263859126204",
-    title: "",
+    title: "Presidente do evento",
     image: "/comissao-organizadora/jesse.png",
   },
   {

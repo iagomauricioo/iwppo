@@ -25,7 +25,7 @@ export default function Footer() {
                 />
               </div>
               <p className="text-sm mb-2">Email: contato@iwppo.com</p>
-              <p className="text-sm">Tel: (82) XXXX-XXXX</p>
+              <p className="text-sm">Tel: (82) 3215-5021</p>
               <p className="text-sm mt-2">Centro Universitário Cesmac</p>
               <p className="text-sm">Alagoas - Maceió</p>
             </div>

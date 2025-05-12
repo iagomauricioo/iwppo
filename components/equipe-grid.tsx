@@ -68,9 +68,11 @@ export default function EquipeGrid({
                                 </div>
                                 <div className="flex flex-col">
                                     <h3 className="text-lg font-bold text-blue-900">
-                                        {member.title ? `${member.title} ` : ""}
                                         {member.name}
                                     </h3>
+                                    <p className="text-md font-semibold text-blue-700">
+                                        {member.title ? `${member.title} ` : ""}
+                                    </p>
                                     <div className="flex items-center gap-1 text-blue-600">
                                         <Globe className="h-4 w-4" />
                                         <span>{member.country}</span>
