@@ -33,7 +33,7 @@ export default function Parceiros() {
   };
 
   return (
-    <section className="w-full py-12 bg-blue-100" ref={ref}>
+    <section className="w-full py-12 bg-blue-100" ref={ref} id="parceiros">
       <div className="container px-4 md:px-6 mx-auto">
         <motion.div
           className="flex flex-col items-center justify-center space-y-4 text-center"

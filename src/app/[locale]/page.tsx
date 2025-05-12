@@ -15,6 +15,7 @@ import LocationSection from "@/components/localizacao-section"
 import ComiteCientifico from "@/components/comite-cientifico"
 import Parceiros from "@/components/parceiros"
 import ZeroResiduo from "@/components/zero-residuo"
+import SplashScreen from "@/components/splash-screen"
 
 export default function Home() {
   return (

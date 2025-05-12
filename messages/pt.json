@@ -77,6 +77,14 @@
       "cooperation": {
         "title": "Cooperação Global",
         "description": "Diálogo interdisciplinar e troca de conhecimentos internacionais."
+      },
+      "education": {
+        "title": "Educação e Capacitação",
+        "description": "Desenvolvimento de capacidades e iniciativas educacionais para o desenvolvimento sustentável."
+      },
+      "community": {
+        "title": "Engajamento Comunitário",
+        "description": "Abordagens participativas para envolver comunidades no desenvolvimento e implementação de políticas."
       }
     }
   },

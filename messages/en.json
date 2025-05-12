@@ -77,6 +77,14 @@
       "cooperation": {
         "title": "Global Cooperation",
         "description": "Interdisciplinary dialogue and exchange of international knowledge."
+      },
+      "education": {
+        "title": "Education and Training",
+        "description": "Capacity building and educational initiatives for sustainable development."
+      },
+      "community": {
+        "title": "Community Engagement",
+        "description": "Participatory approaches to involve communities in policy development and implementation."
       }
     }
   },
@@ -194,56 +202,31 @@
       {
         "title": "Undergraduate Students",
         "price": "R$ 30.00",
-        "features": [
-          "Registration",
-          "Lectures",
-          "Workshops",
-          "Certificate"
-        ],
+        "features": ["Registration", "Lectures", "Workshops", "Certificate"],
         "buttonText": "Subscribe"
       },
       {
         "title": "Graduate Students",
         "price": "R$ 70.00",
-        "features": [
-          "Registration",
-          "Lectures",
-          "Workshops",
-          "Certificate"
-        ],
+        "features": ["Registration", "Lectures", "Workshops", "Certificate"],
         "buttonText": "Subscribe"
       },
       {
         "title": "Basic Education Teachers",
         "price": "R$ 0.00",
-        "features": [
-          "Registration",
-          "Lectures",
-          "Workshops",
-          "Certificate"
-        ],
+        "features": ["Registration", "Lectures", "Workshops", "Certificate"],
         "buttonText": "Subscribe"
       },
       {
         "title": "Professors/Researchers",
         "price": "R$ 100.00",
-        "features": [
-          "Registration",
-          "Lectures",
-          "Workshops",
-          "Certificate"
-        ],
+        "features": ["Registration", "Lectures", "Workshops", "Certificate"],
         "buttonText": "Participate"
       },
       {
         "title": "Speakers",
         "price": "R$ 0.00",
-        "features": [
-          "Registration",
-          "Lectures",
-          "Workshops",
-          "Certificate"
-        ],
+        "features": ["Registration", "Lectures", "Workshops", "Certificate"],
         "buttonText": "Confirm"
       }
     ]

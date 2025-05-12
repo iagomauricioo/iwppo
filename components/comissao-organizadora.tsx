@@ -129,6 +129,7 @@ export default function ComissaoOrganizadora() {
       animate={isInView ? "visible" : "hidden"}
       variants={containerVariants}
       className="w-full py-12"
+      id="comissao"
     >
       <motion.div
         variants={titleVariants}
