@@ -1,10 +1,21 @@
 {
   "HeroSection": {
-    "title": "2º Taller Internacional sobre la Contaminación por Plásticos en los Océanos",
+    "title": "2nd International Workshop on Plastic Pollution in the Oceans",
     "subtitle": "En el mar de la crisis, la ciencia con propósito: transformando el conocimiento en esperanza",
     "date": "17-19 de septiembre de 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
-    "register_button": "Inscríbete ahora"
+    "register_button": "Inscríbete ahora",
+    "ver_programacao": "Ver Programación",
+    "saiba_mais": "Saber más",
+    "contagem_regressiva": "Cuenta regresiva",
+    "dias": "Días",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "SeloAtitudeSustentavel": {
+    "atitude": "ACTITUD",
+    "sustentavel": "SOSTENIBLE"
   },
   "ZeroResiduo": {
     "title": "Zero Residuo",
@@ -46,6 +57,22 @@
       "Década de los Océanos de la ONU"
     ],
     "photo_credit": "Foto: @lucasmenesesphoto"
+  },
+  "RegistrationSection": {
+    "title": "Inscripciones",
+    "description": "Elige el plan que mejor se adapte a tus necesidades y asegura tu participación en el II Taller Internacional de Investigación en Políticas Públicas y Desarrollo Social.",
+    "subtitle": "Garantiza tu lugar",
+    "date": "18 a 20 de junio de 2025",
+    "register_button": "Inscribirse ahora",
+    "deadline_title": "Plazo de inscripción",
+    "deadline_date": "Hasta el 15 de septiembre de 2025",
+    "event_date_title": "Fecha del evento",
+    "limited_spots_title": "Lugares limitados",
+    "limited_spots_text": "Solo 200 lugares disponibles",
+    "additional_info_title": "Información importante",
+    "additional_info_1": "Los estudiantes deben presentar un certificado de inscripción válido.",
+    "additional_info_2": "El pago puede realizarse a través de PIX, tarjeta de crédito o transferencia bancaria.",
+    "additional_info_3": "En caso de desistir, el reembolso es del 70% hasta 30 días antes del evento."
   },
   "LocationSection": {
     "title": "Ubicación",

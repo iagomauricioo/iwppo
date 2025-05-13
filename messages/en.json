@@ -4,7 +4,18 @@
     "subtitle": "Oceans in Crisis, Science with Purpose: Transforming Knowledge into Hope",
     "date": "September 17-19, 2025",
     "location": "João Sampaio Cultural Center, Alagoas - Maceió",
-    "register_button": "Register Now"
+    "register_button": "Register Now",
+    "ver_programacao": "View Schedule",
+    "saiba_mais": "Learn More",
+    "contagem_regressiva": "Countdown",
+    "dias": "Days",
+    "horas": "Hours",
+    "minutos": "Minutes",
+    "segundos": "Seconds"
+  },
+  "SeloAtitudeSustentavel": {
+    "atitude": "ATTITUDE",
+    "sustentavel": "SUSTAINABLE"
   },
   "ZeroResiduo": {
     "title": "Zero Waste",
@@ -46,6 +57,22 @@
       "UN Ocean Decade"
     ],
     "photo_credit": "Photo: @lucasmenesesphoto"
+  },
+  "RegistrationSection": {
+    "title": "Registration",
+    "description": "Choose the plan that best suits your needs and secure your participation in the II International Workshop on Public Policy Research and Social Development.",
+    "subtitle": "Secure your spot",
+    "date": "18 to 20 of June 2025",
+    "register_button": "Register Now",
+    "deadline_title": "Registration Deadline",
+    "deadline_date": "Until September 15, 2025",
+    "event_date_title": "Event Date",
+    "limited_spots_title": "Limited Spots",
+    "limited_spots_text": "Only 200 spots available",
+    "additional_info_title": "Important Information",
+    "additional_info_1": "Students must present a valid enrollment certificate.",
+    "additional_info_2": "The payment can be made via PIX, credit card or bank transfer.",
+    "additional_info_3": "In case of withdrawal, the refund is 70% up to 30 days before the event."
   },
   "LocationSection": {
     "title": "Location",

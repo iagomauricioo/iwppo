@@ -4,18 +4,23 @@
     "subtitle": "Oceanos em crise, ciência com propósito: transformando conhecimento em esperança",
     "date": "17-19 Setembro, 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
-    "register_button": "Inscreva-se Agora"
+    "register_button": "Inscreva-se Agora",
+    "ver_programacao": "Ver Programação",
+    "saiba_mais": "Saiba Mais",
+    "contagem_regressiva": "Contagem Regressiva",
+    "dias": "Dias",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "SeloAtitudeSustentavel": {
+    "atitude": "ATITUDE",
+    "sustentavel": "SUSTENTÁVEL"
   },
   "ZeroResiduo": {
     "title": "Zero Resíduo",
     "subtitle": "Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!",
-    "items": [
-      "Garrafa de água",
-      "Caneca",
-      "Caneta",
-      "Bloco",
-      "Bolsa"
-    ]
+    "items": ["Garrafa de água", "Caneca", "Caneta", "Bloco", "Bolsa"]
   },
   "Navbar": {
     "inicio": "Início",
@@ -46,6 +51,22 @@
       "Década dos Oceanos da ONU"
     ],
     "photo_credit": "Foto: @lucasmenesesphoto"
+  },
+  "RegistrationSection": {
+    "title": "Inscrições",
+    "description": "Escolha o plano que melhor se adapta às suas necessidades e garanta sua participação no II Workshop Internacional de Pesquisa em Políticas Públicas e Desenvolvimento Social.",
+    "subtitle": "Garanta sua vaga",
+    "date": "18 a 20 de Junho de 2025",
+    "register_button": "Inscrever-se Agora",
+    "deadline_title": "Prazo de Inscrição",
+    "deadline_date": "Até 15 de Setembro de 2025",
+    "event_date_title": "Data do Evento",
+    "limited_spots_title": "Vagas Limitadas",
+    "limited_spots_text": "Apenas 200 vagas disponíveis",
+    "additional_info_title": "Informações Importantes",
+    "additional_info_1": "Estudantes devem apresentar comprovante de matrícula válido.",
+    "additional_info_2": "O pagamento pode ser realizado via PIX, cartão de crédito ou boleto bancário.",
+    "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento."
   },
   "LocationSection": {
     "title": "Localização",

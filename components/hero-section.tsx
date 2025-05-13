@@ -171,7 +171,7 @@ export default function HeroSection() {
                       >
                         <span className="flex items-center justify-center">
                           <Calendar className="mr-2 h-5 w-5" />
-                          Ver Programação
+                          {t("ver_programacao")}
                         </span>
                       </Link>
                     </motion.div>
@@ -188,32 +188,32 @@ export default function HeroSection() {
                   transition={{ duration: 0.8, delay: 0.6 }}
                 >
                   <h3 className="text-center text-blue-200 text-lg mb-4">
-                    Contagem Regressiva
+                    {t("contagem_regressiva")}
                   </h3>
                   <div className="grid grid-cols-4 gap-2 text-center">
                     <div className="bg-blue-800/70 rounded-lg p-3">
                       <div className="text-3xl font-bold text-white">
                         {timeLeft.days}
                       </div>
-                      <div className="text-xs text-blue-300">Dias</div>
+                      <div className="text-xs text-blue-300">{t("dias")}</div>
                     </div>
                     <div className="bg-blue-800/70 rounded-lg p-3">
                       <div className="text-3xl font-bold text-white">
                         {timeLeft.hours}
                       </div>
-                      <div className="text-xs text-blue-300">Horas</div>
+                      <div className="text-xs text-blue-300">{t("horas")}</div>
                     </div>
                     <div className="bg-blue-800/70 rounded-lg p-3">
                       <div className="text-3xl font-bold text-white">
                         {timeLeft.minutes}
                       </div>
-                      <div className="text-xs text-blue-300">Min</div>
+                      <div className="text-xs text-blue-300">{t("minutos")}</div>
                     </div>
                     <div className="bg-blue-800/70 rounded-lg p-3">
                       <div className="text-3xl font-bold text-white">
                         {timeLeft.seconds}
                       </div>
-                      <div className="text-xs text-blue-300">Seg</div>
+                      <div className="text-xs text-blue-300">{t("segundos")}</div>
                     </div>
                   </div>
                 </motion.div>
@@ -245,7 +245,7 @@ export default function HeroSection() {
             aria-label="Rolar para baixo"
           >
             <div className="flex flex-col items-center">
-              <span className="text-sm mb-2">Saiba mais</span>
+              <span className="text-sm mb-2">{t("saiba_mais")}</span>
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}

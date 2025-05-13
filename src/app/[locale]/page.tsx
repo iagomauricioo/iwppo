@@ -32,7 +32,6 @@ export default function Home() {
         <RegistrationSection />
         <ComissaoOrganizadora />
         <ComiteCientifico />
-        <SubscribeSection />
         <ContactForm />
         <ParceirosEApoio />
       </main>

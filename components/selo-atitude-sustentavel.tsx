@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Leaf } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface SeloSustentavelProps {
   className?: string;
@@ -12,6 +13,7 @@ export default function SeloSustentavel({
   className = "",
   size = "md",
 }: SeloSustentavelProps) {
+  const t = useTranslations("SeloAtitudeSustentavel");
   // Definir tamanhos baseados na prop size
   const dimensions = {
     sm: { width: 100, height: 100, fontSize: "text-xs", iconSize: 14 },
@@ -155,7 +157,7 @@ export default function SeloSustentavel({
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.4 }}
             >
-              ATITUDE
+              {t("atitude")}
             </motion.div>
 
             {/* Texto "Sustentável" */}
@@ -165,7 +167,7 @@ export default function SeloSustentavel({
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.6 }}
             >
-              SUSTENTÁVEL
+              {t("sustentavel")}
             </motion.div>
           </motion.div>
         </div>
