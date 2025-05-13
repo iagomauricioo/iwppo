@@ -91,106 +91,92 @@
   "ProgramacaoPage": {
     "days": [
       {
-        "day": "1º Dia",
-        "date": "17 de Setembro de 2025",
+        "day": "Quarta-feira",
+        "date": "2025-06-18",
         "events": [
           {
-            "time": "14:00",
+            "time": "08:00 - 09:00",
             "title": "Credenciamento",
-            "nature": "",
+            "location": "Hall de Entrada",
+            "nature": "Administrativo",
             "speakers": "-",
-            "description": ""
+            "description": "Recepção e credenciamento dos participantes."
           },
           {
-            "time": "15:30",
-            "title": "Cerimônia de abertura",
-            "nature": "Abertura",
-            "speakers": "Scott P. Wilson; Jessé Marques Pavão; ...",
-            "description": "Abertura do evento"
-          }
-        ]
-      },
-      {
-        "day": "2º Dia",
-        "date": "18 de Setembro de 2025",
-        "events": [
-          {
-            "time": "09:00",
-            "title": "Apresentação oral seção 1",
-            "location": "",
-            "nature": "Seminário",
-            "speakers": "Marcelo Reis",
-            "description": "Apresentação de pesquisas realizadas pelos participantes"
+            "time": "09:00 - 10:30",
+            "title": "Cerimônia de Abertura",
+            "location": "Auditório Principal",
+            "nature": "Cerimônia",
+            "speakers": "Reitor do Cesmac, Coordenadores do Evento",
+            "description": "Abertura oficial do II Workshop Internacional de Pesquisa em Políticas Públicas e Desenvolvimento Social."
           },
           {
-            "time": "10:40",
-            "title": "Coffee Break",
-            "location": "",
-            "nature": "",
-            "speakers": "-",
-            "description": "Intervalo para network"
-          },
-          {
-            "time": "11:00",
-            "title": "Premiação aos pesquisadores",
-            "location": "",
-            "nature": "Outro",
-            "speakers": "Claudio Luis Santos Sampaio",
-            "description": "Seção que irá premiar os pesquisadores que contribuem com as temáticas do evento"
-          },
-          {
-            "time": "13:00",
-            "title": "Almoço",
-            "location": "",
-            "nature": "",
-            "speakers": "-",
-            "description": ""
-          },
-          {
-            "time": "14:00",
-            "title": "Apresentação oral seção 2",
-            "location": "",
-            "nature": "Seminário",
-            "speakers": "Selenobaldo Alexinaldo",
-            "description": "Apresentação das pesquisas pelos pesquisadores"
-          },
-          {
-            "time": "15:40",
-            "title": "Coffee Break",
-            "location": "",
-            "nature": "",
-            "speakers": "-",
-            "description": "Intervalo para network"
-          },
-          {
-            "time": "16:00",
-            "title": "Workshop",
-            "location": "",
-            "nature": "Workshop",
-            "speakers": "Robson Guimarães dos Santos",
-            "description": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico"
-          },
-          {
-            "time": "17:30",
-            "title": "Cerimônia de Fechamento",
-            "location": "",
+            "time": "10:30 - 12:00",
+            "title": "Palestra Magna: Políticas Públicas e Sustentabilidade",
+            "location": "Auditório Principal",
             "nature": "Palestra",
-            "speakers": "Fernando J. Diaz Lopez; Brendan Kelaher; Alejandro Tagliafico",
-            "description": "Cerimônia de fechamento do evento"
+            "speakers": "Dr. João Silva (Universidade de São Paulo)",
+            "description": "Discussão sobre os desafios e oportunidades na implementação de políticas públicas sustentáveis."
           }
         ]
       },
       {
-        "day": "3º Dia",
-        "date": "19 de Setembro de 2025",
+        "day": "Quinta-feira",
+        "date": "2025-06-19",
         "events": [
           {
-            "time": "09:00",
-            "title": "Visita Técnica",
-            "location": "",
-            "nature": "Outro",
-            "speakers": "-",
-            "description": "Visita Técnica a startup Policoncret"
+            "time": "09:00 - 10:30",
+            "title": "Mesa Redonda: Economia Circular",
+            "location": "Sala 101",
+            "nature": "Mesa Redonda",
+            "speakers": "Dra. Maria Oliveira (UFAL), Dr. Pedro Santos (UFPE)",
+            "description": "Debate sobre modelos econômicos sustentáveis e suas aplicações em políticas públicas."
+          },
+          {
+            "time": "10:45 - 12:15",
+            "title": "Workshop: Metodologias de Pesquisa",
+            "location": "Laboratório 3",
+            "nature": "Workshop",
+            "speakers": "Dra. Ana Costa (UNICAMP)",
+            "description": "Apresentação de metodologias inovadoras para pesquisa em políticas públicas."
+          },
+          {
+            "time": "14:00 - 15:30",
+            "title": "Apresentação de Trabalhos",
+            "location": "Salas 201-205",
+            "nature": "Apresentações",
+            "speakers": "Diversos pesquisadores",
+            "description": "Sessões paralelas de apresentação de trabalhos científicos."
+          }
+        ]
+      },
+      {
+        "day": "Sexta-feira",
+        "date": "2025-06-20",
+        "events": [
+          {
+            "time": "09:00 - 10:30",
+            "title": "Painel Internacional: Cooperação Global",
+            "location": "Auditório Principal",
+            "nature": "Painel",
+            "speakers": "Dr. John Smith (Harvard), Dra. Elena Rodriguez (Universidad de Barcelona)",
+            "description": "Discussão sobre iniciativas internacionais de cooperação para o desenvolvimento sustentável."
+          },
+          {
+            "time": "10:45 - 12:15",
+            "title": "Apresentação de Projetos",
+            "location": "Sala 102",
+            "nature": "Apresentações",
+            "speakers": "Coordenadores de Projetos",
+            "description": "Apresentação de projetos inovadores em políticas públicas."
+          },
+          {
+            "time": "14:00 - 15:30",
+            "title": "Cerimônia de Encerramento",
+            "location": "Auditório Principal",
+            "nature": "Cerimônia",
+            "speakers": "Comissão Organizadora",
+            "description": "Encerramento oficial do evento com premiação dos melhores trabalhos."
           }
         ]
       }
@@ -202,56 +188,31 @@
       {
         "title": "Alunos de Graduação",
         "price": "R$ 30,00",
-        "features": [
-          "Inscrição",
-          "Palestras",
-          "Minicursos",
-          "Certificado"
-        ],
+        "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Inscreva-se"
       },
       {
         "title": "Alunos de Pós-Graduação",
         "price": "R$ 70,00",
-        "features": [
-          "Inscrição",
-          "Palestras",
-          "Minicursos",
-          "Certificado"
-        ],
+        "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Inscreva-se"
       },
       {
         "title": "Professores da Educação Básica",
         "price": "R$ 0,00",
-        "features": [
-          "Inscrição",
-          "Palestras",
-          "Minicursos",
-          "Certificado"
-        ],
+        "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Inscreva-se"
       },
       {
         "title": "Professores / Pesquisadores",
         "price": "R$ 100,00",
-        "features": [
-          "Inscrição",
-          "Palestras",
-          "Minicursos",
-          "Certificado"
-        ],
+        "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Participar"
       },
       {
         "title": "Palestrantes",
         "price": "R$ 0,00",
-        "features": [
-          "Inscrição",
-          "Palestras",
-          "Minicursos",
-          "Certificado"
-        ],
+        "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Confirmar"
       }
     ]
