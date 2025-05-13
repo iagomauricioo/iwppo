@@ -147,7 +147,7 @@ export default function ComiteCientifico() {
       country: "Brasil",
       lattesUrl: "http://lattes.cnpq.br/6529999796909142",
       title: "",
-      image: "/comite-cientifico/profile.png"
+      image: "/comite-cientifico/oscarina_viana.png"
     },
     {
       name: "Thiago Jose Matos Rocha",
@@ -217,7 +217,7 @@ export default function ComiteCientifico() {
       country: "Estrangeiro",
       lattesUrl: null,
       title: "",
-      image: "/comite-cientifico/profile.png"
+      image: "/comite-cientifico/scott_patton_wilson.jpg"
     }
   ];
 

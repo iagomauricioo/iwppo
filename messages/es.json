@@ -1,10 +1,21 @@
 {
   "HeroSection": {
     "title": "2º Taller Internacional sobre la Contaminación por Plásticos en los Océanos",
-    "subtitle": "Transformando la investigación en soluciones",
+    "subtitle": "En el mar de la crisis, la ciencia con propósito: transformando el conocimiento en esperanza",
     "date": "17-19 de septiembre de 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
     "register_button": "Inscríbete ahora"
+  },
+  "ZeroResiduo": {
+    "title": "Zero Residuo",
+    "subtitle": "Este evento buscará el Zero Residuo. Participa! Trae tu botella de agua, taza, bolígrafo, bloque, bolsa… ¡Y salva el planeta!",
+    "items": [
+      "Botella de agua",
+      "Taza",
+      "Bolígrafo",
+      "Bloque",
+      "Bolsa"
+    ]
   },
   "Navbar": {
     "inicio": "Inicio",
@@ -14,7 +25,7 @@
     "comissao": "Comisión",
     "inscricao": "Inscripción",
     "contato": "Contacto",
-    "parceiros": "Parceiros"
+    "parceiros": "Socios"
   },
   "AboutSection": {
     "title": "Sobre el Evento",
@@ -77,6 +88,14 @@
       "cooperation": {
         "title": "Cooperación Global",
         "description": "Diálogo interdisciplinario e intercambio de conocimientos internacionales."
+      },
+      "education": {
+        "title": "Educación y Capacitación",
+        "description": "Desarrollo de capacidades e iniciativas educativas para el desarrollo sostenible."
+      },
+      "community": {
+        "title": "Compromiso Comunitario",
+        "description": "Enfoques participativos para involucrar a las comunidades en el desarrollo e implementación de políticas."
       }
     }
   },

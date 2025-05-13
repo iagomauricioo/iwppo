@@ -1,10 +1,21 @@
 {
   "HeroSection": {
     "title": "2nd International Workshop on Plastic Pollution in the Oceans",
-    "subtitle": "Transformando pesquisas em soluções",
+    "subtitle": "Oceanos em crise, ciência com propósito: transformando conhecimento em esperança",
     "date": "17-19 Setembro, 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
     "register_button": "Inscreva-se Agora"
+  },
+  "ZeroResiduo": {
+    "title": "Zero Resíduo",
+    "subtitle": "Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!",
+    "items": [
+      "Garrafa de água",
+      "Caneca",
+      "Caneta",
+      "Bloco",
+      "Bolsa"
+    ]
   },
   "Navbar": {
     "inicio": "Início",

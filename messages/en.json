@@ -1,10 +1,21 @@
 {
   "HeroSection": {
     "title": "2nd International Workshop on Plastic Pollution in the Oceans",
-    "subtitle": "Turning research into solutions",
+    "subtitle": "Oceans in Crisis, Science with Purpose: Transforming Knowledge into Hope",
     "date": "September 17-19, 2025",
     "location": "João Sampaio Cultural Center, Alagoas - Maceió",
     "register_button": "Register Now"
+  },
+  "ZeroResiduo": {
+    "title": "Zero Waste",
+    "subtitle": "This event will seek Zero Waste. Participate! Bring your water bottle, cup, pen, block, bag… And Save the Planet!",
+    "items": [
+      "Water bottle",
+      "Cup",
+      "Pen",
+      "Block",
+      "Bag"
+    ]
   },
   "Navbar": {
     "inicio": "Home",

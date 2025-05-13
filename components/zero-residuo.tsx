@@ -12,6 +12,7 @@ import {
   Globe,
 } from "lucide-react";
 import SeloSustentavel from "./selo-atitude-sustentavel";
+import { useTranslations } from "next-intl";
 
 export default function ZeroResiduo() {
   const ref = useRef(null);
@@ -46,13 +47,15 @@ export default function ZeroResiduo() {
     }),
   };
 
+  const t  = useTranslations("ZeroResiduo");
+  
   // Lista de ícones com seus componentes e descrições
   const items = [
-    { icon: Droplet, text: "Garrafa de água", color: "text-blue-600" },
-    { icon: Coffee, text: "Caneca", color: "text-blue-700" },
-    { icon: Pen, text: "Caneta", color: "text-blue-500" },
-    { icon: BookOpen, text: "Bloco", color: "text-blue-600" },
-    { icon: ShoppingBag, text: "Bolsa", color: "text-blue-700" },
+    { icon: Droplet, text: t("items.0"), color: "text-blue-600" },
+    { icon: Coffee, text: t("items.1"), color: "text-blue-700" },
+    { icon: Pen, text: t("items.2"), color: "text-blue-500" },
+    { icon: BookOpen, text: t("items.3"), color: "text-blue-600" },
+    { icon: ShoppingBag, text: t("items.4"), color: "text-blue-700" },
   ];
 
   return (
@@ -105,7 +108,7 @@ export default function ZeroResiduo() {
               }
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Zero Resíduo
+              {t("title")}
             </motion.h2>
 
             {/* Selo posicionado ao lado do título em desktop e abaixo em mobile */}
@@ -116,8 +119,7 @@ export default function ZeroResiduo() {
                 animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa
-                de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!
+                {t("subtitle")}
               </motion.p>
 
               {/* Selo */}
