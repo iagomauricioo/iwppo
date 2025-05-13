@@ -24,7 +24,7 @@ export default function HeroSection() {
   });
 
   // Data do evento (ajuste conforme necessário)
-  const eventDate = new Date("2025-06-18T09:00:00");
+  const eventDate = new Date("2025-09-17T09:00:00");
 
   // Atualizar contador regressivo
   useEffect(() => {
