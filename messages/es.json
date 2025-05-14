@@ -1,6 +1,6 @@
 {
   "HeroSection": {
-    "title": "2nd International Workshop on Plastic Pollution in the Oceans",
+    "title": "International Workshop on Plastic Pollution in the Oceans",
     "subtitle": "En el mar de la crisis, la ciencia con propósito: transformando el conocimiento en esperanza",
     "date": "17-19 de septiembre de 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
@@ -307,5 +307,10 @@
       },
       "submit": "Enviar Mensaje"
     }
+  },
+  "ComissaoOrganizadora": {
+    "title": "Comisión Organizadora",
+    "event_title": "International Workshop on Plastic Pollution in the Oceans",
+    "subtitle": "Nuestra comisión organizadora está compuesta por investigadores y expertos internacionales destacados dedicados al estudio y lucha contra la contaminación plástica en los océanos."
   }
 }

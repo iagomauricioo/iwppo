@@ -2,7 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import { Link } from "lucide-react";
 import { useRef, useEffect, useState } from "react";
+import { BrazilFlagIcon } from "./language-selector";
 
 interface MemberProps {
   name: string;
@@ -283,8 +285,14 @@ export default function ComiteCientifico() {
                 {membro.title}
               </p>
             )}
-            <p className="text-sm md:text-base text-gray-600 text-center">
-              {membro.country}
+            <p className="text-sm md:text-base text-gray-600 text-center flex items-center justify-center">
+              {membro.country === "Brasil" ? (
+                <>
+                  <BrazilFlagIcon className="h-4 w-4 mr-2" />
+                </>
+              ) : (
+                membro.country
+              )}
             </p>
             {membro.lattesUrl && (
               <motion.a
@@ -295,7 +303,7 @@ export default function ComiteCientifico() {
                 whileHover={{ scale: 1.05 }} // Reduzido de 1.1 para 1.05
                 whileTap={{ scale: 0.97 }} // Alterado de 0.95 para 0.97
               >
-                Ver Lattes
+                Lattes <Link className="inline" size={16} />
               </motion.a>
             )}
           </motion.div>

@@ -2,7 +2,10 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import { Link } from "lucide-react";
 import { useRef } from "react";
+import { BrazilFlagIcon } from "./language-selector";
+import { useTranslations } from "next-intl";
 
 interface MemberProps {
   name: string;
@@ -125,7 +128,7 @@ export default function ComissaoOrganizadora() {
       },
     },
   };
-
+  const t = useTranslations("ComissaoOrganizadora");
   return (
     <motion.div
       ref={ref}
@@ -137,15 +140,14 @@ export default function ComissaoOrganizadora() {
     >
       <motion.div variants={titleVariants} className="text-center mb-12 px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-          Comissão Organizadora
+          {t("title")}
         </h2>
         <p className="text-lg md:text-xl text-blue-700 max-w-3xl mx-auto">
-          2nd International Workshop on Plastic Pollution in the Oceans
+          2<sup>nd</sup>
+          {t("event_title")}
         </p>
         <p className="mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-          Nosso comissão organizadora é composta por renomados pesquisadores e
-          especialistas internacionais dedicados ao estudo e combate da poluição
-          plástica nos oceanos.
+          {t("subtitle")}
         </p>
       </motion.div>
 
@@ -179,8 +181,14 @@ export default function ComissaoOrganizadora() {
                 {membro.title}
               </p>
             )}
-            <p className="text-sm md:text-base text-gray-600 text-center">
-              {membro.country}
+            <p className="text-sm md:text-base text-gray-600 text-center flex items-center justify-center">
+              {membro.country === "Brasil" ? (
+                <>
+                  <BrazilFlagIcon className="h-4 w-4 mr-2" />
+                </>
+              ) : (
+                membro.country
+              )}
             </p>
             {membro.lattesUrl && (
               <motion.a
@@ -191,7 +199,7 @@ export default function ComissaoOrganizadora() {
                 whileHover={{ scale: 1.05 }} // Reduzido de 1.1 para 1.05
                 whileTap={{ scale: 0.97 }} // Alterado de 0.95 para 0.97
               >
-                Ver Lattes
+                Lattes <Link className="inline" size={16} />
               </motion.a>
             )}
           </motion.div>

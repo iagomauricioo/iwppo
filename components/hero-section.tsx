@@ -124,7 +124,7 @@ export default function HeroSection() {
                     className="h-1 bg-blue-400 mb-6"
                   />
                   <h2 className="text-2xl md:text-4xl font-semibold leading-tight mb-4">
-                    {t("title")}
+                    2<sup>nd</sup> {t("title")}
                   </h2>
                   <p className="text-lg md:text-xl mb-8 text-blue-100">
                     {t("subtitle")}
