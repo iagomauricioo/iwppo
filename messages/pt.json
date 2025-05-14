@@ -250,56 +250,67 @@
     ]
   },
   "ContactPage": {
-    "title": "Contato",
-    "subtitle": "Entre em contato conosco através dos canais abaixo ou preencha o formulário.",
+    "title": "Entre em Contato",
+    "subtitle": "Tem alguma dúvida sobre o evento? Entre em contato conosco e responderemos o mais breve possível.",
     "contactSection": {
-      "title": "Fale Conosco",
+      "title": "Informações de Contato",
       "items": [
         {
           "icon": "Mail",
           "title": "Email",
-          "content": "contato@iwppo.com",
-          "action": "Enviar email"
+          "content": "contato@iwppo.com.br",
+          "action": "Enviar email",
+          "actionLink": "mailto:contato@iwppo.com.br"
         },
         {
           "icon": "Phone",
-          "title": "WhatsApp",
-          "content": "(82) 3215-5051",
-          "action": "Enviar mensagem"
+          "title": "Telefone",
+          "content": "(82) 3215-5021",
+          "action": "Enviar mensagem",
+          "actionLink": "https://wa.me/5582932155021"
         },
         {
           "icon": "MapPin",
-          "title": "Endereço",
-          "content": "Rua Professor Ângelo Neto, 51, Maceió, AL, 57051-530"
+          "title": "Localização",
+          "content": "Centro Universitário Cesmac, Maceió - AL"
         },
         {
           "icon": "Clock",
-          "title": "Horário de Atendimento",
-          "content": "Segunda a Sexta: 9h às 18h"
+          "title": "Horário",
+          "content": "Segunda a Sexta, 8h às 18h"
         }
       ]
     },
     "formSection": {
-      "title": "Formulário de Contato",
+      "title": "Envie uma Mensagem",
       "fields": {
         "name": {
           "label": "Nome",
-          "placeholder": "Seu nome completo"
+          "placeholder": "Digite seu nome completo",
+          "required": true
         },
         "email": {
           "label": "Email",
-          "placeholder": "seu@email.com"
+          "placeholder": "Digite seu email",
+          "required": true
         },
         "subject": {
           "label": "Assunto",
-          "placeholder": "Assunto da mensagem"
+          "placeholder": "Qual o assunto da mensagem?",
+          "required": true
         },
         "message": {
           "label": "Mensagem",
-          "placeholder": "Digite sua mensagem aqui..."
+          "placeholder": "Digite sua mensagem...",
+          "required": true
         }
       },
-      "submit": "Enviar Mensagem"
+      "submit": "Enviar Mensagem",
+      "submitting": "Enviando...",
+      "success": "Mensagem Enviada",
+      "error": "Erro ao Enviar",
+      "successTitle": "Mensagem Enviada!",
+      "successMessage": "Agradecemos seu contato. Responderemos em breve."
     }
   }
 }

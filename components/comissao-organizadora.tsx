@@ -1,4 +1,5 @@
-import EquipeGrid from "./equipe-grid";
+"use client";
+
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
@@ -81,22 +82,24 @@ export default function ComissaoOrganizadora() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
+  // Animações mais rápidas e suaves
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.3,
+        staggerChildren: 0.05, // Reduzido de 0.15 para 0.05
+        delayChildren: 0.1, // Reduzido de 0.3 para 0.1
+        duration: 0.3, // Adicionado para tornar a transição mais rápida
       },
     },
   };
 
   const memberVariants = {
-    hidden: { 
-      opacity: 0, 
-      y: 30,
-      rotateX: -30,
+    hidden: {
+      opacity: 0,
+      y: 15, // Reduzido de 30 para 15
+      rotateX: -10, // Reduzido de -30 para -10
     },
     visible: {
       opacity: 1,
@@ -104,19 +107,20 @@ export default function ComissaoOrganizadora() {
       rotateX: 0,
       transition: {
         type: "spring",
-        stiffness: 100,
-        damping: 12,
+        stiffness: 150, // Aumentado de 100 para 150
+        damping: 18, // Aumentado de 12 para 18
+        duration: 0.4, // Adicionado para tornar a transição mais rápida
       },
     },
   };
 
   const titleVariants = {
-    hidden: { opacity: 0, x: -50 },
+    hidden: { opacity: 0, x: -20 }, // Reduzido de -50 para -20
     visible: {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 0.8,
+        duration: 0.4, // Reduzido de 0.8 para 0.4
         ease: "easeOut",
       },
     },
@@ -131,10 +135,7 @@ export default function ComissaoOrganizadora() {
       className="w-full py-12"
       id="comissao"
     >
-      <motion.div
-        variants={titleVariants}
-        className="text-center mb-12 px-4"
-      >
+      <motion.div variants={titleVariants} className="text-center mb-12 px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
           Comissão Organizadora
         </h2>
@@ -142,7 +143,9 @@ export default function ComissaoOrganizadora() {
           2nd International Workshop on Plastic Pollution in the Oceans
         </p>
         <p className="mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-          Nosso comissão organizadora é composta por renomados pesquisadores e especialistas internacionais dedicados ao estudo e combate da poluição plástica nos oceanos.
+          Nosso comissão organizadora é composta por renomados pesquisadores e
+          especialistas internacionais dedicados ao estudo e combate da poluição
+          plástica nos oceanos.
         </p>
       </motion.div>
 
@@ -155,30 +158,38 @@ export default function ComissaoOrganizadora() {
             key={index}
             variants={memberVariants}
             whileHover={{
-              scale: 1.03,
+              scale: 1.02, // Reduzido de 1.03 para 1.02
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
-              transition: { duration: 0.2 }
+              transition: { duration: 0.15 }, // Reduzido de 0.2 para 0.15
             }}
             className="bg-white rounded-lg p-4 md:p-6 shadow-md flex flex-col items-center"
           >
             <div className="relative w-32 h-32 md:w-48 md:h-48 mb-3 md:mb-4 overflow-hidden rounded-full">
               <img
-                src={membro.image}
+                src={membro.image || "/placeholder.svg"}
                 alt={membro.name}
                 className="object-cover w-full h-full"
               />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold text-blue-900 text-center">{membro.name}</h3>
-            {membro.title && <p className="text-sm md:text-base text-blue-700 text-center">{membro.title}</p>}
-            <p className="text-sm md:text-base text-gray-600 text-center">{membro.country}</p>
+            <h3 className="text-lg md:text-xl font-semibold text-blue-900 text-center">
+              {membro.name}
+            </h3>
+            {membro.title && (
+              <p className="text-sm md:text-base text-blue-700 text-center">
+                {membro.title}
+              </p>
+            )}
+            <p className="text-sm md:text-base text-gray-600 text-center">
+              {membro.country}
+            </p>
             {membro.lattesUrl && (
               <motion.a
                 href={membro.lattesUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 text-sm md:text-base text-blue-500 hover:text-blue-700 transition-colors"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.05 }} // Reduzido de 1.1 para 1.05
+                whileTap={{ scale: 0.97 }} // Alterado de 0.95 para 0.97
               >
                 Ver Lattes
               </motion.a>
@@ -196,14 +207,18 @@ export default function ComissaoOrganizadora() {
           className="bg-blue-50 p-4 md:p-6 rounded-lg"
         >
           <h4 className="text-2xl md:text-3xl font-bold text-blue-900">15+</h4>
-          <p className="text-sm md:text-base text-blue-700">Países Representados</p>
+          <p className="text-sm md:text-base text-blue-700">
+            Países Representados
+          </p>
         </motion.div>
         <motion.div
           variants={memberVariants}
           className="bg-blue-50 p-4 md:p-6 rounded-lg"
         >
           <h4 className="text-2xl md:text-3xl font-bold text-blue-900">30+</h4>
-          <p className="text-sm md:text-base text-blue-700">Membros do Comitê</p>
+          <p className="text-sm md:text-base text-blue-700">
+            Membros do Comitê
+          </p>
         </motion.div>
       </motion.div>
     </motion.div>

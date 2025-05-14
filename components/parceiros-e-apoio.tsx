@@ -5,15 +5,11 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
-// Dados dos parceiros e apoiadores
+// Dados dos parceiros, apoiadores e realizadores
 const parceiros = [
   {
     nome: "Parceiro 3",
     logo: "/parceiros/fapeal.png",
-  },
-  {
-    nome: "Parceiro 4",
-    logo: "/parceiros/cesmac.png",
   },
   {
     nome: "Parceiro 5",
@@ -22,10 +18,6 @@ const parceiros = [
   {
     nome: "Parceiro 6",
     logo: "/parceiros/athena.png",
-  },
-  {
-    nome: "Parceiro 7",
-    logo: "/parceiros/pscom.png",
   },
 ];
 
@@ -42,7 +34,25 @@ const apoiadores = [
   },
 ];
 
-// Componente de Seção reutilizável para Parceiros e Apoio
+const realizadores = [
+  {
+    nome: "Centro Universitário CESMAC",
+    logo: "/parceiros/cesmac.png",
+    descricao:
+      "Instituição de ensino superior comprometida com a excelência acadêmica e a formação de profissionais qualificados.",
+    website: "https://www.cesmac.edu.br/",
+  },
+  {
+    nome: "PPGASA - Programa de Pós-Graduação em Análise de Sistemas Ambientais",
+    logo: "/parceiros/ppgasa.png",
+    descricao:
+      "Programa de pós-graduação dedicado à pesquisa e formação em análise de sistemas ambientais.",
+    website:
+      "https://www.cesmac.edu.br/pos-graduacao/stricto-sensu/analise-de-sistemas-ambientais",
+  },
+];
+
+// Componente de Seção reutilizável para Parceiros, Apoio e Realização
 function SecaoAnimada({
   id,
   titulo,
@@ -50,13 +60,24 @@ function SecaoAnimada({
   bgColor = "bg-blue-100",
   textColor = "text-blue-900",
   mostrarDescricao = false,
+  mostrarWebsite = false,
+  tamanhoLogo = "max-h-[142px]",
+  colunas = "sm:grid-cols-3 lg:grid-cols-4",
 }: {
   id: string;
   titulo: string;
-  itens: Array<{ nome: string; logo: string; descricao?: string }>;
+  itens: Array<{
+    nome: string;
+    logo: string;
+    descricao?: string;
+    website?: string;
+  }>;
   bgColor?: string;
   textColor?: string;
   mostrarDescricao?: boolean;
+  mostrarWebsite?: boolean;
+  tamanhoLogo?: string;
+  colunas?: string;
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
@@ -104,9 +125,7 @@ function SecaoAnimada({
 
         <motion.div
           className={`grid grid-cols-1 ${
-            mostrarDescricao
-              ? "sm:grid-cols-2"
-              : "sm:grid-cols-3 lg:grid-cols-4"
+            mostrarDescricao ? "sm:grid-cols-2" : colunas
           } gap-8 mt-12`}
           variants={containerVariants}
           initial="hidden"
@@ -126,13 +145,17 @@ function SecaoAnimada({
                 backgroundColor: "#F0F9FF", // Leve tom azulado ao passar o mouse
               }}
             >
-              <div className={`${mostrarDescricao ? "mb-4" : ""}`}>
+              <div
+                className={`${
+                  mostrarDescricao ? "mb-4" : ""
+                } flex justify-center items-center`}
+              >
                 <Image
                   src={item.logo || "/placeholder.svg"}
                   alt={item.nome}
-                  width={250}
-                  height={0}
-                  className="object-contain max-h-[142px]"
+                  width={300}
+                  height={150}
+                  className={`object-contain ${tamanhoLogo}`}
                 />
               </div>
 
@@ -141,7 +164,17 @@ function SecaoAnimada({
                   <h3 className="font-bold text-lg mb-2 text-blue-800">
                     {item.nome}
                   </h3>
-                  <p className="text-sm text-gray-600">{item.descricao}</p>
+                  <p className="text-sm text-gray-600 mb-3">{item.descricao}</p>
+                  {mostrarWebsite && item.website && (
+                    <a
+                      href={item.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                    >
+                      Website
+                    </a>
+                  )}
                 </div>
               )}
             </motion.div>
@@ -152,22 +185,33 @@ function SecaoAnimada({
   );
 }
 
-// Componente principal que renderiza ambas as seções
+// Componente principal que renderiza todas as seções
 export default function ParceirosEApoio() {
   return (
     <>
       <SecaoAnimada
+        id="realizacao"
+        titulo="Realização"
+        itens={realizadores}
+        bgColor="bg-blue-50"
+        mostrarDescricao={true}
+        mostrarWebsite={true}
+        tamanhoLogo="max-h-[200px]"
+        colunas="sm:grid-cols-2"
+      />
+      <SecaoAnimada
         id="apoio"
         titulo="Apoio"
         itens={apoiadores}
-        bgColor="bg-blue-50"
+        bgColor="bg-blue-100"
         mostrarDescricao={true}
       />
       <SecaoAnimada
         id="parceiros"
         titulo="Nossos Parceiros"
         itens={parceiros}
-        bgColor="bg-blue-100"
+        bgColor="bg-blue-50"
+        colunas="sm:grid-cols-3"
       />
     </>
   );
