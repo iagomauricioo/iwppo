@@ -16,6 +16,7 @@ import {
   Handshake,
   ChevronDown,
   ChevronUp,
+  UserSearch,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { LanguageSelector } from "./language-selector";
@@ -29,6 +30,7 @@ const mainLinks = [
 
 // Links agrupados no dropdown "Evento"
 const eventLinks = [
+  { href: "#palestrantes", label: "palestrantes", icon: UserSearch },
   { href: "#programacao", label: "programacao", icon: Calendar },
   { href: "#comissao", label: "comissao", icon: Users },
 ];

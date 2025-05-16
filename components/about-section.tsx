@@ -74,10 +74,10 @@ export default function AboutSection() {
   };
 
   return (
-    <main className="bg-blue-800">
+    <main>
       <section
         ref={ref}
-        className="py-8 md:py-16 px-4 bg-white relative z-10 rounded-t-lg"
+        className="py-8 md:py-16 px-4 bg-gradient-to-b from-white to-blue-200 relative z-10 rounded-t-lg"
         id="sobre"
       >
         <motion.div 

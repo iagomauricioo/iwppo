@@ -34,7 +34,7 @@ export default function ProgramacaoSection() {
       animate={isInView ? { opacity: 1 } : { opacity: 0 }}
       transition={{ duration: 0.5 }}
       style={{
-        background: "linear-gradient(135deg, #A5DEF1 0%, #CAF0F8 100%)",
+        background: "bg-gradient-to-b from-blue-200 to-blue-50",
       }}
     >
       <ProgramacaoItem days={days} />

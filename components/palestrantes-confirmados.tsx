@@ -16,6 +16,7 @@ interface Palestrante {
   instagram?: string;
   linkedin?: string;
   website?: string;
+  colorIndex?: number; // Índice da cor a ser usada (1-9 para blue-100 até blue-900)
 }
 
 const palestrantes: Palestrante[] = [
@@ -116,19 +117,6 @@ const palestrantes: Palestrante[] = [
   },
 ];
 
-// Cores do IWPPO em ordem de gradiente (do mais claro ao mais escuro)
-const coresIWPPO = [
-  "#CAF0F8", // Azul muito claro
-  "#ADE8F4", // Azul claro
-  "#90E0EF", // Azul claro médio
-  "#48CAE4", // Azul médio
-  "#00B4D8", // Azul médio forte
-  "#0096C7", // Azul forte
-  "#0077B6", // Azul escuro
-  "#023E8A", // Azul muito escuro
-  "#03045E", // Azul profundo
-];
-
 export default function PalestrantesConfirmados() {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -142,33 +130,24 @@ export default function PalestrantesConfirmados() {
       palestrante.palestra.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Função para obter a cor de fundo baseada no índice
-  const getBackgroundColor = (index: number) => {
-    // Usar cores alternadas do array de cores do IWPPO
-    return coresIWPPO[index % coresIWPPO.length];
-  };
-
-  // Função para determinar se o texto deve ser branco ou preto baseado na cor de fundo
-  const getTextColor = (bgColorIndex: number) => {
-    // Cores mais escuras (índices maiores) usam texto branco
-    return bgColorIndex >= 5 ? "text-white" : "text-blue-900";
-  };
-
   return (
-    <section className="py-16 bg-[#0A0F70] text-white" id="palestrantes">
+    <section
+      className="py-16 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white"
+      id="palestrantes"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <motion.h2
-            className="text-4xl md:text-5xl font-bold mb-2"
+            className="text-4xl md:text-5xl font-bold mb-2 text-white"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Quem já <span className="text-blue-300">está confirmado</span>
+            Quem já <span className="text-blue-200">está confirmado</span>
           </motion.h2>
           <motion.p
-            className="text-lg text-blue-200 max-w-2xl mx-auto"
+            className="text-lg text-blue-100 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -187,10 +166,10 @@ export default function PalestrantesConfirmados() {
               placeholder="Buscar palestrantes ou temas..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-blue-900/50 border border-blue-700 rounded-full py-3 px-5 pl-12 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full bg-blue-950/80 border border-blue-600 rounded-full py-3 px-5 pl-12 text-white placeholder-blue-300/70 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
             <Search
-              className="absolute left-4 top-3.5 text-blue-300"
+              className="absolute left-4 top-3.5 text-blue-200"
               size={18}
             />
           </div>
@@ -199,23 +178,32 @@ export default function PalestrantesConfirmados() {
         {/* Grade de palestrantes */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
           {filteredPalestrantes.map((palestrante, index) => {
-            const colorIndex = index % coresIWPPO.length;
-            const bgColor = getBackgroundColor(index);
-            const textColorClass = getTextColor(colorIndex);
+            // Cores fixas para melhor legibilidade
+            const cores = [
+              { bg: "bg-blue-950", text: "text-white", border: "border-blue-800" },
+              { bg: "bg-blue-900", text: "text-white", border: "border-blue-700" },
+              { bg: "bg-blue-800", text: "text-white", border: "border-blue-600" },
+              { bg: "bg-blue-700", text: "text-white", border: "border-blue-500" },
+              { bg: "bg-blue-600", text: "text-white", border: "border-blue-400" },
+              { bg: "bg-blue-500", text: "text-white", border: "border-blue-300" },
+              { bg: "bg-blue-400", text: "text-blue-950", border: "border-blue-200" },
+              { bg: "bg-blue-300", text: "text-blue-950", border: "border-blue-100" },
+              { bg: "bg-blue-200", text: "text-blue-950", border: "border-blue-50" },
+            ];
+            
+            const corAtual = cores[index % cores.length];
 
             return (
               <motion.div
                 key={palestrante.id}
-                className="rounded-lg overflow-hidden shadow-lg"
-                style={{ backgroundColor: bgColor }}
+                className={`rounded-lg overflow-hidden shadow-lg ${corAtual.bg}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 whileHover={{
                   y: -5,
-                  boxShadow:
-                    "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
+                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
                   transition: { duration: 0.2 },
                 }}
               >
@@ -231,13 +219,13 @@ export default function PalestrantesConfirmados() {
 
                 {/* Informações do palestrante */}
                 <div className="p-4">
-                  <h3 className={`text-xl font-bold ${textColorClass}`}>
+                  <h3 className={`text-xl font-bold ${corAtual.text}`}>
                     {palestrante.nome}
                   </h3>
-                  <p className={`${textColorClass} opacity-90 font-medium`}>
+                  <p className={`${corAtual.text} opacity-90 font-medium`}>
                     {palestrante.cargo}
                   </p>
-                  <p className={`${textColorClass} opacity-80 text-sm mb-3`}>
+                  <p className={`${corAtual.text} opacity-80 text-sm mb-3`}>
                     {palestrante.instituicao}
                   </p>
 
@@ -249,7 +237,7 @@ export default function PalestrantesConfirmados() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`Instagram de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${textColorClass}`}
+                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
                       >
                         <Instagram className="w-5 h-5" />
                       </Link>
@@ -260,7 +248,7 @@ export default function PalestrantesConfirmados() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`LinkedIn de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${textColorClass}`}
+                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
                       >
                         <Linkedin className="w-5 h-5" />
                       </Link>
@@ -271,7 +259,7 @@ export default function PalestrantesConfirmados() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`Website de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${textColorClass}`}
+                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
                       >
                         <ExternalLink className="w-5 h-5" />
                       </Link>
@@ -279,19 +267,11 @@ export default function PalestrantesConfirmados() {
                   </div>
 
                   {/* Título da palestra */}
-                  <div
-                    className={`pt-3 border-t ${
-                      colorIndex >= 5
-                        ? "border-blue-400/30"
-                        : "border-blue-900/20"
-                    }`}
-                  >
-                    <p
-                      className={`text-sm font-medium ${textColorClass} opacity-80`}
-                    >
+                  <div className={`pt-3 border-t ${corAtual.border}`}>
+                    <p className={`text-sm font-medium ${corAtual.text} opacity-80`}>
                       Palestra:
                     </p>
-                    <p className={`${textColorClass} font-semibold`}>
+                    <p className={`${corAtual.text} font-semibold`}>
                       {palestrante.palestra}
                     </p>
                   </div>
@@ -304,12 +284,12 @@ export default function PalestrantesConfirmados() {
         {/* Mensagem quando não há resultados */}
         {filteredPalestrantes.length === 0 && (
           <div className="text-center py-10">
-            <p className="text-blue-200 text-lg">
+            <p className="text-blue-100 text-lg">
               Nenhum palestrante encontrado para "{searchTerm}"
             </p>
             <button
               onClick={() => setSearchTerm("")}
-              className="mt-3 text-blue-300 hover:text-blue-100"
+              className="mt-3 text-blue-200 hover:text-blue-50 transition-colors"
             >
               Limpar busca
             </button>

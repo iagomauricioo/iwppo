@@ -103,7 +103,7 @@ export default function EixosTematicos() {
 
   return (
     <section
-      className="py-16 bg-gradient-to-b from-blue-50 to-white"
+      className="py-16 bg-gradient-to-b from-blue-50 to-blue-200"
       id="eixos-tematicos"
     >
       <div className="container mx-auto px-4">

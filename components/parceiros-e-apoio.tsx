@@ -23,6 +23,22 @@ const parceiros = [
     nome: "Parceiro 7",
     logo: "/parceiros/numas.png",
   },
+  {
+    nome: "Parceiro 8",
+    logo: "/parceiros/oceanosdeplastico.png",
+  },
+  {
+    nome: "Parceiro 9",
+    logo: "/parceiros/unesco.png",
+  },
+  {
+    nome: "Parceiro 10",
+    logo: "/parceiros/vittia.png",
+  },
+  {
+    nome: "Parceiro 11",
+    logo: "/parceiros/acpn.png",
+  },
 ];
 
 const apoiadores = [

@@ -8,7 +8,7 @@ export default function LocationSection() {
   return (
     <section
       id="localizacao"
-      className="py-8 md:py-16 bg-gradient-to-b from-blue-100 to-white"
+      className="py-8 md:py-16 bg-gradient-to-b from-blue-100 to-blue-50"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
