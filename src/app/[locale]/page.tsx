@@ -3,18 +3,17 @@
 import Navbar from "@/components/navbar"
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
-import TopicsSection from "@/components/topics-section"
 import ParticipantsSection from "@/components/participants-section"
 import RegistrationSection from "@/components/registration-section"
-import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
-import SubscribeSection from "@/components/subscribe-section"
 import ComissaoOrganizadora from "@/components/comissao-organizadora"
 import ProgramacaoSection from "@/components/programacao-section"
 import LocationSection from "@/components/localizacao-section"
 import ComiteCientifico from "@/components/comite-cientifico"
 import ZeroResiduo from "@/components/zero-residuo"
 import ParceirosEApoio from "@/components/parceiros-e-apoio"
+import EixosTematicos from "@/components/eixos-tematicos"
+import PalestrantesConfirmados from "@/components/palestrantes-confirmados"
 
 export default function Home() {
   return (
@@ -23,16 +22,16 @@ export default function Home() {
       <HeroSection />
 
       <main className="flex-1 bg-white">
-        <AboutSection />
         <ZeroResiduo />
+        <AboutSection />
+        <PalestrantesConfirmados />
         <LocationSection />
-        <TopicsSection />
+        <EixosTematicos />
         <ParticipantsSection />
         <ProgramacaoSection />
         <RegistrationSection />
         <ComissaoOrganizadora />
         <ComiteCientifico />
-        <ContactForm />
         <ParceirosEApoio />
       </main>
 

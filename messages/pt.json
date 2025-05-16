@@ -30,7 +30,9 @@
     "comissao": "Comissão",
     "inscricao": "Inscrição",
     "contato": "Contato",
-    "parceiros": "Parceiros"
+    "parceiros": "Parceiros",
+    "evento": "Evento",
+    "mais": "Mais"
   },
   "AboutSection": {
     "title": "Sobre o Evento",

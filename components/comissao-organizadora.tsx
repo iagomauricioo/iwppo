@@ -24,6 +24,13 @@ const membrosComissao: MemberProps[] = [
     image: "/comissao-organizadora/jesse.png",
   },
   {
+    name: "Douglas Apratto",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/2334413936004413",
+    title: "Vice-Reitor do CESMAC",
+    image: "/comissao-organizadora/douglas-apratto.jpeg",
+  },
+  {
     name: "Selenobaldo Alexinaldo",
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/4011554123832368",
@@ -63,7 +70,7 @@ const membrosComissao: MemberProps[] = [
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/2715253110435470",
     title: "",
-    image: "/comissao-organizadora/profile.png",
+    image: "/comissao-organizadora/katia.png",
   },
   {
     name: "Cristiane de Souza Siqueira Pereira",
@@ -78,6 +85,13 @@ const membrosComissao: MemberProps[] = [
     lattesUrl: null,
     title: "",
     image: "/comissao-organizadora/profile.png",
+  },
+  {
+    name: "Romikson Christiano",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/0789963468825823",
+    title: "",
+    image: "/comissao-organizadora/romickson.jpeg",
   },
 ];
 
@@ -152,7 +166,7 @@ export default function ComissaoOrganizadora() {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto px-2 md:px-4"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-8 max-w-7xl mx-auto px-2 md:px-4"
         variants={containerVariants}
       >
         {membrosComissao.map((membro, index) => (

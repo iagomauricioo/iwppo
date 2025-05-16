@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -13,27 +13,61 @@ import {
   X,
   MessageCircle,
   FileText,
+  Handshake,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { LanguageSelector } from "./language-selector";
 import { motion, AnimatePresence } from "framer-motion";
 
-const links = [
+// Links principais que ficarão sempre visíveis
+const mainLinks = [
   { href: "#inicio", label: "inicio", icon: Home },
   { href: "#sobre", label: "sobre", icon: Info },
-  { href: "#localizacao", label: "localizacao", icon: MapPin },
+];
+
+// Links agrupados no dropdown "Evento"
+const eventLinks = [
   { href: "#programacao", label: "programacao", icon: Calendar },
   { href: "#comissao", label: "comissao", icon: Users },
-  { href: "#inscricao", label: "inscricao", icon: FileText },
-  { href: "#contato", label: "contato", icon: MessageCircle },
-  { href: "#parceiros", label: "parceiros", icon: Users },
 ];
+
+// Links agrupados no dropdown "Mais"
+const moreLinks = [
+  { href: "#localizacao", label: "localizacao", icon: MapPin },
+  { href: "#inscricao", label: "inscricao", icon: FileText },
+  { href: "#parceiros", label: "parceiros", icon: Handshake },
+];
+
+// Lista completa de links para uso na versão mobile
+const links = [...mainLinks, ...eventLinks, ...moreLinks];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("inicio");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const dropdownRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const t = useTranslations("Navbar");
+
+  // Fechar dropdown quando clicar fora
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (openDropdown && dropdownRefs.current[openDropdown]) {
+        const dropdownElement = dropdownRefs.current[openDropdown];
+        if (
+          dropdownElement &&
+          !dropdownElement.contains(event.target as Node)
+        ) {
+          setOpenDropdown(null);
+        }
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [openDropdown]);
 
   // Detectar scroll para mudar o estilo do navbar
   useEffect(() => {
@@ -58,6 +92,76 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const toggleDropdown = (id: string) => {
+    setOpenDropdown(openDropdown === id ? null : id);
+  };
+
+  // Verificar se um link dentro de um dropdown está ativo
+  const isDropdownActive = (dropdownLinks: typeof mainLinks) => {
+    return dropdownLinks.some(
+      (link) => link.href.replace("#", "") === activeSection
+    );
+  };
+
+  // Renderizar um dropdown
+  const renderDropdown = (
+    id: string,
+    title: string,
+    dropdownLinks: typeof mainLinks
+  ) => {
+    const isActive = isDropdownActive(dropdownLinks);
+    return (
+      <div ref={(el) => {
+        dropdownRefs.current[id] = el;
+      }} className="relative">
+        <button
+          className={`flex items-center px-3 py-2 rounded-md transition-colors hover:bg-blue-700 ${
+            openDropdown === id || isActive ? "bg-blue-700" : ""
+          }`}
+          onClick={() => toggleDropdown(id)}
+          aria-expanded={openDropdown === id}
+          aria-haspopup="true"
+        >
+          <span className="text-white mr-1">{t(title)}</span>
+          {openDropdown === id ? (
+            <ChevronUp className="h-4 w-4 text-white" />
+          ) : (
+            <ChevronDown className="h-4 w-4 text-white" />
+          )}
+        </button>
+
+        <AnimatePresence>
+          {openDropdown === id && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute right-0 mt-1 w-48 bg-blue-800 rounded-md shadow-lg py-1 z-50"
+            >
+              {dropdownLinks.map(({ href, label, icon: Icon }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className={`flex items-center px-4 py-2 text-sm text-white hover:bg-blue-700 ${
+                    activeSection === label ? "bg-blue-700" : ""
+                  }`}
+                  onClick={() => {
+                    setActiveSection(label);
+                    setOpenDropdown(null);
+                  }}
+                >
+                  {Icon && <Icon className="h-4 w-4 mr-2" />}
+                  <span>{t(label)}</span>
+                </Link>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
+  };
 
   return (
     <>
@@ -85,7 +189,8 @@ export default function Navbar() {
 
           <div className="flex items-center gap-6">
             <ul className="flex flex-wrap justify-center gap-4 text-white">
-              {links.map(({ href, label, icon: Icon }) => (
+              {/* Links principais sempre visíveis */}
+              {mainLinks.map(({ href, label, icon: Icon }) => (
                 <li key={href}>
                   <Link
                     href={href}
@@ -99,6 +204,12 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
+
+              {/* Dropdown para links de Evento */}
+              <li>{renderDropdown("event", "evento", eventLinks)}</li>
+
+              {/* Dropdown para links adicionais */}
+              <li>{renderDropdown("more", "mais", moreLinks)}</li>
             </ul>
 
             <LanguageSelector />
@@ -106,7 +217,7 @@ export default function Navbar() {
         </div>
       </motion.nav>
 
-      {/* Mobile Navbar */}
+      {/* Mobile Navbar - Mantido exatamente como estava */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-50">
         {/* Mobile Bottom Nav */}
         <motion.nav

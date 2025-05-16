@@ -19,6 +19,10 @@ const parceiros = [
     nome: "Parceiro 6",
     logo: "/parceiros/athena.png",
   },
+  {
+    nome: "Parceiro 7",
+    logo: "/parceiros/numas.png",
+  },
 ];
 
 const apoiadores = [

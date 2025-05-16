@@ -4,6 +4,8 @@ import "./styles.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

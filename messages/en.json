@@ -36,7 +36,9 @@
     "comissao": "Committee",
     "inscricao": "Registration",
     "contato": "Contact",
-    "parceiros": "Partners"
+    "parceiros": "Partners",
+    "evento": "Event",
+    "mais": "More"
   },
   "AboutSection": {
     "title": "About the Event",

@@ -255,7 +255,7 @@ export default function ComiteCientifico() {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto px-2 md:px-4 relative"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-8 max-w-7xl mx-auto px-2 md:px-4 relative"
         variants={containerVariants}
       >
         {comiteCientifico.map((membro, index) => (
