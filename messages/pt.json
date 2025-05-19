@@ -11,7 +11,16 @@
     "dias": "Dias",
     "horas": "Horas",
     "minutos": "Minutos",
-    "segundos": "Segundos"
+    "segundos": "Segundos",
+    "datas_importantes": "Datas Importantes",
+    "submissao_de_artigos": "Submissão de Artigos",
+    "data_1": "31 de julho",
+    "comunicacao_de_aceite": "Comunicação de Aceite",
+    "data_2": "11 de agosto",
+    "envio_final": "Envio Final",
+    "data_3": "08 de setembro",
+    "realizacao_do_evento": "Realização do Evento",
+    "data_4": "17 a 19 de setembro"
   },
   "SeloAtitudeSustentavel": {
     "atitude": "ATITUDE",
