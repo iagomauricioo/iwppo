@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { format, isSameDay } from "date-fns";
 import { ptBR } from "date-fns/locale";
+import { useTranslations } from "next-intl";
 
 type EventProps = {
   time: string;
@@ -242,6 +243,7 @@ type ProgrammingScheduleProps = {
 };
 
 export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
+  const t = useTranslations("ProgramacaoPage");
   const [filter, setFilter] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -284,7 +286,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Programação
+        {t("programacao")}
       </motion.h1>
 
       <motion.div
@@ -297,7 +299,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
           <div className="flex-1">
             <input
               type="text"
-              placeholder="Buscar eventos, palestrantes..."
+              placeholder={t("buscar_eventos")}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -315,7 +317,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
               onClick={() => setFilter("all")}
               aria-pressed={filter === "all"}
             >
-              Todos
+              {t("todos")}
             </button>
             <button
               className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
@@ -326,7 +328,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
               onClick={() => setFilter("today")}
               aria-pressed={filter === "today"}
             >
-              Hoje
+              {t("hoje")}
             </button>
           </div>
         </div>

@@ -140,94 +140,138 @@
     }
   },
   "ProgramacaoPage": {
+    "programacao": "Schedule",
+    "buscar_eventos": "Search events, speakers...",
+    "todos": "All",
+    "hoje": "Today",
     "days": [
       {
         "day": "Wednesday",
-        "date": "2025-06-18",
+        "date": "2025-09-10",
         "events": [
           {
-            "time": "08:00 - 09:00",
+            "time": "14:00",
             "title": "Registration",
-            "location": "Entrance Hall",
-            "nature": "Administrative",
+            "location": "Event Venue",
+            "nature": "Registration",
             "speakers": "-",
-            "description": "Reception and registration of participants."
+            "description": "Registration of congress participants"
           },
           {
-            "time": "09:00 - 10:30",
+            "time": "15:30",
             "title": "Opening Ceremony",
-            "location": "Main Auditorium",
-            "nature": "Ceremony",
-            "speakers": "CESMAC Chancellor, Event Coordinators",
-            "description": "Official opening of the 2nd International Workshop on Public Policy Research and Social Development."
+            "location": "Event Venue",
+            "nature": "Opening",
+            "speakers": "Scott P. Wilson; Jessé Marques Pavão; Biagio F. Giannette; Douglas Apratto Tenório; CARLOS ALBERTO CIOCE SAMPAIO",
+            "description": "Event opening"
           },
           {
-            "time": "10:30 - 12:00",
-            "title": "Keynote Lecture: Public Policy and Sustainability",
-            "location": "Main Auditorium",
-            "nature": "Lecture",
-            "speakers": "Dr. João Silva (University of São Paulo)",
-            "description": "Discussion on the challenges and opportunities in implementing sustainable public policies."
+            "time": "16:30",
+            "title": "Coffee Break",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Networking break"
+          },
+          {
+            "time": "17:00",
+            "title": "Workshop",
+            "location": "Event Venue",
+            "nature": "Workshop",
+            "speakers": "Brendan Kelaher; Alejandro Tagliafico",
+            "description": "Presentation of methodology for plastic identification in animal tissues"
+          },
+          {
+            "time": "19:00",
+            "title": "Social Dinner",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "By registration",
+            "description": "Dinner offered to participants"
           }
         ]
       },
       {
         "day": "Thursday",
-        "date": "2025-06-19",
+        "date": "2025-09-11",
         "events": [
           {
-            "time": "09:00 - 10:30",
-            "title": "Roundtable: Circular Economy",
-            "location": "Room 101",
-            "nature": "Roundtable",
-            "speakers": "Dr. Maria Oliveira (UFAL), Dr. Pedro Santos (UFPE)",
-            "description": "Debate on sustainable economic models and their applications in public policy."
+            "time": "09:00",
+            "title": "Oral Presentation Section 1",
+            "location": "Event Venue",
+            "nature": "Seminar",
+            "speakers": "Marcelo Reis",
+            "description": "Presentation of research conducted by participants"
           },
           {
-            "time": "10:45 - 12:15",
-            "title": "Workshop: Research Methodologies",
-            "location": "Lab 3",
+            "time": "10:40",
+            "title": "Coffee Break",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Networking break"
+          },
+          {
+            "time": "11:00",
+            "title": "Researcher Awards",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "Claudio Luis Santos Sampaio",
+            "description": "Section to award researchers who contribute to the event's themes"
+          },
+          {
+            "time": "13:00",
+            "title": "Lunch",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Lunch"
+          },
+          {
+            "time": "14:00",
+            "title": "Oral Presentation Section 2",
+            "location": "Event Venue",
+            "nature": "Seminar",
+            "speakers": "Selenobaldo Alexinaldo",
+            "description": "Presentation of research by researchers"
+          },
+          {
+            "time": "15:40",
+            "title": "Coffee Break",
+            "location": "Event Venue",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Coffee Break"
+          },
+          {
+            "time": "16:00",
+            "title": "Workshop",
+            "location": "Event Venue",
             "nature": "Workshop",
-            "speakers": "Dr. Ana Costa (UNICAMP)",
-            "description": "Presentation of innovative methodologies for public policy research."
+            "speakers": "ROBSON GUIMARAES DOS SANTOS",
+            "description": "Presentation of main research results from the focal points of the Plastic Oceans project"
           },
           {
-            "time": "14:00 - 15:30",
-            "title": "Research Presentations",
-            "location": "Rooms 201-205",
-            "nature": "Presentations",
-            "speakers": "Various researchers",
-            "description": "Parallel sessions of scientific paper presentations."
+            "time": "17:30",
+            "title": "Closing Ceremony",
+            "location": "Event Venue",
+            "nature": "Lecture",
+            "speakers": "FERNANDO J. DIAZ LOPEZ; Brendan Kelaher; Alejandro Tagliafico",
+            "description": "Event closing ceremony"
           }
         ]
       },
       {
         "day": "Friday",
-        "date": "2025-06-20",
+        "date": "2025-09-12",
         "events": [
           {
-            "time": "09:00 - 10:30",
-            "title": "International Panel: Global Cooperation",
-            "location": "Main Auditorium",
-            "nature": "Panel",
-            "speakers": "Dr. John Smith (Harvard), Dr. Elena Rodriguez (University of Barcelona)",
-            "description": "Discussion on international cooperation initiatives for sustainable development."
-          },
-          {
-            "time": "10:45 - 12:15",
-            "title": "Project Presentations",
-            "location": "Room 102",
-            "nature": "Presentations",
-            "speakers": "Project Coordinators",
-            "description": "Presentation of innovative public policy projects."
-          },
-          {
-            "time": "14:00 - 15:30",
-            "title": "Closing Ceremony",
-            "location": "Main Auditorium",
-            "nature": "Ceremony",
-            "speakers": "Organizing Committee",
-            "description": "Official closing of the event with awards for the best papers."
+            "time": "09:00",
+            "title": "Technical Visit",
+            "location": "Policoncret Startup",
+            "nature": "Other",
+            "speakers": "-",
+            "description": "Technical visit to Policoncret startup"
           }
         ]
       }
