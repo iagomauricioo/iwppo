@@ -174,7 +174,7 @@ export default function ZeroResiduo() {
           >
             <div className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-700 rounded-full shadow-lg hover:bg-blue-800 transition-colors">
               <Globe className="w-5 h-5 mr-2" />
-              Salve o Planeta!
+              {t("save_the_planet")}
             </div>
           </motion.div>
         </motion.div>

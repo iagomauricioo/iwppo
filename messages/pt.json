@@ -29,7 +29,8 @@
   "ZeroResiduo": {
     "title": "Zero Resíduo",
     "subtitle": "Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!",
-    "items": ["Garrafa de água", "Caneca", "Caneta", "Bloco", "Bolsa"]
+    "items": ["Garrafa de água", "Caneca", "Caneta", "Bloco", "Bolsa"],
+    "save_the_planet": "Salve o Planeta!"
   },
   "Navbar": {
     "inicio": "Início",
@@ -329,6 +330,30 @@
     "title": "Comissão Organizadora",
     "event_title": " International Workshop on Plastic Pollution in the Oceans",
     "subtitle": "Nosso comissão organizadora é composta por renomados pesquisadores e especialistas internacionais dedicados ao estudo e combate da poluição plástica nos oceanos."
-
+  },
+  "ParceirosApoioERealizacao": {
+    "apoiadores": {
+      "titulo": "Apoio",
+      "capes": {
+        "descricao": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"
+      },
+      "cnpq": {
+        "descricao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      }
+    },
+    "realizacao": {
+      "titulo": "Realização",
+      "cesmac": {
+        "nome": "Centro Universitário CESMAC",
+        "descricao": "Instituição de ensino superior comprometida com a excelência acadêmica e a formação de profissionais qualificados."
+      },
+      "ppgasa": {
+        "nome": "PPGASA - Programa de Pós-Graduação em Análise de Sistemas Ambientais",
+        "descricao": "Programa de pós-graduação dedicado à pesquisa e formação em análise de sistemas ambientais."
+      }
+    },
+    "parceiros": {
+      "titulo": "Nossos Parceiros"
+    }
   }
 }

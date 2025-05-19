@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 
 // Dados dos parceiros, apoiadores e realizadores
 const parceiros = [
@@ -38,37 +39,6 @@ const parceiros = [
   {
     nome: "Parceiro 11",
     logo: "/parceiros/acpn.png",
-  },
-];
-
-const apoiadores = [
-  {
-    nome: "CAPES",
-    logo: "/parceiros/capes.png",
-    descricao: "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
-  },
-  {
-    nome: "CNPq",
-    logo: "/parceiros/cnpq.png",
-    descricao: "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
-  },
-];
-
-const realizadores = [
-  {
-    nome: "Centro Universitário CESMAC",
-    logo: "/parceiros/cesmac.png",
-    descricao:
-      "Instituição de ensino superior comprometida com a excelência acadêmica e a formação de profissionais qualificados.",
-    website: "https://www.cesmac.edu.br/",
-  },
-  {
-    nome: "PPGASA - Programa de Pós-Graduação em Análise de Sistemas Ambientais",
-    logo: "/parceiros/ppgasa.png",
-    descricao:
-      "Programa de pós-graduação dedicado à pesquisa e formação em análise de sistemas ambientais.",
-    website:
-      "https://www.cesmac.edu.br/pos-graduacao/stricto-sensu/analise-de-sistemas-ambientais",
   },
 ];
 
@@ -207,11 +177,42 @@ function SecaoAnimada({
 
 // Componente principal que renderiza todas as seções
 export default function ParceirosEApoio() {
+  const t = useTranslations("ParceirosApoioERealizacao");
+
+  const apoiadores = [
+    {
+      nome: "CAPES",
+      logo: "/parceiros/capes.png",
+      descricao: t("apoiadores.capes.descricao"),
+    },
+    {
+      nome: "CNPq",
+      logo: "/parceiros/cnpq.png",
+      descricao: t("apoiadores.cnpq.descricao"),
+    },
+  ];
+
+  const realizadores = [
+    {
+      nome: t("realizacao.cesmac.nome"),
+      logo: "/parceiros/cesmac.png",
+      descricao: t("realizacao.cesmac.descricao"),
+      website: "https://www.cesmac.edu.br/",
+    },
+    {
+      nome: t("realizacao.ppgasa.nome"),
+      logo: "/parceiros/ppgasa.png",
+      descricao: t("realizacao.ppgasa.descricao"),
+      website:
+        "https://www.cesmac.edu.br/pos-graduacao/stricto-sensu/analise-de-sistemas-ambientais",
+    },
+  ];
+
   return (
     <>
       <SecaoAnimada
         id="realizacao"
-        titulo="Realização"
+        titulo={t("realizacao.titulo")}
         itens={realizadores}
         bgColor="bg-blue-50"
         mostrarDescricao={true}
@@ -221,14 +222,14 @@ export default function ParceirosEApoio() {
       />
       <SecaoAnimada
         id="apoio"
-        titulo="Apoio"
+        titulo={t("apoiadores.titulo")}
         itens={apoiadores}
         bgColor="bg-blue-100"
         mostrarDescricao={true}
       />
       <SecaoAnimada
         id="parceiros"
-        titulo="Nossos Parceiros"
+        titulo={t("parceiros.titulo")}
         itens={parceiros}
         bgColor="bg-blue-50"
         colunas="sm:grid-cols-3"

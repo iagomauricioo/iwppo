@@ -35,7 +35,8 @@
       "Pen",
       "Block",
       "Bag"
-    ]
+    ],
+    "save_the_planet": "Save the Planet!"
   },
   "Navbar": {
     "inicio": "Home",
@@ -324,5 +325,30 @@
     "title": "Organizing Committee",
     "event_title": "International Workshop on Plastic Pollution in the Oceans",
     "subtitle": "Our organizing committee is composed of renowned researchers and international experts dedicated to the study and fight against plastic pollution in the oceans."
+  },
+  "ParceirosApoioERealizacao": {
+    "apoiadores": {
+      "titulo": "Support",
+      "capes": {
+        "descricao": "Coordination of Improvement of Personnel of Higher Level"
+      },
+      "cnpq": {
+        "descricao": "National Council for Scientific and Technological Development"
+      }
+    },
+    "realizacao": {
+      "titulo": "Realization",
+      "cesmac": {
+        "nome": "CESMAC University Center",
+        "descricao": "Higher education institution committed to academic excellence and the training of qualified professionals."
+      },
+      "ppgasa": {
+        "nome": "PPGASA - Postgraduate Program in Environmental Systems Analysis",
+        "descricao": "Postgraduate program dedicated to research and training in environmental systems analysis."
+      }
+    },
+    "parceiros": {
+      "titulo": "Our Partners"
+    }
   }
 }
