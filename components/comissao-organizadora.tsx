@@ -84,7 +84,7 @@ const membrosComissao: MemberProps[] = [
     country: "Estrangeiro",
     lattesUrl: null,
     title: "",
-    image: "/comissao-organizadora/profile.png",
+    image: "/palestrantes/dias.jpeg",
   },
   {
     name: "Romikson Christiano",

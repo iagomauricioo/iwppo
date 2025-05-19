@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Instagram, Linkedin, ExternalLink, Search } from "lucide-react";
+import { Instagram, Linkedin, ExternalLink, Search, FileText } from "lucide-react";
 
 interface Palestrante {
   id: string;
@@ -13,6 +13,8 @@ interface Palestrante {
   instituicao: string;
   foto: string;
   palestra: string;
+  nacionalidade: string;
+  cv: string;
   instagram?: string;
   linkedin?: string;
   website?: string;
@@ -21,100 +23,82 @@ interface Palestrante {
 
 const palestrantes: Palestrante[] = [
   {
-    id: "jesse-pavao",
-    nome: "Jessé Marques Pavão",
+    id: "robson-santos",
+    nome: "Robson Guimarães dos Santos",
     cargo: "Pesquisador",
     instituicao: "Centro Universitário Cesmac",
-    foto: "/comissao-organizadora/jesse.png",
-    palestra: "Poluição por microplásticos: desafios e soluções",
-    instagram: "https://instagram.com/jessepavao",
-    linkedin: "https://linkedin.com/in/jessepavao",
+    foto: "/palestrantes/robson.png",
+    palestra: "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
+    nacionalidade: "Brasil",
+    cv: "http://lattes.cnpq.br/3415855125714979",
+    linkedin: "https://linkedin.com/in/robsonguimaraes",
   },
   {
-    id: "richard-ladle",
-    nome: "Richard James Ladle",
-    cargo: "Professor",
-    instituicao: "Universidade Federal de Alagoas",
-    foto: "/comissao-organizadora/richard.png",
-    palestra: "Conservação marinha em tempos de mudanças climáticas",
-    linkedin: "https://linkedin.com/in/richardladle",
-  },
-  {
-    id: "cristiane-pereira",
-    nome: "Cristiane S. S. Pereira",
-    cargo: "Pesquisadora",
-    instituicao: "Universidade Federal do Rio de Janeiro",
-    foto: "/comissao-organizadora/cristiane.png",
-    palestra: "Impactos dos microplásticos em ecossistemas marinhos",
-    instagram: "https://instagram.com/cristianepereira",
-    linkedin: "https://linkedin.com/in/cristianepereira",
-  },
-  {
-    id: "biagio-giannetti",
-    nome: "Biagio F. Giannetti",
-    cargo: "Professor",
-    instituicao: "Universidade Paulista",
-    foto: "/comissao-organizadora/biagio.png",
-    palestra: "Economia circular aplicada à gestão de resíduos plásticos",
-    linkedin: "https://linkedin.com/in/biagiogiannetti",
-  },
-  {
-    id: "ana-claudia",
-    nome: "Ana Claudia Malhado",
-    cargo: "Pesquisadora",
-    instituicao: "Universidade Federal de Alagoas",
-    foto: "/comissao-organizadora/jesse.png",
-    palestra: "Políticas públicas para conservação dos oceanos",
-    instagram: "https://instagram.com/anaclaudiamalhado",
-    linkedin: "https://linkedin.com/in/anaclaudiamalhado",
-  },
-  {
-    id: "selenobaldo",
-    nome: "Selenobaldo Alexinaldo",
+    id: "claudio-sampaio",
+    nome: "Cláudio Luis Santos Sampaio",
     cargo: "Pesquisador",
     instituicao: "Centro Universitário Cesmac",
-    foto: "/comissao-organizadora/selenobaldo.png",
-    palestra: "Tecnologias para monitoramento de poluição marinha",
-    linkedin: "https://linkedin.com/in/selenobaldo",
+    foto: "/palestrantes/claudio.png",
+    palestra: "Premiação aos pesquisadores que contribuem com as temáticas do evento",
+    nacionalidade: "Brasil",
+    cv: "http://lattes.cnpq.br/2526336992077506",
+    linkedin: "https://linkedin.com/in/claudioluissampaio",
   },
   {
-    id: "jarcilene-almeida",
-    nome: "Jarcilene S. Almeida",
-    cargo: "Professora",
-    instituicao: "Universidade Federal de Pernambuco",
-    foto: "/comissao-organizadora/jarcilene.png",
-    palestra: "Restauração de ecossistemas costeiros",
-    instagram: "https://instagram.com/jarcilene",
-    linkedin: "https://linkedin.com/in/jarcilene",
-  },
-  {
-    id: "marcelo-reis",
-    nome: "Marcelo Reis",
+    id: "carlos-sampaio",
+    nome: "Carlos Alberto Cioce Sampaio",
     cargo: "Pesquisador",
-    instituicao: "Instituto Oceanográfico",
-    foto: "/comissao-organizadora/marcelo.png",
-    palestra: "Modelagem de dispersão de plásticos nos oceanos",
-    linkedin: "https://linkedin.com/in/marceloreis",
+    instituicao: "Centro Universitário Cesmac",
+    foto: "/palestrantes/carlos.png",
+    palestra: "Cerimônia de Abertura",
+    nacionalidade: "Brasil",
+    cv: "http://lattes.cnpq.br/9034603212802471",
+    linkedin: "https://linkedin.com/in/carlosalbertociocesampaio",
   },
   {
-    id: "katia-cavalcante",
-    nome: "Katia Viana Cavalcante",
-    cargo: "Professora",
-    instituicao: "Universidade Federal do Amazonas",
-    foto: "/comissao-organizadora/katia.png",
-    palestra: "Gestão de resíduos em comunidades ribeirinhas",
-    instagram: "https://instagram.com/katiacavalcante",
-    linkedin: "https://linkedin.com/in/katiacavalcante",
+    id: "brendan-kelaher",
+    nome: "Brendan Kelaher",
+    cargo: "Pesquisador Internacional",
+    instituicao: "Southern Cross University",
+    foto: "/palestrantes/brendan.png",
+    palestra: "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
+    nacionalidade: "Estrangeiro",
+    cv: "BrendanKelaher_125970.pdf",
+    linkedin: "https://linkedin.com/in/brendankelaher",
   },
   {
     id: "fernando-lopez",
     nome: "Fernando J. Díaz López",
     cargo: "Pesquisador Internacional",
     instituicao: "Universidad de Barcelona",
-    foto: "/comissao-organizadora/jesse.png",
-    palestra: "Cooperação internacional para oceanos livres de plástico",
+    foto: "/palestrantes/dias.jpeg",
+    palestra: "Cerimônia de Fechamento",
+    nacionalidade: "Estrangeiro",
+    cv: "FernandoJ.DiazLopez_125998.pdf",
     website: "https://universidadbarcelona.es/fernandodiaz",
   },
+  {
+    id: "alejandro-tagliafico",
+    nome: "Alejandro Tagliafico",
+    cargo: "Pesquisador Internacional",
+    instituicao: "Southern Cross University",
+    foto: "/palestrantes/alejandro.png",
+    palestra: "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
+    nacionalidade: "Estrangeiro",
+    cv: "AlejandroTagliafico_125972.pdf",
+    linkedin: "https://linkedin.com/in/alejandrotagliafico",
+  },
+  {
+    id: "scott-wilson",
+    nome: "Scott Paton Wilson",
+    cargo: "Pesquisador Internacional",
+    instituicao: "Southern Cross University",
+    foto: "/palestrantes/scott_patton_wilson.jpg",
+    palestra: "Cerimônia de Abertura",
+    nacionalidade: "Estrangeiro",
+    cv: "ScoottPatonWilson_125977.pdf",
+    linkedin: "https://linkedin.com/in/scottpatonwilson",
+  }
 ];
 
 export default function PalestrantesConfirmados() {
@@ -225,11 +209,14 @@ export default function PalestrantesConfirmados() {
                   <p className={`${corAtual.text} opacity-90 font-medium`}>
                     {palestrante.cargo}
                   </p>
-                  <p className={`${corAtual.text} opacity-80 text-sm mb-3`}>
+                  <p className={`${corAtual.text} opacity-80 text-sm mb-1`}>
                     {palestrante.instituicao}
                   </p>
+                  <p className={`${corAtual.text} opacity-80 text-sm mb-3`}>
+                    {palestrante.nacionalidade}
+                  </p>
 
-                  {/* Ícones de redes sociais */}
+                  {/* Ícones de redes sociais e CV */}
                   <div className="flex space-x-2 mb-4">
                     {palestrante.instagram && (
                       <Link
@@ -264,6 +251,15 @@ export default function PalestrantesConfirmados() {
                         <ExternalLink className="w-5 h-5" />
                       </Link>
                     )}
+                    <Link
+                      href={palestrante.cv}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`CV de ${palestrante.nome}`}
+                      className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
+                    >
+                      <FileText className="w-5 h-5" />
+                    </Link>
                   </div>
 
                   {/* Título da palestra */}
