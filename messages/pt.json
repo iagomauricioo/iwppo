@@ -355,5 +355,46 @@
     "parceiros": {
       "titulo": "Nossos Parceiros"
     }
+  },
+  "EixosTematicos": {
+    "titulo": "Eixos Temáticos para Submissão de Trabalhos",
+    "descricao": "Escolha um dos eixos abaixo para submeter seu trabalho científico",
+    "envie_trabalho": "Envie já seu trabalho na Doity",
+    "prazo_submissao": "Prazo para submissão",
+    "data_submissao": "31 de Julho de 2025",
+    "itens": [
+      {
+        "titulo": "Diagnóstico dos Oceanos: A Crise Atual",
+        "descricao": "Este eixo temático aborda o estado atual dos oceanos frente aos desafios ambientais contemporâneos. Visa reunir estudos que avaliem a saúde dos ecossistemas marinhos, destacando indicadores de degradação ambiental, perda de biodiversidade, acidificação, sobrepesca e impactos das mudanças climáticas. Pesquisas que utilizem ferramentas de monitoramento, modelagem oceânica e avaliação de políticas de conservação também são bem-vindas. O objetivo é fornecer um panorama abrangente e científico sobre a real condição dos oceanos em escala local, regional e global."
+      },
+      {
+        "titulo": "Poluição e Contaminantes Emergentes",
+        "descricao": "Este eixo contempla pesquisas voltadas à identificação, caracterização e mitigação de poluentes nos ambientes marinhos, com ênfase especial nos contaminantes emergentes como microplásticos, nanoplásticos, resíduos farmacêuticos, pesticidas e metais pesados. São esperados trabalhos que investiguem as fontes, rotas de dispersão, efeitos ecotoxicológicos e possíveis soluções para esses contaminantes. Também se incluem abordagens inovadoras em tecnologias de detecção, remediação e estratégias de prevenção com foco na sustentabilidade marinha."
+      },
+      {
+        "titulo": "Ciência com Propósito: Pesquisas Aplicadas aos Oceanos",
+        "descricao": "Este eixo destaca a ciência aplicada como ferramenta estratégica para enfrentar os desafios oceânicos. São bem-vindas pesquisas que envolvam monitoramento por sensoriamento remoto, modelagem climática, biotecnologia marinha e soluções baseadas em tecnologias emergentes como Inteligência Artificial e Big Data. O foco está na produção de conhecimento técnico com impacto direto na conservação, gestão e uso sustentável dos mares."
+      },
+      {
+        "titulo": "Comunidades Tradicionais e Saberes Locais",
+        "descricao": "Aborda a importância dos conhecimentos tradicionais e do protagonismo das comunidades costeiras na preservação dos oceanos. Este eixo valoriza estudos interdisciplinares sobre práticas sustentáveis, justiça ambiental e os impactos da crise climática na vida de povos indígenas, pescadores artesanais, marisqueiras e ribeirinhos. Incentiva o diálogo entre ciência e saberes locais como estratégia para políticas mais justas e eficazes."
+      },
+      {
+        "titulo": "Comunicação Científica e Educação Oceânica",
+        "descricao": "Foca na disseminação do conhecimento científico e no fortalecimento da cultura oceânica. Este eixo contempla iniciativas de popularização da ciência, produção de materiais educativos, ações em escolas e comunidades, bem como estratégias de comunicação voltadas à mobilização social e ao apoio de políticas públicas. Também são esperados trabalhos que explorem a comunicação de risco em contextos de crise climática."
+      },
+      {
+        "titulo": "Políticas Públicas e Governança dos Mares",
+        "descricao": "Explora o papel das políticas públicas na proteção e gestão sustentável dos oceanos. Abrange temas como acordos multilaterais, criação de áreas marinhas protegidas, instrumentos legais nacionais, governança participativa e transparência na gestão costeira. Este eixo busca articular ciência, sociedade e Estado para promover uma governança oceânica eficaz e equitativa."
+      },
+      {
+        "titulo": "Inovação, Sustentabilidade e Soluções Baseadas na Natureza",
+        "descricao": "Promove abordagens inovadoras para a regeneração e preservação dos ambientes marinhos. Engloba pesquisas sobre restauração de ecossistemas costeiros, energias renováveis oceânicas, economia azul, cadeias produtivas sustentáveis e tecnologias baseadas na natureza. O objetivo é estimular soluções que conciliem desenvolvimento socioeconômico e integridade ecológica."
+      },
+      {
+        "titulo": "Oceanos e Clima: Interações e Impactos",
+        "descricao": "Este eixo analisa o papel dos oceanos no sistema climático global e os efeitos das mudanças climáticas sobre os ambientes marinhos e costeiros. São bem-vindos estudos sobre eventos extremos, elevação do nível do mar, acidificação, impactos em comunidades vulneráveis e estratégias de mitigação e adaptação. A ênfase está em compreender e responder aos riscos climáticos com base científica sólida."
+      }
+    ]
   }
 }

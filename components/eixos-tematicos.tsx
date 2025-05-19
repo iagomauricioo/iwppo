@@ -18,6 +18,7 @@ import {
   CloudSun,
 } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface EixoTematicoProps {
   id: string;
@@ -27,75 +28,68 @@ interface EixoTematicoProps {
   icone: React.ReactNode;
 }
 
-const eixosTematicos: EixoTematicoProps[] = [
-  {
-    id: "diagnostico-oceanos",
-    numero: 1,
-    titulo: "Diagnóstico dos Oceanos: A Crise Atual",
-    descricao:
-      "Este eixo temático aborda o estado atual dos oceanos frente aos desafios ambientais contemporâneos. Visa reunir estudos que avaliem a saúde dos ecossistemas marinhos, destacando indicadores de degradação ambiental, perda de biodiversidade, acidificação, sobrepesca e impactos das mudanças climáticas. Pesquisas que utilizem ferramentas de monitoramento, modelagem oceânica e avaliação de políticas de conservação também são bem-vindas. O objetivo é fornecer um panorama abrangente e científico sobre a real condição dos oceanos em escala local, regional e global.",
-    icone: <Waves className="h-6 w-6" />,
-  },
-  {
-    id: "poluicao-contaminantes",
-    numero: 2,
-    titulo: "Poluição e Contaminantes Emergentes",
-    descricao:
-      "Este eixo contempla pesquisas voltadas à identificação, caracterização e mitigação de poluentes nos ambientes marinhos, com ênfase especial nos contaminantes emergentes como microplásticos, nanoplásticos, resíduos farmacêuticos, pesticidas e metais pesados. São esperados trabalhos que investiguem as fontes, rotas de dispersão, efeitos ecotoxicológicos e possíveis soluções para esses contaminantes. Também se incluem abordagens inovadoras em tecnologias de detecção, remediação e estratégias de prevenção com foco na sustentabilidade marinha.",
-    icone: <Recycle className="h-6 w-6" />,
-  },
-  {
-    id: "ciencia-aplicada",
-    numero: 3,
-    titulo: "Ciência com Propósito: Pesquisas Aplicadas aos Oceanos",
-    descricao:
-      "Este eixo destaca a ciência aplicada como ferramenta estratégica para enfrentar os desafios oceânicos. São bem-vindas pesquisas que envolvam monitoramento por sensoriamento remoto, modelagem climática, biotecnologia marinha e soluções baseadas em tecnologias emergentes como Inteligência Artificial e Big Data. O foco está na produção de conhecimento técnico com impacto direto na conservação, gestão e uso sustentável dos mares.",
-    icone: <Cpu className="h-6 w-6" />,
-  },
-  {
-    id: "comunidades-saberes-locais",
-    numero: 4,
-    titulo: "Comunidades Tradicionais e Saberes Locais",
-    descricao:
-      "Aborda a importância dos conhecimentos tradicionais e do protagonismo das comunidades costeiras na preservação dos oceanos. Este eixo valoriza estudos interdisciplinares sobre práticas sustentáveis, justiça ambiental e os impactos da crise climática na vida de povos indígenas, pescadores artesanais, marisqueiras e ribeirinhos. Incentiva o diálogo entre ciência e saberes locais como estratégia para políticas mais justas e eficazes.",
-    icone: <Handshake className="h-6 w-6" />,
-  },
-  {
-    id: "comunicacao-educacao-oceanica",
-    numero: 5,
-    titulo: "Comunicação Científica e Educação Oceânica",
-    descricao:
-      "Foca na disseminação do conhecimento científico e no fortalecimento da cultura oceânica. Este eixo contempla iniciativas de popularização da ciência, produção de materiais educativos, ações em escolas e comunidades, bem como estratégias de comunicação voltadas à mobilização social e ao apoio de políticas públicas. Também são esperados trabalhos que explorem a comunicação de risco em contextos de crise climática.",
-    icone: <Mic className="h-6 w-6" />,
-  },
-  {
-    id: "politicas-governanca",
-    numero: 6,
-    titulo: "Políticas Públicas e Governança dos Mares",
-    descricao:
-      "Explora o papel das políticas públicas na proteção e gestão sustentável dos oceanos. Abrange temas como acordos multilaterais, criação de áreas marinhas protegidas, instrumentos legais nacionais, governança participativa e transparência na gestão costeira. Este eixo busca articular ciência, sociedade e Estado para promover uma governança oceânica eficaz e equitativa.",
-    icone: <Gavel className="h-6 w-6" />,
-  },
-  {
-    id: "solucoes-natureza",
-    numero: 7,
-    titulo: "Inovação, Sustentabilidade e Soluções Baseadas na Natureza",
-    descricao:
-      "Promove abordagens inovadoras para a regeneração e preservação dos ambientes marinhos. Engloba pesquisas sobre restauração de ecossistemas costeiros, energias renováveis oceânicas, economia azul, cadeias produtivas sustentáveis e tecnologias baseadas na natureza. O objetivo é estimular soluções que conciliem desenvolvimento socioeconômico e integridade ecológica.",
-    icone: <Leaf className="h-6 w-6" />,
-  },
-  {
-    id: "oceanos-clima",
-    numero: 8,
-    titulo: "Oceanos e Clima: Interações e Impactos",
-    descricao:
-      "Este eixo analisa o papel dos oceanos no sistema climático global e os efeitos das mudanças climáticas sobre os ambientes marinhos e costeiros. São bem-vindos estudos sobre eventos extremos, elevação do nível do mar, acidificação, impactos em comunidades vulneráveis e estratégias de mitigação e adaptação. A ênfase está em compreender e responder aos riscos climáticos com base científica sólida.",
-    icone: <CloudSun className="h-6 w-6" />,
-  },
-];
-
 export default function EixosTematicos() {
+  const t = useTranslations("EixosTematicos");
   const [expandedEixo, setExpandedEixo] = useState<string | null>(null);
+
+  const eixosTematicos: EixoTematicoProps[] = [
+    {
+      id: "diagnostico-oceanos",
+      numero: 1,
+      titulo: t("itens.0.titulo"),
+      descricao: t("itens.0.descricao"),
+      icone: <Waves className="h-6 w-6" />,
+    },
+    {
+      id: "poluicao-contaminantes",
+      numero: 2,
+      titulo: t("itens.1.titulo"),
+      descricao: t("itens.1.descricao"),
+      icone: <Recycle className="h-6 w-6" />,
+    },
+    {
+      id: "ciencia-aplicada",
+      numero: 3,
+      titulo: t("itens.2.titulo"),
+      descricao: t("itens.2.descricao"),
+      icone: <Cpu className="h-6 w-6" />,
+    },
+    {
+      id: "comunidades-saberes-locais",
+      numero: 4,
+      titulo: t("itens.3.titulo"),
+      descricao: t("itens.3.descricao"),
+      icone: <Handshake className="h-6 w-6" />,
+    },
+    {
+      id: "comunicacao-educacao-oceanica",
+      numero: 5,
+      titulo: t("itens.4.titulo"),
+      descricao: t("itens.4.descricao"),
+      icone: <Mic className="h-6 w-6" />,
+    },
+    {
+      id: "politicas-governanca",
+      numero: 6,
+      titulo: t("itens.5.titulo"),
+      descricao: t("itens.5.descricao"),
+      icone: <Gavel className="h-6 w-6" />,
+    },
+    {
+      id: "solucoes-natureza",
+      numero: 7,
+      titulo: t("itens.6.titulo"),
+      descricao: t("itens.6.descricao"),
+      icone: <Leaf className="h-6 w-6" />,
+    },
+    {
+      id: "oceanos-clima",
+      numero: 8,
+      titulo: t("itens.7.titulo"),
+      descricao: t("itens.7.descricao"),
+      icone: <CloudSun className="h-6 w-6" />,
+    },
+  ];
 
   const toggleEixo = (id: string) => {
     setExpandedEixo(expandedEixo === id ? null : id);
@@ -115,7 +109,7 @@ export default function EixosTematicos() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Eixos Temáticos para Submissão de Trabalhos
+            {t("titulo")}
           </motion.h2>
           <motion.p
             className="text-lg text-blue-700 max-w-3xl mx-auto"
@@ -124,7 +118,7 @@ export default function EixosTematicos() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Escolha um dos eixos abaixo para submeter seu trabalho científico
+            {t("descricao")}
           </motion.p>
         </div>
 
@@ -198,13 +192,13 @@ export default function EixosTematicos() {
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-4 bg-[#ff3333] hover:bg-[#e62e2e] text-white font-bold rounded-lg shadow-lg transition-all transform hover:scale-105"
           >
-            <span className="mr-2">Envie já seu trabalho na Doity</span>
+            <span className="mr-2">{t("envie_trabalho")}</span>
             <ExternalLink size={20} />
           </a>
 
           <p className="mt-4 text-sm text-gray-600">
-            Prazo para submissão:{" "}
-            <span className="font-semibold">15 de Maio de 2025</span>
+            {t("prazo_submissao")}:{" "}
+            <span className="font-semibold">{t("data_submissao")}</span>
           </p>
         </motion.div>
       </div>

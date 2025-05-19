@@ -350,5 +350,46 @@
     "parceiros": {
       "titulo": "Our Partners"
     }
+  },
+  "EixosTematicos": {
+    "titulo": "Thematic Axes for Submission of Works",
+    "descricao": "Choose one of the axes below to submit your scientific work",
+    "envie_trabalho": "Submit your work already in Doity",
+    "prazo_submissao": "Submission Deadline",
+    "data_submissao": "31 of July 2025",
+    "itens": [
+      {
+        "titulo": "Current Ocean Status: The Current Crisis",
+        "descricao": "This thematic axis addresses the current state of the oceans facing contemporary environmental challenges. It aims to gather studies that assess the health of marine ecosystems, highlighting indicators of environmental degradation, biodiversity loss, acidification, overfishing, and the impacts of climate change. Studies that use monitoring tools, marine modeling, and policy evaluation are also welcome. The goal is to provide a comprehensive and scientific overview of the real condition of the oceans at the local, regional, and global scale."
+      },
+      {
+        "titulo": "Emerging Pollutants and Contaminants",
+        "descricao": "This axis focuses on research aimed at identifying, characterizing, and mitigating pollutants in marine environments, with a special emphasis on emerging contaminants such as microplastics, nanoplastics, pharmaceutical residues, pesticides, and heavy metals. It welcomes studies that investigate sources, routes of dispersion, ecotoxicological effects, and possible solutions for these contaminants. It also includes innovative approaches in detection technologies, remediation, and prevention strategies with a focus on marine sustainability."
+      },
+      {
+        "titulo": "Science with Purpose: Applied Research to the Oceans",
+        "descricao": "This axis highlights applied science as a strategic tool to face ocean challenges. It welcomes studies that involve remote sensing monitoring, climate modeling, marine biotechnology, and solutions based on emerging technologies such as Artificial Intelligence and Big Data. The focus is on producing technical knowledge with direct impact on conservation, management, and sustainable use of the seas."
+      },
+      {
+        "titulo": "Traditional Communities and Local Knowledge",
+        "descricao": "This axis focuses on the importance of traditional knowledge and the protagonism of coastal communities in preserving the oceans. It values interdisciplinary studies on sustainable practices, environmental justice, and the impacts of climate change on the lives of indigenous peoples, artisanal fishermen, shellfish gatherers, and riverine communities. It encourages dialogue between science and local knowledge as a strategy for more just and effective policies."
+      },
+      {
+        "titulo": "Scientific Communication and Ocean Education",
+        "descricao": "This axis focuses on the dissemination of scientific knowledge and the strengthening of ocean culture. It includes initiatives for popularizing science, producing educational materials, actions in schools and communities, as well as communication strategies for social mobilization and support for public policies. It also welcomes studies that explore risk communication in contexts of climate crisis."
+      },
+      {
+        "titulo": "Public Policies and Ocean Governance",
+        "descricao": "This axis explores the role of public policies in protecting and managing sustainable oceans. It covers topics such as multilateral agreements, creation of protected marine areas, national legal instruments, participatory governance, and transparency in coastal management. This axis seeks to articulate science, society, and State to promote effective and equitable ocean governance."
+      },
+      {
+        "titulo": "Innovation, Sustainability and Nature-Based Solutions",
+        "descricao": "This axis promotes innovative approaches to the regeneration and preservation of marine environments. It includes studies on coastal ecosystem restoration, renewable ocean energies, blue economy, sustainable supply chains, and nature-based technologies. The goal is to stimulate solutions that reconcile socioeconomic development and ecological integrity."
+      },
+      {
+        "titulo": "Oceans and Climate: Interactions and Impacts",
+        "descricao": "This axis analyzes the role of oceans in the global climate system and the effects of climate change on marine and coastal environments. It welcomes studies on extreme events, sea level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies. The focus is on understanding and responding to climate risks based on solid scientific evidence."
+      }
+    ]
   }
 }

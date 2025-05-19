@@ -344,5 +344,46 @@
     "parceiros": {
       "titulo": "Nuestros Socios"
     }
+  },
+  "EixosTematicos": {
+    "titulo": "Ejes Temáticos para Envío de Trabajos",
+    "descricao": "Escoja un eje temático abajo para enviar su trabajo científico",
+    "envie_trabalho": "Envíe su trabajo en Doity",
+    "prazo_submissao": "Plazo para envío",
+    "data_submissao": "31 de julio de 2025",
+    "itens": [
+      {
+        "titulo": "Diagnóstico de los Oceanos: La Crisis Actual",
+        "descricao": "Este tema temático aborda el estado actual de los océanos frente a los desafíos ambientales contemporáneos. Busca reunir estudios que evalúen la salud de los ecosistemas marinos, destacando indicadores de degradación ambiental, pérdida de biodiversidad, acidificación, sobrepesca y impactos de las cambiantes climáticas. Se invitan investigaciones que utilicen herramientas de monitoreo, modelización oceánica y evaluación de políticas de conservación también son bienvenidas. El objetivo es proporcionar un panorama completo y científico sobre la verdadera condición de los océanos en escala local, regional y global."
+      },
+      {
+        "titulo": "Contaminación y Contaminantes Emergentes",
+        "descricao": "Este tema temático aborda el estado actual de los océanos frente a los desafíos ambientales contemporáneos. Busca reunir estudios que evalúen la salud de los ecosistemas marinos, destacando indicadores de degradación ambiental, pérdida de biodiversidad, acidificación, sobrepesca y impactos de las cambiantes climáticas. Se invitan investigaciones que utilicen herramientas de monitoreo, modelización oceánica y evaluación de políticas de conservación también son bienvenidas. El objetivo es proporcionar un panorama completo y científico sobre la verdadera condición de los océanos en escala local, regional y global."
+      },
+      {
+        "titulo": "Ciencia con Propósito: Investigaciones Aplicadas a los Oceanos",
+        "descricao": "Este tema temático aborda el estado actual de los océanos frente a los desafíos ambientales contemporáneos. Busca reunir estudios que evalúen la salud de los ecosistemas marinos, destacando indicadores de degradación ambiental, pérdida de biodiversidad, acidificación, sobrepesca y impactos de las cambiantes climáticas. Se invitan investigaciones que utilicen herramientas de monitoreo, modelización oceánica y evaluación de políticas de conservación también son bienvenidas. El objetivo es proporcionar un panorama completo y científico sobre la verdadera condición de los océanos en escala local, regional y global."
+      },
+      {
+        "titulo": "Comunidades Tradicionales y Saberes Locales",
+        "descricao": "Aborda la importancia de los conocimientos tradicionales y el protagonismo de las comunidades costeras en la preservación de los océanos. Este tema temático valoriza estudios interdisciplinarios sobre prácticas sostenibles, justicia ambiental y los impactos de la crisis climática en la vida de pueblos indígenas, pescadores artesanales, marisqueiras y ribeirinhos. Incentiva el diálogo entre ciencia y saberes locales como estrategia para políticas más justas y eficaces."
+      },
+      {
+        "titulo": "Comunicación Científica y Educación Oceánica",
+        "descricao": "Foca en la difusión del conocimiento científico y el fortalecimiento de la cultura oceánica. Este tema temático contempla iniciativas de popularización de la ciencia, producción de materiales educativos, acciones en escuelas y comunidades, así como estrategias de comunicación dirigidas a la mobilización social y el apoyo a políticas públicas. También se esperan trabajos que exploren la comunicación de riesgo en contextos de crisis climática."
+      },
+      {
+        "titulo": "Políticas Públicas y Gestión de los Mares",
+        "descricao": "Explora el papel de las políticas públicas en la protección y gestión sostenible de los océanos. Abarca temas como acuerdos multilaterales, creación de áreas marinas protegidas, instrumentos legales nacionales, gobernanza participativa y transparencia en la gestión costera. Este tema temático busca articular ciencia, sociedad y Estado para promover una gobernanza oceánica eficaz y equitativa."
+      },
+      {
+        "titulo": "Innovación, Sostenibilidad y Soluciones Basadas en la Naturaleza",
+        "descricao": "Promove abordagens inovadoras para la regeneración y preservación de los entornos marinos. Engloba investigaciones sobre restauración de ecosistemas costeros, energías renovables oceánicas, economía azul, cadenas productivas sostenibles y tecnologías basadas en la naturaleza. El objetivo es estimular soluciones que concilien desarrollo socioeconómico y ecosistema ecológico."
+      },
+      {
+        "titulo": "Oceanos y Clima: Interacciones y Efectos",
+        "descricao": "Este tema temático analiza el papel de los océanos en el sistema climático global y los efectos de las mudanças climáticas sobre los entornos marinos y costeros. São bem-vindos estudos sobre eventos extremos, elevação do nível do mar, acidificação, impactos em comunidades vulneráveis e estratégias de mitigação e adaptação. A ênfase está em compreender e responder aos riscos climáticos com base científica sólida."
+      }
+    ]
   }
 }
