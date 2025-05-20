@@ -429,5 +429,16 @@
         "descricao": "Este tema temático analiza el papel de los océanos en el sistema climático global y los efectos de las mudanças climáticas sobre los entornos marinos y costeros. São bem-vindos estudos sobre eventos extremos, elevação do nível do mar, acidificação, impactos em comunidades vulneráveis e estratégias de mitigação e adaptação. A ênfase está em compreender e responder aos riscos climáticos com base científica sólida."
       }
     ]
+  },
+  "Footer": {
+    "local1": "Cesmac Centro Universitario",
+    "local2": "Alagoas - Maceió",
+    "links_rapidos_titulo": "Enlaces Rápidos",
+    "links_rapidos": ["Inicio", "Programación", "Inscripciones", "Contacto"],
+    "parceiros_titulo": "Socios",
+    "redes_sociais_titulo": "Redes Sociales",
+    "termos_de_uso": "Términos de Uso",
+    "politica_de_privacidade": "Política de Privacidad",
+    "direitos_reservados": "© 2025 II IWPPO. Todos los derechos reservados."
   }
 }

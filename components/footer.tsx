@@ -15,6 +15,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -41,6 +42,7 @@ export default function Footer() {
     }, 5000);
   };
 
+  const t = useTranslations("Footer");
   return (
     <footer
       className="bg-[#0A0F70] text-white pt-12 pb-6 rounded-t-lg"
@@ -78,8 +80,8 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-blue-300" />
                 <div>
-                  <p className="text-sm">Centro Universitário Cesmac</p>
-                  <p className="text-sm">Alagoas - Maceió</p>
+                  <p className="text-sm">{t("local1")}</p>
+                  <p className="text-sm">{t("local2")}</p>
                 </div>
               </li>
             </ul>
@@ -88,7 +90,7 @@ export default function Footer() {
           {/* Coluna 2 - Links Rápidos */}
           <div>
             <h4 className="text-lg font-semibold mb-4 border-b border-blue-700 pb-2">
-              Links Rápidos
+              {t("links_rapidos_titulo")}
             </h4>
             <ul className="space-y-2">
               <li>
@@ -97,7 +99,7 @@ export default function Footer() {
                   className="text-sm hover:text-blue-300 transition-colors flex items-center"
                 >
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  Início
+                  {t("links_rapidos.0")}
                 </Link>
               </li>
               <li>
@@ -106,7 +108,7 @@ export default function Footer() {
                   className="text-sm hover:text-blue-300 transition-colors flex items-center"
                 >
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  Programação
+                  {t("links_rapidos.1")}
                 </Link>
               </li>
               <li>
@@ -115,7 +117,7 @@ export default function Footer() {
                   className="text-sm hover:text-blue-300 transition-colors flex items-center"
                 >
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  Inscrição
+                  {t("links_rapidos.2")}
                 </Link>
               </li>
               <li>
@@ -124,13 +126,13 @@ export default function Footer() {
                   className="text-sm hover:text-blue-300 transition-colors flex items-center"
                 >
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  Contato
+                  {t("links_rapidos.3")}
                 </Link>
               </li>
             </ul>
 
             <h4 className="text-lg font-semibold mt-6 mb-4 border-b border-blue-700 pb-2">
-              Redes Sociais
+              {t("redes_sociais_titulo")}
             </h4>
             <div className="flex space-x-4">
               <a
@@ -157,17 +159,17 @@ export default function Footer() {
           {/* Coluna 3 - Parceiros */}
           <div>
             <h4 className="text-lg font-semibold mb-4 border-b border-blue-700 pb-2">
-              Parceiros
+              {t("parceiros_titulo")}
             </h4>
             <ul className="space-y-3">
               {[
                 {
-                  name: "Centro Universitário Cesmac",
+                  name: "CESMAC",
                   url: "https://www.cesmac.edu.br/",
                 },
                 { name: "CNPq", url: "https://www.cnpq.br/" },
                 {
-                  name: "ONU Década dos Oceanos",
+                  name: "ONU",
                   url: "https://www.un.org/decade/",
                 },
                 { name: "CAPES", url: "https://www.capes.gov.br/" },
@@ -186,70 +188,18 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
-          {/* Coluna 4 - Newsletter */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4 border-b border-blue-700 pb-2">
-              Newsletter
-            </h4>
-            <p className="text-sm mb-4">
-              Receba atualizações sobre o evento e novidades diretamente no seu
-              email.
-            </p>
-
-            <form onSubmit={handleSubscribe} className="space-y-3">
-              <div className="flex">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Seu email"
-                  className="p-2 rounded-l text-gray-800 w-full text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  aria-label="Seu endereço de email"
-                />
-                <button
-                  type="submit"
-                  className="bg-[#0077B6] p-2 rounded-r hover:bg-[#0066A0] transition-colors"
-                  aria-label="Assinar newsletter"
-                >
-                  <ArrowRight size={20} />
-                </button>
-              </div>
-
-              {error && <p className="text-red-400 text-xs">{error}</p>}
-              {subscribed && (
-                <motion.p
-                  className="text-green-400 text-xs"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                >
-                  Obrigado por se inscrever!
-                </motion.p>
-              )}
-            </form>
-
-            <div className="mt-6 text-xs">
-              <p>
-                Ao se inscrever, você concorda com nossa{" "}
-                <Link href="#" className="text-blue-300 hover:underline">
-                  Política de Privacidade
-                </Link>
-                .
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Copyright e Links Legais */}
         <div className="mt-12 pt-6 border-t border-blue-800 flex flex-col md:flex-row justify-between items-center text-xs text-blue-200">
-          <p>© 2025 II IWPPO. Todos os direitos reservados.</p>
+          <p>{t("direitos_reservados")}</p>
 
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-blue-300 transition-colors">
-              Termos de Uso
+              {t("termos_de_uso")}
             </Link>
             <Link href="#" className="hover:text-blue-300 transition-colors">
-              Política de Privacidade
+              {t("politica_de_privacidade")}
             </Link>
           </div>
         </div>

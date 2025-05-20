@@ -435,5 +435,16 @@
         "descricao": "This axis analyzes the role of oceans in the global climate system and the effects of climate change on marine and coastal environments. It welcomes studies on extreme events, sea level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies. The focus is on understanding and responding to climate risks based on solid scientific evidence."
       }
     ]
+  },
+  "Footer": {
+    "local1": "Cesmac University Center",
+    "local2": "Alagoas - Maceió",
+    "links_rapidos_titulo": "Quick Links",
+    "links_rapidos": ["Home", "Schedule", "Registration", "Contact"],
+    "parceiros_titulo": "Partners",
+    "redes_sociais_titulo": "Social Media",
+    "termos_de_uso": "Terms of Use",
+    "politica_de_privacidade": "Privacy Policy",
+    "direitos_reservados": "© 2025 II IWPPO. All rights reserved."
   }
 }
