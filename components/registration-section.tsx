@@ -26,9 +26,9 @@ export default function RegistrationSection() {
       title: "Aluno de Graduação",
       price: "R$ 30,00",
       features: [
-        "Acesso a todas as palestras",
-        "Material digital",
-        "Certificado de participação",
+        t("plans.features.access_lectures"),
+        t("plans.features.digital_material"),
+        t("plans.features.participation_certificate"),
       ],
       icon: <Users className="h-6 w-6" />,
       color: "bg-blue-500",
@@ -39,10 +39,10 @@ export default function RegistrationSection() {
       title: "Aluno de Pós-Graduação",
       price: "R$ 70,00",
       features: [
-        "Acesso a todas as palestras",
-        "Material digital e impresso",
-        "Certificado de participação",
-        "Acesso prioritário aos workshops",
+        t("plans.features.access_lectures"),
+        t("plans.features.printed_material"),
+        t("plans.features.participation_certificate"),
+        t("plans.features.priority_workshops"),
       ],
       icon: <Award className="h-6 w-6" />,
       color: "bg-blue-700",
@@ -54,10 +54,10 @@ export default function RegistrationSection() {
       title: "Professor de Ensino Superior / Pesquisador",
       price: "R$ 100,00",
       features: [
-        "Acesso a todas as palestras",
-        "Material digital e impresso",
-        "Certificado de participação",
-        "Acesso prioritário aos workshops",
+        t("plans.features.access_lectures"),
+        t("plans.features.printed_material"),
+        t("plans.features.participation_certificate"),
+        t("plans.features.priority_workshops"),
       ],
       icon: <Award className="h-6 w-6" />,
       color: "bg-blue-700",
@@ -69,10 +69,10 @@ export default function RegistrationSection() {
       title: "Professor de Educação Básica",
       price: "R$ 0,00",
       features: [
-        "Acesso a todas as palestras",
-        "Material digital",
-        "Certificado de participação",
-        "Certificado de apresentação",
+        t("plans.features.access_lectures"),
+        t("plans.features.digital_material"),
+        t("plans.features.participation_certificate"),
+        t("plans.features.presentation_certificate"),
       ],
       icon: <Ticket className="h-6 w-6" />,
       color: "bg-blue-600",
@@ -159,7 +159,7 @@ export default function RegistrationSection() {
             >
               {plan.recommended && (
                 <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                  Recomendado
+                  {t("plans.recommended")}
                 </div>
               )}
 
@@ -187,8 +187,7 @@ export default function RegistrationSection() {
                 </ul>
 
                 <div className="text-sm text-gray-500 mb-6">
-                  <span className="font-medium">Prazo:</span> até{" "}
-                  {plan.deadline}
+                  {t("plans.deadline", { date: plan.deadline })}
                 </div>
 
                 <button
@@ -200,7 +199,7 @@ export default function RegistrationSection() {
                   onClick={() => setSelectedPlan(plan.id)}
                   aria-pressed={selectedPlan === plan.id}
                 >
-                  {selectedPlan === plan.id ? "Selecionado" : "Selecionar"}
+                  {selectedPlan === plan.id ? t("plans.selected") : t("plans.select")}
                 </button>
               </div>
             </motion.div>
@@ -225,7 +224,7 @@ export default function RegistrationSection() {
             onClick={(e) => {
               if (!selectedPlan) {
                 e.preventDefault();
-                alert("Por favor, selecione um plano de inscrição");
+                alert(t("plans.select_plan_alert"));
               }
             }}
           >
@@ -235,7 +234,7 @@ export default function RegistrationSection() {
 
           {!selectedPlan && (
             <p className="text-sm text-gray-500 mt-3">
-              Por favor, selecione um plano acima para continuar
+              {t("plans.select_plan_message")}
             </p>
           )}
         </motion.div>

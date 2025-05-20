@@ -79,7 +79,23 @@
     "additional_info_title": "Informações Importantes",
     "additional_info_1": "Estudantes devem apresentar comprovante de matrícula válido.",
     "additional_info_2": "O pagamento pode ser realizado via PIX, cartão de crédito ou boleto bancário.",
-    "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento."
+    "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento.",
+    "plans": {
+      "features": {
+        "access_lectures": "Acesso a todas as palestras",
+        "digital_material": "Material digital",
+        "printed_material": "Material digital e impresso",
+        "participation_certificate": "Certificado de participação",
+        "priority_workshops": "Acesso prioritário aos workshops",
+        "presentation_certificate": "Certificado de apresentação"
+      },
+      "recommended": "Recomendado",
+      "deadline": "Prazo: até {date}",
+      "select": "Selecionar",
+      "selected": "Selecionado",
+      "select_plan_alert": "Por favor, selecione um plano de inscrição",
+      "select_plan_message": "Por favor, selecione um plano acima para continuar"
+    }
   },
   "LocationSection": {
     "title": "Localização",
@@ -373,7 +389,17 @@
   "ComissaoOrganizadora": {
     "title": "Comissão Organizadora",
     "event_title": " International Workshop on Plastic Pollution in the Oceans",
-    "subtitle": "Nosso comissão organizadora é composta por renomados pesquisadores e especialistas internacionais dedicados ao estudo e combate da poluição plástica nos oceanos."
+    "subtitle": "Nosso comissão organizadora é composta por renomados pesquisadores e especialistas internacionais dedicados ao estudo e combate da poluição plástica nos oceanos.",
+    "stats": {
+      "countries": {
+        "value": "15+",
+        "label": "Países Representados"
+      },
+      "members": {
+        "value": "30+",
+        "label": "Membres do Comitê"
+      }
+    }
   },
   "ParceirosApoioERealizacao": {
     "apoiadores": {
@@ -451,5 +477,74 @@
     "termos_de_uso": "Termos de Uso",
     "politica_de_privacidade": "Política de Privacidade",
     "direitos_reservados": "© 2025 II IWPPO. Todos os direitos reservados."
+  },
+  "PalestrantesConfirmados": {
+    "title1": "Quem já",
+    "title2": "está confirmado",
+    "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
+    "placeholder": "Buscar palestrantes ou temas...",
+    "palestrantes": {
+      "robson-santos": {
+        "nome": "Robson Guimarães dos Santos",
+        "cargo": "Pesquisador",
+        "instituicao": "UFAL",
+        "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
+        "nacionalidade": "Brasil"
+      },
+      "claudio-sampaio": {
+        "nome": "Cláudio Luis Santos Sampaio",
+        "cargo": "Pesquisador",
+        "instituicao": "UFAL",
+        "palestra": "Premiação aos pesquisadores que contribuem com as temáticas do evento",
+        "nacionalidade": "Brasil"
+      },
+      "carlos-sampaio": {
+        "nome": "Carlos Alberto Cioce Sampaio",
+        "cargo": "Pesquisador",
+        "instituicao": "USP",
+        "palestra": "Cerimônia de Abertura",
+        "nacionalidade": "Brasil"
+      },
+      "brendan-kelaher": {
+        "nome": "Brendan Kelaher",
+        "cargo": "Pesquisador Internacional",
+        "instituicao": "Southern Cross University",
+        "palestra": "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
+        "nacionalidade": "Estrangeiro"
+      },
+      "fernando-lopez": {
+        "nome": "Fernando J. Díaz López",
+        "cargo": "Pesquisador Internacional",
+        "instituicao": "Climate and Earth Center of HEC Paris",
+        "palestra": "Cerimônia de Fechamento",
+        "nacionalidade": "Estrangeiro"
+      },
+      "alejandro-tagliafico": {
+        "nome": "Alejandro Tagliafico",
+        "cargo": "Pesquisador Internacional",
+        "instituicao": "Southern Cross University",
+        "palestra": "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
+        "nacionalidade": "Estrangeiro"
+      },
+      "scott-wilson": {
+        "nome": "Scott Paton Wilson",
+        "cargo": "Pesquisador Internacional",
+        "instituicao": "Macquarie University",
+        "palestra": "Cerimônia de Abertura",
+        "nacionalidade": "Estrangeiro"
+      },
+      "katia-viana": {
+        "nome": "Katia Viana Cavalcante",
+        "cargo": "Pesquisador",
+        "instituicao": "Southern Cross University",
+        "palestra": "Cerimônia de Abertura",
+        "nacionalidade": "Brasil"
+      }
+    }
+  },
+  "ComiteCientifico": {
+    "title": "Comitê Científico",
+    "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
+    "description": "Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos."
   }
 }

@@ -81,7 +81,7 @@ const membrosComissao: MemberProps[] = [
   },
   {
     name: "Fernando J. Dìas Lopez",
-    country: "Estrangeiro",
+    country: "México",
     lattesUrl: null,
     title: "",
     image: "/palestrantes/dias.jpeg",
@@ -94,6 +94,17 @@ const membrosComissao: MemberProps[] = [
     image: "/comissao-organizadora/romickson.jpeg",
   },
 ];
+
+// Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália
+const UKFlagIcon = () => (
+  <img src="/flags/australia.png" alt="Austrália" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
+const ItalyFlagIcon = () => (
+  <img src="/flags/italy.png" alt="Itália" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
+const MexicoFlagIcon = () => (
+  <img src="/flags/mexico.png" alt="México" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
 
 export default function ComissaoOrganizadora() {
   const ref = useRef(null);
@@ -200,6 +211,18 @@ export default function ComissaoOrganizadora() {
                 <>
                   <BrazilFlagIcon className="h-4 w-4 mr-2" />
                 </>
+              ) : membro.country === "Reino Unido" ? (
+                <>
+                  <UKFlagIcon />
+                </>
+              ) : membro.country === "Itália" ? (
+                <>
+                  <ItalyFlagIcon />
+                </>
+              ) : membro.country === "México" ? (
+                <>
+                  <MexicoFlagIcon />
+                </>
               ) : (
                 membro.country
               )}
@@ -228,18 +251,22 @@ export default function ComissaoOrganizadora() {
           variants={memberVariants}
           className="bg-blue-50 p-4 md:p-6 rounded-lg"
         >
-          <h4 className="text-2xl md:text-3xl font-bold text-blue-900">15+</h4>
+          <h4 className="text-2xl md:text-3xl font-bold text-blue-900">
+            {t("stats.countries.value")}
+          </h4>
           <p className="text-sm md:text-base text-blue-700">
-            Países Representados
+            {t("stats.countries.label")}
           </p>
         </motion.div>
         <motion.div
           variants={memberVariants}
           className="bg-blue-50 p-4 md:p-6 rounded-lg"
         >
-          <h4 className="text-2xl md:text-3xl font-bold text-blue-900">30+</h4>
+          <h4 className="text-2xl md:text-3xl font-bold text-blue-900">
+            {t("stats.members.value")}
+          </h4>
           <p className="text-sm md:text-base text-blue-700">
-            Membros do Comitê
+            {t("stats.members.label")}
           </p>
         </motion.div>
       </motion.div>

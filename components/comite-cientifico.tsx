@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 import { Link } from "lucide-react";
 import { useRef, useEffect, useState } from "react";
 import { BrazilFlagIcon } from "./language-selector";
+import { useTranslations } from "next-intl";
 
 interface MemberProps {
   name: string;
@@ -14,6 +15,17 @@ interface MemberProps {
   lattesUrl: string | null;
 }
 
+// Componentes de bandeira para Reino Unido (usando Austrália como solicitado), Itália e México
+const UKFlagIcon = () => (
+  <img src="/flags/australia.png" alt="Austrália" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
+const ItalyFlagIcon = () => (
+  <img src="/flags/italy.png" alt="Itália" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
+const MexicoFlagIcon = () => (
+  <img src="/flags/mexico.png" alt="México" className="inline-block align-middle mr-2 rounded-full border-2 border-white shadow ring-2 ring-blue-200 bg-white/80 transition-transform duration-150 hover:scale-110" style={{ width: 32, height: 32, objectFit: 'cover' }} />
+);
+
 export default function ComiteCientifico() {
   const ref = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -22,6 +34,8 @@ export default function ComiteCientifico() {
     amount: 0.1,
     margin: "0px 0px -100px 0px",
   });
+
+  const t = useTranslations("ComiteCientifico");
 
   useEffect(() => {
     const checkMobile = () => {
@@ -221,7 +235,7 @@ export default function ComiteCientifico() {
     },
     {
       name: "Scott Paton Wilson",
-      country: "Estrangeiro",
+      country: "Reino Unido",
       lattesUrl: null,
       title: "",
       image: "/comite-cientifico/scott_patton_wilson.jpg",
@@ -242,15 +256,13 @@ export default function ComiteCientifico() {
         className="text-center mb-8 md:mb-12 px-4"
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-          Comitê Científico
+          {t("title")}
         </h2>
         <p className="text-base sm:text-lg md:text-xl text-blue-700 max-w-3xl mx-auto">
-          2nd International Workshop on Plastic Pollution in the Oceans
+          {t("subtitle")}
         </p>
         <p className="mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-          Nosso comitê científico é formado por pesquisadores renomados
-          dedicados ao avanço do conhecimento sobre a poluição plástica nos
-          oceanos.
+          {t("description")}
         </p>
       </motion.div>
 
@@ -289,6 +301,18 @@ export default function ComiteCientifico() {
               {membro.country === "Brasil" ? (
                 <>
                   <BrazilFlagIcon className="h-4 w-4 mr-2" />
+                </>
+              ) : membro.country === "Reino Unido" ? (
+                <>
+                  <UKFlagIcon />
+                </>
+              ) : membro.country === "Itália" ? (
+                <>
+                  <ItalyFlagIcon />
+                </>
+              ) : membro.country === "México" ? (
+                <>
+                  <MexicoFlagIcon />
                 </>
               ) : (
                 membro.country

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Instagram, Linkedin, ExternalLink, Search, FileText } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface Palestrante {
   id: string;
@@ -21,98 +22,99 @@ interface Palestrante {
   colorIndex?: number; // Índice da cor a ser usada (1-9 para blue-100 até blue-900)
 }
 
-const palestrantes: Palestrante[] = [
-  {
-    id: "robson-santos",
-    nome: "Robson Guimarães dos Santos",
-    cargo: "Pesquisador",
-    instituicao: "Centro Universitário Cesmac",
-    foto: "/palestrantes/robson.png",
-    palestra: "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
-    nacionalidade: "Brasil",
-    cv: "http://lattes.cnpq.br/3415855125714979",
-    linkedin: "https://linkedin.com/in/robsonguimaraes",
-  },
-  {
-    id: "claudio-sampaio",
-    nome: "Cláudio Luis Santos Sampaio",
-    cargo: "Pesquisador",
-    instituicao: "Centro Universitário Cesmac",
-    foto: "/palestrantes/claudio.png",
-    palestra: "Premiação aos pesquisadores que contribuem com as temáticas do evento",
-    nacionalidade: "Brasil",
-    cv: "http://lattes.cnpq.br/2526336992077506",
-    linkedin: "https://linkedin.com/in/claudioluissampaio",
-  },
-  {
-    id: "carlos-sampaio",
-    nome: "Carlos Alberto Cioce Sampaio",
-    cargo: "Pesquisador",
-    instituicao: "Centro Universitário Cesmac",
-    foto: "/palestrantes/carlos.png",
-    palestra: "Cerimônia de Abertura",
-    nacionalidade: "Brasil",
-    cv: "http://lattes.cnpq.br/9034603212802471",
-    linkedin: "https://linkedin.com/in/carlosalbertociocesampaio",
-  },
-  {
-    id: "brendan-kelaher",
-    nome: "Brendan Kelaher",
-    cargo: "Pesquisador Internacional",
-    instituicao: "Southern Cross University",
-    foto: "/palestrantes/brendan.png",
-    palestra: "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
-    nacionalidade: "Estrangeiro",
-    cv: "BrendanKelaher_125970.pdf",
-    linkedin: "https://linkedin.com/in/brendankelaher",
-  },
-  {
-    id: "fernando-lopez",
-    nome: "Fernando J. Díaz López",
-    cargo: "Pesquisador Internacional",
-    instituicao: "Universidad de Barcelona",
-    foto: "/palestrantes/dias.jpeg",
-    palestra: "Cerimônia de Fechamento",
-    nacionalidade: "Estrangeiro",
-    cv: "FernandoJ.DiazLopez_125998.pdf",
-    website: "https://universidadbarcelona.es/fernandodiaz",
-  },
-  {
-    id: "alejandro-tagliafico",
-    nome: "Alejandro Tagliafico",
-    cargo: "Pesquisador Internacional",
-    instituicao: "Southern Cross University",
-    foto: "/palestrantes/alejandro.png",
-    palestra: "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
-    nacionalidade: "Estrangeiro",
-    cv: "AlejandroTagliafico_125972.pdf",
-    linkedin: "https://linkedin.com/in/alejandrotagliafico",
-  },
-  {
-    id: "scott-wilson",
-    nome: "Scott Paton Wilson",
-    cargo: "Pesquisador Internacional",
-    instituicao: "Southern Cross University",
-    foto: "/palestrantes/scott_patton_wilson.jpg",
-    palestra: "Cerimônia de Abertura",
-    nacionalidade: "Estrangeiro",
-    cv: "ScoottPatonWilson_125977.pdf",
-    linkedin: "https://linkedin.com/in/scottpatonwilson",
-  },
-  {
-    id: "katia-viana",
-    nome: "Katia Viana Cavalcante",
-    cargo: "Pesquisador Internacional",
-    instituicao: "Southern Cross University",
-    foto: "/comissao-organizadora/katia.png",
-    palestra: "Cerimônia de Abertura",
-    nacionalidade: "Estrangeiro",
-    cv: "http://lattes.cnpq.br/2715253110435470in/scottpatonwilson",
-  },
-];
-
 export default function PalestrantesConfirmados() {
   const [searchTerm, setSearchTerm] = useState("");
+  const t = useTranslations("PalestrantesConfirmados");
+
+  const palestrantes: Palestrante[] = [
+    {
+      id: "robson-santos",
+      nome: t("palestrantes.robson-santos.nome"),
+      cargo: t("palestrantes.robson-santos.cargo"),
+      instituicao: t("palestrantes.robson-santos.instituicao"),
+      foto: "/palestrantes/robson.png",
+      palestra: t("palestrantes.robson-santos.palestra"),
+      nacionalidade: t("palestrantes.robson-santos.nacionalidade"),
+      cv: "http://lattes.cnpq.br/3415855125714979",
+      linkedin: "https://linkedin.com/in/robsonguimaraes",
+    },
+    {
+      id: "claudio-sampaio",
+      nome: t("palestrantes.claudio-sampaio.nome"),
+      cargo: t("palestrantes.claudio-sampaio.cargo"),
+      instituicao: t("palestrantes.claudio-sampaio.instituicao"),
+      foto: "/palestrantes/claudio.png",
+      palestra: t("palestrantes.claudio-sampaio.palestra"),
+      nacionalidade: t("palestrantes.claudio-sampaio.nacionalidade"),
+      cv: "http://lattes.cnpq.br/2526336992077506",
+      linkedin: "https://linkedin.com/in/claudioluissampaio",
+    },
+    {
+      id: "katia-viana",
+      nome: t("palestrantes.katia-viana.nome"),
+      cargo: t("palestrantes.katia-viana.cargo"),
+      instituicao: t("palestrantes.katia-viana.instituicao"),
+      foto: "/comissao-organizadora/katia.png",
+      palestra: t("palestrantes.katia-viana.palestra"),
+      nacionalidade: t("palestrantes.katia-viana.nacionalidade"),
+      cv: "",
+    },
+    {
+      id: "carlos-sampaio",
+      nome: t("palestrantes.carlos-sampaio.nome"),
+      cargo: t("palestrantes.carlos-sampaio.cargo"),
+      instituicao: t("palestrantes.carlos-sampaio.instituicao"),
+      foto: "/palestrantes/carlos.png",
+      palestra: t("palestrantes.carlos-sampaio.palestra"),
+      nacionalidade: t("palestrantes.carlos-sampaio.nacionalidade"),
+      cv: "http://lattes.cnpq.br/9034603212802471",
+      linkedin: "https://linkedin.com/in/carlosalbertociocesampaio",
+    },
+    {
+      id: "brendan-kelaher",
+      nome: t("palestrantes.brendan-kelaher.nome"),
+      cargo: t("palestrantes.brendan-kelaher.cargo"),
+      instituicao: t("palestrantes.brendan-kelaher.instituicao"),
+      foto: "/palestrantes/brendan.png",
+      palestra: t("palestrantes.brendan-kelaher.palestra"),
+      nacionalidade: t("palestrantes.brendan-kelaher.nacionalidade"),
+      cv: "BrendanKelaher_125970.pdf",
+      linkedin: "https://linkedin.com/in/brendankelaher",
+    },
+    {
+      id: "fernando-lopez",
+      nome: t("palestrantes.fernando-lopez.nome"),
+      cargo: t("palestrantes.fernando-lopez.cargo"),
+      instituicao: t("palestrantes.fernando-lopez.instituicao"),
+      foto: "/palestrantes/dias.jpeg",
+      palestra: t("palestrantes.fernando-lopez.palestra"),
+      nacionalidade: t("palestrantes.fernando-lopez.nacionalidade"),
+      cv: "FernandoJ.DiazLopez_125998.pdf",
+      website: "https://universidadbarcelona.es/fernandodiaz",
+    },
+    {
+      id: "alejandro-tagliafico",
+      nome: t("palestrantes.alejandro-tagliafico.nome"),
+      cargo: t("palestrantes.alejandro-tagliafico.cargo"),
+      instituicao: t("palestrantes.alejandro-tagliafico.instituicao"),
+      foto: "/palestrantes/alejandro.png",
+      palestra: t("palestrantes.alejandro-tagliafico.palestra"),
+      nacionalidade: t("palestrantes.alejandro-tagliafico.nacionalidade"),
+      cv: "AlejandroTagliafico_125972.pdf",
+      linkedin: "https://linkedin.com/in/alejandrotagliafico",
+    },
+    {
+      id: "scott-wilson",
+      nome: t("palestrantes.scott-wilson.nome"),
+      cargo: t("palestrantes.scott-wilson.cargo"),
+      instituicao: t("palestrantes.scott-wilson.instituicao"),
+      foto: "/palestrantes/scott_patton_wilson.jpg",
+      palestra: t("palestrantes.scott-wilson.palestra"),
+      nacionalidade: t("palestrantes.scott-wilson.nacionalidade"),
+      cv: "ScoottPatonWilson_125977.pdf",
+      linkedin: "https://linkedin.com/in/scottpatonwilson",
+    },
+  ];
 
   // Filtrar palestrantes com base no termo de busca
   const filteredPalestrantes = palestrantes.filter(
@@ -138,7 +140,7 @@ export default function PalestrantesConfirmados() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Quem já <span className="text-blue-200">está confirmado</span>
+            {t("title1")} <span className="text-blue-200">{t("title2")}</span>
           </motion.h2>
           <motion.p
             className="text-lg text-blue-100 max-w-2xl mx-auto"
@@ -147,8 +149,7 @@ export default function PalestrantesConfirmados() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Conheça os especialistas que compartilharão seus conhecimentos no
-            IWPPO
+            {t("descricao")}
           </motion.p>
         </div>
 
@@ -157,7 +158,7 @@ export default function PalestrantesConfirmados() {
           <div className="relative">
             <input
               type="text"
-              placeholder="Buscar palestrantes ou temas..."
+              placeholder={t("placeholder")}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full bg-blue-950/80 border border-blue-600 rounded-full py-3 px-5 pl-12 text-white placeholder-blue-300/70 focus:outline-none focus:ring-2 focus:ring-blue-400"

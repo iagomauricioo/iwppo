@@ -11,38 +11,47 @@ const parceiros = [
   {
     nome: "Parceiro 3",
     logo: "/parceiros/fapeal.png",
+    website: "https://www.fapeal.br/",
   },
   {
     nome: "Parceiro 5",
     logo: "/parceiros/oceandecade.png",
+    website: "https://www.oceandecade.org/",
   },
   {
     nome: "Parceiro 6",
     logo: "/parceiros/athena.png",
+    website: "https://athenainitiative.org/",
   },
   {
     nome: "Parceiro 7",
     logo: "/parceiros/numas.png",
+    website: "https://numas.ufal.br/",
   },
   {
     nome: "Parceiro 8",
     logo: "/parceiros/oceanosdeplastico.png",
+    website: "https://oceanosdeplastico.com.br/",
   },
   {
     nome: "Parceiro 9",
     logo: "/parceiros/unesco.png",
+    website: "https://www.unesco.org/pt",
   },
   {
     nome: "Parceiro 10",
     logo: "/parceiros/vittia.png",
+    website: "https://www.vittia.com.br/",
   },
   {
     nome: "Parceiro 11",
     logo: "/parceiros/acpn.png",
+    website: "https://acpn.org.br/",
   },
   {
     nome: "Parceiro 12",
     logo: "/parceiros/ecoalab.png",
+    website: "https://ecoalab.com/",
   },
 ];
 
@@ -144,13 +153,30 @@ function SecaoAnimada({
                   mostrarDescricao ? "mb-4" : ""
                 } flex justify-center items-center`}
               >
-                <Image
-                  src={item.logo || "/placeholder.svg"}
-                  alt={item.nome}
-                  width={300}
-                  height={150}
-                  className={`object-contain ${tamanhoLogo}`}
-                />
+                {item.website ? (
+                  <a
+                    href={item.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Acessar site de ${item.nome}`}
+                  >
+                    <Image
+                      src={item.logo || "/placeholder.svg"}
+                      alt={item.nome}
+                      width={300}
+                      height={150}
+                      className={`object-contain ${tamanhoLogo}`}
+                    />
+                  </a>
+                ) : (
+                  <Image
+                    src={item.logo || "/placeholder.svg"}
+                    alt={item.nome}
+                    width={300}
+                    height={150}
+                    className={`object-contain ${tamanhoLogo}`}
+                  />
+                )}
               </div>
 
               {mostrarDescricao && item.descricao && (
