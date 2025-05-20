@@ -98,7 +98,17 @@ const palestrantes: Palestrante[] = [
     nacionalidade: "Estrangeiro",
     cv: "ScoottPatonWilson_125977.pdf",
     linkedin: "https://linkedin.com/in/scottpatonwilson",
-  }
+  },
+  {
+    id: "katia-viana",
+    nome: "Katia Viana Cavalcante",
+    cargo: "Pesquisador Internacional",
+    instituicao: "Southern Cross University",
+    foto: "/comissao-organizadora/katia.png",
+    palestra: "Cerimônia de Abertura",
+    nacionalidade: "Estrangeiro",
+    cv: "http://lattes.cnpq.br/2715253110435470in/scottpatonwilson",
+  },
 ];
 
 export default function PalestrantesConfirmados() {

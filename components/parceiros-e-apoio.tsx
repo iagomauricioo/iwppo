@@ -40,6 +40,10 @@ const parceiros = [
     nome: "Parceiro 11",
     logo: "/parceiros/acpn.png",
   },
+  {
+    nome: "Parceiro 12",
+    logo: "/parceiros/ecoalab.png",
+  },
 ];
 
 // Componente de Seção reutilizável para Parceiros, Apoio e Realização
