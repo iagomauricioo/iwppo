@@ -53,6 +53,10 @@ const parceiros = [
     logo: "/parceiros/ecoalab.png",
     website: "https://ecoalab.com/",
   },
+  {
+    nome: "Parceiro 13",
+    logo: "/parceiros/altamidia.png",
+  },
 ];
 
 // Componente de Seção reutilizável para Parceiros, Apoio e Realização
