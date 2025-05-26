@@ -215,7 +215,7 @@ export default function RegistrationSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <Link
-            href={selectedPlan ? `#form-${selectedPlan}` : "#form"}
+            href="https://doity.com/iwppo"
             className={`inline-flex items-center px-8 py-4 rounded-full font-bold text-lg transition-all ${
               selectedPlan
                 ? "bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl"
