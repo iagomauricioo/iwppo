@@ -89,6 +89,30 @@ function SecaoAnimada({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
+
+
+  const getGridSpan = (index: number) => {
+    if (mostrarDescricao) {
+      // Para seções com 2 colunas (Realização e Apoio)
+      const itemsLeft = itens.length % 2;
+      if (itemsLeft !== 0 && index >= itens.length - itemsLeft) {
+        return "sm:col-span-2";
+      }
+    } else {
+      // Para seção de Parceiros (3 colunas em SM, 4 em LG)
+      const itemsLeftSm = itens.length % 3;
+      const itemsLeftLg = itens.length % 4;
+      
+      if (itemsLeftSm !== 0 && index >= itens.length - itemsLeftSm) {
+        // Calcula o span necessário para centralizar os últimos itens
+        const spanSm = Math.floor(3 / itemsLeftSm) * itemsLeftSm;
+        const spanLg = Math.floor(4 / itemsLeftLg) * itemsLeftLg;
+        return `sm:col-span-${spanSm} lg:col-span-${spanLg}`;
+      }
+    }
+    return "";
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -143,7 +167,16 @@ function SecaoAnimada({
               key={index}
               className={`flex ${
                 mostrarDescricao ? "flex-col" : ""
-              } items-center justify-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300`}
+              } items-center justify-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ${
+                !mostrarDescricao ? (
+                  index >= itens.length - (itens.length % 3) ? 
+                    itens.length % 3 === 1 ? "sm:col-start-2 sm:col-span-1" :
+                    itens.length % 3 === 2 ? `sm:col-span-1 ${index === itens.length - 2 ? "sm:col-start-2" : ""}` : ""
+                  : ""
+                ) : (
+                  itens.length % 2 !== 0 && index === itens.length - 1 ? "sm:col-span-2" : ""
+                )
+              }`}
               variants={itemVariants}
               whileHover={{
                 scale: 1.03,
@@ -223,6 +256,11 @@ export default function ParceirosEApoio() {
       nome: "CNPq",
       logo: "/parceiros/cnpq.png",
       descricao: t("apoiadores.cnpq.descricao"),
+    },
+    {
+      nome: "PSCOM",
+      logo: "/parceiros/pscom.png",
+      descricao: t("apoiadores.pscom.descricao"),
     },
   ];
 

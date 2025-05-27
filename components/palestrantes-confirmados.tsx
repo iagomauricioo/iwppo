@@ -15,10 +15,6 @@ interface Palestrante {
   foto: string;
   palestra: string;
   nacionalidade: string;
-  cv: string;
-  instagram?: string;
-  linkedin?: string;
-  website?: string;
   colorIndex?: number; // Índice da cor a ser usada (1-9 para blue-100 até blue-900)
 }
 
@@ -35,8 +31,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/robson.png",
       palestra: t("palestrantes.robson-santos.palestra"),
       nacionalidade: t("palestrantes.robson-santos.nacionalidade"),
-      cv: "http://lattes.cnpq.br/3415855125714979",
-      linkedin: "https://linkedin.com/in/robsonguimaraes",
     },
     {
       id: "claudio-sampaio",
@@ -46,8 +40,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/claudio.png",
       palestra: t("palestrantes.claudio-sampaio.palestra"),
       nacionalidade: t("palestrantes.claudio-sampaio.nacionalidade"),
-      cv: "http://lattes.cnpq.br/2526336992077506",
-      linkedin: "https://linkedin.com/in/claudioluissampaio",
     },
     {
       id: "katia-viana",
@@ -57,7 +49,6 @@ export default function PalestrantesConfirmados() {
       foto: "/comissao-organizadora/katia.png",
       palestra: t("palestrantes.katia-viana.palestra"),
       nacionalidade: t("palestrantes.katia-viana.nacionalidade"),
-      cv: "",
     },
     {
       id: "carlos-sampaio",
@@ -67,8 +58,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/carlos.png",
       palestra: t("palestrantes.carlos-sampaio.palestra"),
       nacionalidade: t("palestrantes.carlos-sampaio.nacionalidade"),
-      cv: "http://lattes.cnpq.br/9034603212802471",
-      linkedin: "https://linkedin.com/in/carlosalbertociocesampaio",
     },
     {
       id: "brendan-kelaher",
@@ -78,8 +67,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/brendan.png",
       palestra: t("palestrantes.brendan-kelaher.palestra"),
       nacionalidade: t("palestrantes.brendan-kelaher.nacionalidade"),
-      cv: "BrendanKelaher_125970.pdf",
-      linkedin: "https://linkedin.com/in/brendankelaher",
     },
     {
       id: "fernando-lopez",
@@ -89,8 +76,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/dias.jpeg",
       palestra: t("palestrantes.fernando-lopez.palestra"),
       nacionalidade: t("palestrantes.fernando-lopez.nacionalidade"),
-      cv: "FernandoJ.DiazLopez_125998.pdf",
-      website: "https://universidadbarcelona.es/fernandodiaz",
     },
     {
       id: "alejandro-tagliafico",
@@ -100,8 +85,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/alejandro.png",
       palestra: t("palestrantes.alejandro-tagliafico.palestra"),
       nacionalidade: t("palestrantes.alejandro-tagliafico.nacionalidade"),
-      cv: "AlejandroTagliafico_125972.pdf",
-      linkedin: "https://linkedin.com/in/alejandrotagliafico",
     },
     {
       id: "scott-wilson",
@@ -111,8 +94,6 @@ export default function PalestrantesConfirmados() {
       foto: "/palestrantes/scott_patton_wilson.jpg",
       palestra: t("palestrantes.scott-wilson.palestra"),
       nacionalidade: t("palestrantes.scott-wilson.nacionalidade"),
-      cv: "ScoottPatonWilson_125977.pdf",
-      linkedin: "https://linkedin.com/in/scottpatonwilson",
     },
   ];
 
@@ -227,51 +208,6 @@ export default function PalestrantesConfirmados() {
                     {palestrante.nacionalidade}
                   </p>
 
-                  {/* Ícones de redes sociais e CV */}
-                  <div className="flex space-x-2 mb-4">
-                    {palestrante.instagram && (
-                      <Link
-                        href={palestrante.instagram}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`Instagram de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
-                      >
-                        <Instagram className="w-5 h-5" />
-                      </Link>
-                    )}
-                    {palestrante.linkedin && (
-                      <Link
-                        href={palestrante.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`LinkedIn de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
-                      >
-                        <Linkedin className="w-5 h-5" />
-                      </Link>
-                    )}
-                    {palestrante.website && (
-                      <Link
-                        href={palestrante.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`Website de ${palestrante.nome}`}
-                        className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
-                      >
-                        <ExternalLink className="w-5 h-5" />
-                      </Link>
-                    )}
-                    <Link
-                      href={palestrante.cv}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`CV de ${palestrante.nome}`}
-                      className={`hover:opacity-80 transition-opacity ${corAtual.text}`}
-                    >
-                      <FileText className="w-5 h-5" />
-                    </Link>
-                  </div>
 
                   {/* Título da palestra */}
                   <div className={`pt-3 border-t ${corAtual.border}`}>

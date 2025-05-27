@@ -409,6 +409,9 @@
       },
       "cnpq": {
         "descricao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      },
+      "pscom": {
+        "descricao": "Pajuçara Sistema de Comunicação"
       }
     },
     "realizacao": {
