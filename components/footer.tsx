@@ -1,66 +1,13 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
-import Image from "next/image"
 import Link from "next/link"
-import { Instagram, ArrowRight, Youtube, Mail, Phone, MapPin, ExternalLink, Loader2 } from "lucide-react"
+import Image from "next/image"
+import { ArrowRight, Instagram, Youtube, Mail, Phone, MapPin, ExternalLink } from "lucide-react"
 import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
-import { subscribeToNewsletter } from "@/src/app/actions/newsletter"
+import { NewsletterForm } from "./newsletter-form"
 
 export default function Footer() {
-  const [email, setEmail] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
-  const [message, setMessage] = useState<{
-    type: "success" | "error"
-    text: string
-  } | null>(null)
-
-  const handleSubscribe = async (e: React.FormEvent) => {
-    e.preventDefault()
-
-    if (!email.trim()) {
-      setMessage({
-        type: "error",
-        text: "Por favor, insira seu email",
-      })
-      return
-    }
-
-    setIsLoading(true)
-    setMessage(null)
-
-    try {
-      const formData = new FormData()
-      formData.append("email", email)
-
-      const result = await subscribeToNewsletter(formData)
-
-      setMessage({
-        type: result.success ? "success" : "error",
-        text: result.message,
-      })
-
-      if (result.success) {
-        setEmail("")
-      }
-    } catch (error) {
-      setMessage({
-        type: "error",
-        text: "Erro inesperado. Tente novamente.",
-      })
-    } finally {
-      setIsLoading(false)
-    }
-
-    // Limpar mensagem após 5 segundos
-    setTimeout(() => {
-      setMessage(null)
-    }, 5000)
-  }
-
   const t = useTranslations("Footer")
 
   return (
@@ -211,56 +158,7 @@ export default function Footer() {
 
           {/* Coluna 4 - Newsletter */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 border-b border-blue-700 pb-2">Newsletter</h4>
-            <p className="text-sm text-blue-200 mb-4">Receba atualizações sobre o projeto e eventos do IWPPO</p>
-
-            <form onSubmit={handleSubscribe} className="space-y-3">
-              <div>
-                <label htmlFor="newsletter-email" className="sr-only">
-                  Email para newsletter
-                </label>
-                <input
-                  id="newsletter-email"
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Seu email"
-                  className="w-full px-3 py-2 bg-blue-800 border border-blue-600 rounded text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent"
-                  disabled={isLoading}
-                  required
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="w-full bg-blue-600 hover:bg-blue-500 disabled:bg-blue-700 disabled:cursor-not-allowed px-4 py-2 rounded text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300 flex items-center justify-center"
-              >
-                {isLoading ? (
-                  <>
-                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                    Inscrevendo...
-                  </>
-                ) : (
-                  "Inscrever-se"
-                )}
-              </button>
-            </form>
-
-            {message && (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className={`mt-3 p-2 rounded text-xs ${
-                  message.type === "success"
-                    ? "bg-green-800 text-green-200 border border-green-600"
-                    : "bg-red-800 text-red-200 border border-red-600"
-                }`}
-                role="alert"
-              >
-                {message.text}
-              </motion.div>
-            )}
+            <NewsletterForm />
           </div>
         </div>
 

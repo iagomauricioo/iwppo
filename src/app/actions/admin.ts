@@ -1,12 +1,12 @@
 "use server"
 
-import { createClient } from "@supabase/supabase-js"
-
-const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_ROLE_KEY!)
+import { createAdminClient } from "@/lib/supabase"
 
 export async function getNewsletterSubscribers() {
   try {
-    const { data, error } = await supabase
+    const supabaseAdmin = createAdminClient()
+
+    const { data, error } = await supabaseAdmin
       .from("newsletter_subscribers")
       .select("*")
       .order("created_at", { ascending: false })
@@ -37,7 +37,9 @@ export async function getNewsletterSubscribers() {
 
 export async function toggleSubscriberStatus(id: string, active: boolean) {
   try {
-    const { error } = await supabase.from("newsletter_subscribers").update({ active }).eq("id", id)
+    const supabaseAdmin = createAdminClient()
+
+    const { error } = await supabaseAdmin.from("newsletter_subscribers").update({ active }).eq("id", id)
 
     if (error) {
       console.error("Erro ao atualizar status:", error)
@@ -62,7 +64,9 @@ export async function toggleSubscriberStatus(id: string, active: boolean) {
 
 export async function deleteSubscriber(id: string) {
   try {
-    const { error } = await supabase.from("newsletter_subscribers").delete().eq("id", id)
+    const supabaseAdmin = createAdminClient()
+
+    const { error } = await supabaseAdmin.from("newsletter_subscribers").delete().eq("id", id)
 
     if (error) {
       console.error("Erro ao deletar inscrito:", error)
@@ -87,16 +91,18 @@ export async function deleteSubscriber(id: string) {
 
 export async function getNewsletterStats() {
   try {
-    const { data: total, error: totalError } = await supabase
+    const supabaseAdmin = createAdminClient()
+
+    const { data: total, error: totalError } = await supabaseAdmin
       .from("newsletter_subscribers")
       .select("id", { count: "exact" })
 
-    const { data: active, error: activeError } = await supabase
+    const { data: active, error: activeError } = await supabaseAdmin
       .from("newsletter_subscribers")
       .select("id", { count: "exact" })
       .eq("active", true)
 
-    const { data: recent, error: recentError } = await supabase
+    const { data: recent, error: recentError } = await supabaseAdmin
       .from("newsletter_subscribers")
       .select("id", { count: "exact" })
       .gte("created_at", new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString())
@@ -125,3 +131,4 @@ export async function getNewsletterStats() {
     }
   }
 }
+  
