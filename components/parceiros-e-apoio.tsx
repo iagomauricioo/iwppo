@@ -57,6 +57,10 @@ const parceiros = [
     nome: "Parceiro 13",
     logo: "/parceiros/altamidia.png",
   },
+  {
+    nome: "PSCOM",
+    logo: "/parceiros/pscom.png",
+  },
 ];
 
 // Componente de Seção reutilizável para Parceiros, Apoio e Realização
@@ -68,7 +72,7 @@ function SecaoAnimada({
   textColor = "text-blue-900",
   mostrarDescricao = false,
   mostrarWebsite = false,
-  tamanhoLogo = "max-h-[142px]",
+  tamanhoLogo = "max-h-[150px]",
   colunas = "sm:grid-cols-3 lg:grid-cols-4",
 }: {
   id: string;
@@ -256,11 +260,6 @@ export default function ParceirosEApoio() {
       nome: "CNPq",
       logo: "/parceiros/cnpq.png",
       descricao: t("apoiadores.cnpq.descricao"),
-    },
-    {
-      nome: "PSCOM",
-      logo: "/parceiros/pscom.png",
-      descricao: t("apoiadores.pscom.descricao"),
     },
   ];
 

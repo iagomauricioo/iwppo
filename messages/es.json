@@ -21,7 +21,7 @@
     "data_3": "Hasta 08 de setiembre",
     "realizacao_do_evento": "Realización del Evento",
     "data_4": "17 a 19 de setiembre"
-  },
+  },  
   "SeloAtitudeSustentavel": {
     "atitude": "ACTITUD",
     "sustentavel": "SOSTENIBLE"
@@ -493,7 +493,7 @@
       "carlos-sampaio": {
         "nome": "Carlos Alberto Cioce Sampaio",
         "cargo": "Investigador",
-        "instituicao": "USP",
+        "instituicao": "Universidad Regional de Blumenau",
         "palestra": "Educación para el Desarrollo Sustentable: la contribución de la posgrado brasileña en el alcance del ODS 14 Vida en el Agua",
         "nacionalidade": "Brasil"
       },
@@ -528,7 +528,7 @@
       "katia-viana": {
         "nome": "Katia Viana Cavalcante",
         "cargo": "Investigadora",
-        "instituicao": "Southern Cross University",
+        "instituicao": "Universidad Federal del Amazonas",
         "palestra": "Ceremonia de Apertura",
         "nacionalidade": "Brasil"
       }
