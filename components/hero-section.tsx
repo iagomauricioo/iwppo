@@ -186,7 +186,7 @@ export default function HeroSection() {
                       className="flex-1 sm:flex-initial"
                     >
                       <Link
-                        href="#inscricao"
+                        href="https://doity.com.br/iwppo"
                         className="block w-full text-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transition-all duration-300"
                       >
                         {t("register_button")}
