@@ -80,6 +80,7 @@
     "additional_info_1": "Los estudiantes deben presentar un certificado de inscripción válido.",
     "additional_info_2": "El pago puede realizarse a través de PIX, tarjeta de crédito o transferencia bancaria.",
     "additional_info_3": "En caso de desistir, el reembolso es del 70% hasta 30 días antes del evento.",
+    "additional_info_4": "Es necesario presentar la categoría de inscripción en el momento de la inscripción.",
     "plans": {
       "features": {
         "access_lectures": "Acceso a todas las conferencias",
@@ -90,7 +91,7 @@
         "presentation_certificate": "Certificado de presentación"
       },
       "recommended": "Recomendado",
-      "deadline": "Plazo: hasta {date}",
+      "deadline": "Plazo: {date}",
       "select": "Seleccionar",
       "selected": "Seleccionado",
       "select_plan_alert": "Por favor, seleccione un plan de inscripción",

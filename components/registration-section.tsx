@@ -32,7 +32,7 @@ export default function RegistrationSection() {
       ],
       icon: <Users className="h-6 w-6" />,
       color: "bg-blue-500",
-      deadline: "15/05/2025",
+      deadline: "Até 15/05/2025",
     },
     {
       id: "post-graduate",
@@ -46,7 +46,7 @@ export default function RegistrationSection() {
       ],
       icon: <Award className="h-6 w-6" />,
       color: "bg-blue-700",
-      deadline: "15/05/2025",
+      deadline: "Até 15/05/2025",
       recommended: true,
     },
     {
@@ -61,13 +61,13 @@ export default function RegistrationSection() {
       ],
       icon: <Award className="h-6 w-6" />,
       color: "bg-blue-700",
-      deadline: "15/05/2025",
+      deadline: "Até 15/05/2025",
       recommended: true,
     },
     {
       id: "basic-education-teacher",
       title: "Professor de Educação Básica",
-      price: "R$ 0,00",
+      price: "Gratuito",
       features: [
         t("plans.features.access_lectures"),
         t("plans.features.digital_material"),
@@ -76,7 +76,7 @@ export default function RegistrationSection() {
       ],
       icon: <Ticket className="h-6 w-6" />,
       color: "bg-blue-600",
-      deadline: "30/04/2025",
+      deadline: "Enquanto houver vagas",
     },
   ];
 
@@ -262,6 +262,10 @@ export default function RegistrationSection() {
             <li className="flex items-start">
               <CheckCircle className="h-5 w-5 text-blue-500 mr-2 flex-shrink-0 mt-0.5" />
               <span>{t("additional_info_3")}</span>
+            </li>
+            <li className="flex items-start">
+              <CheckCircle className="h-5 w-5 text-blue-500 mr-2 flex-shrink-0 mt-0.5" />
+              <span>{t("additional_info_4")}</span>
             </li>
           </ul>
         </motion.div>

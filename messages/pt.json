@@ -80,6 +80,7 @@
     "additional_info_1": "Estudantes devem apresentar comprovante de matrícula válido.",
     "additional_info_2": "O pagamento pode ser realizado via PIX, cartão de crédito ou boleto bancário.",
     "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento.",
+    "additional_info_4": "É necessário comprovar a categoria de inscrição no momento da inscrição.",
     "plans": {
       "features": {
         "access_lectures": "Acesso a todas as palestras",
@@ -90,7 +91,7 @@
         "presentation_certificate": "Certificado de apresentação"
       },
       "recommended": "Recomendado",
-      "deadline": "Prazo: até {date}",
+      "deadline": "Prazo: {date}",
       "select": "Selecionar",
       "selected": "Selecionado",
       "select_plan_alert": "Por favor, selecione um plano de inscrição",
@@ -304,7 +305,7 @@
       },
       {
         "title": "Professores da Educação Básica",
-        "price": "R$ 0,00",
+        "price": "GRATUITO",
         "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Inscreva-se"
       },
@@ -316,7 +317,7 @@
       },
       {
         "title": "Palestrantes",
-        "price": "R$ 0,00",
+        "price": "GRATUITO",
         "features": ["Inscrição", "Palestras", "Minicursos", "Certificado"],
         "buttonText": "Confirmar"
       }
