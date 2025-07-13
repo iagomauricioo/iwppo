@@ -98,7 +98,7 @@ const membrosComissao: MemberProps[] = [
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/0462311949230820",
     title: "",
-    image: "/comissao-organizadora/Victoria Kamille.png",
+    image: "/comissao-organizadora/Victoria Kamille.jpeg",
   }
 ];
 
