@@ -93,6 +93,13 @@ const membrosComissao: MemberProps[] = [
     title: "",
     image: "/comissao-organizadora/romickson.jpeg",
   },
+  {
+    name: "Victoria Kamille",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/0462311949230820",
+    title: "",
+    image: "/comissao-organizadora/Victoria Kamille.png",
+  }
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália
