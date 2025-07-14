@@ -99,7 +99,14 @@ const membrosComissao: MemberProps[] = [
     lattesUrl: "http://lattes.cnpq.br/0462311949230820",
     title: "",
     image: "/comissao-organizadora/WhatsApp Image victoria-kamille.jpeg",
-  }
+  },
+  {
+    name: "Alessandro Sarmento",
+    country: "Brasil",
+    lattesUrl: " http://lattes.cnpq.br/7440453632345842",
+    title: "",
+    image: "/comissao-organizadora/alessandro.png",
+  },
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália
