@@ -81,15 +81,13 @@
     "additional_info_2": "O pagamento pode ser realizado via PIX, cartão de crédito ou boleto bancário.",
     "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento.",
     "additional_info_4": "É necessário comprovar a categoria de inscrição no momento da inscrição.",
-
-    "additional_info_title": " Critérios de Avaliação ",
-    "additional_info_1": "Primeiro passo consiste em uma avaliação preliminar pelo comitê diretivo, que examina se o trabalho se adere ao escopo do evento e atende aos requisitos de formatação e submissão.",
-    "additional_info_2": "O segundo passo consiste em uma avaliação pelo Comitê Científico do Workshop sobre Poluição Plástica nos Oceanos.Os trabalhos serão avaliados por dois pareceristas de acordo com os seguintes critérios:-",
-    "additional_info_3": "Em caso de desistência, o reembolso é de 70% até 30 dias antes do evento.",
-    "additional_info_4": "É necessário comprovar a categoria de inscrição no momento da inscrição.",
-    "additional_info_5": "Originalidade- Classificação em relação ao estado da arte- Contribuição- Rigor Metodológico- Qualidade da RedaçãoCada critério pode receber um dos seguintes conceitos, que serão convertidos em valores numéricos:"
-    "additional_info_6": "Muito Ruim = 02- Ruim = 04- Regular = 06- Bom = 08- Muito Bom = 10Os autores PODERÃO SER NOTIFICADOS COM:- ACEITO (pontuação média 7 ou superior)- REJEITADO (pontuação média abaixo de 7)",
-  }
+     "evaluation_title": "Critérios de Avaliação",
+    "evaluation_1": "Primeiro passo consiste em uma avaliação preliminar pelo comitê diretivo, que examina se o trabalho se adere ao escopo do evento e atende aos requisitos de formatação e submissão.",
+    "evaluation_2": "O segundo passo consiste em uma avaliação pelo Comitê Científico do Workshop sobre Poluição Plástica nos Oceanos. Os trabalhos serão avaliados por dois pareceristas de acordo com os seguintes critérios:",
+    "evaluation_3": "Originalidade - Classificação em relação ao estado da arte - Contribuição - Rigor Metodológico - Qualidade da Redação. Cada critério pode receber um dos seguintes conceitos, que serão convertidos em valores numéricos:",
+    "evaluation_4": "Muito Ruim = 02 - Ruim = 04 - Regular = 06 - Bom = 08 - Muito Bom = 10. Os autores PODERÃO SER NOTIFICADOS COM: - ACEITO (pontuação média 7 ou superior) - REJEITADO (pontuação média abaixo de 7)"
+  },
+  
     
     "plans": {
       "features": {
@@ -106,7 +104,6 @@
       "selected": "Selecionado",
       "select_plan_alert": "Por favor, selecione um plano de inscrição",
       "select_plan_message": "Por favor, selecione um plano acima para continuar"
-    }
   },
   "LocationSection": {
     "title": "Localização",
