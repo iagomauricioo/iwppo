@@ -141,6 +141,25 @@ export default function RegistrationSection() {
           </div>
         </motion.div>
 
+        {/* Critérios de Avaliação */}
+        <motion.div
+          className="mt-16 max-w-4xl mx-auto bg-white rounded-lg p-6 border border-blue-200"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.6, delay: 0.9 }}
+        >
+          <h3 className="text-blue-900 font-semibold text-lg mb-4">
+            {t("evaluation_title")}
+          </h3>
+          <ol className="list-decimal list-inside space-y-2 text-gray-700">
+            <li>{t("evaluation_1")}</li>
+            <li>{t("evaluation_2")}</li>
+            <li>{t("evaluation_3")}</li>
+            <li>{t("evaluation_4")}</li>
+          </ol>
+        </motion.div>
+
         {/* Planos de inscrição */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto mb-12">
           {plans.map((plan, index) => (
