@@ -14,9 +14,9 @@
     "segundos": "Seconds",
     "datas_importantes": "Important Dates",
     "submissao_de_artigos": "Submission of Articles",
-    "data_1": "Until 31 of July",
+    "data_1": "Until 17 of August",
     "comunicacao_de_aceite": "Acceptance Communication",
-    "data_2": "Until 11 of August",
+    "data_2": "Until 27 of August",
     "envio_final": "Final Submission",
     "data_3": "Until 08 of September",
     "realizacao_do_evento": "Event Realization",
@@ -75,7 +75,7 @@
     "title": "Registration",
     "description": "Choose the plan that best suits your needs and secure your participation in the II International Workshop on Public Policy Research and Social Development.",
     "subtitle": "Secure your spot",
-    "date": "18 to 20 of June 2025",
+    "date": "17 to 19 of September 2025",
     "register_button": "Register Now",
     "deadline_title": "Registration Deadline",
     "deadline_date": "Until September 15, 2025",
@@ -87,6 +87,14 @@
     "additional_info_2": "The payment can be made via PIX, credit card or bank transfer.",
     "additional_info_3": "In case of withdrawal, the refund is 70% up to 30 days before the event.",
     "additional_info_4": "It is necessary to present the registration category at the time of registration.",
+     "evaluation_title": "Evaluation Criteria",
+    "evaluation_1": "The first step consists of a preliminary evaluation by the steering committee, which examines whether the work adheres to the event’s scope and meets formatting and submission requirements.",
+    "evaluation_2": "The second step involves an evaluation by the Scientific Committee of the Workshop on Plastic Pollution in the Oceans. Submissions will be reviewed by two referees based on the following criteria:",
+    "evaluation_3": "Originality, Classification in relation to the state of art Contribution Methodological Rigor- Writing quality. Each criteria may receive one of the following concepts, which will be converted to numerical values:",
+    "evaluation_4": "- Very Poor = 02 Poor = 04 - Regular = 06 - Good = 08 - Very Good = 10 Authors MAY BE NOTIFIED WITH: - ACCEPTED (average score 7 or higher)- REJECTED (average score below 7)"
+  },
+
+    
     "plans": {
       "features": {
         "access_lectures": "Access to all lectures",
@@ -430,7 +438,7 @@
     "descricao": "Choose one of the axes below to submit your scientific work",
     "envie_trabalho": "Submit your work already in Doity",
     "prazo_submissao": "Submission Deadline",
-    "data_submissao": "31 of July 2025",
+    "data_submissao": "17 of August 2025",
     "itens": [
       {
         "titulo": "Current Ocean Status: The Current Crisis",
