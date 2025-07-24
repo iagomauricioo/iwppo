@@ -85,7 +85,7 @@
     "evaluation_1": "The first step consists of a preliminary evaluation by the steering committee, which examines whether the work adheres to the event's scope and meets formatting and submission requirements.",
     "evaluation_2": "The second step involves an evaluation by the Scientific Committee of the Workshop on Plastic Pollution in the Oceans. Papers will be assessed by two reviewers based on the following criteria:",
     "evaluation_3": "Originality - Comparison to the state of the art - Contribution - Methodological Rigor - Writing Quality. Each criterion will receive one of the following ratings, converted into numerical values:",
-    "evaluation_4": "Very Poor = 02 - Poor = 04 - Fair = 06 - Good = 08 - Very Good = 10. Authors MAY BE NOTIFIED WITH: - ACCEPTED (average score of 7 or higher) - REJECTED (average score below 7)"
+    "evaluation_4": "Very Poor = 01 - Poor = 02 - Fair = 03 - Good = 04 - Very Good = 5. Authors MAY BE NOTIFIED WITH: - ACCEPTED (average score of 4 or higher) - REJECTED (average score below 4)"
   },
   "plans": {
     "features": {
