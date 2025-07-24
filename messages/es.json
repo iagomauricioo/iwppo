@@ -91,7 +91,7 @@
         "evaluation_1": "El primer paso consiste en una evaluación preliminar por el comité directivo, que examina si el trabajo se adhiere al alcance del evento y cumple con los requisitos de formato y presentación.",
         "evaluation_2": "El segundo paso consiste en una evaluación por el Comité Científico del Taller sobre Contaminación Plástica en los Océanos. Los trabajos serán evaluados por dos revisores según los siguientes criterios:",
         "evaluation_3": "Originalidad - Clasificación en relación con el estado del arte - Contribución - Rigor Metodológico - Calidad de la Redacción. Cada criterio puede recibir una de las siguientes calificaciones, que se convertirán en valores numéricos:",
-        "evaluation_4": "Muy Malo = 02 - Malo = 04 - Regular = 06 - Bueno = 08 - Muy Bueno = 10. Los autores PODRÁN SER NOTIFICADOS CON: - ACEPTADO (puntuación promedio de 7 o superior) - RECHAZADO (puntuación promedio inferior a 7)"
+        "evaluation_4": "Muy Malo = 01 - Malo = 02 - Regular = 03 - Bueno = 04 - Muy Bueno = 05 . Los autores PODRÁN SER NOTIFICADOS CON: - ACEPTADO (puntuación promedio de 4 o superior) - RECHAZADO (puntuación promedio inferior a 4)"
     },
     "plans": {
         "features": {
