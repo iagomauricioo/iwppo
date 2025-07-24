@@ -107,6 +107,14 @@ const membrosComissao: MemberProps[] = [
     title: "",
     image: "/comissao-organizadora/alessandro.png",
   },
+
+  {
+    name: "Heitor Barbosa",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/3572553003745247",
+    title: "",
+    image: "/comissao-organizadora/heitor barbosa.jpeg",
+  },
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália
