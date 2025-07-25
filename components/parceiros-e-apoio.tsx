@@ -261,6 +261,12 @@ export default function ParceirosEApoio() {
       logo: "/parceiros/cnpq.png",
       descricao: t("apoiadores.cnpq.descricao"),
     },
+
+     {
+      nome: "MACEIÓ CONVENTION",
+      logo: "/parceiros/mczconvention.png",
+      descricao: t("apoiadores.convention.descricao"),
+    },
   ];
 
   const realizadores = [
