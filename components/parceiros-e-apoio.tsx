@@ -73,7 +73,7 @@ function SecaoAnimada({
   mostrarDescricao = false,
   mostrarWebsite = false,
   tamanhoLogo = "max-h-[150px]",
-  colunas = "sm:grid-cols-3 lg:grid-cols-4",
+  colunas = "sm:grid-cols-3",
 }: {
   id: string;
   titulo: string;
@@ -206,9 +206,8 @@ function SecaoAnimada({
                       alt={item.nome}
                       width={300}
                       height={150}
-                      className="object-contain h-[100px] max-w-[200px] mx-auto"
-                        />
-                    
+                      className={`object-contain ${tamanhoLogo} max-w-[200px] mx-auto`}
+                    />
                   </a>
                 ) : (
                   <Image
@@ -216,9 +215,8 @@ function SecaoAnimada({
                     alt={item.nome}
                     width={300}
                     height={150}
-                    className="object-contain h-[100px] max-w-[200px] mx-auto"
+                    className={`object-contain ${tamanhoLogo} max-w-[200px] mx-auto`}
                   />
-                  
                 )}
               </div>
 
@@ -263,11 +261,10 @@ export default function ParceirosEApoio() {
       logo: "/parceiros/cnpq.png",
       descricao: t("apoiadores.cnpq.descricao"),
     },
-     {
+    {
       nome: "MACEIÓ CONVENTION",
       logo: "/parceiros/LOGO VERT-convention.png",
       descricao: t("apoiadores.convention.descricao"),
-      style: { width: "200px", height: "150px" },
     },
   ];
 
@@ -296,7 +293,7 @@ export default function ParceirosEApoio() {
         bgColor="bg-blue-50"
         mostrarDescricao={true}
         mostrarWebsite={true}
-        tamanhoLogo="max-h-[200px]"
+        tamanhoLogo="max-h-[150px]"
         colunas="sm:grid-cols-2"
       />
       <SecaoAnimada
@@ -305,6 +302,7 @@ export default function ParceirosEApoio() {
         itens={apoiadores}
         bgColor="bg-blue-100"
         mostrarDescricao={true}
+        tamanhoLogo="max-h-[150px]"
       />
       <SecaoAnimada
         id="parceiros"
