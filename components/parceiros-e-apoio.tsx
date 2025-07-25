@@ -206,7 +206,8 @@ function SecaoAnimada({
                       alt={item.nome}
                       width={300}
                       height={150}
-                      className={`object-contain ${tamanhoLogo}`}
+                      className="object-contain h-[100px] max-w-[200px] mx-auto"
+/>
                     />
                   </a>
                 ) : (
@@ -215,7 +216,8 @@ function SecaoAnimada({
                     alt={item.nome}
                     width={300}
                     height={150}
-                    className={`object-contain ${tamanhoLogo}`}
+                    className="object-contain h-[100px] max-w-[200px] mx-auto"
+/>
                   />
                 )}
               </div>
