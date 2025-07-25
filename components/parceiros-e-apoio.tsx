@@ -261,7 +261,6 @@ export default function ParceirosEApoio() {
       logo: "/parceiros/cnpq.png",
       descricao: t("apoiadores.cnpq.descricao"),
     },
-
      {
       nome: "MACEIÓ CONVENTION",
       logo: "/parceiros/LOGO VERT-convention.png",
