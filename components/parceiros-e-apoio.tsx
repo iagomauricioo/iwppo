@@ -207,8 +207,8 @@ function SecaoAnimada({
                       width={300}
                       height={150}
                       className="object-contain h-[100px] max-w-[200px] mx-auto"
-/>
-                    />
+                        />
+                    
                   </a>
                 ) : (
                   <Image
@@ -217,8 +217,8 @@ function SecaoAnimada({
                     width={300}
                     height={150}
                     className="object-contain h-[100px] max-w-[200px] mx-auto"
-/>
                   />
+                  
                 )}
               </div>
 
