@@ -267,6 +267,7 @@ export default function ParceirosEApoio() {
       nome: "MACEIÓ CONVENTION",
       logo: "/parceiros/LOGO VERT-convention.png",
       descricao: t("apoiadores.convention.descricao"),
+      style: { width: "200px", height: "150px" },
     },
   ];
 
