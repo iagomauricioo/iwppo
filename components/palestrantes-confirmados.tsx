@@ -32,15 +32,7 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.robson-santos.palestra"),
       nacionalidade: t("palestrantes.robson-santos.nacionalidade"),
     },
-    {
-      id: "claudio-sampaio",
-      nome: t("palestrantes.claudio-sampaio.nome"),
-      cargo: t("palestrantes.claudio-sampaio.cargo"),
-      instituicao: t("palestrantes.claudio-sampaio.instituicao"),
-      foto: "/palestrantes/claudio.png",
-      palestra: t("palestrantes.claudio-sampaio.palestra"),
-      nacionalidade: t("palestrantes.claudio-sampaio.nacionalidade"),
-    },
+   
     {
       id: "katia-viana",
       nome: t("palestrantes.katia-viana.nome"),
@@ -50,24 +42,7 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.katia-viana.palestra"),
       nacionalidade: t("palestrantes.katia-viana.nacionalidade"),
     },
-    {
-      id: "carlos-sampaio",
-      nome: t("palestrantes.carlos-sampaio.nome"),
-      cargo: t("palestrantes.carlos-sampaio.cargo"),
-      instituicao: t("palestrantes.carlos-sampaio.instituicao"),
-      foto: "/palestrantes/carlos.png",
-      palestra: t("palestrantes.carlos-sampaio.palestra"),
-      nacionalidade: t("palestrantes.carlos-sampaio.nacionalidade"),
-    },
-    {
-      id: "brendan-kelaher",
-      nome: t("palestrantes.brendan-kelaher.nome"),
-      cargo: t("palestrantes.brendan-kelaher.cargo"),
-      instituicao: t("palestrantes.brendan-kelaher.instituicao"),
-      foto: "/palestrantes/brendan.png",
-      palestra: t("palestrantes.brendan-kelaher.palestra"),
-      nacionalidade: t("palestrantes.brendan-kelaher.nacionalidade"),
-    },
+   
     {
       id: "fernando-lopez",
       nome: t("palestrantes.fernando-lopez.nome"),
@@ -77,15 +52,7 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.fernando-lopez.palestra"),
       nacionalidade: t("palestrantes.fernando-lopez.nacionalidade"),
     },
-    {
-      id: "alejandro-tagliafico",
-      nome: t("palestrantes.alejandro-tagliafico.nome"),
-      cargo: t("palestrantes.alejandro-tagliafico.cargo"),
-      instituicao: t("palestrantes.alejandro-tagliafico.instituicao"),
-      foto: "/palestrantes/alejandro.png",
-      palestra: t("palestrantes.alejandro-tagliafico.palestra"),
-      nacionalidade: t("palestrantes.alejandro-tagliafico.nacionalidade"),
-    },
+  
     {
       id: "scott-wilson",
       nome: t("palestrantes.scott-wilson.nome"),
@@ -95,6 +62,27 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.scott-wilson.palestra"),
       nacionalidade: t("palestrantes.scott-wilson.nacionalidade"),
     },
+
+     {
+      id: "Fernando-miguel",
+      nome: t("palestrantes.Fernando-miguel.nome"),
+      cargo: t("palestrantes.Fernando-miguel.cargo"),
+      instituicao: t("palestrantes.Fernando-miguel.instituicao"),
+      foto: "/palestrantes/fernando.jpg",
+      palestra: t("palestrantes.Fernando-miguel.palestra"),
+      nacionalidade: t("palestrantes.Fernando-miguel.nacionalidade"),
+    },
+
+     {
+      id: "Helena-fernandez",
+      nome: t("palestrantes.scott-Helena-fernandez.nome"),
+      cargo: t("palestrantes.Helena-fernandez.cargo"),
+      instituicao: t("palestrantes.Helena-fernandez.instituicao"),
+      foto: "/palestrantes/helena-fernandez.png",
+      palestra: t("palestrantes.Helena-fernandez.palestra"),
+      nacionalidade: t("palestrantes.Helena-fernandez.nacionalidade"),
+    },
+    
   ];
 
   // Filtrar palestrantes com base no termo de busca
