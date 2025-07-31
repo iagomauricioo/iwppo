@@ -92,6 +92,15 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.cristiane-siqueira.palestra"),
       nacionalidade: t("palestrantes.cristiane-siqueira.nacionalidade"),
     },
+    {
+      id: "Biagio",
+      nome: t("palestrantes.Biagio.nome"),
+      cargo: t("palestrantes.Biagio.cargo"),
+      instituicao: t("palestrantes.Biagio.instituicao"),
+      foto: "/palestrantes/Biagio_pereira.jpg",
+      palestra: t("palestrantes.Biagio.palestra"),
+      nacionalidade: t("palestrantes.Biagio.nacionalidade"),
+    },
     
   ];
 
