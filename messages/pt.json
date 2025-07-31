@@ -621,10 +621,18 @@
       },
       "Helena-fernandez": {
         "nome": "Helena Fernandez",
-        "cargo": "Pesquisador",
+        "cargo": "Pesquisadora",
         "instituicao": "Universidade do Algarve- Portugal",
         "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
         "nacionalidade": "Estrangeiro"
+      },
+
+       "cristiane-siqueira": {
+        "nome": "Cristiane Siqueira",
+        "cargo": "Pesquisadora",
+        "instituicao": "Universidade de Vassouras- Rio de Janeiro",
+        "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
+        "nacionalidade": "Brasil"
       }
     }
   },
