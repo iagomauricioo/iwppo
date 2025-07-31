@@ -181,7 +181,7 @@ export default function Navbar() {
         <div className="container mx-auto flex justify-between items-center px-6 py-3">
           <Link href="#inicio" className="flex items-center">
             <Image
-              src="/logo-iwppo.png"
+              src="/logo redonda.png"
               alt="IWPPO Logo"
               width={220}
               height={0}
@@ -231,7 +231,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href="#inicio" className="flex items-center">
               <Image
-                src="/logo-iwppo.png"
+                src="/logo redonda.png"
                 alt="IWPPO Logo"
                 width={120}
                 height={0}
