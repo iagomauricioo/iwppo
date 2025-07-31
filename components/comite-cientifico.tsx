@@ -156,13 +156,7 @@ export default function ComiteCientifico() {
       title: "",
       image: "/comite-cientifico/ciro_ramon_felix_dos_santos_silva.jpg",
     },
-    {
-      name: "Cristiane de Souza Siqueira Pereira",
-      country: "Brasil",
-      lattesUrl: "http://lattes.cnpq.br/8723281922978435",
-      title: "",
-      image: "/comite-cientifico/cristiane_de_souza_siqueira_pereira.jpg",
-    },
+    
     {
       name: "Oscarina Viana de Sousa",
       country: "Brasil",
