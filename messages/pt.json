@@ -649,7 +649,15 @@
         "instituicao": "Universidade Paulista-UNIP",
         "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
         "nacionalidade": "Estrangeiro"
-      } 
+      },
+
+      "Marcell": {
+        "nome": "Marcell Mariano Correa Maceno",
+        "cargo": "Pesquisador",
+        "instituicao": "Universidade Federal do Paraná",
+        "palestra": "Life cycle assessment and microplastics: an overview",
+        "nacionalidade": "Brasil"
+      }  
     }
   },
   "ComiteCientifico": {
