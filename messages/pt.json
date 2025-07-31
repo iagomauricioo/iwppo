@@ -633,7 +633,23 @@
         "instituicao": "Universidade de Vassouras- Rio de Janeiro",
         "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
         "nacionalidade": "Brasil"
-      }
+      },
+
+      "Biagio": {
+        "nome": "Biagio Fernando Giannetti",
+        "cargo": "Pesquisador",
+        "instituicao": "Universidade Paulista-UNIP",
+        "palestra": "Modelo 5 SENSO na governança dos oceanos",
+        "nacionalidade": "Brasil"
+      },
+
+      "federico-sulis": {
+        "nome": "Federico Sulis",
+        "cargo": "Pesquisador",
+        "instituicao": "Universidade Paulista-UNIP",
+        "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
+        "nacionalidade": "Estrangeiro"
+      } 
     }
   },
   "ComiteCientifico": {
