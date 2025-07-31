@@ -591,39 +591,11 @@
         "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
         "nacionalidade": "Brasil"
       },
-      "claudio-sampaio": {
-        "nome": "Cláudio Luis Santos Sampaio",
-        "cargo": "Pesquisador",
-        "instituicao": "UFAL",
-        "palestra": "Premiação aos pesquisadores que contribuem com as temáticas do evento",
-        "nacionalidade": "Brasil"
-      },
-      "carlos-sampaio": {
-        "nome": "Carlos Alberto Cioce Sampaio",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade Regional de Blumenau",
-        "palestra": "Educação para o Desenvolvimento Sustentável: a contribuição da pós-graduação brasileira no alcance do ODS 14 Vida na Água",
-        "nacionalidade": "Brasil"
-      },
-      "brendan-kelaher": {
-        "nome": "Brendan Kelaher",
-        "cargo": "Pesquisador Internacional",
-        "instituicao": "Southern Cross University",
-        "palestra": "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
-        "nacionalidade": "Estrangeiro"
-      },
       "fernando-lopez": {
         "nome": "Fernando J. Díaz López",
         "cargo": "Pesquisador Internacional",
         "instituicao": "Climate and Earth Center of HEC Paris",
         "palestra": "Cerimônia de Fechamento",
-        "nacionalidade": "Estrangeiro"
-      },
-      "alejandro-tagliafico": {
-        "nome": "Alejandro Tagliafico",
-        "cargo": "Pesquisador Internacional",
-        "instituicao": "Southern Cross University",
-        "palestra": "Apresentação de metodologia para a identificação de plástico em tecidos de animais",
         "nacionalidade": "Estrangeiro"
       },
       "scott-wilson": {
@@ -639,6 +611,20 @@
         "instituicao": "Universidade Federal do Amazonas",
         "palestra": "Cerimônia de Abertura",
         "nacionalidade": "Brasil"
+      },
+      "Fernando-miguel": {
+        "nome": "Fernando Miguel",
+        "cargo": "Pesquisador",
+        "instituicao": "Universidade do Algarve - Portugal",
+        "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais: Da Gestão Territorial à Deteção de Plásticos nos Oceanos.",
+        "nacionalidade": "Estrangeiro"
+      },
+      "Helena-fernandez": {
+        "nome": "Helena Fernandez",
+        "cargo": "Pesquisador",
+        "instituicao": "Universidade do Algarve- Portugal",
+        "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais: Da Gestão Territorial à Deteção de Plásticos nos Oceanos.",
+        "nacionalidade": "Estrangeiro"
       }
     }
   },
