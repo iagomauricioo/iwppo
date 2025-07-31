@@ -68,14 +68,14 @@ export default function PalestrantesConfirmados() {
       nome: t("palestrantes.Fernando-miguel.nome"),
       cargo: t("palestrantes.Fernando-miguel.cargo"),
       instituicao: t("palestrantes.Fernando-miguel.instituicao"),
-      foto: "/palestrantes/fernando.jpg",
+      foto: "/palestrantes/fernando.png",
       palestra: t("palestrantes.Fernando-miguel.palestra"),
       nacionalidade: t("palestrantes.Fernando-miguel.nacionalidade"),
     },
 
      {
       id: "Helena-fernandez",
-      nome: t("palestrantes.scott-Helena-fernandez.nome"),
+      nome: t("palestrantes.Helena-fernandez.nome"),
       cargo: t("palestrantes.Helena-fernandez.cargo"),
       instituicao: t("palestrantes.Helena-fernandez.instituicao"),
       foto: "/palestrantes/helena-fernandez.png",
