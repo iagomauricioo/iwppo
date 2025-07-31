@@ -82,6 +82,16 @@ export default function PalestrantesConfirmados() {
       palestra: t("palestrantes.Helena-fernandez.palestra"),
       nacionalidade: t("palestrantes.Helena-fernandez.nacionalidade"),
     },
+
+    {
+      id: "cristiane-siqueira",
+      nome: t("palestrantes.cristiane-siqueira.nome"),
+      cargo: t("palestrantes.cristiane-siqueira.cargo"),
+      instituicao: t("palestrantes.cristiane-siqueira.instituicao"),
+      foto: "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
+      palestra: t("palestrantes.cristiane-siqueira.palestra"),
+      nacionalidade: t("palestrantes.cristiane-siqueira.nacionalidade"),
+    },
     
   ];
 
