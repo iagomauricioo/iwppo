@@ -1,8 +1,8 @@
 {
   "HeroSection": {
-    "title": "Taller Internacional sobre Contaminación por Plásticos en los Océanos",
+    "title": "Taller Internacional sobre la Contaminación Plástica en los Océanos",
     "subtitle": "Océanos en crisis, ciencia con propósito: transformando el conocimiento en esperanza",
-    "date": "17-19 de septiembre, 2025",
+    "date": "17-19 de septiembre de 2025",
     "location": "Centro Cultural João Sampaio, Alagoas - Maceió",
     "register_button": "Inscríbete Ahora",
     "ver_programacao": "Ver Programa",
@@ -15,10 +15,10 @@
     "datas_importantes": "Fechas Importantes",
     "submissao_de_artigos": "Presentación de Artículos",
     "data_1": "Hasta el 17 de agosto",
-    "comunicacao_de_aceite": "Comunicación de Aceptación",
+    "comunicacao_de_aceite": "Notificación de Aceptación",
     "data_2": "Hasta el 27 de agosto",
     "envio_final": "Envío Final",
-    "data_3": "Hasta el 08 de septiembre",
+    "data_3": "Hasta el 8 de septiembre",
     "realizacao_do_evento": "Realización del Evento",
     "data_4": "17 al 19 de septiembre"
   },
@@ -28,7 +28,7 @@
   },
   "ZeroResiduo": {
     "title": "Cero Residuos",
-    "subtitle": "Este evento buscará Cero Residuos. ¡Participa! Trae tu botella de agua, taza, bolígrafo, cuaderno, bolsa… ¡Y Salva el Planeta!",
+    "subtitle": "Este evento busca alcanzar Cero Residuos. ¡Participa! Trae tu botella de agua, taza, bolígrafo, cuaderno, bolsa… ¡Y Salva el Planeta!",
     "items": ["Botella de agua", "Taza", "Bolígrafo", "Cuaderno", "Bolsa"],
     "save_the_planet": "¡Salva el Planeta!"
   },
@@ -37,7 +37,7 @@
     "sobre": "Acerca de",
     "localizacao": "Ubicación",
     "programacao": "Programa",
-    "comissao": "Comisión",
+    "comissao": "Comité",
     "inscricao": "Inscripción",
     "contato": "Contacto",
     "parceiros": "Socios",
@@ -49,14 +49,14 @@
     "title": "Acerca del Evento",
     "section1": {
       "heading": "II IWPPO 2025",
-      "paragraph": "El IWPPO nació de la necesidad de discutir y encontrar soluciones para uno de los mayores desafíos ambientales actuales: la contaminación por plásticos en los océanos. Con origen en el CEMEIA y apoyo de CAPES (PAEP), nuestro taller reúne a especialistas internacionales en un enfoque interdisciplinario."
+      "paragraph": "El IWPPO nació de la necesidad de discutir y encontrar soluciones para uno de los mayores desafíos ambientales de la actualidad: la contaminación plástica en los océanos. Originado en el CEMEIA y con el apoyo de CAPES (PAEP), nuestro taller reúne a expertos internacionales en un enfoque interdisciplinario."
     },
     "section2": {
       "heading": "Nuestro Enfoque",
-      "paragraph": "El taller combina investigación científica, políticas públicas e innovación tecnológica para enfrentar el problema de la contaminación por plásticos. Con participantes de diversos países, promovemos el intercambio de conocimientos y soluciones prácticas."
+      "paragraph": "El taller combina investigación científica, políticas públicas e innovación tecnológica para abordar el problema de la contaminación plástica. Con participantes de diversos países, promovemos el intercambio de conocimientos y soluciones prácticas."
     },
     "highlights": [
-      "Respaldado por el Comité Ejecutivo de la ONU",
+      "Avalado por el Comité Ejecutivo de la ONU",
       "Cooperación Internacional",
       "Alineado con el ODS 14 - Vida Submarina",
       "Más de 500 participantes",
@@ -68,7 +68,7 @@
   "RegistrationSection": {
     "title": "Inscripciones",
     "description": "Elige el plan que mejor se adapte a tus necesidades y asegura tu participación en el II Taller Internacional de Investigación en Políticas Públicas y Desarrollo Social.",
-    "subtitle": "Asegura tu plaza",
+    "subtitle": "Asegura Tu Plaza",
     "date": "17 al 19 de septiembre de 2025",
     "register_button": "Inscribirse Ahora",
     "deadline_title": "Plazo de Inscripción",
@@ -80,15 +80,7 @@
     "additional_info_1": "Los estudiantes deben presentar un comprobante de matrícula válido.",
     "additional_info_2": "El pago se puede realizar mediante PIX, tarjeta de crédito o boleto bancario.",
     "additional_info_3": "En caso de cancelación, el reembolso es del 70% hasta 30 días antes del evento.",
-    "additional_info_4": "Es necesario comprobar la categoría de inscripción en el momento de la inscripción.",
-    "evaluation_title": "Criterios de Evaluación",
-    "evaluation_1": "El primer paso consiste en una evaluación preliminar por el comité directivo, que examina si el trabajo se adhiere al alcance del evento y cumple con los requisitos de formato y presentación.",
-    "evaluation_2": "El segundo paso consiste en una evaluación por el Comité Científico del Taller sobre Contaminación por Plásticos en los Océanos. Los trabajos serán evaluados por dos revisores según los siguientes criterios:",
-    "evaluation_3": "Originalidad - Clasificación en relación con el estado del arte - Contribución - Rigor Metodológico - Calidad de la Redacción. Cada criterio puede recibir una de las siguientes calificaciones, que se convertirán en valores numéricos:",
-    "evaluation_4": "Muy Malo = 01 - Malo = 02 - Regular = 03 - Bueno = 04 - Muy Bueno = 05. Los autores PODRÁN SER NOTIFICADOS CON: - ACEPTADO (puntuación promedio de 4 o superior) - RECHAZADO (puntuación promedio inferior a 4)",
-    "evaluaion_5": "Sobre las Presentaciones",
-    "evaluation_6": "Presentación en póster: 1 hora de exposición",
-    "evaluation_7": "Presentación oral: 10 minutos para la presentación + 5 minutos para preguntas"
+    "additional_info_4": "Es necesario comprobar la categoría de inscripción en el momento de registrarse."
   },
   "plans": {
     "features": {
@@ -114,14 +106,14 @@
       "place": "Centro Cultural João Sampaio",
       "street": "Av. Moreira e Silva, 595",
       "neighborhood": "Farol, Maceió - AL",
-      "zip": "CEP: 57051-500"
+      "zip": "Código Postal: 57051-500"
     },
     "howToGetThere": {
       "title": "Cómo Llegar",
       "ofCar": "En Coche",
       "car": "Estacionamiento disponible en el lugar.",
       "ofPublicTransport": "Transporte Público",
-      "publicTransport": "Algunas líneas de autobús pasan cerca del lugar, como: 703 y 704. Para más información, consulta la aplicación de ",
+      "publicTransport": "Algunas líneas de autobús pasan cerca del lugar, como la 703 y la 704. Para más información, consulta la aplicación ",
       "ofAirport": "Desde el Aeropuerto",
       "airport": "Aproximadamente 1 hora en coche o taxi."
     },
@@ -129,8 +121,8 @@
       "title": "Contacto del Lugar",
       "phoneLabel": "Teléfono:",
       "phone": "(82) 3333-4444",
-      "emailLabel": "Correo:",
-      "email": "contato@centroculturaljs.com.br"
+      "emailLabel": "Correo Electrónico:",
+      "email": "contacto@centroculturaljs.com.br"
     }
   },
   "TopicsSection": {
@@ -142,7 +134,7 @@
       },
       "circular": {
         "title": "Economía Circular",
-        "description": "Estrategias de monitoreo, rastreo y reciclaje de residuos plásticos."
+        "description": "Estrategias de monitoreo, seguimiento y reciclaje de residuos plásticos."
       },
       "cooperation": {
         "title": "Cooperación Global",
@@ -169,7 +161,7 @@
         "date": "2025-09-17",
         "events": [
           {
-            "time": "19:00",
+            "time": "7:00 PM",
             "title": "Ceremonia de Apertura del 2º IWPPO",
             "location": "Centro Cultural João Sampaio",
             "nature": "Ceremonia",
@@ -177,8 +169,8 @@
             "description": "Apertura oficial del evento"
           },
           {
-            "time": "19:45",
-            "title": "Conferencia: La Crisis del Plástico en los Océanos y las Consecuencias para el Futuro del Planeta",
+            "time": "7:45 PM",
+            "title": "Conferencia: La Crisis del Plástico en los Océanos y sus Consecuencias para el Futuro del Planeta",
             "location": "Centro Cultural João Sampaio",
             "nature": "Conferencia",
             "speakers": "-",
@@ -191,23 +183,23 @@
         "date": "2025-09-18",
         "events": [
           {
-            "time": "09:00",
-            "title": "Sección de Pósters – Trabajos del 1 al 20",
+            "time": "9:00 AM",
+            "title": "Sesión de Carteles – Trabajos 1 a 20",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Exposición de trabajos académicos"
           },
           {
-            "time": "10:00",
-            "title": "COFFEE BREAK",
+            "time": "10:00 AM",
+            "title": "DESCANSO PARA CAFÉ",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
             "description": "Pausa para networking"
           },
           {
-            "time": "10:30",
+            "time": "10:30 AM",
             "title": "Conferencia Magistral Matutina",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Conferencia",
@@ -215,39 +207,39 @@
             "description": "Conferencia principal de la mañana"
           },
           {
-            "time": "11:15",
-            "title": "Presentaciones Orales – Secciones 1 a 9",
+            "time": "11:15 AM",
+            "title": "Presentaciones Orales – Sesiones 1 a 9",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Presentaciones orales de investigaciones"
           },
           {
-            "time": "12:00",
-            "title": "HORARIO DE ALMUERZO",
+            "time": "12:00 PM",
+            "title": "HORA DE ALMUERZO",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
-            "description": "Pausa para el almuerzo"
+            "description": "Pausa para almuerzo"
           },
           {
-            "time": "14:00",
-            "title": "Sección de Pósters – Trabajos del 21 al 40",
+            "time": "2:00 PM",
+            "title": "Sesión de Carteles – Trabajos 21 a 40",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Exposición de trabajos académicos"
           },
           {
-            "time": "15:00",
-            "title": "COFFEE BREAK",
+            "time": "3:00 PM",
+            "title": "DESCANSO PARA CAFÉ",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
             "description": "Pausa para networking"
           },
           {
-            "time": "15:30",
+            "time": "3:30 PM",
             "title": "Conferencia Magistral Vespertina",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Conferencia",
@@ -255,15 +247,15 @@
             "description": "Conferencia principal de la tarde"
           },
           {
-            "time": "16:15",
-            "title": "Presentaciones Orales – Secciones 10 a 18",
+            "time": "4:15 PM",
+            "title": "Presentaciones Orales – Sesiones 10 a 18",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Presentaciones orales de investigaciones"
           },
           {
-            "time": "17:00",
+            "time": "5:00 PM",
             "title": "Mesa Redonda: Rastreando lo Invisible: Monitoreo de Plásticos Marinos",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Mesa Redonda",
@@ -271,8 +263,8 @@
             "description": "Discusión sobre el monitoreo de plásticos marinos"
           },
           {
-            "time": "18:00",
-            "title": "Cierre de las Actividades Académicas",
+            "time": "6:00 PM",
+            "title": "Cierre de Actividades Académicas",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Ceremonia",
             "speakers": "-",
@@ -285,23 +277,23 @@
         "date": "2025-09-19",
         "events": [
           {
-            "time": "09:00",
-            "title": "Sección de Pósters – Trabajos del 41 al 60",
+            "time": "9:00 AM",
+            "title": "Sesión de Carteles – Trabajos 41 a 60",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Exposición de trabajos académicos"
           },
           {
-            "time": "10:00",
-            "title": "COFFEE BREAK",
+            "time": "10:00 AM",
+            "title": "DESCANSO PARA CAFÉ",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
             "description": "Pausa para networking"
           },
           {
-            "time": "10:30",
+            "time": "10:30 AM",
             "title": "Conferencia Magistral Matutina",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Conferencia",
@@ -309,39 +301,39 @@
             "description": "Conferencia principal de la mañana"
           },
           {
-            "time": "11:15",
-            "title": "Presentaciones Orales – Secciones 19 a 27",
+            "time": "11:15 AM",
+            "title": "Presentaciones Orales – Sesiones 19 a 27",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Presentaciones orales de investigaciones"
           },
           {
-            "time": "12:00",
-            "title": "HORARIO DE ALMUERZO",
+            "time": "12:00 PM",
+            "title": "HORA DE ALMUERZO",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
-            "description": "Pausa para el almuerzo"
+            "description": "Pausa para almuerzo"
           },
           {
-            "time": "14:00",
-            "title": "Presentaciones Orales – Secciones 28 a 36",
+            "time": "2:00 PM",
+            "title": "Presentaciones Orales – Sesiones 28 a 36",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Presentación",
             "speakers": "-",
             "description": "Presentaciones orales de investigaciones"
           },
           {
-            "time": "15:00",
-            "title": "COFFEE BREAK",
+            "time": "3:00 PM",
+            "title": "DESCANSO PARA CAFÉ",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Otro",
             "speakers": "-",
             "description": "Pausa para networking"
           },
           {
-            "time": "15:30",
+            "time": "3:30 PM",
             "title": "Conferencia Magistral Vespertina",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Conferencia",
@@ -349,15 +341,15 @@
             "description": "Conferencia principal de la tarde"
           },
           {
-            "time": "16:15",
-            "title": "Momento de Reconocimiento y Premiaciones: Voces que valoramos, esfuerzos que celebramos",
+            "time": "4:15 PM",
+            "title": "Momento de Reconocimiento y Premiaciones: Voces que Valoramos, Esfuerzos que Celebramos",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Ceremonia",
             "speakers": "-",
             "description": "Premiación de participantes"
           },
           {
-            "time": "17:00",
+            "time": "5:00 PM",
             "title": "Mesa Redonda: Cambiando la Marea: Políticas, Innovaciones y Soluciones Comunitarias",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Mesa Redonda",
@@ -365,15 +357,15 @@
             "description": "Discusión sobre políticas y soluciones para plásticos"
           },
           {
-            "time": "18:00",
-            "title": "Cierre de las Actividades Académicas",
+            "time": "6:00 PM",
+            "title": "Cierre de Actividades Académicas",
             "location": "Complejo de Innovaciones Pedagógicas CESMAC",
             "nature": "Ceremonia",
             "speakers": "-",
             "description": "Cierre de las actividades del día"
           },
           {
-            "time": "19:00",
+            "time": "7:00 PM",
             "title": "Ceremonia de Clausura del 2º IWPPO y Protocolo de Compromisos Futuros (3º IWPPO)",
             "location": "Centro Cultural João Sampaio",
             "nature": "Ceremonia",
@@ -389,48 +381,48 @@
     "options": [
       {
         "title": "Estudiantes de Grado",
-        "price": "R$ 30,00",
-        "features": ["Inscripción", "Conferencias", "Cursos cortos", "Certificado"],
+        "price": "$30.00",
+        "features": ["Inscripción", "Conferencias", "Cursos Cortos", "Certificado"],
         "buttonText": "Inscríbete"
       },
       {
         "title": "Estudiantes de Posgrado",
-        "price": "R$ 70,00",
-        "features": ["Inscripción", "Conferencias", "Cursos cortos", "Certificado"],
+        "price": "$70.00",
+        "features": ["Inscripción", "Conferencias", "Cursos Cortos", "Certificado"],
         "buttonText": "Inscríbete"
       },
       {
         "title": "Profesores de Educación Básica",
-        "price": "GRATUITO",
-        "features": ["Inscripción", "Conferencias", "Cursos cortos", "Certificado"],
+        "price": "GRATIS",
+        "features": ["Inscripción", "Conferencias", "Cursos Cortos", "Certificado"],
         "buttonText": "Inscríbete"
       },
       {
         "title": "Profesores / Investigadores",
-        "price": "R$ 100,00",
-        "features": ["Inscripción", "Conferencias", "Cursos cortos", "Certificado"],
+        "price": "$100.00",
+        "features": ["Inscripción", "Conferencias", "Cursos Cortos", "Certificado"],
         "buttonText": "Participar"
       },
       {
         "title": "Conferencistas",
-        "price": "GRATUITO",
-        "features": ["Inscripción", "Conferencias", "Cursos cortos", "Certificado"],
+        "price": "GRATIS",
+        "features": ["Inscripción", "Conferencias", "Cursos Cortos", "Certificado"],
         "buttonText": "Confirmar"
       }
     ]
   },
   "ContactPage": {
     "title": "Contáctanos",
-    "subtitle": "¿Tienes alguna duda sobre el evento? Contáctanos y responderemos lo antes posible.",
+    "subtitle": "¿Tienes alguna duda sobre el evento? Contáctanos y te responderemos lo antes posible.",
     "contactSection": {
       "title": "Información de Contacto",
       "items": [
         {
           "icon": "Mail",
-          "title": "Correo",
-          "content": "contato@iwppo.com.br",
+          "title": "Correo Electrónico",
+          "content": "contacto@iwppo.com.br",
           "action": "Enviar correo",
-          "actionLink": "mailto:contato@iwppo.com.br"
+          "actionLink": "mailto:contacto@iwppo.com.br"
         },
         {
           "icon": "Phone",
@@ -447,7 +439,7 @@
         {
           "icon": "Clock",
           "title": "Horario",
-          "content": "Lunes a Viernes, 8h a 18h"
+          "content": "Lunes a viernes, 8h a 18h"
         }
       ]
     },
@@ -460,13 +452,13 @@
           "required": true
         },
         "email": {
-          "label": "Correo",
-          "placeholder": "Ingresa tu correo",
+          "label": "Correo Electrónico",
+          "placeholder": "Ingresa tu correo electrónico",
           "required": true
         },
         "subject": {
           "label": "Asunto",
-          "placeholder": "¿Cuál es el asunto del mensaje?",
+          "placeholder": "¿Cuál es el asunto de tu mensaje?",
           "required": true
         },
         "message": {
@@ -480,13 +472,13 @@
       "success": "Mensaje Enviado",
       "error": "Error al Enviar",
       "successTitle": "¡Mensaje Enviado!",
-      "successMessage": "Agradecemos tu contacto. Responderemos pronto."
+      "successMessage": "Gracias por tu contacto. Te responderemos pronto."
     }
   },
   "ComissaoOrganizadora": {
-    "title": "Comisión Organizadora",
-    "event_title": "Taller Internacional sobre Contaminación por Plásticos en los Océanos",
-    "subtitle": "Nuestra comisión organizadora está compuesta por reconocidos investigadores y especialistas internacionales dedicados al estudio y combate de la contaminación por plásticos en los océanos.",
+    "title": "Comité Organizador",
+    "event_title": "Taller Internacional sobre la Contaminación Plástica en los Océanos",
+    "subtitle": "Nuestro comité organizador está compuesto por reconocidos investigadores y expertos internacionales dedicados al estudio y combate de la contaminación plástica en los océanos.",
     "stats": {
       "countries": {
         "value": "15+",
@@ -502,20 +494,20 @@
     "apoiadores": {
       "titulo": "Apoyo",
       "capes": {
-        "descripcion": "Coordinación de Perfeccionamiento de Personal de Nivel Superior"
+        "descripcion": "Coordinación para el Perfeccionamiento del Personal de Nivel Superior"
       },
       "cnpq": {
         "descripcion": "Consejo Nacional de Desarrollo Científico y Tecnológico"
       },
       "pscom": {
-        "descripcion": "Pajuçara Sistema de Comunicación"
+        "descripcion": "Sistema de Comunicación Pajuçara"
       }
     },
     "realizacao": {
-      "titulo": "Realización",
+      "titulo": "Organizadores",
       "cesmac": {
-        "nombre": "Centro Universitario CESMAC",
-        "descripcion": "Institución de educación superior comprometida con la excelencia académica y la formación de profesionales calificados."
+        "nombre": "Centro Universitario Cesmac",
+        "descripcion": "Institución de educación superior comprometida con la excelencia académica y la formación de profesionales cualificados."
       },
       "ppgasa": {
         "nombre": "PPGASA - Programa de Posgrado en Análisis de Sistemas Ambientales",
@@ -528,42 +520,42 @@
   },
   "EixosTematicos": {
     "titulo": "Ejes Temáticos para la Presentación de Trabajos",
-    "descripcion": "Elige uno de los ejes a continuación para enviar tu trabajo científico",
-    "envie_trabalho": "Envía tu trabajo ahora en Doity",
-    "prazo_submissao": "Plazo para la presentación",
+    "descripcion": "Elige uno de los ejes a continuación para presentar tu trabajo científico",
+    "envie_trabalho": "Envía tu trabajo en Doity",
+    "prazo_submissao": "Plazo de Presentación",
     "data_submissao": "17 de agosto de 2025",
     "itens": [
       {
         "titulo": "Diagnóstico de los Océanos: La Crisis Actual",
-        "descripcion": "Este eje temático aborda el estado actual de los océanos frente a los desafíos ambientales contemporáneos. Busca reunir estudios que evalúen la salud de los ecosistemas marinos, destacando indicadores de degradación ambiental, pérdida de biodiversidad, acidificación, sobrepesca e impactos del cambio climático. También se aceptan investigaciones que utilicen herramientas de monitoreo, modelado oceánico y evaluación de políticas de conservación. El objetivo es proporcionar un panorama amplio y científico sobre la condición real de los océanos a escala local, regional y global."
+        "descripcion": "Este eje temático aborda el estado actual de los océanos frente a los desafíos ambientales contemporáneos. Busca reunir estudios que evalúen la salud de los ecosistemas marinos, destacando indicadores de degradación ambiental, pérdida de biodiversidad, acidificación, sobrepesca e impactos del cambio climático. También se aceptan investigaciones que utilicen herramientas de monitoreo, modelado oceánico y evaluación de políticas de conservación. El objetivo es proporcionar un panorama integral y científico sobre la condición real de los océanos a escala local, regional y global."
       },
       {
         "titulo": "Contaminación y Contaminantes Emergentes",
-        "descripcion": "Este eje abarca investigaciones dirigidas a la identificación, caracterización y mitigación de contaminantes en los entornos marinos, con un énfasis especial en contaminantes emergentes como microplásticos, nanoplásticos, residuos farmacéuticos, pesticidas y metales pesados. Se esperan trabajos que investiguen las fuentes, rutas de dispersión, efectos ecotoxicológicos y posibles soluciones para estos contaminantes. También se incluyen enfoques innovadores en tecnologías de detección, remediación y estrategias de prevención con un enfoque en la sostenibilidad marina."
+        "descripcion": "Este eje incluye investigaciones centradas en la identificación, caracterización y mitigación de contaminantes en ambientes marinos, con un énfasis especial en contaminantes emergentes como microplásticos, nanoplásticos, residuos farmacéuticos, pesticidas y metales pesados. Se esperan trabajos que investiguen fuentes, rutas de dispersión, efectos ecotoxicológicos y posibles soluciones para estos contaminantes. También se incluyen enfoques innovadores en tecnologías de detección, remediación y estrategias de prevención enfocadas en la sostenibilidad marina."
       },
       {
         "titulo": "Ciencia con Propósito: Investigaciones Aplicadas a los Océanos",
-        "descripcion": "Este eje destaca la ciencia aplicada como una herramienta estratégica para enfrentar los desafíos oceánicos. Se aceptan investigaciones que involucren monitoreo por teledetección, modelado climático, biotecnología marina y soluciones basadas en tecnologías emergentes como Inteligencia Artificial y Big Data. El enfoque está en la producción de conocimiento técnico con un impacto directo en la conservación, gestión y uso sostenible de los mares."
+        "descripcion": "Este eje destaca la ciencia aplicada como una herramienta estratégica para enfrentar los desafíos oceánicos. Se aceptan investigaciones que involucren sensores remotos, modelado climático, biotecnología marina y soluciones basadas en tecnologías emergentes como la Inteligencia Artificial y Big Data. El enfoque está en producir conocimiento técnico con un impacto directo en la conservación, gestión y uso sostenible de los mares."
       },
       {
         "titulo": "Comunidades Tradicionales y Saberes Locales",
-        "descripcion": "Aborda la importancia de los conocimientos tradicionales y el protagonismo de las comunidades costeras en la preservación de los océanos. Este eje valora estudios interdisciplinarios sobre prácticas sostenibles, justicia ambiental y los impactos de la crisis climática en la vida de pueblos indígenas, pescadores artesanales, recolectores de mariscos y ribereños. Fomenta el diálogo entre la ciencia y los saberes locales como estrategia para políticas más justas y efectivas."
+        "descripcion": "Este eje aborda la importancia del conocimiento tradicional y el protagonismo de las comunidades costeras en la preservación de los océanos. Valora estudios interdisciplinarios sobre prácticas sostenibles, justicia ambiental y los impactos de la crisis climática en la vida de pueblos indígenas, pescadores artesanales, recolectores de mariscos y comunidades ribereñas. Fomenta el diálogo entre la ciencia y los saberes locales como estrategia para políticas más justas y efectivas."
       },
       {
         "titulo": "Comunicación Científica y Educación Oceánica",
-        "descripcion": "Se centra en la difusión del conocimiento científico y en el fortalecimiento de la cultura oceánica. Este eje abarca iniciativas de divulgación científica, producción de materiales educativos, acciones en escuelas y comunidades, así como estrategias de comunicación orientadas a la movilización social y al apoyo a políticas públicas. También se esperan trabajos que exploren la comunicación de riesgos en contextos de crisis climática."
+        "descripcion": "Este eje se centra en la diseminación del conocimiento científico y el fortalecimiento de la cultura oceánica. Incluye iniciativas de popularización de la ciencia, producción de materiales educativos, acciones en escuelas y comunidades, así como estrategias de comunicación destinadas a la movilización social y el apoyo a políticas públicas. También se esperan trabajos que exploren la comunicación de riesgos en contextos de crisis climática."
       },
       {
         "titulo": "Políticas Públicas y Gobernanza de los Mares",
-        "descripcion": "Explora el papel de las políticas públicas en la protección y gestión sostenible de los océanos. Cubre temas como acuerdos multilaterales, creación de áreas marinas protegidas, instrumentos legales nacionales, gobernanza participativa y transparencia en la gestión costera. Este eje busca articular la ciencia, la sociedad y el Estado para promover una gobernanza oceánica efectiva y equitativa."
+        "descripcion": "Este eje explora el papel de las políticas públicas en la protección y gestión sostenible de los océanos. Abarca temas como acuerdos multilaterales, creación de áreas marinas protegidas, instrumentos legales nacionales, gobernanza participativa y transparencia en la gestión costera. El objetivo es articular ciencia, sociedad y Estado para promover una gobernanza oceánica efectiva y equitativa."
       },
       {
         "titulo": "Innovación, Sostenibilidad y Soluciones Basadas en la Naturaleza",
-        "descripcion": "Promueve enfoques innovadores para la regeneración y preservación de los entornos marinos. Incluye investigaciones sobre la restauración de ecosistemas costeros, energías renovables oceánicas, economía azul, cadenas productivas sostenibles y tecnologías basadas en la naturaleza. El objetivo es estimular soluciones que concilien el desarrollo socioeconómico y la integridad ecológica."
+        "descripcion": "Este eje promueve enfoques innovadores para la regeneración y preservación de los ambientes marinos. Incluye investigaciones sobre restauración de ecosistemas costeros, energías renovables oceánicas, economía azul, cadenas productivas sostenibles y tecnologías basadas en la naturaleza. El objetivo es fomentar soluciones que equilibren el desarrollo socioeconómico con la integridad ecológica."
       },
       {
         "titulo": "Océanos y Clima: Interacciones e Impactos",
-        "descripcion": "Este eje analiza el papel de los océanos en el sistema climático global y los efectos del cambio climático en los entornos marinos y costeros. Se aceptan estudios sobre eventos extremos, aumento del nivel del mar, acidificación, impactos en comunidades vulnerables y estrategias de mitigación y adaptación. El énfasis está en comprender y responder a los riesgos climáticos con una base científica sólida."
+        "descripcion": "Este eje analiza el papel de los océanos en el sistema climático global y los efectos del cambio climático en los ambientes marinos y costeros. Se aceptan estudios sobre eventos extremos, aumento del nivel del mar, acidificación, impactos en comunidades vulnerables y estrategias de mitigación y adaptación. El énfasis está en comprender y responder a los riesgos climáticos con una base científica sólida."
       }
     ]
   },
@@ -579,9 +571,9 @@
     "direitos_reservados": "© 2025 II IWPPO. Todos los derechos reservados."
   },
   "PalestrantesConfirmados": {
-    "title1": "Quién ya",
-    "title2": "está confirmado",
-    "descripcion": "Conoce a los especialistas que compartirán sus conocimientos en el IWPPO",
+    "title1": "Quién está",
+    "title2": "confirmado",
+    "descripcion": "Conoce a los expertos que compartirán sus conocimientos en el IWPPO",
     "placeholder": "Buscar conferencistas o temas...",
     "palestrantes": {
       "robson-santos": {
@@ -594,14 +586,14 @@
       "fernando-lopez": {
         "nombre": "Fernando J. Díaz López",
         "cargo": "Investigador Internacional",
-        "institucion": "Climate and Earth Center of HEC Paris",
+        "institucion": "Centro de Clima y Tierra de HEC Paris",
         "conferencia": "Ceremonia de Clausura",
         "nacionalidad": "Extranjero"
       },
       "scott-wilson": {
         "nombre": "Scott Paton Wilson",
         "cargo": "Investigador Internacional",
-        "institucion": "Macquarie University",
+        "institucion": "Universidad Macquarie",
         "conferencia": "Ceremonia de Apertura",
         "nacionalidad": "Extranjero"
       },
@@ -616,21 +608,49 @@
         "nombre": "Fernando Miguel",
         "cargo": "Investigador",
         "institucion": "Universidad del Algarve - Portugal",
-        "conferencia": "Geotecnologías Aplicadas al Análisis y Mitigación de Impactos Ambientales: De la Gestión Territorial a la Detección de Plásticos en los Océanos.",
+        "conferencia": "Geotecnologías Aplicadas al Análisis y Mitigación de Impactos Ambientales.",
         "nacionalidad": "Extranjero"
       },
       "Helena-fernandez": {
         "nombre": "Helena Fernández",
-        "cargo": "Investigador",
+        "cargo": "Investigadora",
         "institucion": "Universidad del Algarve - Portugal",
-        "conferencia": "Geotecnologías Aplicadas al Análisis y Mitigación de Impactos Ambientales: De la Gestión Territorial a la Detección de Plásticos en los Océanos.",
+        "conferencia": "Gestión Territorial en la Detección de Plásticos en los Océanos.",
         "nacionalidad": "Extranjero"
+      },
+      "cristiane-siqueira": {
+        "nombre": "Cristiane Siqueira",
+        "cargo": "Investigadora",
+        "institucion": "Universidad de Vassouras - Río de Janeiro",
+        "conferencia": "Gestión Territorial en la Detección de Plásticos en los Océanos.",
+        "nacionalidad": "Brasil"
+      },
+      "Biagio": {
+        "nombre": "Biagio Fernando Giannetti",
+        "cargo": "Investigador",
+        "institucion": "Universidad Paulista - UNIP",
+        "conferencia": "Emergía y Justicia Ecológica: Una Nueva Base para la Responsabilidad Compartida en los Océanos",
+        "nacionalidad": "Brasil"
+      },
+      "federico-sulis": {
+        "nombre": "Federico Sulis",
+        "cargo": "Investigador",
+        "institucion": "Universidad Paulista - UNIP",
+        "conferencia": "Cerrando el Ciclo: Evaluación de la Sostenibilidad de Cobogós con Residuos Plásticos Marinos",
+        "nacionalidad": "Extranjero"
+      },
+      "Marcell": {
+        "nombre": "Marcell Mariano Correa Maceno",
+        "cargo": "Investigador",
+        "institucion": "Universidad Federal de Paraná",
+        "conferencia": "Evaluación del Ciclo de Vida y Microplásticos: Una Visión General",
+        "nacionalidad": "Brasil"
       }
     }
   },
   "ComiteCientifico": {
     "title": "Comité Científico",
-    "subtitle": "2º Taller Internacional sobre Contaminación por Plásticos en los Océanos",
-    "description": "Nuestro comité científico está formado por investigadores reconocidos dedicados al avance del conocimiento sobre la contaminación por plásticos en los océanos."
+    "subtitle": "2º Taller Internacional sobre la Contaminación Plástica en los Océanos",
+    "description": "Nuestro comité científico está compuesto por investigadores reconocidos dedicados a avanzar en el conocimiento sobre la contaminación plástica en los océanos."
   }
 }

@@ -18,7 +18,7 @@
     "comunicacao_de_aceite": "Acceptance Notification",
     "data_2": "Until August 27",
     "envio_final": "Final Submission",
-    "data_3": "Until September 08",
+    "data_3": "Until September 8",
     "realizacao_do_evento": "Event Date",
     "data_4": "September 17-19"
   },
@@ -49,7 +49,7 @@
     "title": "About the Event",
     "section1": {
       "heading": "II IWPPO 2025",
-      "paragraph": "The IWPPO was born from the need to discuss and find solutions for one of today's greatest environmental challenges: plastic pollution in the oceans. Originating from CEMEIA and supported by CAPES (PAEP), our workshop brings together international experts in an interdisciplinary approach."
+      "paragraph": "The IWPPO was born from the need to discuss and find solutions for one of the greatest environmental challenges today: plastic pollution in the oceans. Originating from CEMEIA and supported by CAPES (PAEP), our workshop brings together international experts in an interdisciplinary approach."
     },
     "section2": {
       "heading": "Our Approach",
@@ -67,7 +67,7 @@
   },
   "RegistrationSection": {
     "title": "Registration",
-    "description": "Choose the plan that best suits your needs and secure your participation in the II International Workshop on Public Policy Research and Social Development.",
+    "description": "Choose the plan that best suits your needs and secure your participation in the II International Workshop on Public Policy and Social Development Research.",
     "subtitle": "Secure Your Spot",
     "date": "September 17-19, 2025",
     "register_button": "Register Now",
@@ -80,15 +80,7 @@
     "additional_info_1": "Students must present valid proof of enrollment.",
     "additional_info_2": "Payment can be made via PIX, credit card, or bank slip.",
     "additional_info_3": "In case of cancellation, a 70% refund is available up to 30 days before the event.",
-    "additional_info_4": "Proof of registration category is required at the time of registration.",
-    "evaluation_title": "Evaluation Criteria",
-    "evaluation_1": "The first step consists of a preliminary evaluation by the steering committee, which examines whether the work aligns with the event's scope and meets formatting and submission requirements.",
-    "evaluation_2": "The second step involves an evaluation by the Scientific Committee of the Workshop on Plastic Pollution in the Oceans. Papers will be reviewed by two evaluators based on the following criteria:",
-    "evaluation_3": "Originality - Classification relative to the state of the art - Contribution - Methodological Rigor - Writing Quality. Each criterion may receive one of the following ratings, which will be converted into numerical values:",
-    "evaluation_4": "Very Poor = 01 - Poor = 02 - Fair = 03 - Good = 04 - Very Good = 05. Authors MAY BE NOTIFIED WITH: - ACCEPTED (average score of 4 or higher) - REJECTED (average score below 4)",
-    "evaluaion_5": "About Presentations",
-    "evaluation_6": "Poster presentation: 1 hour of display",
-    "evaluation_7": "Oral presentation: 10 minutes for presentation + 5 minutes for questions"
+    "additional_info_4": "Proof of registration category is required at the time of registration."
   },
   "plans": {
     "features": {
@@ -104,24 +96,24 @@
     "select": "Select",
     "selected": "Selected",
     "select_plan_alert": "Please select a registration plan",
-    "select_plan_message": "Please select a plan above to continue"
+    "select_plan_message": "Please select a plan above to proceed"
   },
   "LocationSection": {
     "title": "Location",
-    "description": "The event will take place at the João Sampaio Cultural Center, located in Maceió, Alagoas.",
+    "description": "The event will be held at the João Sampaio Cultural Center, located in Maceió, Alagoas.",
     "address": {
       "title": "Address",
       "place": "João Sampaio Cultural Center",
       "street": "Av. Moreira e Silva, 595",
       "neighborhood": "Farol, Maceió - AL",
-      "zip": "CEP: 57051-500"
+      "zip": "ZIP: 57051-500"
     },
     "howToGetThere": {
       "title": "How to Get There",
       "ofCar": "By Car",
       "car": "Parking available on-site.",
       "ofPublicTransport": "Public Transport",
-      "publicTransport": "Some bus lines pass near the venue, such as: 703 and 704. For more information, check the app of ",
+      "publicTransport": "Some bus lines pass near the venue, such as 703 and 704. For more information, check the app ",
       "ofAirport": "From the Airport",
       "airport": "Approximately 1 hour by car or taxi."
     },
@@ -130,7 +122,7 @@
       "phoneLabel": "Phone:",
       "phone": "(82) 3333-4444",
       "emailLabel": "Email:",
-      "email": "contato@centroculturaljs.com.br"
+      "email": "contact@joaosampaioculturalcenter.com.br"
     }
   },
   "TopicsSection": {
@@ -138,7 +130,7 @@
     "items": {
       "research": {
         "title": "Research and Innovation",
-        "description": "Development of innovative technological and public policy solutions."
+        "description": "Development of technological solutions and innovative public policies."
       },
       "circular": {
         "title": "Circular Economy",
@@ -150,7 +142,7 @@
       },
       "education": {
         "title": "Education and Training",
-        "description": "Development of capacities and educational initiatives for sustainable development."
+        "description": "Capacity building and educational initiatives for sustainable development."
       },
       "community": {
         "title": "Community Engagement",
@@ -169,7 +161,7 @@
         "date": "2025-09-17",
         "events": [
           {
-            "time": "19:00",
+            "time": "7:00 PM",
             "title": "Opening Ceremony of the 2nd IWPPO",
             "location": "João Sampaio Cultural Center",
             "nature": "Ceremony",
@@ -177,12 +169,12 @@
             "description": "Official opening of the event"
           },
           {
-            "time": "19:45",
+            "time": "7:45 PM",
             "title": "Lecture: The Plastic Crisis in the Oceans and Its Consequences for the Planet's Future",
             "location": "João Sampaio Cultural Center",
             "nature": "Lecture",
             "speakers": "-",
-            "description": "Discussion on the impact of plastics in the oceans"
+            "description": "Discussion on the impact of plastic in the oceans"
           }
         ]
       },
@@ -191,15 +183,15 @@
         "date": "2025-09-18",
         "events": [
           {
-            "time": "09:00",
+            "time": "9:00 AM",
             "title": "Poster Session – Papers 1 to 20",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
-            "description": "Display of academic papers"
+            "description": "Display of academic works"
           },
           {
-            "time": "10:00",
+            "time": "10:00 AM",
             "title": "COFFEE BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -207,7 +199,7 @@
             "description": "Break for networking"
           },
           {
-            "time": "10:30",
+            "time": "10:30 AM",
             "title": "Morning Keynote Lecture",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Lecture",
@@ -215,15 +207,15 @@
             "description": "Main morning lecture"
           },
           {
-            "time": "11:15",
-            "title": "Oral Presentations – Sections 1 to 9",
+            "time": "11:15 AM",
+            "title": "Oral Presentations – Sessions 1 to 9",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
             "description": "Oral presentations of research"
           },
           {
-            "time": "12:00",
+            "time": "12:00 PM",
             "title": "LUNCH BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -231,15 +223,15 @@
             "description": "Lunch break"
           },
           {
-            "time": "14:00",
+            "time": "2:00 PM",
             "title": "Poster Session – Papers 21 to 40",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
-            "description": "Display of academic papers"
+            "description": "Display of academic works"
           },
           {
-            "time": "15:00",
+            "time": "3:00 PM",
             "title": "COFFEE BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -247,7 +239,7 @@
             "description": "Break for networking"
           },
           {
-            "time": "15:30",
+            "time": "3:30 PM",
             "title": "Afternoon Keynote Lecture",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Lecture",
@@ -255,15 +247,15 @@
             "description": "Main afternoon lecture"
           },
           {
-            "time": "16:15",
-            "title": "Oral Presentations – Sections 10 to 18",
+            "time": "4:15 PM",
+            "title": "Oral Presentations – Sessions 10 to 18",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
             "description": "Oral presentations of research"
           },
           {
-            "time": "17:00",
+            "time": "5:00 PM",
             "title": "Roundtable: Tracking the Invisible: Monitoring Marine Plastics",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Roundtable",
@@ -271,12 +263,12 @@
             "description": "Discussion on monitoring marine plastics"
           },
           {
-            "time": "18:00",
+            "time": "6:00 PM",
             "title": "Closing of Academic Activities",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Ceremony",
             "speakers": "-",
-            "description": "Closure of the day's activities"
+            "description": "Closing of the day's activities"
           }
         ]
       },
@@ -285,15 +277,15 @@
         "date": "2025-09-19",
         "events": [
           {
-            "time": "09:00",
+            "time": "9:00 AM",
             "title": "Poster Session – Papers 41 to 60",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
-            "description": "Display of academic papers"
+            "description": "Display of academic works"
           },
           {
-            "time": "10:00",
+            "time": "10:00 AM",
             "title": "COFFEE BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -301,7 +293,7 @@
             "description": "Break for networking"
           },
           {
-            "time": "10:30",
+            "time": "10:30 AM",
             "title": "Morning Keynote Lecture",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Lecture",
@@ -309,15 +301,15 @@
             "description": "Main morning lecture"
           },
           {
-            "time": "11:15",
-            "title": "Oral Presentations – Sections 19 to 27",
+            "time": "11:15 AM",
+            "title": "Oral Presentations – Sessions 19 to 27",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
             "description": "Oral presentations of research"
           },
           {
-            "time": "12:00",
+            "time": "12:00 PM",
             "title": "LUNCH BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -325,15 +317,15 @@
             "description": "Lunch break"
           },
           {
-            "time": "14:00",
-            "title": "Oral Presentations – Sections 28 to 36",
+            "time": "2:00 PM",
+            "title": "Oral Presentations – Sessions 28 to 36",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Presentation",
             "speakers": "-",
             "description": "Oral presentations of research"
           },
           {
-            "time": "15:00",
+            "time": "3:00 PM",
             "title": "COFFEE BREAK",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Other",
@@ -341,7 +333,7 @@
             "description": "Break for networking"
           },
           {
-            "time": "15:30",
+            "time": "3:30 PM",
             "title": "Afternoon Keynote Lecture",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Lecture",
@@ -349,31 +341,31 @@
             "description": "Main afternoon lecture"
           },
           {
-            "time": "16:15",
-            "title": "Recognition and Awards Moment: Voices we value, efforts we celebrate",
+            "time": "4:15 PM",
+            "title": "Recognition and Awards Moment: Voices We Value, Efforts We Celebrate",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Ceremony",
             "speakers": "-",
-            "description": "Awarding of participants"
+            "description": "Participant awards"
           },
           {
-            "time": "17:00",
-            "title": "Roundtable: Turning the Tide: Policies, Innovations, and Community Solutions",
+            "time": "5:00 PM",
+            "title": "Roundtable: Changing the Tide: Policies, Innovations, and Community Solutions",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Roundtable",
             "speakers": "-",
             "description": "Discussion on policies and solutions for plastics"
           },
           {
-            "time": "18:00",
+            "time": "6:00 PM",
             "title": "Closing of Academic Activities",
             "location": "CESMAC Pedagogical Innovations Complex",
             "nature": "Ceremony",
             "speakers": "-",
-            "description": "Closure of the day's activities"
+            "description": "Closing of the day's activities"
           },
           {
-            "time": "19:00",
+            "time": "7:00 PM",
             "title": "Closing Ceremony of the 2nd IWPPO and Future Commitments Protocol (3rd IWPPO)",
             "location": "João Sampaio Cultural Center",
             "nature": "Ceremony",
@@ -389,13 +381,13 @@
     "options": [
       {
         "title": "Undergraduate Students",
-        "price": "R$ 30.00",
+        "price": "$30.00",
         "features": ["Registration", "Lectures", "Short Courses", "Certificate"],
         "buttonText": "Register"
       },
       {
         "title": "Graduate Students",
-        "price": "R$ 70.00",
+        "price": "$70.00",
         "features": ["Registration", "Lectures", "Short Courses", "Certificate"],
         "buttonText": "Register"
       },
@@ -407,7 +399,7 @@
       },
       {
         "title": "Professors / Researchers",
-        "price": "R$ 100.00",
+        "price": "$100.00",
         "features": ["Registration", "Lectures", "Short Courses", "Certificate"],
         "buttonText": "Participate"
       },
@@ -420,7 +412,7 @@
     ]
   },
   "ContactPage": {
-    "title": "Contact Us",
+    "title": "Get in Touch",
     "subtitle": "Have any questions about the event? Contact us, and we will respond as soon as possible.",
     "contactSection": {
       "title": "Contact Information",
@@ -428,9 +420,9 @@
         {
           "icon": "Mail",
           "title": "Email",
-          "content": "contato@iwppo.com.br",
+          "content": "contact@iwppo.com.br",
           "action": "Send email",
-          "actionLink": "mailto:contato@iwppo.com.br"
+          "actionLink": "mailto:contact@iwppo.com.br"
         },
         {
           "icon": "Phone",
@@ -466,7 +458,7 @@
         },
         "subject": {
           "label": "Subject",
-          "placeholder": "What is the subject of the message?",
+          "placeholder": "What is the subject of your message?",
           "required": true
         },
         "message": {
@@ -512,7 +504,7 @@
       }
     },
     "realizacao": {
-      "titulo": "Organization",
+      "titulo": "Organizers",
       "cesmac": {
         "nome": "Cesmac University Center",
         "descricao": "Higher education institution committed to academic excellence and the training of qualified professionals."
@@ -527,43 +519,43 @@
     }
   },
   "EixosTematicos": {
-    "titulo": "Thematic Axes for Paper Submission",
-    "descricao": "Choose one of the axes below to submit your scientific paper",
-    "envie_trabalho": "Submit your paper now on Doity",
-    "prazo_submissao": "Submission deadline",
+    "titulo": "Thematic Areas for Paper Submission",
+    "descricao": "Choose one of the areas below to submit your scientific paper",
+    "envie_trabalho": "Submit your paper on Doity",
+    "prazo_submissao": "Submission Deadline",
     "data_submissao": "August 17, 2025",
     "itens": [
       {
         "titulo": "Ocean Diagnosis: The Current Crisis",
-        "descricao": "This thematic axis addresses the current state of the oceans in the face of contemporary environmental challenges. It aims to gather studies that assess the health of marine ecosystems, highlighting indicators of environmental degradation, biodiversity loss, acidification, overfishing, and climate change impacts. Research using monitoring tools, ocean modeling, and conservation policy evaluation is also welcome. The goal is to provide a comprehensive and scientific overview of the oceans' actual condition on local, regional, and global scales."
+        "descricao": "This thematic area addresses the current state of the oceans in the face of contemporary environmental challenges. It aims to gather studies that assess the health of marine ecosystems, highlighting indicators of environmental degradation, biodiversity loss, acidification, overfishing, and climate change impacts. Research using monitoring tools, ocean modeling, and conservation policy evaluation is also welcome. The goal is to provide a comprehensive and scientific overview of the real condition of the oceans on local, regional, and global scales."
       },
       {
         "titulo": "Pollution and Emerging Contaminants",
-        "descricao": "This axis covers research focused on the identification, characterization, and mitigation of pollutants in marine environments, with a special emphasis on emerging contaminants such as microplastics, nanoplastics, pharmaceutical residues, pesticides, and heavy metals. Papers investigating sources, dispersion routes, ecotoxicological effects, and possible solutions for these contaminants are expected. Innovative approaches in detection technologies, remediation, and prevention strategies with a focus on marine sustainability are also included."
+        "descricao": "This area includes research focused on the identification, characterization, and mitigation of pollutants in marine environments, with a special emphasis on emerging contaminants such as microplastics, nanoplastics, pharmaceutical residues, pesticides, and heavy metals. Papers investigating sources, dispersal routes, ecotoxicological effects, and potential solutions for these contaminants are expected. Innovative approaches in detection technologies, remediation, and prevention strategies focused on marine sustainability are also included."
       },
       {
         "titulo": "Science with Purpose: Applied Ocean Research",
-        "descricao": "This axis highlights applied science as a strategic tool to address ocean challenges. Research involving remote sensing monitoring, climate modeling, marine biotechnology, and solutions based on emerging technologies such as Artificial Intelligence and Big Data is welcome. The focus is on producing technical knowledge with a direct impact on conservation, management, and sustainable use of the seas."
+        "descricao": "This area highlights applied science as a strategic tool to address ocean challenges. Research involving remote sensing, climate modeling, marine biotechnology, and solutions based on emerging technologies such as Artificial Intelligence and Big Data is welcome. The focus is on producing technical knowledge with a direct impact on conservation, management, and sustainable use of the seas."
       },
       {
         "titulo": "Traditional Communities and Local Knowledge",
-        "descricao": "This axis addresses the importance of traditional knowledge and the role of coastal communities in ocean preservation. It values interdisciplinary studies on sustainable practices, environmental justice, and the impacts of the climate crisis on the lives of indigenous peoples, artisanal fishers, shellfish gatherers, and riverine communities. It encourages dialogue between science and local knowledge as a strategy for fairer and more effective policies."
+        "descricao": "This area addresses the importance of traditional knowledge and the protagonism of coastal communities in ocean preservation. It values interdisciplinary studies on sustainable practices, environmental justice, and the impacts of the climate crisis on the lives of indigenous peoples, artisanal fishers, shellfish gatherers, and riverside communities. It encourages dialogue between science and local knowledge as a strategy for fairer and more effective policies."
       },
       {
         "titulo": "Scientific Communication and Ocean Education",
-        "descricao": "This axis focuses on the dissemination of scientific knowledge and the strengthening of ocean literacy. It includes initiatives for science popularization, production of educational materials, actions in schools and communities, and communication strategies aimed at social mobilization and support for public policies. Papers exploring risk communication in the context of climate crises are also expected."
+        "descricao": "This area focuses on the dissemination of scientific knowledge and the strengthening of ocean culture. It includes initiatives for popularizing science, producing educational materials, actions in schools and communities, and communication strategies aimed at social mobilization and supporting public policies. Papers exploring risk communication in the context of the climate crisis are also expected."
       },
       {
         "titulo": "Public Policies and Ocean Governance",
-        "descricao": "This axis explores the role of public policies in the protection and sustainable management of oceans. It covers topics such as multilateral agreements, the creation of marine protected areas, national legal instruments, participatory governance, and transparency in coastal management. This axis seeks to articulate science, society, and the state to promote effective and equitable ocean governance."
+        "descricao": "This area explores the role of public policies in the protection and sustainable management of oceans. It covers topics such as multilateral agreements, the creation of marine protected areas, national legal instruments, participatory governance, and transparency in coastal management. The goal is to articulate science, society, and the state to promote effective and equitable ocean governance."
       },
       {
         "titulo": "Innovation, Sustainability, and Nature-Based Solutions",
-        "descricao": "This axis promotes innovative approaches to the regeneration and preservation of marine environments. It includes research on coastal ecosystem restoration, ocean renewable energies, blue economy, sustainable production chains, and nature-based technologies. The goal is to stimulate solutions that reconcile socioeconomic development with ecological integrity."
+        "descricao": "This area promotes innovative approaches to the regeneration and preservation of marine environments. It includes research on coastal ecosystem restoration, ocean renewable energies, the blue economy, sustainable production chains, and nature-based technologies. The goal is to encourage solutions that balance socioeconomic development with ecological integrity."
       },
       {
         "titulo": "Oceans and Climate: Interactions and Impacts",
-        "descricao": "This axis analyzes the role of oceans in the global climate system and the effects of climate change on marine and coastal environments. Studies on extreme events, sea-level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies are welcome. The emphasis is on understanding and responding to climate risks with a solid scientific foundation."
+        "descricao": "This area analyzes the role of oceans in the global climate system and the effects of climate change on marine and coastal environments. Studies on extreme events, sea level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies are welcome. The emphasis is on understanding and responding to climate risks with a solid scientific basis."
       }
     ]
   },
@@ -580,7 +572,7 @@
   },
   "PalestrantesConfirmados": {
     "title1": "Who is",
-    "title2": "already confirmed",
+    "title2": "confirmed",
     "descricao": "Meet the experts who will share their knowledge at the IWPPO",
     "placeholder": "Search for speakers or topics...",
     "palestrantes": {
@@ -588,7 +580,7 @@
         "nome": "Robson Guimarães dos Santos",
         "cargo": "Researcher",
         "instituicao": "UFAL",
-        "palestra": "Presentation of the main research results from the focal points of the Plastic Oceans project",
+        "palestra": "Presentation of the main results of research from the focal points of the Plastic Oceans project",
         "nacionalidade": "Brazil"
       },
       "fernando-lopez": {
@@ -616,15 +608,43 @@
         "nome": "Fernando Miguel",
         "cargo": "Researcher",
         "instituicao": "University of Algarve - Portugal",
-        "palestra": "Geotechnologies Applied to the Analysis and Mitigation of Environmental Impacts: From Territorial Management to Plastic Detection in Oceans.",
+        "palestra": "Geotechnologies Applied to the Analysis and Mitigation of Environmental Impacts.",
         "nacionalidade": "Foreign"
       },
       "Helena-fernandez": {
         "nome": "Helena Fernandez",
         "cargo": "Researcher",
         "instituicao": "University of Algarve - Portugal",
-        "palestra": "Geotechnologies Applied to the Analysis and Mitigation of Environmental Impacts: From Territorial Management to Plastic Detection in Oceans.",
+        "palestra": "Territorial Management in the Detection of Plastics in the Oceans.",
         "nacionalidade": "Foreign"
+      },
+      "cristiane-siqueira": {
+        "nome": "Cristiane Siqueira",
+        "cargo": "Researcher",
+        "instituicao": "University of Vassouras - Rio de Janeiro",
+        "palestra": "Territorial Management in the Detection of Plastics in the Oceans.",
+        "nacionalidade": "Brazil"
+      },
+      "Biagio": {
+        "nome": "Biagio Fernando Giannetti",
+        "cargo": "Researcher",
+        "instituicao": "Paulista University - UNIP",
+        "palestra": "Emergy and Ecological Justice: A New Basis for Shared Responsibility in the Oceans",
+        "nacionalidade": "Brazil"
+      },
+      "federico-sulis": {
+        "nome": "Federico Sulis",
+        "cargo": "Researcher",
+        "instituicao": "Paulista University - UNIP",
+        "palestra": "Closing the Cycle: Sustainability Assessment of Cobogós with Marine Plastic Waste",
+        "nacionalidade": "Foreign"
+      },
+      "Marcell": {
+        "nome": "Marcell Mariano Correa Maceno",
+        "cargo": "Researcher",
+        "instituicao": "Federal University of Paraná",
+        "palestra": "Life Cycle Assessment and Microplastics: An Overview",
+        "nacionalidade": "Brazil"
       }
     }
   },
