@@ -183,7 +183,7 @@ export default function ComiteCientifico() {
       country: "Brasil",
       lattesUrl: "http://lattes.cnpq.br/5020237977975416",
       title: "",
-      image: "/comite-cientifico/marcell_mariano_correa_maceno.jpg",
+      image: "/palestrantes/marcell.jpeg",
     },
     {
       name: "Thyago Anthony Soares Lima",

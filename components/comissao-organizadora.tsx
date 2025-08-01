@@ -49,7 +49,7 @@ const membrosComissao: MemberProps[] = [
     country: "Brasil",
     lattesUrl: "http://lattes.cnpq.br/6709596635808853",
     title: "",
-    image: "/comissao-organizadora/biagio.png",
+    image: "/palestrantes/biagio-nova-foto.jpeg",
   },
   {
     name: "Jarcilene Silva de Almeida",
