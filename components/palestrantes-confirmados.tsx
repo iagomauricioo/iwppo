@@ -97,9 +97,29 @@ export default function PalestrantesConfirmados() {
       nome: t("palestrantes.Biagio.nome"),
       cargo: t("palestrantes.Biagio.cargo"),
       instituicao: t("palestrantes.Biagio.instituicao"),
-      foto: "/palestrantes/Biagio_pereira.jpg",
+      foto: "/palestrantes/Biagio.jpg",
       palestra: t("palestrantes.Biagio.palestra"),
       nacionalidade: t("palestrantes.Biagio.nacionalidade"),
+    },
+
+     {
+      id: "federico-sulis",
+      nome: t("palestrantes.federico-sulis.nome"),
+      cargo: t("palestrantes.federico-sulis.cargo"),
+      instituicao: t("palestrantes.federico-sulis.instituicao"),
+      foto: "/palestrantes/federico.jpg",
+      palestra: t("palestrantes.federico-sulis.palestra"),
+      nacionalidade: t("palestrantes.federico-sulis.nacionalidade"),
+    },
+
+     {
+      id: "Marcell",
+      nome: t("palestrantes.Marcell.nome"),
+      cargo: t("palestrantes.Marcell.cargo"),
+      instituicao: t("palestrantes.Marcell.instituicao"),
+      foto: "/palestrantes/Marcell.jpg",
+      palestra: t("palestrantes.Marcell.palestra"),
+      nacionalidade: t("palestrantes.Marcell.nacionalidade"),
     },
     
   ];
