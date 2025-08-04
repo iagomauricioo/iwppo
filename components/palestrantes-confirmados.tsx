@@ -4,8 +4,9 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Instagram, Linkedin, ExternalLink, Search, FileText } from "lucide-react";
+import { Search } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 interface Palestrante {
   id: string;
@@ -15,12 +16,14 @@ interface Palestrante {
   foto: string;
   palestra: string;
   nacionalidade: string;
-  colorIndex?: number; // Índice da cor a ser usada (1-9 para blue-100 até blue-900)
+  colorIndex?: number;
 }
 
 export default function PalestrantesConfirmados() {
   const [searchTerm, setSearchTerm] = useState("");
   const t = useTranslations("PalestrantesConfirmados");
+  const params = useParams();
+  const locale = (params?.locale as string) || "pt";
 
   const palestrantes: Palestrante[] = [
     {
@@ -28,67 +31,61 @@ export default function PalestrantesConfirmados() {
       nome: t("palestrantes.robson-santos.nome"),
       cargo: t("palestrantes.robson-santos.cargo"),
       instituicao: t("palestrantes.robson-santos.instituicao"),
-      foto: "/palestrantes/robson.png",
+      foto: "/palestrantes/robson-santos.jpg",
       palestra: t("palestrantes.robson-santos.palestra"),
       nacionalidade: t("palestrantes.robson-santos.nacionalidade"),
     },
-   
     {
       id: "katia-viana",
       nome: t("palestrantes.katia-viana.nome"),
       cargo: t("palestrantes.katia-viana.cargo"),
       instituicao: t("palestrantes.katia-viana.instituicao"),
-      foto: "/comissao-organizadora/katia.png",
+      foto: "/palestrantes/katia-viana.jpg",
       palestra: t("palestrantes.katia-viana.palestra"),
       nacionalidade: t("palestrantes.katia-viana.nacionalidade"),
     },
-   
     {
       id: "fernando-lopez",
       nome: t("palestrantes.fernando-lopez.nome"),
       cargo: t("palestrantes.fernando-lopez.cargo"),
       instituicao: t("palestrantes.fernando-lopez.instituicao"),
-      foto: "/palestrantes/dias.jpeg",
+      foto: "/palestrantes/fernando-lopez.jpg",
       palestra: t("palestrantes.fernando-lopez.palestra"),
       nacionalidade: t("palestrantes.fernando-lopez.nacionalidade"),
     },
-  
     {
       id: "scott-wilson",
       nome: t("palestrantes.scott-wilson.nome"),
       cargo: t("palestrantes.scott-wilson.cargo"),
       instituicao: t("palestrantes.scott-wilson.instituicao"),
-      foto: "/palestrantes/scott_patton_wilson.jpg",
+      foto: "/palestrantes/scott-wilson.jpg",
       palestra: t("palestrantes.scott-wilson.palestra"),
       nacionalidade: t("palestrantes.scott-wilson.nacionalidade"),
     },
-
-     {
+    {
       id: "Fernando-miguel",
       nome: t("palestrantes.Fernando-miguel.nome"),
       cargo: t("palestrantes.Fernando-miguel.cargo"),
       instituicao: t("palestrantes.Fernando-miguel.instituicao"),
-      foto: "/palestrantes/fernando.png",
+      foto: "/palestrantes/Fernando-miguel.jpg",
       palestra: t("palestrantes.Fernando-miguel.palestra"),
       nacionalidade: t("palestrantes.Fernando-miguel.nacionalidade"),
     },
-
-     {
+    {
       id: "Helena-fernandez",
       nome: t("palestrantes.Helena-fernandez.nome"),
       cargo: t("palestrantes.Helena-fernandez.cargo"),
       instituicao: t("palestrantes.Helena-fernandez.instituicao"),
-      foto: "/palestrantes/helena-fernandez.png",
+      foto: "/palestrantes/Helena-fernandez.jpg",
       palestra: t("palestrantes.Helena-fernandez.palestra"),
       nacionalidade: t("palestrantes.Helena-fernandez.nacionalidade"),
     },
-
     {
       id: "cristiane-siqueira",
       nome: t("palestrantes.cristiane-siqueira.nome"),
       cargo: t("palestrantes.cristiane-siqueira.cargo"),
       instituicao: t("palestrantes.cristiane-siqueira.instituicao"),
-      foto: "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
+      foto: "/palestrantes/cristiane-siqueira.jpg",
       palestra: t("palestrantes.cristiane-siqueira.palestra"),
       nacionalidade: t("palestrantes.cristiane-siqueira.nacionalidade"),
     },
@@ -97,40 +94,34 @@ export default function PalestrantesConfirmados() {
       nome: t("palestrantes.Biagio.nome"),
       cargo: t("palestrantes.Biagio.cargo"),
       instituicao: t("palestrantes.Biagio.instituicao"),
-      foto: "/palestrantes/biagio-nova-foto.jpeg",
+      foto: "/palestrantes/Biagio.jpg",
       palestra: t("palestrantes.Biagio.palestra"),
       nacionalidade: t("palestrantes.Biagio.nacionalidade"),
     },
-
-     {
+    {
       id: "federico-sulis",
       nome: t("palestrantes.federico-sulis.nome"),
       cargo: t("palestrantes.federico-sulis.cargo"),
       instituicao: t("palestrantes.federico-sulis.instituicao"),
-      foto: "/comite-cientifico/federico_sulis.jpg",
+      foto: "/palestrantes/federico-sulis.jpg",
       palestra: t("palestrantes.federico-sulis.palestra"),
       nacionalidade: t("palestrantes.federico-sulis.nacionalidade"),
     },
-
-     {
+    {
       id: "Marcell",
       nome: t("palestrantes.Marcell.nome"),
       cargo: t("palestrantes.Marcell.cargo"),
       instituicao: t("palestrantes.Marcell.instituicao"),
-      foto: "/palestrantes/marcell.jpg",
+      foto: "/palestrantes/Marcell.jpg",
       palestra: t("palestrantes.Marcell.palestra"),
       nacionalidade: t("palestrantes.Marcell.nacionalidade"),
     },
-    
   ];
 
-  // Filtrar palestrantes com base no termo de busca
   const filteredPalestrantes = palestrantes.filter(
     (palestrante) =>
       palestrante.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      palestrante.instituicao
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase()) ||
+      palestrante.instituicao.toLowerCase().includes(searchTerm.toLowerCase()) ||
       palestrante.palestra.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -181,7 +172,6 @@ export default function PalestrantesConfirmados() {
         {/* Grade de palestrantes */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
           {filteredPalestrantes.map((palestrante, index) => {
-            // Cores fixas para melhor legibilidade
             const cores = [
               { bg: "bg-blue-950", text: "text-white", border: "border-blue-800" },
               { bg: "bg-blue-900", text: "text-white", border: "border-blue-700" },
@@ -193,7 +183,7 @@ export default function PalestrantesConfirmados() {
               { bg: "bg-blue-300", text: "text-blue-950", border: "border-blue-100" },
               { bg: "bg-blue-200", text: "text-blue-950", border: "border-blue-50" },
             ];
-            
+
             const corAtual = cores[index % cores.length];
 
             return (
@@ -206,18 +196,21 @@ export default function PalestrantesConfirmados() {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 whileHover={{
                   y: -5,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
+                  boxShadow:
+                    "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
                   transition: { duration: 0.2 },
                 }}
               >
-                {/* Foto do palestrante */}
+                {/* Foto do palestrante com link */}
                 <div className="relative h-64 overflow-hidden">
-                  <Image
-                    src={palestrante.foto || "/placeholder.svg"}
-                    alt={palestrante.nome}
-                    fill
-                    className="object-cover object-center"
-                  />
+                  <Link href={`/${locale}/palestrantes/${palestrante.id}`}>
+                    <Image
+                      src={palestrante.foto || "/placeholder.svg"}
+                      alt={palestrante.nome}
+                      fill
+                      className="object-cover object-center cursor-pointer hover:opacity-90 transition"
+                    />
+                  </Link>
                 </div>
 
                 {/* Informações do palestrante */}
@@ -235,11 +228,9 @@ export default function PalestrantesConfirmados() {
                     {palestrante.nacionalidade}
                   </p>
 
-
-                  {/* Título da palestra */}
                   <div className={`pt-3 border-t ${corAtual.border}`}>
                     <p className={`text-sm font-medium ${corAtual.text} opacity-80`}>
-                      Palestra:
+                      {t("titulo_palestra")}:
                     </p>
                     <p className={`${corAtual.text} font-semibold`}>
                       {palestrante.palestra}
