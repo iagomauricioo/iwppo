@@ -14,9 +14,23 @@ export default function PalestranteDetailPage({ params }: any) {
     notFound();
   }
 
+  // Mapa de fotos por ID
+  const fotosMap: Record<string, string> = {
+    "robson-santos": "/palestrantes/robson.png",
+    "katia-viana": "/comissao-organizadora/katia.png",
+    "fernando-lopez": "/palestrantes/dias.jpeg",
+    "scott-wilson": "/palestrantes/scott_patton_wilson.jpg",
+    "Fernando-miguel": "/palestrantes/fernando.png",
+    "Helena-fernandez": "/palestrantes/helena-fernandez.png",
+    "cristiane-siqueira": "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
+    "Biagio": "/palestrantes/biagio-nova-foto.jpeg",
+    "federico-sulis": "/comite-cientifico/federico_sulis.jpg",
+    "Marcell": "/palestrantes/marcell.jpg"
+  };
+
   const palestrante = {
     id: params.id,
-    foto: `/palestrantes/${params.id}.jpg`,
+    foto: fotosMap[params.id] || "/placeholder.svg",
     ...data
   };
 
