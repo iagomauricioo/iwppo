@@ -570,88 +570,97 @@
     "politica_de_privacidade": "Política de Privacidade",
     "direitos_reservados": "© 2025 II IWPPO. Todos os direitos reservados."
   },
-  "PalestrantesConfirmados": {
-    "title1": "Quem já",
-    "title2": "está confirmado",
-    "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
-    "placeholder": "Buscar palestrantes ou temas...",
-    "palestrantes": {
-      "robson-santos": {
-        "nome": "Robson Guimarães dos Santos",
-        "cargo": "Pesquisador",
-        "instituicao": "UFAL",
-        "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
-        "nacionalidade": "Brasil"
-      },
-      "fernando-lopez": {
-        "nome": "Fernando J. Díaz López",
-        "cargo": "Pesquisador Internacional",
-        "instituicao": "Climate and Earth Center of HEC Paris",
-        "palestra": "Cerimônia de Fechamento",
-        "nacionalidade": "Estrangeiro"
-      },
-      "scott-wilson": {
-        "nome": "Scott Paton Wilson",
-        "cargo": "Pesquisador Internacional",
-        "instituicao": "Macquarie University",
-        "palestra": "Cerimônia de Abertura",
-        "nacionalidade": "Estrangeiro"
-      },
-      "katia-viana": {
-        "nome": "Katia Viana Cavalcante",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade Federal do Amazonas",
-        "palestra": "Cerimônia de Abertura",
-        "nacionalidade": "Brasil"
-      },
-      "Fernando-miguel": {
-        "nome": "Fernando Miguel",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade do Algarve - Portugal",
-        "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais.",
-        "nacionalidade": "Estrangeiro"
-      },
-      "Helena-fernandez": {
-        "nome": "Helena Fernandez",
-        "cargo": "Pesquisadora",
-        "instituicao": "Universidade do Algarve- Portugal",
-        "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
-        "nacionalidade": "Estrangeiro"
-      },
-
-       "cristiane-siqueira": {
-        "nome": "Cristiane Siqueira",
-        "cargo": "Pesquisadora",
-        "instituicao": "Universidade de Vassouras- Rio de Janeiro",
-        "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
-        "nacionalidade": "Brasil"
-      },
-
-      "Biagio": {
-        "nome": "Biagio Fernando Giannetti",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade Paulista-UNIP",
-        "palestra": "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
-        "nacionalidade": "Brasil"
-      },
-
-      "federico-sulis": {
-        "nome": "Federico Sulis",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade Paulista-UNIP",
-        "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
-        "nacionalidade": "Estrangeiro"
-      },
-
-      "Marcell": {
-        "nome": "Marcell Mariano Correa Maceno",
-        "cargo": "Pesquisador",
-        "instituicao": "Universidade Federal do Paraná",
-        "palestra": "Life cycle assessment and microplastics: an overview",
-        "nacionalidade": "Brasil"
-      }  
+ "PalestrantesConfirmados": {
+  "title1": "Quem já",
+  "title2": "está confirmado",
+  "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
+  "placeholder": "Buscar palestrantes ou temas...",
+  "titulo_palestra": "Palestra",
+  "biografia": "Biografia",
+  "voltar": "Voltar",
+  "palestrantes": {
+    "robson-santos": {
+      "nome": "Robson Guimarães dos Santos",
+      "cargo": "Pesquisador",
+      "instituicao": "UFAL",
+      "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
+      "nacionalidade": "Brasil",
+      "biografia": "Robson é pesquisador na área de oceanografia, com foco em poluição plástica, atuando há mais de 15 anos em projetos de monitoramento e conservação marinha."
+    },
+    "katia-viana": {
+      "nome": "Katia Viana Cavalcante",
+      "cargo": "Pesquisadora",
+      "instituicao": "Universidade Federal do Amazonas",
+      "palestra": "Cerimônia de Abertura",
+      "nacionalidade": "Brasil",
+      "biografia": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
+    },
+    "fernando-lopez": {
+      "nome": "Fernando J. Díaz López",
+      "cargo": "Pesquisador Internacional",
+      "instituicao": "Climate and Earth Center of HEC Paris",
+      "palestra": "Cerimônia de Fechamento",
+      "nacionalidade": "Estrangeiro",
+      "biografia": "Fernando é pesquisador internacional especializado em ecologia marinha e gestão sustentável dos oceanos, com extensa experiência em projetos globais."
+    },
+    "scott-wilson": {
+      "nome": "Scott Paton Wilson",
+      "cargo": "Pesquisador Internacional",
+      "instituicao": "Macquarie University",
+      "palestra": "Cerimônia de Abertura",
+      "nacionalidade": "Estrangeiro",
+      "biografia": "Scott atua em pesquisas sobre ecossistemas costeiros e impactos da poluição plástica, contribuindo para políticas ambientais internacionais."
+    },
+    "Fernando-miguel": {
+      "nome": "Fernando Miguel",
+      "cargo": "Pesquisador",
+      "instituicao": "Universidade do Algarve - Portugal",
+      "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais.",
+      "nacionalidade": "Estrangeiro",
+      "biografia": "Fernando é especialista em geotecnologias aplicadas à gestão ambiental, com foco em zonas costeiras."
+    },
+    "Helena-fernandez": {
+      "nome": "Helena Fernandez",
+      "cargo": "Pesquisadora",
+      "instituicao": "Universidade do Algarve - Portugal",
+      "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
+      "nacionalidade": "Estrangeiro",
+      "biografia": "Helena pesquisa estratégias de gestão territorial para combater a poluição plástica marinha."
+    },
+    "cristiane-siqueira": {
+      "nome": "Cristiane Siqueira",
+      "cargo": "Pesquisadora",
+      "instituicao": "Universidade de Vassouras - Rio de Janeiro",
+      "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
+      "nacionalidade": "Brasil",
+      "biografia": "Cristiane é especialista em políticas públicas e gestão costeira com ênfase em detecção de plásticos."
+    },
+    "Biagio": {
+      "nome": "Biagio Fernando Giannetti",
+      "cargo": "Pesquisador",
+      "instituicao": "Universidade Paulista - UNIP",
+      "palestra": "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
+      "nacionalidade": "Brasil",
+      "biografia": "Biagio é referência em estudos sobre emergia e justiça ecológica, aplicando conceitos inovadores à conservação marinha."
+    },
+    "federico-sulis": {
+      "nome": "Federico Sulis",
+      "cargo": "Pesquisador",
+      "instituicao": "Universidade Paulista - UNIP",
+      "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
+      "nacionalidade": "Estrangeiro",
+      "biografia": "Federico atua no desenvolvimento de soluções de economia circular para resíduos plásticos marinhos."
+    },
+    "Marcell": {
+      "nome": "Marcell Mariano Correa Maceno",
+      "cargo": "Pesquisador",
+      "instituicao": "Universidade Federal do Paraná",
+      "palestra": "Life cycle assessment and microplastics: an overview",
+      "nacionalidade": "Brasil",
+      "biografia": "Marcell pesquisa ciclo de vida e impactos de microplásticos em ecossistemas aquáticos."
     }
-  },
+  }
+},
   "ComiteCientifico": {
     "title": "Comitê Científico",
     "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
