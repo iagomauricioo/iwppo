@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 interface Palestrante {
   id: string;
@@ -16,11 +17,14 @@ interface Palestrante {
   biografia: string;
 }
 
-export default function PalestranteDetailPage({
-  params
-}: {
-  params: { locale: string; id: string };
-}) {
+interface PalestrantePageProps {
+  params: {
+    locale: string;
+    id: string;
+  };
+}
+
+export default function PalestranteDetailPage({ params }: PalestrantePageProps) {
   const t = useTranslations("PalestrantesConfirmados");
   const data = t.raw(`palestrantes.${params.id}`);
 
@@ -36,20 +40,46 @@ export default function PalestranteDetailPage({
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <Link href={`/${params.locale}#palestrantes`} className="text-blue-600 underline mb-4 inline-block">
-        ← {t("voltar")}
-      </Link>
+      {/* Botão Voltar */}
+      <motion.div
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.4 }}
+      >
+        <Link
+          href={`/${params.locale}#palestrantes`}
+          className="text-blue-600 underline mb-6 inline-block hover:text-blue-800 transition"
+        >
+          ← {t("voltar")}
+        </Link>
+      </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <Image
-          src={palestrante.foto}
-          alt={palestrante.nome}
-          width={500}
-          height={500}
-          className="rounded-lg shadow-lg object-cover"
-        />
-        <div>
-          <h1 className="text-3xl font-bold mb-2">{palestrante.nome}</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        {/* Foto */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="w-full"
+        >
+          <Image
+            src={palestrante.foto}
+            alt={palestrante.nome}
+            width={500}
+            height={500}
+            className="rounded-lg shadow-lg object-cover w-full h-auto"
+          />
+        </motion.div>
+
+        {/* Informações */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <h1 className="text-3xl font-bold mb-2 text-blue-900">
+            {palestrante.nome}
+          </h1>
           <p className="text-lg text-gray-600 mb-4">
             {palestrante.cargo} - {palestrante.instituicao}
           </p>
@@ -62,8 +92,8 @@ export default function PalestranteDetailPage({
           <h2 className="text-xl font-semibold text-blue-700 mb-2">
             {t("biografia")}
           </h2>
-          <p>{palestrante.biografia}</p>
-        </div>
+          <p className="leading-relaxed">{palestrante.biografia}</p>
+        </motion.div>
       </div>
     </div>
   );
