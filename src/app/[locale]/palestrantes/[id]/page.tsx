@@ -6,25 +6,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-interface Palestrante {
-  id: string;
-  nome: string;
-  cargo: string;
-  instituicao: string;
-  foto: string;
-  palestra: string;
-  nacionalidade: string;
-  biografia: string;
-}
-
-interface PalestrantePageProps {
-  params: {
-    locale: string;
-    id: string;
-  };
-}
-
-export default function PalestranteDetailPage({ params }: PalestrantePageProps) {
+export default function PalestranteDetailPage({ params }: any) {
   const t = useTranslations("PalestrantesConfirmados");
   const data = t.raw(`palestrantes.${params.id}`);
 
@@ -32,7 +14,7 @@ export default function PalestranteDetailPage({ params }: PalestrantePageProps) 
     notFound();
   }
 
-  const palestrante: Palestrante = {
+  const palestrante = {
     id: params.id,
     foto: `/palestrantes/${params.id}.jpg`,
     ...data
@@ -40,7 +22,6 @@ export default function PalestranteDetailPage({ params }: PalestrantePageProps) 
 
   return (
     <div className="container mx-auto px-4 py-12">
-      {/* Botão Voltar */}
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
@@ -55,7 +36,6 @@ export default function PalestranteDetailPage({ params }: PalestrantePageProps) 
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Foto */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -71,7 +51,6 @@ export default function PalestranteDetailPage({ params }: PalestrantePageProps) 
           />
         </motion.div>
 
-        {/* Informações */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
