@@ -107,7 +107,8 @@ export default function PalestrantesConfirmados() {
     palestra: t("palestrantes.federico-sulis.palestra"),
     nacionalidade: t("palestrantes.federico-sulis.nacionalidade"),
   },
-  {
+
+   {
     id: "Marcell",
     nome: t("palestrantes.Marcell.nome"),
     cargo: t("palestrantes.Marcell.cargo"),
@@ -115,6 +116,15 @@ export default function PalestrantesConfirmados() {
     foto: "/palestrantes/marcell.jpeg",
     palestra: t("palestrantes.Marcell.palestra"),
     nacionalidade: t("palestrantes.Marcell.nacionalidade"),
+  },  
+  {
+    id: "jornalista",
+    nome: t("palestrantes.jornalista.nome"),
+    cargo: t("palestrantes.jornalista.cargo"),
+    instituicao: t("palestrantes.jornalista.instituicao"),
+    foto: "/palestrantes/marcell.jpeg",
+    palestra: t("palestrantes.jornalista.palestra"),
+    nacionalidade: t("palestrantes.jornalista.nacionalidade"),
   },
 ];
   const filteredPalestrantes = palestrantes.filter(
