@@ -112,7 +112,7 @@ export default function PalestrantesConfirmados() {
     nome: t("palestrantes.Marcell.nome"),
     cargo: t("palestrantes.Marcell.cargo"),
     instituicao: t("palestrantes.Marcell.instituicao"),
-    foto: "/palestrantes/marcell.jpg",
+    foto: "/palestrantes/marcell.jpeg",
     palestra: t("palestrantes.Marcell.palestra"),
     nacionalidade: t("palestrantes.Marcell.nacionalidade"),
   },
