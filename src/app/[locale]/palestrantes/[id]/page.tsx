@@ -25,7 +25,8 @@ export default function PalestranteDetailPage({ params }: any) {
     "cristiane-siqueira": "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
     "Biagio": "/palestrantes/biagio-nova-foto.jpeg",
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
-    "Marcell": "/palestrantes/marcell.jpeg"
+    "Marcell": "/palestrantes/marcell.jpeg",
+    "jornalista: "/palestrantes/jornalista.jpeg",
   };
 
   const palestrante = {
