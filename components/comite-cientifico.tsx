@@ -233,6 +233,16 @@ export default function ComiteCientifico() {
       lattesUrl: null,
       title: "",
       image: "/comite-cientifico/scott_patton_wilson.jpg",
+    
+    },
+
+    {
+      name: "Michella Grey Araújo Monteiro
+",
+      country: "Brasil",
+      lattesUrl: http://lattes.cnpq.br/1558272977434037,
+      title: "",
+      image: "/comite-cientifico/Michella Grey Araújo Monteiro.jpeg",
     },
   ];
 
