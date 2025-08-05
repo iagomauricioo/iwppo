@@ -24,7 +24,7 @@ export default function PalestranteDetailPage({ params }: any) {
     "Helena-fernandez": "/palestrantes/helena-fernandez.png",
     "cristiane-siqueira": "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
     "Biagio": "/palestrantes/biagio-nova-foto.jpeg",
-    "federico-sulis": "/comite-cientifico/federico_sulis.jpg",
+    "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
     "Marcell": "/palestrantes/marcell.jpeg"
   };
 
