@@ -103,7 +103,7 @@ export default function PalestrantesConfirmados() {
     nome: t("palestrantes.federico-sulis.nome"),
     cargo: t("palestrantes.federico-sulis.cargo"),
     instituicao: t("palestrantes.federico-sulis.instituicao"),
-    foto: "/comite-cientifico/federico_sulis.jpg",
+    foto: "/palestrantes/federico-atualizada.jpeg",
     palestra: t("palestrantes.federico-sulis.palestra"),
     nacionalidade: t("palestrantes.federico-sulis.nacionalidade"),
   },
