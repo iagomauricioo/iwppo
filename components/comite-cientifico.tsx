@@ -133,7 +133,7 @@ export default function ComiteCientifico() {
       country: "Brasil",
       lattesUrl: "http://lattes.cnpq.br/3008783829641984",
       title: "",
-      image: "/comite-cientifico/federico_sulis.jpg",
+      image: "/palestrantes/federico-atualizada.jpeg",
     },
     {
       name: "Leticia Anderson Bassi",
