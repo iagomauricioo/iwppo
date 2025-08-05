@@ -237,10 +237,9 @@ export default function ComiteCientifico() {
     },
 
     {
-      name: "Michella Grey Araújo Monteiro
-",
+      name: "Michella Grey Araújo Monteiro",
       country: "Brasil",
-      lattesUrl: http://lattes.cnpq.br/1558272977434037,
+      lattesUrl: "http://lattes.cnpq.br/1558272977434037",
       title: "",
       image: "/comite-cientifico/Michella Grey Araújo Monteiro.jpeg",
     },
