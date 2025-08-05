@@ -26,7 +26,7 @@ export default function PalestranteDetailPage({ params }: any) {
     "Biagio": "/palestrantes/biagio-nova-foto.jpeg",
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
     "Marcell": "/palestrantes/marcell.jpeg",
-    "jornalista: "/palestrantes/jornalista.jpeg",
+    "jornalista": "/palestrantes/jornalista.jpeg",
   };
 
   const palestrante = {
