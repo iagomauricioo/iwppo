@@ -126,6 +126,40 @@ export default function PalestrantesConfirmados() {
     palestra: t("palestrantes.jornalista.palestra"),
     nacionalidade: t("palestrantes.jornalista.nacionalidade"),
   },
+
+  {
+    id: "jemilli",
+    nome: t("palestrantes.jemilli.nome"),
+    cargo: t("palestrantes.jemilli.cargo"),
+    instituicao: t("palestrantes.jemilli.instituicao"),
+    foto: "/palestrantes/jemilli.jpeg",
+    palestra: t("palestrantes.jemilli.palestra"),
+    nacionalidade: t("palestrantes.jemilli.nacionalidade"),
+  },
+
+  {
+    id: "alireza",
+    nome: t("palestrantes.alireza.nome"),
+    cargo: t("palestrantes.alireza.cargo"),
+    instituicao: t("palestrantes.alireza.instituicao"),
+    foto: "/palestrantes/alireza.jpeg",
+    palestra: t("palestrantes.alireza.palestra"),
+    nacionalidade: t("palestrantes.alireza.nacionalidade"),
+  },
+
+  {
+    id: "barbara-pinheiro",
+    nome: t("palestrantes.barbara-pinheiro.nome"),
+    cargo: t("palestrantes.barbara-pinheiro.cargo"),
+    instituicao: t("palestrantes.barbara-pinheiro.instituicao"),
+    foto: "/palestrantes/Dr Barbara Pinheiro_profile photo.jpeg",
+    palestra: t("palestrantes.barbara-pinheiro.palestra"),
+    nacionalidade: t("palestrantes.barbara-pinheiro.nacionalidade"),
+  },
+
+
+
+  
 ];
   const filteredPalestrantes = palestrantes.filter(
     (palestrante) =>

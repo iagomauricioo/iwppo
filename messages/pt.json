@@ -695,6 +695,33 @@
                 "nacionalidade": "Brasil",
                 "biografia": "Marcell pesquisa ciclo de vida e impactos de microplásticos em ecossistemas aquáticos."
             },
+            "alireza": {
+                "nome": "Alireza Moghayedi",
+                "cargo": "professor e/ou pesquisador",
+                "instituicao": "Universidade do Oeste da Inglaterra, Reino Unido; Universidade da Cidade do Cabo, África do Sul",
+                "palestra": "Reciclando a poluição plástica em soluções de construção para metas de zero emissão",
+                "nacionalidade": "Estrangeiro",
+                "biografia": "O Dr. Alireza Moghayedi é um pesquisador e educador com foco em sustentabilidade, com mais de 20 anos de experiência na indústria de Engenharia e Ambiente Construído. Ele é Líder de Pesquisa em Ambiente Construído Digital na Escola de Arquitetura e Meio Ambiente da Universidade do Oeste da Inglaterra, em Bristol, pesquisador sênior na Universidade de Joanesburgo e fundador e codiretor do S+CUBE na Universidade da Cidade do Cabo. Sua pesquisa concentra-se no desenvolvimento de soluções inclusivas, sustentáveis e inteligentes para projetos de infraestrutura de engenharia e ambiente construído, utilizando tecnologias inovadoras. Ele atua como Pesquisador Principal de vários projetos de pesquisa internacionais, avaliados coletivamente em mais de £ 30 milhões. Seu trabalho foi publicado em importantes periódicos acadêmicos e conferências, e recebeu inúmeros prêmios por sua pesquisa e ensino. O Dr. Moghayedi é gerente de projetos credenciado e ocupou diversos cargos em agências governamentais, consultorias de engenharia, em empresas de construção e desenvolvimento em todo o mundo."
+            },
+
+            "barbara-pinheiro": {
+                "nome": "Bárbara Ramos Pinheiro",
+                "cargo": "Pesquisadora",
+                "instituicao": "Universidade Federal de Pernambuco",
+                "palestra": "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
+                "nacionalidade": "Brasil",
+                "biografia": "Bióloga, Mestre e Doutora em Oceanografia pela UFPE. Pesquisadora do PACTO MAR| UNIFESP| Maré de Ciências. Membro da Secretaria Executiva da Liga das Mulheres pelo Oceano e membro do Comitê Nacional da Década do Oceano Coordenadora Nacional da Black Women in Ecology Evolution and Marine Science."
+            },
+
+            "jemilli": {
+                "nome": "Jemilli Viaggi",
+                "cargo": "Jornalista",
+                "instituicao": "Universidade Federal do Rio de Janeiro",
+                "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
+                "nacionalidade": "Brasil",
+                "biografia": "Bióloga marinha e Doutora em Ecologia pela UFRJ, atua com pesquisa interdisciplinar voltada à governança, diplomacia científica, conservação marinha, mudanças climáticas e poluição do oceano.Integra a Cátedra UNESCO para a Sustentabilidade do Oceano e coordena iniciativas como a Rede Oceano Limpo e o GT-COP30 da Liga das Mulheres pelo Oceano. Foi Sub-Coordenadora do O20-G20 e articuladora da Estratégia Nacional Oceano Sem Plástico. Atua como consultora em projetos de impacto socioambiental, incluindo o Programa Ondas do Futuro da Polen."
+            },
+
             "jornalista": {
                 "nome": "Jornalista",
                 "cargo": "Jornalista",

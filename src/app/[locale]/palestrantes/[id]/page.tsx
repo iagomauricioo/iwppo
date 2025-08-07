@@ -27,6 +27,9 @@ export default function PalestranteDetailPage({ params }: any) {
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
     "Marcell": "/palestrantes/marcell.jpeg",
     "jornalista": "/palestrantes/jornalista.jpeg",
+    "jemilli": "/palestrantes/jemilli.jpeg",
+    "alireza": "/palestrantes/alireza.jpeg",
+    "barbara-pinheiro":"/palestrantes/Dr Barbara Pinheiro_profile photo.jpeg",
   };
 
   const palestrante = {
