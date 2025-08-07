@@ -1,12 +1,11 @@
 "use client";
 
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { motion } from "framer-motion";
+import { ChevronLeft } from "lucide-react";
 
 export default function PalestranteDetailPage({ params }: any) {
   const t = useTranslations("PalestrantesConfirmados");
@@ -28,7 +27,7 @@ export default function PalestranteDetailPage({ params }: any) {
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
     "Marcell": "/palestrantes/marcell.jpeg",
     "jornalista": "/palestrantes/jornalista.jpeg",
-    "jemilli": "/palestrantes/jemille.jpeg",
+    "jemille": "/palestrantes/jemille.jpeg",
     "alireza": "/palestrantes/alireza.jpeg",
     "barbara-pinheiro": "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg",
   };
@@ -40,67 +39,72 @@ export default function PalestranteDetailPage({ params }: any) {
   };
 
   return (
-    <div className="flex flex-col min-h-screen overflow-x-hidden">
-      <Navbar />
+    <div className="flex flex-col min-h-screen overflow-x-hidden bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white">
+      {/* Navbar simplificada */}
+      <header className="py-4 px-6 flex justify-between items-center border-b border-blue-700">
+        <Link href={`/${params.locale}`}>
+          <Image
+            src="/logo-iwppo.png"
+            alt="IWPPO Logo"
+            width={140}
+            height={40}
+            className="object-contain"
+          />
+        </Link>
 
-      <main className="flex-1 bg-white">
-        <div className="container mx-auto px-4 py-12">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.4 }}
-          >
-            <Link
-              href={`/${params.locale}#palestrantes`}
-              className="text-blue-600 underline mb-6 inline-block hover:text-blue-800 transition"
-            >
-              ← {t("voltar")}
-            </Link>
-          </motion.div>
+        <Link
+          href={`/${params.locale}#palestrantes`}
+          className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
+        >
+          <ChevronLeft size={18} />
+          {t("voltar")}
+        </Link>
+      </header>
 
+      <main className="flex-1">
+        <div className="container mx-auto px-4 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        className="w-full flex justify-center"
-      >
-        <Image
-          src={palestrante.foto}
-          alt={palestrante.nome}
-          width={350}
-          height={350}
-          className="rounded-lg shadow-lg object-cover w-full max-w-sm h-auto"
-        />
-      </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="w-full max-w-md mx-auto relative h-64 rounded-lg overflow-hidden"
+            >
+              <Image
+                src={palestrante.foto}
+                alt={palestrante.nome}
+                fill
+                className="object-cover object-center"
+              />
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h1 className="text-3xl font-bold mb-2 text-blue-900">
+              <h1 className="text-3xl font-bold mb-2 text-white">
                 {palestrante.nome}
               </h1>
-              <p className="text-lg text-gray-600 mb-4">
+              <p className="text-lg text-blue-100 mb-4">
                 {palestrante.cargo} - {palestrante.instituicao}
               </p>
 
-              <h2 className="text-xl font-semibold text-blue-700 mb-2">
+              <h2 className="text-xl font-semibold text-blue-200 mb-2">
                 {t("titulo_palestra")}
               </h2>
-              <p className="mb-6">{palestrante.palestra}</p>
+              <p className="mb-6 text-white/90">{palestrante.palestra}</p>
 
-              <h2 className="text-xl font-semibold text-blue-700 mb-2">
+              <h2 className="text-xl font-semibold text-blue-200 mb-2">
                 {t("biografia")}
               </h2>
-              <p className="leading-relaxed">{palestrante.biografia}</p>
+              <p className="leading-relaxed text-white/90">
+                {palestrante.biografia}
+              </p>
             </motion.div>
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
