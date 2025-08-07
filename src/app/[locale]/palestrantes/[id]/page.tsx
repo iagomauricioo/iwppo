@@ -33,7 +33,7 @@ export default function PalestranteDetailPage({ params }: any) {
 
   const palestrante = {
     id: params.id,
-    foto: fotosMap[params.id] || "/placeholder.svg",
+    foto: fotosMap[id] || "/placeholder.svg",
     ...data,
   };
 
