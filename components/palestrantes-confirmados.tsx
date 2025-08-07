@@ -128,12 +128,12 @@ export default function PalestrantesConfirmados() {
   },
 
   {
-    id: "jemilli",
-    nome: t("palestrantes.jemilli.nome"),
-    cargo: t("palestrantes.jemilli.cargo"),
-    instituicao: t("palestrantes.jemilli.instituicao"),
-    foto: "/palestrantes/jemilli.jpeg",
-    palestra: t("palestrantes.jemilli.palestra"),
+    id: "jemille",
+    nome: t("palestrantes.jemille.nome"),
+    cargo: t("palestrantes.jemille.cargo"),
+    instituicao: t("palestrantes.jemille.instituicao"),
+    foto: "/palestrantes/jemille.jpeg",
+    palestra: t("palestrantes.jemille.palestra"),
     nacionalidade: t("palestrantes.jemilli.nacionalidade"),
   },
 
@@ -152,7 +152,7 @@ export default function PalestrantesConfirmados() {
     nome: t("palestrantes.barbara-pinheiro.nome"),
     cargo: t("palestrantes.barbara-pinheiro.cargo"),
     instituicao: t("palestrantes.barbara-pinheiro.instituicao"),
-    foto: "/palestrantes/Dr Barbara Pinheiro_profile photo.jpeg",
+    foto: "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg",
     palestra: t("palestrantes.barbara-pinheiro.palestra"),
     nacionalidade: t("palestrantes.barbara-pinheiro.nacionalidade"),
   },
