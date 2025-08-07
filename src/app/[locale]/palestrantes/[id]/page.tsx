@@ -72,7 +72,8 @@ export default function PalestranteDetailPage({ params }: any) {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Mantém h-96
+              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Garantindo dimensões
+              style={{ minHeight: "384px" }} // Adicionando altura mínima como fallback
             >
               <Image
                 src={palestrante.foto}
