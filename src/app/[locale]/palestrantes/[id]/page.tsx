@@ -59,20 +59,20 @@ export default function PalestranteDetailPage({ params }: any) {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              className="w-full"
-            >
-              <Image
-                src={palestrante.foto}
-                alt={palestrante.nome}
-                width={200}
-                height={200}
-                className="rounded-lg shadow-lg object-cover w-full h-auto"
-              />
-            </motion.div>
+       <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className="w-full flex justify-center"
+      >
+        <Image
+          src={palestrante.foto}
+          alt={palestrante.nome}
+          width={350}
+          height={350}
+          className="rounded-lg shadow-lg object-cover w-full max-w-sm h-auto"
+        />
+      </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
