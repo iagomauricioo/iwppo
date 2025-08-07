@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import { motion } from "framer-motion";
-import { ChevronLeft } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 export default function PalestranteDetailPage({ params }: any) {
   const t = useTranslations("PalestrantesConfirmados");
@@ -56,7 +56,7 @@ export default function PalestranteDetailPage({ params }: any) {
           href={`/${params.locale}#palestrantes`}
           className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
         >
-          <ChevronLeft size={18} />
+          <ChevronRight size={18} />
           {t("voltar")}
         </Link>
       </header>
