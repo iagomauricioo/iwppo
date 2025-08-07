@@ -134,7 +134,7 @@ export default function PalestrantesConfirmados() {
     instituicao: t("palestrantes.jemille.instituicao"),
     foto: "/palestrantes/jemille.jpeg",
     palestra: t("palestrantes.jemille.palestra"),
-    nacionalidade: t("palestrantes.jemilli.nacionalidade"),
+    nacionalidade: t("palestrantes.jemille.nacionalidade"),
   },
 
   {
