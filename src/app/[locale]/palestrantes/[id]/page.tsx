@@ -15,7 +15,7 @@ export default function PalestranteDetailPage({ params }: any) {
     notFound();
   }
 
-  const id = params.id.toLowerCase(); // Normaliza o ID
+  const id = params.id.toLowerCase();
   const fotosMap: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
     "katia-viana": "/comissao-organizadora/katia.png",
@@ -35,7 +35,7 @@ export default function PalestranteDetailPage({ params }: any) {
 
   const palestrante = {
     id: params.id,
-    foto: fotosMap[id] || "/placeholder.svg", // Usa o ID normalizado
+    foto: fotosMap[id] || "/placeholder.svg",
     ...data,
   };
 
@@ -67,14 +67,13 @@ export default function PalestranteDetailPage({ params }: any) {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Fundo para depuração
+              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Aumentado de h-64 para h-96
             >
               <Image
                 src={palestrante.foto}
                 alt={palestrante.nome}
                 fill
-                className="object-cover object-center"
-                priority // Adicionado para consistência, mas opcional
+                className="object-contain"
               />
             </motion.div>
 
