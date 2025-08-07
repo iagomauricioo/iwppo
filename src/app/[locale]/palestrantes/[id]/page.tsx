@@ -5,15 +5,13 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import { motion } from "framer-motion";
-import { ChevronRight } from "lucide-react";
+import { ChevronLeft } from "lucide-react"; // corrigido: seta para ESQUERDA
 
 export default function PalestranteDetailPage({ params }: any) {
   const t = useTranslations("PalestrantesConfirmados");
   const data = t.raw(`palestrantes.${params.id}`);
 
-  if (!data) {
-    notFound();
-  }
+  if (!data) notFound();
 
   const fotosMap: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
@@ -40,24 +38,25 @@ export default function PalestranteDetailPage({ params }: any) {
 
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white">
-      {/* Navbar simplificada */}
+      
+      {/* Navbar simplificada com botão à esquerda */}
       <header className="py-4 px-6 flex justify-between items-center border-b border-blue-700">
+        <Link
+          href={`/${params.locale}#palestrantes`}
+          className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
+        >
+          <ChevronLeft size={18} />
+          {t("voltar")}
+        </Link>
+
         <Link href={`/${params.locale}`}>
           <Image
             src="/logo-iwppo.png"
             alt="IWPPO Logo"
             width={140}
-            height={40}
+            height={50}
             className="object-contain"
           />
-        </Link>
-
-        <Link
-          href={`/${params.locale}#palestrantes`}
-          className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
-        >
-          <ChevronRight size={18} />
-          {t("voltar")}
         </Link>
       </header>
 
@@ -68,13 +67,14 @@ export default function PalestranteDetailPage({ params }: any) {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-full max-w-md mx-auto relative h-64 rounded-lg overflow-hidden"
+              className="w-full max-w-md mx-auto relative h-[500px] rounded-lg overflow-hidden"
             >
               <Image
                 src={palestrante.foto}
                 alt={palestrante.nome}
                 fill
-                className="object-cover object-center"
+                className="object-cover object-top"
+                priority
               />
             </motion.div>
 
