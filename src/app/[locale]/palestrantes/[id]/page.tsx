@@ -68,8 +68,8 @@ export default function PalestranteDetailPage({ params }: any) {
               <Image
                 src={palestrante.foto}
                 alt={palestrante.nome}
-                width={500}
-                height={500}
+                width={200}
+                height={200}
                 className="rounded-lg shadow-lg object-cover w-full h-auto"
               />
             </motion.div>
