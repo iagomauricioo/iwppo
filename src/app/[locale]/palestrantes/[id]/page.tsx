@@ -39,6 +39,11 @@ export default function PalestranteDetailPage({ params }: any) {
     ...data,
   };
 
+  // Depuração
+  console.log("Params ID:", params.id);
+  console.log("Normalized ID:", id);
+  console.log("Foto selecionada:", palestrante.foto);
+
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white">
       <header className="py-4 px-6 flex justify-between items-center border-b border-blue-700">
@@ -67,7 +72,7 @@ export default function PalestranteDetailPage({ params }: any) {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Aumentado de h-64 para h-96
+              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden bg-blue-500" // Mantém h-96
             >
               <Image
                 src={palestrante.foto}
