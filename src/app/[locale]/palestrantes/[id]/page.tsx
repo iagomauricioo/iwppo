@@ -12,8 +12,8 @@ export default function PalestranteDetailPage({ params }: any) {
   const data = t.raw(`palestrantes.${params.id}`);
 
   if (!data) notFound();
-  
-  const id = params.id.toLowerCase()
+
+  const id = params.id.toLowerCase();
   const fotosMap: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
     "katia-viana": "/comissao-organizadora/katia.png",
