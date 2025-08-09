@@ -157,6 +157,26 @@ export default function PalestrantesConfirmados() {
     nacionalidade: t("palestrantes.barbara-pinheiro.nacionalidade"),
   },
 
+  {
+    id: "vazquez",
+    nome: t("palestrantes.vazquez.nome"),
+    cargo: t("palestrantes.vazquez.cargo"),
+    instituicao: t("palestrantes.vazquez.instituicao"),
+    foto: "/palestrantes/vazquez.jpg",
+    palestra: t("palestrantes.vazquez.palestra"),
+    nacionalidade: t("palestrantes.vazquez.nacionalidade"),
+  },
+
+  {
+    id: "clemilson",
+    nome: t("palestrantes.clemilson.nome"),
+    cargo: t("palestrantes.clemilson.cargo"),
+    instituicao: t("palestrantes.clemilson.instituicao"),
+    foto: "/palestrantes/clemilson.jpeg",
+    palestra: t("palestrantes.clemilson.palestra"),
+    nacionalidade: t("palestrantes.clemilson.nacionalidade"),
+  },
+
 
 
   

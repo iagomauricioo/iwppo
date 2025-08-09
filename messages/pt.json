@@ -33,7 +33,7 @@
             "Garrafa de água",
             "Caneca",
             "Caneta",
-            "Bloco",
+            "Bloco de notas",
             "Bolsa"
         ],
         "save_the_planet": "Salve o Planeta!"
@@ -55,7 +55,7 @@
         "title": "Sobre o Evento",
         "section1": {
             "heading": "II IWPPO 2025",
-            "paragraph": "O IWPPO nasceu da necessidade de discutir e encontrar soluções para um dos maiores desafios ambientais da atualidade: a poluição plástica nos oceanos. Com origem no CEMEIA e apoio da CAPES (PAEP), nosso workshop reúne especialistas internacionais em uma abordagem interdisciplinar."
+            "paragraph": "O IWPPO nasceu da necessidade de discutir e encontrar soluções para um dos maiores desafios ambientais da atualidade: a poluição plástica nos oceanos. Com origem no CEMEIA (Congresso de Estudos sobre  o Meio Ambiente) e apoio da CAPES (Edital PAEP) e CNPq , nosso workshop reúne especialistas internacionais em uma abordagem interdisciplinar."
         },
         "section2": {
             "heading": "Nossa Abordagem",
@@ -66,7 +66,7 @@
             "Cooperação Internacional",
             "Alinhado com ODS 14 - Vida na Água",
             "500+ participantes",
-            "30+ países",
+            "10+ países",
             "Década dos Oceanos da ONU"
         ],
         "photo_credit": "Foto: @lucasmenesesphoto"
@@ -105,8 +105,8 @@
         "select_plan_message": "Por favor, selecione um plano acima para continuar"
     },
     "LocationSection": {
-        "title": "Localização",
-        "description": "O evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
+        "title": "Localização da abertura",
+        "description": " A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
         "address": {
             "title": "Endereço",
             "place": "Centro Cultural João Sampaio",
@@ -390,6 +390,7 @@
                 "price": "R$ 30,00",
                 "features": [
                     "Inscrição",
+                    "Submissão de trabalhos",
                     "Palestras",
                     "Minicursos",
                     "Certificado"
@@ -401,6 +402,7 @@
                 "price": "R$ 70,00",
                 "features": [
                     "Inscrição",
+                    "Submissão de trabalhos",
                     "Palestras",
                     "Minicursos",
                     "Certificado"
@@ -412,6 +414,7 @@
                 "price": "GRATUITO",
                 "features": [
                     "Inscrição",
+                    "Submissão de trabalhos",
                     "Palestras",
                     "Minicursos",
                     "Certificado"
@@ -423,6 +426,7 @@
                 "price": "R$ 100,00",
                 "features": [
                     "Inscrição",
+                    "Submissão de trabalhos",
                     "Palestras",
                     "Minicursos",
                     "Certificado"
@@ -677,7 +681,7 @@
                 "instituicao": "Universidade Paulista - UNIP",
                 "palestra": "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
                 "nacionalidade": "Brasil",
-                "biografia": "Biagio é referência em estudos sobre emergia e justiça ecológica, aplicando conceitos inovadores à conservação marinha."
+                "biografia": "Biagio F. Giannetti é Doutor (DSc) e Mestre pela Universidade de São Paulo (USP). Iniciou sua carreira na Universidade Paulista (UNIP) em 1992 como Professor Adjunto e atualmente ocupa o cargo de Professor Titular. Na UNIP, coordenou cursos de graduação em engenharia química e alimentos (1996-2000) e, desde 1998, atua como docente permanente no Programa de Pós-Graduação em Engenharia de Produção (níveis de Mestrado, Doutorado e Pós-Doutorado), além de liderar as atividades de pesquisa do Laboratório de Produção e Meio Ambiente (LaProMA). Desde 2005, é líder de grupo de pesquisa cadastrado no Diretório dos Grupos de Pesquisa do CNPq. Entre 2016 e 2024, foi Professor Visitante na Beijing Normal University (China), no âmbito do Programa Nacional de Recrutamento de Especialistas Estrangeiros de Alto Nível. Também atuou como Professor Visitante na Universidade de Sonora (México, 2013 e 2019) e na Universidade de Florença (Itália, 2022).O Prof. Giannetti é autor de mais de 300 publicações científicas, incluindo livros, artigos e trabalhos em conferências internacionais, com foco em produção e meio ambiente. Seu índice h na Scopus é 37, e o índice i10 no Google Scholar é 115.Foi Presidente da International Society for the Advancement of Emergy Research (2023–2025) e atualmente, é Membro Honorário do Conselho e Editor Associado do Journal of Cleaner Production, Editor Associado da Frontiers in Energy Research, , além de Diretor Global e fundador da Advances in Cleaner Production Network."
             },
             "federico-sulis": {
                 "nome": "Federico Sulis",
@@ -685,7 +689,7 @@
                 "instituicao": "Universidade Paulista - UNIP",
                 "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
                 "nacionalidade": "Estrangeiro",
-                "biografia": "Federico atua no desenvolvimento de soluções de economia circular para resíduos plásticos marinhos."
+                "biografia": "Dr. Federico Sulis Possui graduação em Ciências Naturais pela Università degli Studi di Cagliari (2006), Mestrado em Ecotoxicologia pela Università degli Studi di Siena (2011) e Especialização na concepção e controle de sistemas de gestão ambiental ISO 14001 e EMAS pela Escola EMAS ECOLABEL da Toscana (2014). Recentemente, concluiu o Doutorado em Engenharia de Produção na Universidade Paulista (2023).Tem experiência na área de Ciências Ambientais, com ênfase em Engenharia de Produção, atuando principalmente nos seguintes temas: Produção Mais Limpa, Ecologia Industrial, Ecotoxicologia, Desenvolvimento Sustentável e Reciclagem de Resíduos. Atualmente é pesquisador pós-doc no Laboratório de Produção de Meio Ambiente (LAPROMA) do Programa de Pós-Graduação em Engenharia de Produção (PPEG) na Universidade Paulista (UNIP), onde desenvolve sua pesquisa em parceria com o Laboratório de Emergia e Resiliência de Ecossistemas (LERE) do Programa de Pós-Graduação em Análise de Sistemas Ambientais (PPGASA) do Centro Universitário CESMAC."
             },
             "Marcell": {
                 "nome": "Marcell Mariano Correa Maceno",
@@ -693,7 +697,7 @@
                 "instituicao": "Universidade Federal do Paraná",
                 "palestra": "Life cycle assessment and microplastics: an overview",
                 "nacionalidade": "Brasil",
-                "biografia": "Marcell pesquisa ciclo de vida e impactos de microplásticos em ecossistemas aquáticos."
+                "biografia": "Dr. Marcell Mariano Corrêa Maceno.Engenheiro Ambiental pela Universidade Federal do Paraná (2007), Especialista em Auditoria da Qualidade e Ambiental pela Universidade Tecnológica Federal do Paraná (2010), Mestre e Doutor em Engenharia de Recursos Hídricos e Ambiental pela Universidade Federal do Paraná (2010 e 2015). Atualmente Professor Adjunto IV pela UFPR no curso de Engenharia de Produção na área de Gestão ambiental e Projeto de Produto. Coordenador do Programa de Pós-Graduação em Engenharia de Produção da UFPR (nível mestrado) da UFPR. Coordenador da RAICV – Rede brasileira de Avaliação do Impacto do Ciclo de Vida, e membro da Advances on Cleaner Production Network (ACPN). Atua na área de gestão ambiental e sustentabilidade desde 2008, com Pesquisas atuais relacionadas as áreas de ACV de produtos, DfX na busca de melhorias de uso de materiais e energia, Economia Circular, Avaliação da sustentabilidade de sistemas e Avaliação da circularidade de produtos."
             },
             "alireza": {
                 "nome": "Alireza Moghayedi",
@@ -723,13 +727,32 @@
             },
 
             "jornalista": {
-                "nome": "Jornalista",
+                "nome": "Paulina Chamorro",
                 "cargo": "Jornalista",
                 "instituicao": "Universidade Federal do Paraná",
                 "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
                 "nacionalidade": "Brasil",
                 "biografia": "Jornalista premiada com mais de duas décadas de cobertura em temas ambientais. Fez do Oiapoque ao Chuí em um veleiro para o projeto Mar sem Fim. Teve por 10 anos programa de rádio da Rádio Eldorado além de coordenar projetos socioambientais na emissora. Por dois anos foi produtora de campo no Vale do Javari da documentarista Céline Cousteau. Conduz o Vozes do Planeta, um podcast pioneiro de temas ambientais no Brasil, com nove anos de estrada e o projeto multimídia Mulheres na Conservação. É colaboradora do O Eco, GO Outside e National Geographic Brasil e bolsista do Pulitzer Center. Também é coidealizadora da Liga das Mulheres pelo Oceano. É codiretora do documentário Mulheres na Conservação, premiado no Female Film Festival 2023, melhor filme ambiental do Montreal Women Film Festival e Toronto International Women Film Festival de 2024, e produtora-executiva do documentário No topo da Amazônia em busca de novas espécies, sobre a inédita expedição da USP à Serra do Imeri, a oeste do Amazonas."
+            },
+
+            "vazquez": {
+                "nome": "Ian Vázquez-Rowe",
+                "cargo": "Professor",
+                "instituicao": "Pontificia Universidad Católica del Perúsidade Federal do Paraná",
+                "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
+                "nacionalidade": "Estrangeiro",
+                "biografia": "Dr. Ian Vázquez-Rowe graduated in Biology in 2006 from the University of Texas at Arlington. He then continued his graduate studies in Environmental Engineering at the University of Santiago de Compostela – USC (2006-2008). In October 2008 he initiated his research career at USC, where he obtained his PhD in Chemical Engineering in July 2012. From January 2012 to December 2013, Dr. Vázquez-Rowe has been continuing his research career as an Environmental Evaluation & Management R&D Engineer at Centre de Recherche Public Henri Tudor (now LIST, in Luxembourg). Currently, Dr. Vázquez-Rowe is a Full Professor at the Department of Engineering at the Pontificia Universidad Católica del Perú. He is also the editor for Ocean Resources and Marine Conservation at the International Journal of Life Cycle Assessment. His main research interests are linked to environmental management, including life cycle methods, their methodological improvement, and their combination with other methods. Moreover, fisheries and agriculture, food systems in general and waste and wastewater treatment systems, including plastic emissions to water bodies, have been the focus of his research in recent years. In 2021 he was included in the Reuters Hot List of 1000 top climate scientists worldwide and he annually ranks within the top 2% researchers in the world according to the University of Stanford."
+            },
+
+            "clemilson": {
+                "nome": "Clemilson Marques Batista",
+                "cargo": "CEO",
+                "instituicao": "Plataforma Athenas",
+                "palestra": "Titulo: plataforma Athena: Inovação na gestão da pesquisa e da produção científica brasileira",
+                "nacionalidade": "Brasil",
+                "biografia": "Clemilson Marques Batista (CEO).Especialista em avaliação da pós-graduação e em políticas públicas de ensino superior, Clemilson Marques Batista acumula mais de 25 anos de experiência no SNPG. Atuou por oito anos na Diretoria de Avaliação da CAPES, com destaque para sua atuação na capacitação de Pró-Reitores, Coordenadores e equipes técnicas de Programas de Pós-Graduação em todo o país. Também atuou como assessor nas Pró-Reitorias das Universidades Metodistas de São Paulo (UMESP) e de Piracicaba (UNIMEP), onde foi responsável pela articulação com a CAPES, CNPq e pela gestão da secretaria acadêmica dos cursos Stricto Sensu.Como fundador e diretor da JANUS EDUCARE, prestou consultoria especializada a dezenas de universidades públicas e privadas, entre elas: UFRJ, USP, UNB, UPM, UNICAP, UFSC, FGV, assessorando na criação, reformulação e avaliação de cursos de mestrado e doutorado, sempre com foco na aderência aos critérios da CAPES e na sustentabilidade acadêmica dos programas. É o idealizador da Plataforma Athena, concebida com base em sua experiência de campo e orientada à transformação digital da avaliação e da gestão da pós-graduação. Atualmente lidera a expansão estratégica do projeto Athena, com foco em parcerias, validação tecnológica e escalabilidade nacional e internacional."
             }
+
         }
     },
     "ComiteCientifico": {

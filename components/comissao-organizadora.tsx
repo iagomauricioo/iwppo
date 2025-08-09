@@ -108,6 +108,14 @@ const membrosComissao: MemberProps[] = [
     image: "/comissao-organizadora/alessandro.png",
   },
 
+    {
+    name: "Clarissa Nascimento Soares",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/5106375055470886",
+    title: "",
+    image: "/comissao-organizadora/clarissa.jpeg",
+  },
+
   {
     name: "Heitor Barbosa",
     country: "Brasil",
