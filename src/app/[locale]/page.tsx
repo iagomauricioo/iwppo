@@ -14,6 +14,7 @@ import ZeroResiduo from "@/components/zero-residuo"
 import ParceirosEApoio from "@/components/parceiros-e-apoio"
 import EixosTematicos from "@/components/eixos-tematicos"
 import PalestrantesConfirmados from "@/components/palestrantes-confirmados"
+import RegulamentoSection from "@/components/regulamento-section";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <ParticipantsSection />
         <ProgramacaoSection />
         <RegistrationSection />
+        <RegulamentoSection />
         <ComissaoOrganizadora />
         <ComiteCientifico />
         <ParceirosEApoio />

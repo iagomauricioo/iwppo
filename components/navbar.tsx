@@ -39,6 +39,7 @@ const eventLinks = [
 const moreLinks = [
   { href: "#localizacao", label: "localizacao", icon: MapPin },
   { href: "#inscricao", label: "inscricao", icon: FileText },
+  { href: "#regulamento", label: "regulamento", icon: FileText },
   { href: "#parceiros", label: "parceiros", icon: Handshake },
 ];
 

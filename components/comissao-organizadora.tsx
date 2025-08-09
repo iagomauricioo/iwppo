@@ -123,6 +123,14 @@ const membrosComissao: MemberProps[] = [
     title: "",
     image: "/comissao-organizadora/heitor barbosa.jpeg",
   },
+
+  {
+    name: "Kleber Firmino da Silva",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/8230043920168127",
+    title: "",
+    image: "/comissao-organizadora/kleber-lere.jpeg",
+  },
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália

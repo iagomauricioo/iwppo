@@ -45,11 +45,13 @@
         "programacao": "Programação",
         "comissao": "Comissão",
         "inscricao": "Inscrição",
+        "regulamento": "Regulamento de Submissões",
         "contato": "Contato",
         "parceiros": "Parceiros",
         "evento": "Evento",
         "mais": "Mais",
         "palestrantes": "Palestrantes"
+
     },
     "AboutSection": {
         "title": "Sobre o Evento",
@@ -104,6 +106,50 @@
         "select_plan_alert": "Por favor, selecione um plano de inscrição",
         "select_plan_message": "Por favor, selecione um plano acima para continuar"
     },
+
+    "Regulamento": {
+  "title": "Regulamento para Submissão de Trabalhos",
+  "items": [
+    {
+      "title": "Ineditismo",
+      "description": "Apenas trabalhos inéditos serão aceitos."
+    },
+    {
+      "title": "Modalidades de Apresentação",
+      "description": "O participante poderá apresentar o trabalho em uma das seguintes modalidades: Apresentação oral ou E-poster/banner (não haverá necessidade de impressão física)."
+    },
+    {
+      "title": "Formato Aceito",
+      "description": "Somente serão aceitos trabalhos no formato de resumo expandido."
+    },
+    {
+      "title": "Idiomas Aceitos",
+      "description": "Os trabalhos podem ser redigidos em Português, Inglês ou Espanhol."
+    },
+    {
+      "title": "Número de Autores/Coautores",
+      "description": "Cada trabalho poderá ter até 6 autores/coautores (incluindo o autor principal)."
+    },
+    {
+      "title": "Limite de Trabalhos por Participante",
+      "description": "Autor principal: até 2 trabalhos; Coautor: até 5 trabalhos."
+    },
+    {
+      "title": "Critérios de Avaliação",
+      "description": "Os trabalhos serão avaliados em duas etapas: (1) avaliação preliminar pelo comitê diretivo e (2) avaliação pelo Comitê Científico, considerando originalidade, contribuição, rigor metodológico, qualidade da redação e classificação em relação ao estado da arte."
+    },
+    {
+      "title": "Escala de Avaliação",
+      "description": "Muito Ruim = 1, Ruim = 2, Regular = 3, Bom = 4, Muito Bom = 5. Serão aceitos trabalhos com média igual ou superior a 4."
+    },
+    {
+      "title": "Sobre as Apresentações",
+      "description": "Apresentação em e-poster/banner digital: 1h de exposição (template recomendado disponível no site). Apresentação oral: 10min de exposição + 5min de perguntas (template recomendado disponível no site)."
+    }
+  ]
+},
+
+
     "LocationSection": {
         "title": "Localização da abertura",
         "description": " A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
