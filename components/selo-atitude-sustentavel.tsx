@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+
 
 interface SeloProps {
   size?: "sm" | "md" | "lg";
@@ -14,6 +16,7 @@ export default function SeloAtitudeSustentavel({
   className = "",
 }: SeloProps) {
   const t = useTranslations("SeloAtitudeSustentavel");
+  const locale = (params?.locale as string) || "pt";
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
