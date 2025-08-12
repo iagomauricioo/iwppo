@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 
-
 interface SeloProps {
   size?: "sm" | "md" | "lg";
   className?: string;
@@ -16,8 +15,13 @@ export default function SeloAtitudeSustentavel({
   className = "",
 }: SeloProps) {
   const t = useTranslations("SeloAtitudeSustentavel");
-  const locale = (params?.locale as string) || "pt";
+
+  // Get params first, then read locale
   const params = useParams();
+  const locale = (params?.locale as string) || "pt";
+
+  const w = size === "sm" ? 100 : size === "md" ? 150 : 200;
+  const h = w; // same as width
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
@@ -26,8 +30,8 @@ export default function SeloAtitudeSustentavel({
         <Image
           src="/Selo Sustentável (1).png"
           alt={`${t("atitude")} ${t("sustentavel")}`}
-          width={size === "sm" ? 100 : size === "md" ? 150 : 200}
-          height={size === "sm" ? 100 : size === "md" ? 150 : 200}
+          width={w}
+          height={h}
           className="object-contain"
         />
         <div className="mt-2 text-center font-bold text-blue-800 uppercase">
