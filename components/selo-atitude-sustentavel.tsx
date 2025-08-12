@@ -17,6 +17,7 @@ export default function SeloAtitudeSustentavel({
 }: SeloProps) {
   const t = useTranslations("SeloAtitudeSustentavel");
   const locale = (params?.locale as string) || "pt";
+  const params = useParams();
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
