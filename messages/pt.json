@@ -51,13 +51,12 @@
         "evento": "Evento",
         "mais": "Mais",
         "palestrantes": "Palestrantes"
-
     },
     "AboutSection": {
         "title": "Sobre o Evento",
         "section1": {
             "heading": "II IWPPO 2025",
-            "paragraph": "O IWPPO nasceu da necessidade de discutir e encontrar soluções para um dos maiores desafios ambientais da atualidade: a poluição plástica nos oceanos. Com origem no CEMEIA (Congresso de Estudos sobre  o Meio Ambiente) e apoio da CAPES (Edital PAEP) e CNPq , nosso workshop reúne especialistas internacionais em uma abordagem interdisciplinar."
+            "paragraph": "O IWPPO nasceu da necessidade de discutir e encontrar soluções para um dos maiores desafios ambientais da atualidade: a poluição plástica nos oceanos. Com origem no CEMEIA (Congresso de Estudos sobre o Meio Ambiente) e apoio da CAPES (Edital PAEP) e CNPq, nosso workshop reúne especialistas internacionais em uma abordagem interdisciplinar."
         },
         "section2": {
             "heading": "Nossa Abordagem",
@@ -106,59 +105,56 @@
         "select_plan_alert": "Por favor, selecione um plano de inscrição",
         "select_plan_message": "Por favor, selecione um plano acima para continuar"
     },
-
-"RegulamentoSection": {
-  "title": "Regulamento para Submissão de Trabalhos",
-  "subtitle": "Conheça as regras e diretrizes para submissão de trabalhos no II IWPPO",
-  "itens": {
-    "ineditismo": {
-      "title": "Ineditismo",
-      "desc": "Apenas trabalhos inéditos serão aceitos."
+    "RegulamentoSection": {
+        "title": "Regulamento para Submissão de Trabalhos",
+        "subtitle": "Conheça as regras e diretrizes para submissão de trabalhos no II IWPPO",
+        "itens": {
+            "ineditismo": {
+                "title": "Ineditismo",
+                "desc": "Apenas trabalhos inéditos serão aceitos."
+            },
+            "modalidades": {
+                "title": "Modalidades de Apresentação",
+                "desc": "O participante poderá apresentar o trabalho em uma das seguintes modalidades: Apresentação oral ou E-poster/banner (não haverá necessidade de impressão física)."
+            },
+            "formato": {
+                "title": "Formato Aceito",
+                "desc": "Somente serão aceitos trabalhos no formato de resumo expandido."
+            },
+            "idiomas": {
+                "title": "Idiomas Aceitos",
+                "desc": "Os trabalhos podem ser redigidos em Português, Inglês ou Espanhol."
+            },
+            "autores": {
+                "title": "Número de Autores/Coautores",
+                "desc": "Cada trabalho poderá ter até 6 autores/coautores (incluindo o autor principal)."
+            },
+            "limites": {
+                "title": "Limite de Trabalhos por Participante",
+                "desc": "Autor principal: até 2 trabalhos; Coautor: até 5 trabalhos."
+            }
+        },
+        "avaliacao": {
+            "title": "Critérios de Avaliação",
+            "desc": "Os trabalhos serão avaliados em duas etapas: (1) avaliação preliminar pelo comitê diretivo e (2) avaliação pelo Comitê Científico, considerando originalidade, contribuição, rigor metodológico, qualidade da redação e classificação em relação ao estado da arte.",
+            "escala": "Muito Ruim = 1, Ruim = 2, Regular = 3, Bom = 4, Muito Bom = 5. Serão aceitos trabalhos com média igual ou superior a 4.",
+            "resultados": "Apresentação em e-poster/banner digital: 1h de exposição (template recomendado disponível no site). Apresentação oral: 10min de exposição + 5min de perguntas (template recomendado disponível no site)."
+        },
+        "criterios": [
+            "Originalidade",
+            "Contribuição para o campo",
+            "Rigor metodológico",
+            "Qualidade da redação",
+            "Classificação em relação ao estado da arte"
+        ],
+        "actions": {
+            "baixar_pdf": "Baixar Regulamento em PDF",
+            "submeter_trabalho": "Submeter Trabalho"
+        }
     },
-    "modalidades": {
-      "title": "Modalidades de Apresentação",
-      "desc": "O participante poderá apresentar o trabalho em uma das seguintes modalidades: Apresentação oral ou E-poster/banner (não haverá necessidade de impressão física)."
-    },
-    "formato": {
-      "title": "Formato Aceito",
-      "desc": "Somente serão aceitos trabalhos no formato de resumo expandido."
-    },
-    "idiomas": {
-      "title": "Idiomas Aceitos",
-      "desc": "Os trabalhos podem ser redigidos em Português, Inglês ou Espanhol."
-    },
-    "autores": {
-      "title": "Número de Autores/Coautores",
-      "desc": "Cada trabalho poderá ter até 6 autores/coautores (incluindo o autor principal)."
-    },
-    "limites": {
-      "title": "Limite de Trabalhos por Participante",
-      "desc": "Autor principal: até 2 trabalhos; Coautor: até 5 trabalhos."
-    }
-  },
-  "avaliacao": {
-    "title": "Critérios de Avaliação",
-    "desc": "Os trabalhos serão avaliados em duas etapas: (1) avaliação preliminar pelo comitê diretivo e (2) avaliação pelo Comitê Científico, considerando originalidade, contribuição, rigor metodológico, qualidade da redação e classificação em relação ao estado da arte.",
-    "escala": "Muito Ruim = 1, Ruim = 2, Regular = 3, Bom = 4, Muito Bom = 5. Serão aceitos trabalhos com média igual ou superior a 4.",
-    "resultados": "Apresentação em e-poster/banner digital: 1h de exposição (template recomendado disponível no site). Apresentação oral: 10min de exposição + 5min de perguntas (template recomendado disponível no site)."
-  },
-  "criterios": [
-    "Originalidade",
-    "Contribuição para o campo",
-    "Rigor metodológico",
-    "Qualidade da redação",
-    "Classificação em relação ao estado da arte"
-  ],
-  "actions": {
-    "baixar_pdf": "Baixar Regulamento em PDF",
-    "submeter_trabalho": "Submeter Trabalho"
-  }
-},
-
-
     "LocationSection": {
         "title": "Localização da abertura",
-        "description": " A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
+        "description": "A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
         "address": {
             "title": "Endereço",
             "place": "Centro Cultural João Sampaio",
@@ -218,21 +214,15 @@
                 "day": "Quarta-feira",
                 "date": "2025-09-17",
                 "events": [
-
                     {
-                "time": "10:00",
-                "title": "Cine Ambiental - Sessão para Ensino Fundamental e Médio",
-                "location": "Centro Cultural João Sampaio",
-                "nature": "Exibição",
-                "speakers": "-",
-                "description": "Sessão de filmes ambientais voltada para estudantes do ensino fundamental e médio."
+                        "time": "10:00",
+                        "title": "Cine Ambiental - Sessão para Ensino Fundamental e Médio",
+                        "location": "Centro Cultural João Sampaio",
+                        "nature": "Exibição",
+                        "speakers": "-",
+                        "description": "Sessão de filmes ambientais voltada para estudantes do ensino fundamental e médio."
                     },
-}
-
                     {
-
-
-
                         "time": "19:00",
                         "title": "Cerimônia de Abertura do 2º IWPPO",
                         "location": "Centro Cultural João Sampaio",
@@ -578,7 +568,7 @@
     },
     "ComissaoOrganizadora": {
         "title": "Comissão Organizadora",
-        "event_title": " International Workshop on Plastic Pollution in the Oceans",
+        "event_title": "International Workshop on Plastic Pollution in the Oceans",
         "subtitle": "Nosso comissão organizadora é composta por renomados pesquisadores e especialistas internacionais dedicados ao estudo e combate da poluição plástica nos oceanos.",
         "stats": {
             "countries": {
@@ -773,7 +763,6 @@
                 "nacionalidade": "Estrangeiro",
                 "biografia": "O Dr. Alireza Moghayedi é um pesquisador e educador com foco em sustentabilidade, com mais de 20 anos de experiência na indústria de Engenharia e Ambiente Construído. Ele é Líder de Pesquisa em Ambiente Construído Digital na Escola de Arquitetura e Meio Ambiente da Universidade do Oeste da Inglaterra, em Bristol, pesquisador sênior na Universidade de Joanesburgo e fundador e codiretor do S+CUBE na Universidade da Cidade do Cabo. Sua pesquisa concentra-se no desenvolvimento de soluções inclusivas, sustentáveis e inteligentes para projetos de infraestrutura de engenharia e ambiente construído, utilizando tecnologias inovadoras. Ele atua como Pesquisador Principal de vários projetos de pesquisa internacionais, avaliados coletivamente em mais de £ 30 milhões. Seu trabalho foi publicado em importantes periódicos acadêmicos e conferências, e recebeu inúmeros prêmios por sua pesquisa e ensino. O Dr. Moghayedi é gerente de projetos credenciado e ocupou diversos cargos em agências governamentais, consultorias de engenharia, em empresas de construção e desenvolvimento em todo o mundo."
             },
-
             "barbara-pinheiro": {
                 "nome": "Bárbara Ramos Pinheiro",
                 "cargo": "Pesquisadora",
@@ -782,7 +771,6 @@
                 "nacionalidade": "Brasil",
                 "biografia": "Bióloga, Mestre e Doutora em Oceanografia pela UFPE. Pesquisadora do PACTO MAR| UNIFESP| Maré de Ciências. Membro da Secretaria Executiva da Liga das Mulheres pelo Oceano e membro do Comitê Nacional da Década do Oceano Coordenadora Nacional da Black Women in Ecology Evolution and Marine Science."
             },
-
             "jemille": {
                 "nome": "Jemille Viaggi",
                 "cargo": "Pesquisadora",
@@ -791,7 +779,6 @@
                 "nacionalidade": "Brasil",
                 "biografia": "Bióloga marinha e Doutora em Ecologia pela UFRJ, atua com pesquisa interdisciplinar voltada à governança, diplomacia científica, conservação marinha, mudanças climáticas e poluição do oceano.Integra a Cátedra UNESCO para a Sustentabilidade do Oceano e coordena iniciativas como a Rede Oceano Limpo e o GT-COP30 da Liga das Mulheres pelo Oceano. Foi Sub-Coordenadora do O20-G20 e articuladora da Estratégia Nacional Oceano Sem Plástico. Atua como consultora em projetos de impacto socioambiental, incluindo o Programa Ondas do Futuro da Polen."
             },
-
             "jornalista": {
                 "nome": "Paulina Chamorro",
                 "cargo": "Jornalista",
@@ -800,16 +787,14 @@
                 "nacionalidade": "Brasil",
                 "biografia": "Jornalista premiada com mais de duas décadas de cobertura em temas ambientais. Fez do Oiapoque ao Chuí em um veleiro para o projeto Mar sem Fim. Teve por 10 anos programa de rádio da Rádio Eldorado além de coordenar projetos socioambientais na emissora. Por dois anos foi produtora de campo no Vale do Javari da documentarista Céline Cousteau. Conduz o Vozes do Planeta, um podcast pioneiro de temas ambientais no Brasil, com nove anos de estrada e o projeto multimídia Mulheres na Conservação. É colaboradora do O Eco, GO Outside e National Geographic Brasil e bolsista do Pulitzer Center. Também é coidealizadora da Liga das Mulheres pelo Oceano. É codiretora do documentário Mulheres na Conservação, premiado no Female Film Festival 2023, melhor filme ambiental do Montreal Women Film Festival e Toronto International Women Film Festival de 2024, e produtora-executiva do documentário No topo da Amazônia em busca de novas espécies, sobre a inédita expedição da USP à Serra do Imeri, a oeste do Amazonas."
             },
-
             "vazquez": {
                 "nome": "Ian Vázquez-Rowe",
                 "cargo": "Professor",
-                "instituicao": "Pontificia Universidad Católica del Perúsidade Federal do Paraná",
+                "instituicao": "Pontificia Universidad Católica del Perú",
                 "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
                 "nacionalidade": "Estrangeiro",
                 "biografia": "Dr. Ian Vázquez-Rowe graduated in Biology in 2006 from the University of Texas at Arlington. He then continued his graduate studies in Environmental Engineering at the University of Santiago de Compostela – USC (2006-2008). In October 2008 he initiated his research career at USC, where he obtained his PhD in Chemical Engineering in July 2012. From January 2012 to December 2013, Dr. Vázquez-Rowe has been continuing his research career as an Environmental Evaluation & Management R&D Engineer at Centre de Recherche Public Henri Tudor (now LIST, in Luxembourg). Currently, Dr. Vázquez-Rowe is a Full Professor at the Department of Engineering at the Pontificia Universidad Católica del Perú. He is also the editor for Ocean Resources and Marine Conservation at the International Journal of Life Cycle Assessment. His main research interests are linked to environmental management, including life cycle methods, their methodological improvement, and their combination with other methods. Moreover, fisheries and agriculture, food systems in general and waste and wastewater treatment systems, including plastic emissions to water bodies, have been the focus of his research in recent years. In 2021 he was included in the Reuters Hot List of 1000 top climate scientists worldwide and he annually ranks within the top 2% researchers in the world according to the University of Stanford."
             },
-
             "clemilson": {
                 "nome": "Clemilson Marques Batista",
                 "cargo": "CEO",
@@ -818,7 +803,6 @@
                 "nacionalidade": "Brasil",
                 "biografia": "Clemilson Marques Batista (CEO).Especialista em avaliação da pós-graduação e em políticas públicas de ensino superior, Clemilson Marques Batista acumula mais de 25 anos de experiência no SNPG. Atuou por oito anos na Diretoria de Avaliação da CAPES, com destaque para sua atuação na capacitação de Pró-Reitores, Coordenadores e equipes técnicas de Programas de Pós-Graduação em todo o país. Também atuou como assessor nas Pró-Reitorias das Universidades Metodistas de São Paulo (UMESP) e de Piracicaba (UNIMEP), onde foi responsável pela articulação com a CAPES, CNPq e pela gestão da secretaria acadêmica dos cursos Stricto Sensu.Como fundador e diretor da JANUS EDUCARE, prestou consultoria especializada a dezenas de universidades públicas e privadas, entre elas: UFRJ, USP, UNB, UPM, UNICAP, UFSC, FGV, assessorando na criação, reformulação e avaliação de cursos de mestrado e doutorado, sempre com foco na aderência aos critérios da CAPES e na sustentabilidade acadêmica dos programas. É o idealizador da Plataforma Athena, concebida com base em sua experiência de campo e orientada à transformação digital da avaliação e da gestão da pós-graduação. Atualmente lidera a expansão estratégica do projeto Athena, com foco em parcerias, validação tecnológica e escalabilidade nacional e internacional."
             }
-
         }
     },
     "ComiteCientifico": {
