@@ -20,7 +20,7 @@ export default function SeloAtitudeSustentavel({
       {/* Conteúdo original do selo */}
       <div className="relative flex flex-col items-center">
         <Image
-          src="/selo-atitude-sustentavel.png"
+          src="/Selo Sustentável (1).png"
           alt={`${t("atitude")} ${t("sustentavel")}`}
           width={size === "sm" ? 100 : size === "md" ? 150 : 200}
           height={size === "sm" ? 100 : size === "md" ? 150 : 200}
