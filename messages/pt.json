@@ -218,7 +218,21 @@
                 "day": "Quarta-feira",
                 "date": "2025-09-17",
                 "events": [
+
                     {
+                "time": "10:00",
+                "title": "Cine Ambiental - Sessão para Ensino Fundamental e Médio",
+                "location": "Centro Cultural João Sampaio",
+                "nature": "Exibição",
+                "speakers": "-",
+                "description": "Sessão de filmes ambientais voltada para estudantes do ensino fundamental e médio."
+                    },
+}
+
+                    {
+
+
+
                         "time": "19:00",
                         "title": "Cerimônia de Abertura do 2º IWPPO",
                         "location": "Centro Cultural João Sampaio",

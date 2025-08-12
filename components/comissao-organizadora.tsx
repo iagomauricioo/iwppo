@@ -105,7 +105,7 @@ const membrosComissao: MemberProps[] = [
     country: "Brasil",
     lattesUrl: " http://lattes.cnpq.br/7440453632345842",
     title: "",
-    image: "/comissao-organizadora/alessandro.png",
+    image: "/comissao-organizadora/alessandro.jpg",
   },
 
     {
@@ -131,6 +131,23 @@ const membrosComissao: MemberProps[] = [
     title: "",
     image: "/comissao-organizadora/kleber-lere.jpeg",
   },
+
+   {
+    name: "Maria Fernanda Torres dos Santos",
+    country: "Brasil",
+    lattesUrl: "https://lattes.cnpq.br/7051469857398365",
+    title: "",
+    image: "/comissao-organizadora/mafe.jpeg",
+  },
+
+    {
+    name: "Sue Reginis de Carvalho Moreira e Silva",
+    country: "Brasil",
+    lattesUrl: "http://lattes.cnpq.br/8752764399171308",
+    title: "",
+    image: "/comissao-organizadora/sue.jpeg",
+  },
+
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália
