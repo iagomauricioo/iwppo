@@ -14,7 +14,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export default function SeloSustentavelPremiacao() {
-  const t = useTranslations("SeloAtitudeSustentavel"); // usa as chaves já existentes p/ o título
+  const t = useTranslations("SeloSustentavelPremiacao"); // usa as chaves já existentes p/ o título
 
   // Lista "o selo é concedido aos trabalhos que se destacam em:"
   const destaques = [
