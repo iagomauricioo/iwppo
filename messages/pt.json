@@ -262,14 +262,14 @@
                     },
                     {
                         "time": "10:30",
-                        "title": "Palestra Magna Matutina",
+                        "title": "Mesa Redonda 1:",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Palestra",
-                        "speakers": "-",
+                        "speakers": "Jemille Viaggi, Barbara Ramos Pinheiro e Paulina Chamorro",
                         "description": "Palestra principal da manhã"
                     },
                     {
-                        "time": "11:15",
+                        "time": "11:30",
                         "title": "Apresentações Orais – Seções 1 a 9",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Apresentação",
@@ -277,7 +277,7 @@
                         "description": "Apresentações orais de pesquisas"
                     },
                     {
-                        "time": "12:00",
+                        "time": "12:30",
                         "title": "HORÁRIO DE ALMOÇO",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Outro",
@@ -302,10 +302,10 @@
                     },
                     {
                         "time": "15:30",
-                        "title": "Palestra Magna Vespertina",
+                        "title": "Palestra: Emission pathways of macro- and microplastics to the Pacific Ocean in Peru: detection and quantification",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Palestra",
-                        "speakers": "-",
+                        "speakers": "Ian Vázquez-Rowe",
                         "description": "Palestra principal da tarde"
                     },
                     {
@@ -318,10 +318,10 @@
                     },
                     {
                         "time": "17:00",
-                        "title": "Mesa Redonda: Rastreando o Invisível: Monitoramento de Plásticos Marinhos",
+                        "title": ": Palestra 2 ",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Mesa Redonda",
-                        "speakers": "-",
+                        "speakers": "Robson Guimarães dos Santos, Katia Viana Cavalcante",
                         "description": "Discussão sobre monitoramento de plásticos marinhos"
                     },
                     {
@@ -356,10 +356,10 @@
                     },
                     {
                         "time": "10:30",
-                        "title": "Palestra Magna Matutina",
+                        "title": "Palestra 3",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Palestra",
-                        "speakers": "-",
+                        "speakers": "Clemilson Marques Batista",
                         "description": "Palestra principal da manhã"
                     },
                     {
@@ -371,7 +371,7 @@
                         "description": "Apresentações orais de pesquisas"
                     },
                     {
-                        "time": "12:00",
+                        "time": "12:30",
                         "title": "HORÁRIO DE ALMOÇO",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Outro",
@@ -396,15 +396,25 @@
                     },
                     {
                         "time": "15:30",
-                        "title": "Palestra Magna Vespertina",
+                        "title": "Palestra 4A",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Palestra",
-                        "speakers": "-",
+                        "speakers": "Biagio Fernando Giannetti,Federico Sulis e Marcell Mariano Correa Maceno",
+                        "description": "Palestra principal da tarde"
+                    },
+
+
+                     {
+                        "time": "15:30",
+                        "title": "Palestra 4B",
+                        "location": "Complexo de Inovações Pedagógicas CESMAC",
+                        "nature": "Palestra",
+                        "speakers": "Comitê de Bacias Hidrográficas de Alagoas e Cristiane Siqueira",
                         "description": "Palestra principal da tarde"
                     },
                     {
-                        "time": "16:15",
-                        "title": "Momento de Reconhecimento e Premiações: Vozes que valorizamos, esforços que celebramos",
+                        "time": "16:30",
+                        "title": "Momento de Reconhecimento e Premiações: Vozes que valorizamos, esforços que celebramos - Premiação do Selo Atitude Sustentável",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Cerimônia",
                         "speakers": "-",
@@ -412,28 +422,21 @@
                     },
                     {
                         "time": "17:00",
-                        "title": "Mesa Redonda: Mudando a maré: políticas, inovações e soluções comunitárias",
+                        "title": "Palestra de encerramento",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Mesa Redonda",
-                        "speakers": "-",
+                        "speakers": "Scott Paton Wilson e Alireza Moghayedi",
                         "description": "Discussão sobre políticas e soluções para plásticos"
                     },
                     {
                         "time": "18:00",
-                        "title": "Encerramento das Atividades Acadêmicas",
+                        "title": "erimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Cerimônia",
-                        "speakers": "-",
-                        "description": "Fechamento das atividades do dia"
-                    },
-                    {
-                        "time": "19:00",
-                        "title": "Cerimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
-                        "location": "Centro Cultural João Sampaio",
                         "nature": "Cerimônia",
                         "speakers": "-",
                         "description": "Encerramento oficial e compromissos para o próximo evento"
                     }
+                 
                 ]
             }
         ]
@@ -791,7 +794,7 @@
                 "nome": "Ian Vázquez-Rowe",
                 "cargo": "Professor",
                 "instituicao": "Pontificia Universidad Católica del Perú",
-                "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
+                "palestra": "Emission pathways of macro- and microplastics to the Pacific Ocean in Peru: detection and quantification",
                 "nacionalidade": "Estrangeiro",
                 "biografia": "Dr. Ian Vázquez-Rowe graduated in Biology in 2006 from the University of Texas at Arlington. He then continued his graduate studies in Environmental Engineering at the University of Santiago de Compostela – USC (2006-2008). In October 2008 he initiated his research career at USC, where he obtained his PhD in Chemical Engineering in July 2012. From January 2012 to December 2013, Dr. Vázquez-Rowe has been continuing his research career as an Environmental Evaluation & Management R&D Engineer at Centre de Recherche Public Henri Tudor (now LIST, in Luxembourg). Currently, Dr. Vázquez-Rowe is a Full Professor at the Department of Engineering at the Pontificia Universidad Católica del Perú. He is also the editor for Ocean Resources and Marine Conservation at the International Journal of Life Cycle Assessment. His main research interests are linked to environmental management, including life cycle methods, their methodological improvement, and their combination with other methods. Moreover, fisheries and agriculture, food systems in general and waste and wastewater treatment systems, including plastic emissions to water bodies, have been the focus of his research in recent years. In 2021 he was included in the Reuters Hot List of 1000 top climate scientists worldwide and he annually ranks within the top 2% researchers in the world according to the University of Stanford."
             },
