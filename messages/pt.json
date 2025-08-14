@@ -770,7 +770,7 @@
     },
 
 
-    "MesaDeAbertura": {
+"MesaDeAbertura": {
   "title1": "Mesa de",
   "title2": "Abertura",
   "descricao": "Autoridades e representantes institucionais que abrem oficialmente o evento.",
@@ -781,13 +781,13 @@
   "sem_resultados": "Nenhum integrante encontrado para \"{termo}\"",
   "limpar_busca": "Limpar busca",
   "integrantes": {
-    "alexander": {
-      "nome": "Alexander Turran",
-      "cargo": "Professor Titular",
-      "instituicao": "USP - Universidade de São Paulo",
-      "nacionalidade": "Brasil",
-      "bio": "Professor titular do instituto oceanográfico da universidade de São Paulo."
-    }
+        "alexander": {
+        "nome": "Alexander Turran",
+        "cargo": "Professor Titular",
+        "instituicao": "USP - Universidade de São Paulo",
+        "nacionalidade": "Brasil",
+        "bio": "Professor titular do instituto oceanográfico da universidade de São Paulo."
+        }
   }
 },
 

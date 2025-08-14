@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 type Integrante = {
   id: string;
@@ -19,18 +19,24 @@ type Integrante = {
 export default function MesaDeAbertura() {
   const [q, setQ] = useState("");
   const t = useTranslations("MesaAbertura");
+  const locale = useLocale();
 
-  // Você pode manter esses ids e mapear as imagens em /public/mesa/...
+  // helper para evitar digitar o caminho toda hora
+  const m = (id: string): Integrante => ({
+    id,
+    nome: t(`integrantes.${id}.nome`),
+    cargo: t(`integrantes.${id}.cargo`), // <-- chave CORRETA
+    instituicao: t(`integrantes.${id}.instituicao`),
+    nacionalidade: t.has(`integrantes.${id}.nacionalidade`)
+      ? t(`integrantes.${id}.nacionalidade`)
+      : "",
+    foto: `/mesa/${id}.jpeg`, // ajuste se a extensão/nome variar
+  });
+
   const integrantes: Integrante[] = [
-    {
-      id: "alexander",
-      nome: t("integrantes.alexander.nome"),
-      cargo: t("alexander.cargo"),
-      instituicao: t("integrantes.alexander.instituicao"),
-      nacionalidade: t("integrantes.alexander.nacionalidade"),
-      foto: "/mesa/alex.jpeg",
-    },
-    
+    m("alexander"),
+    // m("reitor-universidade"),
+    // m("secretaria-meio-ambiente"),
   ];
 
   const filtered = integrantes.filter((p) => {
@@ -39,7 +45,10 @@ export default function MesaDeAbertura() {
   });
 
   return (
-    <section id="mesa-de-abertura" className="py-16 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white">
+    <section
+      id="mesa-de-abertura"
+      className="py-16 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <motion.h2
@@ -87,9 +96,9 @@ export default function MesaDeAbertura() {
               transition={{ duration: 0.35, delay: idx * 0.05 }}
               whileHover={{ y: -4, transition: { duration: 0.15 } }}
             >
-              {/* FOTO → Link para detalhes */}
+              {/* FOTO → Link para detalhes (com locale na rota) */}
               <Link
-                href={`/mesa-de-abertura/${p.id}`}
+                href={`/${locale}/mesa-de-abertura/${p.id}`}
                 className="relative block h-64 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300"
               >
                 <Image
@@ -117,8 +126,13 @@ export default function MesaDeAbertura() {
 
         {filtered.length === 0 && (
           <div className="text-center py-10">
-            <p className="text-blue-100 text-lg">{t("sem_resultados", { termo: q })}</p>
-            <button onClick={() => setQ("")} className="mt-3 text-blue-200 hover:text-blue-50 transition-colors">
+            <p className="text-blue-100 text-lg">
+              {t("sem_resultados", { termo: q })}
+            </p>
+            <button
+              onClick={() => setQ("")}
+              className="mt-3 text-blue-200 hover:text-blue-50 transition-colors"
+            >
               {t("limpar_busca")}
             </button>
           </div>
