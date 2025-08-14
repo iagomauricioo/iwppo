@@ -28,60 +28,99 @@
     },
 
 
-    "SeloSustentavelPremiacao": {
-  "title": "Selo de Atitude Sustentável",
-  "subtitle": "Reconhecimento às ações criativas e impactantes no combate à poluição plástica",
-  "intro": "O Selo de Atitude Sustentável é mais que um prêmio: é um símbolo de compromisso, criatividade e impacto positivo...",
-  "itens": {
-    "mensagem": {
-      "title": "Clareza e qualidade da mensagem",
-      "desc": "O vídeo apresenta a ideia de forma clara, direta e coerente, com boa qualidade de áudio e imagem."
-    },
-    "relevancia": {
-      "title": "Relevância do conteúdo",
-      "desc": "Aborda diretamente o tema da poluição plástica nos oceanos, apresentando informações corretas e contextualizadas."
-    },
-    "comunidade": {
-      "title": "População envolvida",
-      "desc": "Representatividade e engajamento da comunidade, incluindo diversidade de participantes."
-    },
-    "impacto": {
-      "title": "Significância das atitudes apresentadas",
-      "desc": "Ações com potencial de gerar impacto ambiental positivo real e mensurável."
-    },
-    "criatividade": {
-      "title": "Criatividade e inovação",
-      "desc": "Uso criativo de recursos visuais, sonoros ou narrativos para transmitir a mensagem."
-    },
-    "inspiracao": {
-      "title": "Potencial de inspiração e mobilização",
-      "desc": "Capacidade de motivar o público a adotar práticas sustentáveis."
-    },
-    "conformidade": {
-      "title": "Conformidade com tempo e formato",
-      "desc": "Respeito ao limite de até 3 minutos e adequação técnica do vídeo."
+   
+  "SeloSustentavelPage": {
+    "title": "Selo de Atitude Sustentável",
+    "intro": "Confira abaixo os critérios e como participar da competição de vídeos do Selo de Atitude Sustentável.",
+    "back": "Voltar"
+  },
+  "SeloSustentavelPremiacao": {
+    "title": "ATITUDE SUSTENTÁVEL – IWPPO",
+    "intro1": "Imagine um mundo onde cada pequena ação conta. Nas praias, nos portos, nos rios e até nas ruas, decisões diárias moldam o futuro dos oceanos. No IWPPO, acreditamos que boas ideias merecem mais que reconhecimento — elas merecem ser exemplo. Foi assim que nasceu o Selo de Atitude Sustentável: mais que um prêmio, um símbolo de compromisso, criatividade e impacto positivo.",
+    "intro2": "Durante o evento, participantes de diferentes países e comunidades são convidados a contar suas histórias em vídeos de até 3 minutos — mostrando ações reais para reduzir a poluição plástica: de campanhas educativas e mutirões de limpeza a tecnologias inovadoras e soluções simples e replicáveis.",
+    "network_text": "Receber o selo é fazer parte de uma rede global de agentes de mudança. Ao final do evento, os vídeos premiados serão compartilhados internacionalmente, inspirando novas ações e multiplicando o alcance dessas atitudes. Cada vencedor leva não só um reconhecimento, mas um convite: continuar agindo e inspirando. O oceano começa no nosso quintal — e cuidar dele começa com uma escolha, hoje.",
+    "destaques": [
+      {
+        "icon": "check",
+        "title": "Clareza e força da mensagem",
+        "desc": "História bem contada, direta e coerente. Qualidade de áudio e imagem que favoreça a compreensão."
+      },
+      {
+        "icon": "bulb",
+        "title": "Relevância e originalidade das ideias",
+        "desc": "Alinhamento ao tema da poluição plástica, com dados, fatos ou exemplos reais. Abordagens criativas contam pontos."
+      },
+      {
+        "icon": "users",
+        "title": "Envolvimento da comunidade",
+        "desc": "Representatividade e engajamento (número/diversidade de participantes, inclusão de diferentes grupos)."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Impacto ambiental positivo (comprovado ou potencial)",
+        "desc": "Ações concretas, mensuráveis e com possibilidade de escala ou efeito duradouro."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Capacidade de inspirar mudanças duradouras",
+        "desc": "Vídeos que mobilizam, provocam reflexão e estimulam novas atitudes sustentáveis."
+      }
+    ],
+    "criterios_title": "Critérios para Avaliação dos Vídeos – Selo Sustentável",
+    "criterios_intro": "Cada critério recebe pontuação de 0 a 5. Utilize as perguntas‑guia para validar seu vídeo:",
+    "perguntas_guia": "Perguntas‑guia:",
+    "pontuacao_rodape": "Pontuação: 0–5",
+    "criterios": [
+      {
+        "titulo": "1. Clareza e qualidade da mensagem",
+        "desc": "O vídeo apresenta a ideia de forma clara, direta e coerente, com boa qualidade de áudio e imagem.",
+        "perguntas": "A mensagem é facilmente compreendida? Há uma narrativa coerente?"
+      },
+      {
+        "titulo": "2. Relevância do conteúdo",
+        "desc": "Aborda diretamente o tema da poluição plástica nos oceanos, com informações corretas e contextualizadas.",
+        "perguntas": "O vídeo está alinhado com o tema central? Mostra dados, fatos ou exemplos reais?"
+      },
+      {
+        "titulo": "3. População envolvida",
+        "desc": "Representatividade e engajamento da comunidade (número e diversidade de participantes, inclusão de diferentes grupos sociais).",
+        "perguntas": "Quantas pessoas participaram ativamente? Há diversidade etária, de gênero ou cultural?"
+      },
+      {
+        "titulo": "4. Significância das atitudes apresentadas",
+        "desc": "Ações com potencial de gerar impacto ambiental positivo real e mensurável.",
+        "perguntas": "As atitudes são concretas e replicáveis? Possuem escala ou efeito duradouro?"
+      },
+      {
+        "titulo": "5. Criatividade e inovação",
+        "desc": "Uso criativo de recursos visuais, sonoros ou narrativos para transmitir a mensagem.",
+        "perguntas": "O vídeo é original e cativa o espectador? Há soluções ou abordagens inovadoras?"
+      },
+      {
+        "titulo": "6. Potencial de inspiração e mobilização",
+        "desc": "Capacidade de motivar o público a adotar práticas sustentáveis.",
+        "perguntas": "O vídeo provoca reflexão e estimula ação?"
+      },
+      {
+        "titulo": "7. Conformidade com o tempo e formato",
+        "desc": "Respeito ao limite de até 3 minutos e adequação técnica (resolução, enquadramento, edição).",
+        "perguntas": "O vídeo está dentro do tempo e tecnicamente adequado?"
+      }
+    ],
+    "escala_title": "Escala sugerida de avaliação",
+    "escala": [
+      "0 = Não atende ao critério",
+      "1–2 = Atende de forma muito limitada",
+      "3 = Atende parcialmente, com lacunas",
+      "4 = Atende bem, com pequenos ajustes possíveis",
+      "5 = Atende de forma excelente, sem ajustes necessários"
+    ],
+    "actions": {
+      "baixar_pdf": "Baixar Regulamento (PDF)",
+      "enviar_video": "Enviar meu vídeo (até 3 min)"
     }
   },
-  "avaliacao": {
-    "title": "Critérios de Avaliação",
-    "desc": "Os vídeos serão avaliados com base nos critérios listados, utilizando escala de 0 a 5 pontos para cada item.",
-    "escala": "0 = Não atende | 1–2 = Muito limitado | 3 = Parcial | 4 = Bom | 5 = Excelente",
-    "resultados": "Os vídeos premiados serão compartilhados internacionalmente, inspirando novas ações."
-  },
-  "criterios": [
-    "Clareza e qualidade da mensagem",
-    "Relevância do conteúdo",
-    "População envolvida",
-    "Significância das atitudes apresentadas",
-    "Criatividade e inovação",
-    "Potencial de inspiração e mobilização",
-    "Conformidade com tempo e formato"
-  ],
-  "actions": {
-    "baixar_pdf": "Baixar Regulamento em PDF",
-    "submeter_trabalho": "Enviar Vídeo"
-  }
-},
+
 
     "ZeroResiduo": {
         "title": "Zero Resíduo",
