@@ -18,7 +18,7 @@ type Integrante = {
 
 export default function MesaDeAbertura() {
   const [q, setQ] = useState("");
-  const t = useTranslations("MesaAbertura");
+  const t = useTranslations("MesaDeAbertura");
   const locale = useLocale();
 
   // helper para evitar digitar o caminho toda hora
