@@ -116,9 +116,9 @@
       "5 = Atende de forma excelente, sem ajustes necessários"
     ],
     "actions": {
-      "baixar_pdf": "Baixar Regulamento (PDF)",
-      "enviar_video": "Enviar meu vídeo (até 3 min)"
-    }
+  "baixar_pdf": "Baixar PDF",
+  "enviar_video": "Enviar arquivo por e-mail"
+}
   },
 
 
@@ -764,7 +764,34 @@
         "termos_de_uso": "Termos de Uso",
         "politica_de_privacidade": "Política de Privacidade",
         "direitos_reservados": "© 2025 II IWPPO. Todos os direitos reservados."
+
+
+
     },
+
+
+    "MesaDeAbertura": {
+  "title1": "Mesa de",
+  "title2": "Abertura",
+  "descricao": "Autoridades e representantes institucionais que abrem oficialmente o evento.",
+  "placeholder": "Buscar integrante, cargo ou instituição...",
+  "ver_detalhes": "Ver detalhes",
+  "voltar": "Voltar para a Mesa de Abertura",
+  "bio_titulo": "Biografia",
+  "sem_resultados": "Nenhum integrante encontrado para \"{termo}\"",
+  "limpar_busca": "Limpar busca",
+  "integrantes": {
+    "alexander": {
+      "nome": "Alexander Turran",
+      "cargo": "Professor Titular",
+      "instituicao": "USP - Universidade de São Paulo",
+      "nacionalidade": "Brasil",
+      "bio": "Professor titular do instituto oceanográfico da universidade de São Paulo."
+    }
+  }
+},
+
+
     "PalestrantesConfirmados": {
         "title1": "Quem já",
         "title2": "está confirmado",
@@ -826,7 +853,7 @@
                 "nome": "Cristiane Siqueira",
                 "cargo": "Pesquisadora",
                 "instituicao": "Universidade de Vassouras - Rio de Janeiro",
-                "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
+                "palestra": "- Construção de biosensores para detecção de poluentes e microplásticos em recursos hídricos.",
                 "nacionalidade": "Brasil",
                 "biografia": "Cristiane é especialista em políticas públicas e gestão costeira com ênfase em detecção de plásticos."
             },

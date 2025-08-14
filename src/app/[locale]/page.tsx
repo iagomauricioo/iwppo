@@ -15,6 +15,8 @@ import ParceirosEApoio from "@/components/parceiros-e-apoio"
 import EixosTematicos from "@/components/eixos-tematicos"
 import PalestrantesConfirmados from "@/components/palestrantes-confirmados"
 import RegulamentoSection from "@/components/regulamento-section";
+import MesaDeAbertura from "@/components/mesa-de-abertura";
+
 
 export default function Home() {
   return (
@@ -25,6 +27,7 @@ export default function Home() {
       <main className="flex-1 bg-white">
         <ZeroResiduo />
         <AboutSection />
+        <MesaDeAbertura />
         <PalestrantesConfirmados />
         <LocationSection />
         <EixosTematicos />

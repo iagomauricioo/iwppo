@@ -154,14 +154,12 @@ export default function SeloSustentavelPremiacao() {
           </Link>
 
           <a
-            href="https://doity.com.br/iwppo"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:contato@iwppo.com.br"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-900 hover:bg-blue-800 text-white font-semibold shadow-md transition"
-          >
+>
             <FileText className="h-5 w-5" />
             {t("actions.enviar_video")}
-          </a>
+            </a>
         </div>
       </div>
     </section>
