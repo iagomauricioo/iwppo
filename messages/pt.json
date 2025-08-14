@@ -26,6 +26,63 @@
         "atitude": "ATITUDE",
         "sustentavel": "SUSTENTÁVEL"
     },
+
+
+    "SeloSustentavelSection": {
+  "title": "Selo de Atitude Sustentável",
+  "subtitle": "Reconhecimento às ações criativas e impactantes no combate à poluição plástica",
+  "intro": "O Selo de Atitude Sustentável é mais que um prêmio: é um símbolo de compromisso, criatividade e impacto positivo...",
+  "itens": {
+    "mensagem": {
+      "title": "Clareza e qualidade da mensagem",
+      "desc": "O vídeo apresenta a ideia de forma clara, direta e coerente, com boa qualidade de áudio e imagem."
+    },
+    "relevancia": {
+      "title": "Relevância do conteúdo",
+      "desc": "Aborda diretamente o tema da poluição plástica nos oceanos, apresentando informações corretas e contextualizadas."
+    },
+    "comunidade": {
+      "title": "População envolvida",
+      "desc": "Representatividade e engajamento da comunidade, incluindo diversidade de participantes."
+    },
+    "impacto": {
+      "title": "Significância das atitudes apresentadas",
+      "desc": "Ações com potencial de gerar impacto ambiental positivo real e mensurável."
+    },
+    "criatividade": {
+      "title": "Criatividade e inovação",
+      "desc": "Uso criativo de recursos visuais, sonoros ou narrativos para transmitir a mensagem."
+    },
+    "inspiracao": {
+      "title": "Potencial de inspiração e mobilização",
+      "desc": "Capacidade de motivar o público a adotar práticas sustentáveis."
+    },
+    "conformidade": {
+      "title": "Conformidade com tempo e formato",
+      "desc": "Respeito ao limite de até 3 minutos e adequação técnica do vídeo."
+    }
+  },
+  "avaliacao": {
+    "title": "Critérios de Avaliação",
+    "desc": "Os vídeos serão avaliados com base nos critérios listados, utilizando escala de 0 a 5 pontos para cada item.",
+    "escala": "0 = Não atende | 1–2 = Muito limitado | 3 = Parcial | 4 = Bom | 5 = Excelente",
+    "resultados": "Os vídeos premiados serão compartilhados internacionalmente, inspirando novas ações."
+  },
+  "criterios": [
+    "Clareza e qualidade da mensagem",
+    "Relevância do conteúdo",
+    "População envolvida",
+    "Significância das atitudes apresentadas",
+    "Criatividade e inovação",
+    "Potencial de inspiração e mobilização",
+    "Conformidade com tempo e formato"
+  ],
+  "actions": {
+    "baixar_pdf": "Baixar Regulamento em PDF",
+    "submeter_trabalho": "Enviar Vídeo"
+  }
+},
+
     "ZeroResiduo": {
         "title": "Zero Resíduo",
         "subtitle": "Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!",
@@ -430,7 +487,7 @@
                     },
                     {
                         "time": "18:00",
-                        "title": "erimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
+                        "title": "Cerimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
                         "nature": "Cerimônia",
                         "speakers": "-",

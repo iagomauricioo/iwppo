@@ -6,6 +6,9 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 
+// ✅ importe o componente completo do selo
+import SeloSustentavelPremiacao from "@/components/selo-sustentavel-premiacao";
+
 export default function SeloSustentavelPage({ params }: any) {
   const t = useTranslations("SeloSustentavelPage");
 
@@ -44,27 +47,18 @@ export default function SeloSustentavelPage({ params }: any) {
           </motion.h1>
 
           <motion.p
-            className="mb-6 text-blue-100 text-lg"
+            className="mb-10 text-blue-100 text-lg max-w-3xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             {t("intro") ||
-              "Confira abaixo os critérios para participar da competição de vídeos."}
+              "Confira abaixo os critérios e como participar da competição de vídeos do Selo de Atitude Sustentável."}
           </motion.p>
-
-          <motion.ul
-            className="list-disc pl-6 mb-8 space-y-2 text-white/90"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <li>Originalidade do vídeo</li>
-            <li>Impacto ambiental positivo</li>
-            <li>Clareza na comunicação</li>
-            <li>Criatividade na apresentação</li>
-          </motion.ul>
         </div>
+
+        {/* 🔽 Aqui entra o componente completo do selo, no mesmo padrão do RegulamentoSection */}
+        <SeloSustentavelPremiacao />
       </main>
     </div>
   );
