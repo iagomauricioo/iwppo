@@ -154,7 +154,7 @@ export default function SeloSustentavelPremiacao() {
           </Link>
 
           <a
-            href="mailto:contato@iwppo.com.br"
+            href="mailto:iwppo@cesmac.com.br"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-900 hover:bg-blue-800 text-white font-semibold shadow-md transition"
 >
             <FileText className="h-5 w-5" />
