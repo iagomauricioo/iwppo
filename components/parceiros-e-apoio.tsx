@@ -58,6 +58,11 @@ const parceiros = [
     logo: "/parceiros/altamidia.png",
   },
   {
+    nome: "CLUBLYON",
+    logo: "/parceiros/club-laranja.png",
+  },
+
+  {
     nome: "PSCOM",
     logo: "/parceiros/pscom.png",
   },

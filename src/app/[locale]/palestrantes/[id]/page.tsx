@@ -33,6 +33,7 @@ export default function PalestranteDetailPage({ params }: any) {
     "barbara-pinheiro": "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg",
     "vazquez": "/palestrantes/vazquez.jpg",
     "clemilson": "/palestrantes/clemilson.jpeg",
+    "aldilane": "/palestrantes/aldilane.jpeg",
   };
 
   const palestrante = {

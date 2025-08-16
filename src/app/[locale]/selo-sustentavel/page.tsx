@@ -26,7 +26,7 @@ export default function SeloSustentavelPage({ params }: any) {
           />
         </Link>
         <Link
-          href={`/${params?.locale || "pt"}`}
+          href={`/${params?.locale || "#inicio"}`}
           className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
         >
           <ChevronRight size={18} />
