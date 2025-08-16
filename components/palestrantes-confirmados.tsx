@@ -85,7 +85,7 @@ export default function PalestrantesConfirmados() {
   });
 
   return (
-    <section
+       <section
       id="palestrantes"
       className="py-16 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white"
     >
@@ -139,13 +139,14 @@ export default function PalestrantesConfirmados() {
               {/* FOTO → Link para detalhes (com locale na rota) */}
               <Link
                 href={`/${locale}/palestrantes/${s.id}`}
-                className="relative block h-64 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300"
+                className="relative block h-64 bg-blue-900/20 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300"
               >
                 <Image
                   src={s.foto || "/placeholder.svg"}
                   alt={`${s.nome} – ${s.cargo}`}
                   fill
-                  className="object-cover object-center transition-transform duration-200 hover:scale-[1.02]"
+                  // mesmo tratamento do detalhe: não cortar
+                  className="object-contain p-2"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   priority={idx < 2}
                 />
