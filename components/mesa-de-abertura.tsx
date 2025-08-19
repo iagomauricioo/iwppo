@@ -41,11 +41,11 @@ const m = (id: string): Integrante => ({
 });
 
   const integrantes: Integrante[] = [
+    m("douglas-apratto"),
     m("alexander"),
     m("fabio-guedes"),
     m("nidia"),
     m("katia-viana"),
-    m("douglas-apratto"),
 
   ];
 
