@@ -26,102 +26,97 @@
         "atitude": "ATITUDE",
         "sustentavel": "SUSTENTÁVEL"
     },
-
-
-   
-  "SeloSustentavelPage": {
-    "title": "Selo de Atitude Sustentável",
-    "intro": "Confira abaixo os critérios e como participar da competição de vídeos do Selo de Atitude Sustentável.",
-    "back": "Voltar"
-  },
-  "SeloSustentavelPremiacao": {
-    "title": "ATITUDE SUSTENTÁVEL – IWPPO",
-    "intro1": "Imagine um mundo onde cada pequena ação conta. Nas praias, nos portos, nos rios e até nas ruas, decisões diárias moldam o futuro dos oceanos. No IWPPO, acreditamos que boas ideias merecem mais que reconhecimento — elas merecem ser exemplo. Foi assim que nasceu o Selo de Atitude Sustentável: mais que um prêmio, um símbolo de compromisso, criatividade e impacto positivo.",
-    "intro2": "Durante o evento, participantes de diferentes países e comunidades são convidados a contar suas histórias em vídeos de até 3 minutos — mostrando ações reais para reduzir a poluição plástica: de campanhas educativas e mutirões de limpeza a tecnologias inovadoras e soluções simples e replicáveis.",
-    "network_text": "Receber o selo é fazer parte de uma rede global de agentes de mudança. Ao final do evento, os vídeos premiados serão compartilhados internacionalmente, inspirando novas ações e multiplicando o alcance dessas atitudes. Cada vencedor leva não só um reconhecimento, mas um convite: continuar agindo e inspirando. O oceano começa no nosso quintal — e cuidar dele começa com uma escolha, hoje.",
-    "destaques": [
-      {
-        "icon": "check",
-        "title": "Clareza e força da mensagem",
-        "desc": "História bem contada, direta e coerente. Qualidade de áudio e imagem que favoreça a compreensão."
-      },
-      {
-        "icon": "bulb",
-        "title": "Relevância e originalidade das ideias",
-        "desc": "Alinhamento ao tema da poluição plástica, com dados, fatos ou exemplos reais. Abordagens criativas contam pontos."
-      },
-      {
-        "icon": "users",
-        "title": "Envolvimento da comunidade",
-        "desc": "Representatividade e engajamento (número/diversidade de participantes, inclusão de diferentes grupos)."
-      },
-      {
-        "icon": "sparkles",
-        "title": "Impacto ambiental positivo (comprovado ou potencial)",
-        "desc": "Ações concretas, mensuráveis e com possibilidade de escala ou efeito duradouro."
-      },
-      {
-        "icon": "sparkles",
-        "title": "Capacidade de inspirar mudanças duradouras",
-        "desc": "Vídeos que mobilizam, provocam reflexão e estimulam novas atitudes sustentáveis."
-      }
-    ],
-    "criterios_title": "Critérios para Avaliação dos Vídeos – Selo Sustentável",
-    "criterios_intro": "Cada critério recebe pontuação de 0 a 5. Utilize as perguntas‑guia para validar seu vídeo:",
-    "perguntas_guia": "Perguntas‑guia:",
-    "pontuacao_rodape": "Pontuação: 0–5",
-    "criterios": [
-      {
-        "titulo": "1. Clareza e qualidade da mensagem",
-        "desc": "O vídeo apresenta a ideia de forma clara, direta e coerente, com boa qualidade de áudio e imagem.",
-        "perguntas": "A mensagem é facilmente compreendida? Há uma narrativa coerente?"
-      },
-      {
-        "titulo": "2. Relevância do conteúdo",
-        "desc": "Aborda diretamente o tema da poluição plástica nos oceanos, com informações corretas e contextualizadas.",
-        "perguntas": "O vídeo está alinhado com o tema central? Mostra dados, fatos ou exemplos reais?"
-      },
-      {
-        "titulo": "3. População envolvida",
-        "desc": "Representatividade e engajamento da comunidade (número e diversidade de participantes, inclusão de diferentes grupos sociais).",
-        "perguntas": "Quantas pessoas participaram ativamente? Há diversidade etária, de gênero ou cultural?"
-      },
-      {
-        "titulo": "4. Significância das atitudes apresentadas",
-        "desc": "Ações com potencial de gerar impacto ambiental positivo real e mensurável.",
-        "perguntas": "As atitudes são concretas e replicáveis? Possuem escala ou efeito duradouro?"
-      },
-      {
-        "titulo": "5. Criatividade e inovação",
-        "desc": "Uso criativo de recursos visuais, sonoros ou narrativos para transmitir a mensagem.",
-        "perguntas": "O vídeo é original e cativa o espectador? Há soluções ou abordagens inovadoras?"
-      },
-      {
-        "titulo": "6. Potencial de inspiração e mobilização",
-        "desc": "Capacidade de motivar o público a adotar práticas sustentáveis.",
-        "perguntas": "O vídeo provoca reflexão e estimula ação?"
-      },
-      {
-        "titulo": "7. Conformidade com o tempo e formato",
-        "desc": "Respeito ao limite de até 3 minutos e adequação técnica (resolução, enquadramento, edição).",
-        "perguntas": "O vídeo está dentro do tempo e tecnicamente adequado?"
-      }
-    ],
-    "escala_title": "Escala sugerida de avaliação",
-    "escala": [
-      "0 = Não atende ao critério",
-      "1–2 = Atende de forma muito limitada",
-      "3 = Atende parcialmente, com lacunas",
-      "4 = Atende bem, com pequenos ajustes possíveis",
-      "5 = Atende de forma excelente, sem ajustes necessários"
-    ],
-    "actions": {
-  "baixar_pdf": "Baixar PDF",
-  "enviar_video": "Enviar arquivo por e-mail"
-}
-  },
-
-
+    "SeloSustentavelPage": {
+        "title": "Selo de Atitude Sustentável",
+        "intro": "Confira abaixo os critérios e como participar da competição de vídeos do Selo de Atitude Sustentável.",
+        "back": "Voltar"
+    },
+    "SeloSustentavelPremiacao": {
+        "title": "ATITUDE SUSTENTÁVEL – IWPPO",
+        "intro1": "Imagine um mundo onde cada pequena ação conta. Nas praias, nos portos, nos rios e até nas ruas, decisões diárias moldam o futuro dos oceanos. No IWPPO, acreditamos que boas ideias merecem mais que reconhecimento — elas merecem ser exemplo. Foi assim que nasceu o Selo de Atitude Sustentável: mais que um prêmio, um símbolo de compromisso, criatividade e impacto positivo.",
+        "intro2": "Durante o evento, participantes de diferentes países e comunidades são convidados a contar suas histórias em vídeos de até 3 minutos — mostrando ações reais para reduzir a poluição plástica: de campanhas educativas e mutirões de limpeza a tecnologias inovadoras e soluções simples e replicáveis.",
+        "network_text": "Receber o selo é fazer parte de uma rede global de agentes de mudança. Ao final do evento, os vídeos premiados serão compartilhados internacionalmente, inspirando novas ações e multiplicando o alcance dessas atitudes. Cada vencedor leva não só um reconhecimento, mas um convite: continuar agindo e inspirando. O oceano começa no nosso quintal — e cuidar dele começa com uma escolha, hoje.",
+        "destaques": [
+            {
+                "icon": "check",
+                "title": "Clareza e força da mensagem",
+                "desc": "História bem contada, direta e coerente. Qualidade de áudio e imagem que favoreça a compreensão."
+            },
+            {
+                "icon": "bulb",
+                "title": "Relevância e originalidade das ideias",
+                "desc": "Alinhamento ao tema da poluição plástica, com dados, fatos ou exemplos reais. Abordagens criativas contam pontos."
+            },
+            {
+                "icon": "users",
+                "title": "Envolvimento da comunidade",
+                "desc": "Representatividade e engajamento (número/diversidade de participantes, inclusão de diferentes grupos)."
+            },
+            {
+                "icon": "sparkles",
+                "title": "Impacto ambiental positivo (comprovado ou potencial)",
+                "desc": "Ações concretas, mensuráveis e com possibilidade de escala ou efeito duradouro."
+            },
+            {
+                "icon": "sparkles",
+                "title": "Capacidade de inspirar mudanças duradouras",
+                "desc": "Vídeos que mobilizam, provocam reflexão e estimulam novas atitudes sustentáveis."
+            }
+        ],
+        "criterios_title": "Critérios para Avaliação dos Vídeos – Selo Sustentável",
+        "criterios_intro": "Cada critério recebe pontuação de 0 a 5. Utilize as perguntas‑guia para validar seu vídeo:",
+        "perguntas_guia": "Perguntas‑guia:",
+        "pontuacao_rodape": "Pontuação: 0–5",
+        "criterios": [
+            {
+                "titulo": "1. Clareza e qualidade da mensagem",
+                "desc": "O vídeo apresenta a ideia de forma clara, direta e coerente, com boa qualidade de áudio e imagem.",
+                "perguntas": "A mensagem é facilmente compreendida? Há uma narrativa coerente?"
+            },
+            {
+                "titulo": "2. Relevância do conteúdo",
+                "desc": "Aborda diretamente o tema da poluição plástica nos oceanos, com informações corretas e contextualizadas.",
+                "perguntas": "O vídeo está alinhado com o tema central? Mostra dados, fatos ou exemplos reais?"
+            },
+            {
+                "titulo": "3. População envolvida",
+                "desc": "Representatividade e engajamento da comunidade (número e diversidade de participantes, inclusão de diferentes grupos sociais).",
+                "perguntas": "Quantas pessoas participaram ativamente? Há diversidade etária, de gênero ou cultural?"
+            },
+            {
+                "titulo": "4. Significância das atitudes apresentadas",
+                "desc": "Ações com potencial de gerar impacto ambiental positivo real e mensurável.",
+                "perguntas": "As atitudes são concretas e replicáveis? Possuem escala ou efeito duradouro?"
+            },
+            {
+                "titulo": "5. Criatividade e inovação",
+                "desc": "Uso criativo de recursos visuais, sonoros ou narrativos para transmitir a mensagem.",
+                "perguntas": "O vídeo é original e cativa o espectador? Há soluções ou abordagens inovadoras?"
+            },
+            {
+                "titulo": "6. Potencial de inspiração e mobilização",
+                "desc": "Capacidade de motivar o público a adotar práticas sustentáveis.",
+                "perguntas": "O vídeo provoca reflexão e estimula ação?"
+            },
+            {
+                "titulo": "7. Conformidade com o tempo e formato",
+                "desc": "Respeito ao limite de até 3 minutos e adequação técnica (resolução, enquadramento, edição).",
+                "perguntas": "O vídeo está dentro do tempo e tecnicamente adequado?"
+            }
+        ],
+        "escala_title": "Escala sugerida de avaliação",
+        "escala": [
+            "0 = Não atende ao critério",
+            "1–2 = Atende de forma muito limitada",
+            "3 = Atende parcialmente, com lacunas",
+            "4 = Atende bem, com pequenos ajustes possíveis",
+            "5 = Atende de forma excelente, sem ajustes necessários"
+        ],
+        "actions": {
+            "baixar_pdf": "Baixar PDF",
+            "enviar_video": "Enviar arquivo por e-mail"
+        }
+    },
     "ZeroResiduo": {
         "title": "Zero Resíduo",
         "subtitle": "Este evento buscará o Zero Resíduo. Participe! Traga sua garrafa de água, caneca, caneta, bloco, bolsa… E Salve o Planeta!",
@@ -498,9 +493,7 @@
                         "speakers": "Biagio Fernando Giannetti,Federico Sulis e Marcell Mariano Correa Maceno",
                         "description": "Palestra principal da tarde"
                     },
-
-
-                     {
+                    {
                         "time": "15:30",
                         "title": "Palestra 4B",
                         "location": "Complexo de Inovações Pedagógicas CESMAC",
@@ -532,7 +525,6 @@
                         "speakers": "-",
                         "description": "Encerramento oficial e compromissos para o próximo evento"
                     }
-                 
                 ]
             }
         ]
@@ -764,185 +756,205 @@
         "termos_de_uso": "Termos de Uso",
         "politica_de_privacidade": "Política de Privacidade",
         "direitos_reservados": "© 2025 II IWPPO. Todos os direitos reservados."
-
-
-
     },
-
-
-"MesaDeAbertura": {
-  "title1": "Mesa de",
-  "title2": "Abertura",
-  "descricao": "Autoridades e representantes institucionais que abrem oficialmente o evento.",
-  "placeholder": "Buscar integrante, cargo ou instituição...",
-  "ver_detalhes": "Ver detalhes",
-  "voltar": "Voltar para a Mesa de Abertura",
-  "bio_titulo": "Biografia",
-  "sem_resultados": "Nenhum integrante encontrado para \"{termo}\"",
-  "limpar_busca": "Limpar busca",
-  "integrantes": {
-        "alexander": {
-        "nome": "Alexander Turran",
-        "cargo": "Professor Titular",
-        "instituicao": "USP - Universidade de São Paulo",
-        "nacionalidade": "Brasil",
-        "bio": "Professor titular do instituto oceanográfico da universidade de São Paulo."
-        }
-  }
-},
-
-
-    "PalestrantesConfirmados": {
-        "title1": "Quem já",
-        "title2": "está confirmado",
-        "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
-        "placeholder": "Buscar palestrantes ou temas...",
-        "titulo_palestra": "Palestra",
-        "biografia": "Biografia",
-        "voltar": "Voltar",
-        "palestrantes": {
-            "robson-santos": {
-                "nome": "Robson Guimarães dos Santos",
-                "cargo": "Pesquisador",
-                "instituicao": "UFAL",
-                "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
+    "MesaDeAbertura": {
+        "title1": "Mesa de",
+        "title2": "Abertura",
+        "descricao": "Autoridades e representantes institucionais que abrem oficialmente o evento.",
+        "placeholder": "Buscar integrante, cargo ou instituição...",
+        "ver_detalhes": "Ver detalhes",
+        "voltar": "Voltar para a Mesa de Abertura",
+        "bio_titulo": "Biografia",
+        "sem_resultados": "Nenhum integrante encontrado para \"{termo}\"",
+        "limpar_busca": "Limpar busca",
+        "integrantes": {
+            "alexander": {
+                "nome": "Alexander Turra",
+                "cargo": "Professor Titular",
+                "instituicao": "USP - Universidade de São Paulo",
                 "nacionalidade": "Brasil",
-                "biografia": "Robson é pesquisador na área de oceanografia, com foco em poluição plástica, atuando há mais de 15 anos em projetos de monitoramento e conservação marinha."
+                "bio": "Professor titular do instituto oceanográfico da universidade de São Paulo."
+            },
+            "fabio-guedes": {
+                "nome": "Fábio Guedes",
+                "cargo": "Diretor Presidente da FAPEAL",
+                "instituicao": "FAPEAL",
+                "nacionalidade": "Brasil",
+                "bio": "- Professor Titular da Ufal, ⁠Diretor Presidente da FAPEAL,  ⁠Secretário Executivo da ICTP.Br, ⁠Coordenador da Câmara de Ciência e Fomento do Consórcio Nordeste , ⁠Ex-Secretário de Educação de Alagoas , ⁠Ex-Presidente do Confap"
+            },
+            "nidia": {
+                "nome": "Nídia Noemi Fabré",
+                "cargo": "Diretor Presidente da FAPEAL",
+                "instituicao": "UFAL - Universidade Federal de Alagoas",
+                "nacionalidade": "Brasil",
+                "bio": "N\u00eddia Noemi Fabr\u00e9 \u00e9 bi\u00f3loga, formada em 1983, com doutorado em Ci\u00eancias Biol\u00f3gicas (1992) pela Universidade Nacional de Mar del Plata, Argentina. Atuou como pesquisadora no Instituto de Investiga\u00e7\u00e3o e Desenvolvimento Pesqueiro da Argentina e como professora da Universidade Nacional de Mar del Plata entre 1984 e 1988. Foi pesquisadora colaboradora do Instituto Max Planck, no \u00e2mbito do conv\u00eanio de coopera\u00e7\u00e3o cient\u00edfica com o Instituto Nacional de Pesquisas da Amaz\u00f4nia (INPA), entre 1991 e 1997, al\u00e9m de professora-orientadora da P\u00f3s-Gradua\u00e7\u00e3o em Biologia Tropical do INPA/UFAM e da P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias do Ambiente e Sustentabilidade na Amaz\u00f4nia, at\u00e9 2006. Entre 1997 e 2006, foi professora da Universidade Federal do Amazonas (Instituto de Ci\u00eancias Biol\u00f3gicas), atuando na \u00e1rea de Ecologia, al\u00e9m de coordenadora do Programa Integrado de Recursos Aqu\u00e1ticos e da V\u00e1rzea \u2013 PYR\u00c1. Idealizou o Programa de P\u00f3s-Gradua\u00e7\u00e3o em Ci\u00eancias do Ambiente e Sustentabilidade na Amaz\u00f4nia, o qual coordenou entre 1999 e 2003, antes de assumir a Diretoria T\u00e9cnico-Cient\u00edfica da Funda\u00e7\u00e3o de Amparo \u00e0 Pesquisa do Estado do Amazonas (FAPEAM), cargo que ocupou at\u00e9 junho de 2005, recebendo men\u00e7\u00e3o honrosa pelo desempenho no fortalecimento do sistema estadual de ci\u00eancia e tecnologia. Coordenou o projeto \u201cPesca e Manejo de Grandes Bagres Migradores da Amaz\u00f4nia\u201d (2003\u20132005), financiado pelo PNUD/Prov\u00e1rzea-IBAMA, com participa\u00e7\u00e3o de tr\u00eas institui\u00e7\u00f5es federais brasileiras e do Instituto SINCHI (Col\u00f4mbia). O projeto resultou na elabora\u00e7\u00e3o de um plano de manejo integrado e participativo para essas esp\u00e9cies na Bacia Amaz\u00f4nica, com medidas para pa\u00edses fronteiri\u00e7os, publicado em formato de livro em 2005. Desde 2006, \u00e9 professora da Universidade Federal de Alagoas, onde idealizou o Programa de P\u00f3s-Gradua\u00e7\u00e3o em Diversidade Biol\u00f3gica e Conserva\u00e7\u00e3o nos Tr\u00f3picos (ICBS/UFAL), no qual \u00e9 docente permanente e foi coordenadora por dois mandatos. Desenvolve pesquisas em ecologia e manejo de recursos pesqueiros desde o in\u00edcio da carreira, com produ\u00e7\u00e3o cient\u00edfica que inclui mais de 150 t\u00edtulos: 93 artigos em peri\u00f3dicos nacionais e internacionais, 31 cap\u00edtulos de livros e 7 livros organizados. Orientou 27 disserta\u00e7\u00f5es de mestrado e 11 teses de doutorado. Sua trajet\u00f3ria t\u00e9cnico-cient\u00edfica est\u00e1 associada \u00e0 conserva\u00e7\u00e3o de recursos naturais, com \u00eanfase nos pesqueiros e no desenvolvimento socioambiental de comunidades usu\u00e1rias desses recursos. Desde 2017, integra o Programa de Pesquisa Ecol\u00f3gica de Longa Dura\u00e7\u00e3o \u2013 PELD Costa dos Corais Alagoas (CNPq/FAPEAL), coordenando o segundo ciclo (2020\u20132024), conduzindo pesquisas sobre ecologia de peixes estuarinos, avalia\u00e7\u00e3o de recursos pesqueiros marinhos tropicais e a\u00e7\u00f5es socioambientais junto \u00e0s comunidades tradicionais da APA Costa dos Corais."
             },
             "katia-viana": {
                 "nome": "Katia Viana Cavalcante",
                 "cargo": "Pesquisadora",
                 "instituicao": "Universidade Federal do Amazonas",
-                "palestra": "Cerimônia de Abertura",
                 "nacionalidade": "Brasil",
-                "biografia": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
+                "bio": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
             },
-            "fernando-lopez": {
-                "nome": "Fernando J. Díaz López",
-                "cargo": "Pesquisador Internacional",
-                "instituicao": "Climate and Earth Center of HEC Paris",
-                "palestra": "Cerimônia de Fechamento",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "Fernando é pesquisador internacional especializado em ecologia marinha e gestão sustentável dos oceanos, com extensa experiência em projetos globais."
-            },
-            "scott-wilson": {
-                "nome": "Scott Paton Wilson",
-                "cargo": "Pesquisador Internacional",
-                "instituicao": "Macquarie University",
-                "palestra": "Cerimônia de Encerramento",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "Scott atua em pesquisas sobre ecossistemas costeiros e impactos da poluição plástica, contribuindo para políticas ambientais internacionais."
-            },
-            "Fernando-miguel": {
-                "nome": "Fernando Miguel",
-                "cargo": "Pesquisador",
-                "instituicao": "Universidade do Algarve - Portugal",
-                "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais.",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "Fernando é especialista em geotecnologias aplicadas à gestão ambiental, com foco em zonas costeiras."
-            },
-            "Helena-fernandez": {
-                "nome": "Helena Fernandez",
-                "cargo": "Pesquisadora",
-                "instituicao": "Universidade do Algarve - Portugal",
-                "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "Helena pesquisa estratégias de gestão territorial para combater a poluição plástica marinha."
-            },
-            "cristiane-siqueira": {
-                "nome": "Cristiane Siqueira",
-                "cargo": "Pesquisadora",
-                "instituicao": "Universidade de Vassouras - Rio de Janeiro",
-                "palestra": "- Construção de biosensores para detecção de poluentes e microplásticos em recursos hídricos.",
+            "douglas-apratto": {
+                "nome": "Douglas Apratto Tenório",
+                "cargo": "Vice-Reitor do CESMAC",
+                "instituicao": "CESMAC",
                 "nacionalidade": "Brasil",
-                "biografia": "Cristiane é especialista em políticas públicas e gestão costeira com ênfase em detecção de plásticos."
-            },
-            "Biagio": {
-                "nome": "Biagio Fernando Giannetti",
-                "cargo": "Pesquisador",
-                "instituicao": "Universidade Paulista - UNIP",
-                "palestra": "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
-                "nacionalidade": "Brasil",
-                "biografia": "Biagio F. Giannetti é Doutor (DSc) e Mestre pela Universidade de São Paulo (USP). Iniciou sua carreira na Universidade Paulista (UNIP) em 1992 como Professor Adjunto e atualmente ocupa o cargo de Professor Titular. Na UNIP, coordenou cursos de graduação em engenharia química e alimentos (1996-2000) e, desde 1998, atua como docente permanente no Programa de Pós-Graduação em Engenharia de Produção (níveis de Mestrado, Doutorado e Pós-Doutorado), além de liderar as atividades de pesquisa do Laboratório de Produção e Meio Ambiente (LaProMA). Desde 2005, é líder de grupo de pesquisa cadastrado no Diretório dos Grupos de Pesquisa do CNPq. Entre 2016 e 2024, foi Professor Visitante na Beijing Normal University (China), no âmbito do Programa Nacional de Recrutamento de Especialistas Estrangeiros de Alto Nível. Também atuou como Professor Visitante na Universidade de Sonora (México, 2013 e 2019) e na Universidade de Florença (Itália, 2022).O Prof. Giannetti é autor de mais de 300 publicações científicas, incluindo livros, artigos e trabalhos em conferências internacionais, com foco em produção e meio ambiente. Seu índice h na Scopus é 37, e o índice i10 no Google Scholar é 115.Foi Presidente da International Society for the Advancement of Emergy Research (2023–2025) e atualmente, é Membro Honorário do Conselho e Editor Associado do Journal of Cleaner Production, Editor Associado da Frontiers in Energy Research, , além de Diretor Global e fundador da Advances in Cleaner Production Network."
-            },
-            "federico-sulis": {
-                "nome": "Federico Sulis",
-                "cargo": "Pesquisador",
-                "instituicao": "Universidade Paulista - UNIP",
-                "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "Dr. Federico Sulis Possui graduação em Ciências Naturais pela Università degli Studi di Cagliari (2006), Mestrado em Ecotoxicologia pela Università degli Studi di Siena (2011) e Especialização na concepção e controle de sistemas de gestão ambiental ISO 14001 e EMAS pela Escola EMAS ECOLABEL da Toscana (2014). Recentemente, concluiu o Doutorado em Engenharia de Produção na Universidade Paulista (2023).Tem experiência na área de Ciências Ambientais, com ênfase em Engenharia de Produção, atuando principalmente nos seguintes temas: Produção Mais Limpa, Ecologia Industrial, Ecotoxicologia, Desenvolvimento Sustentável e Reciclagem de Resíduos. Atualmente é pesquisador pós-doc no Laboratório de Produção de Meio Ambiente (LAPROMA) do Programa de Pós-Graduação em Engenharia de Produção (PPEG) na Universidade Paulista (UNIP), onde desenvolve sua pesquisa em parceria com o Laboratório de Emergia e Resiliência de Ecossistemas (LERE) do Programa de Pós-Graduação em Análise de Sistemas Ambientais (PPGASA) do Centro Universitário CESMAC."
-            },
-            "Marcell": {
-                "nome": "Marcell Mariano Correa Maceno",
-                "cargo": "Pesquisador",
-                "instituicao": "Universidade Federal do Paraná",
-                "palestra": "Life cycle assessment and microplastics: an overview",
-                "nacionalidade": "Brasil",
-                "biografia": "Dr. Marcell Mariano Corrêa Maceno.Engenheiro Ambiental pela Universidade Federal do Paraná (2007), Especialista em Auditoria da Qualidade e Ambiental pela Universidade Tecnológica Federal do Paraná (2010), Mestre e Doutor em Engenharia de Recursos Hídricos e Ambiental pela Universidade Federal do Paraná (2010 e 2015). Atualmente Professor Adjunto IV pela UFPR no curso de Engenharia de Produção na área de Gestão ambiental e Projeto de Produto. Coordenador do Programa de Pós-Graduação em Engenharia de Produção da UFPR (nível mestrado) da UFPR. Coordenador da RAICV – Rede brasileira de Avaliação do Impacto do Ciclo de Vida, e membro da Advances on Cleaner Production Network (ACPN). Atua na área de gestão ambiental e sustentabilidade desde 2008, com Pesquisas atuais relacionadas as áreas de ACV de produtos, DfX na busca de melhorias de uso de materiais e energia, Economia Circular, Avaliação da sustentabilidade de sistemas e Avaliação da circularidade de produtos."
-            },
-            "alireza": {
-                "nome": "Alireza Moghayedi",
-                "cargo": "professor e/ou pesquisador",
-                "instituicao": "Universidade do Oeste da Inglaterra, Reino Unido; Universidade da Cidade do Cabo, África do Sul",
-                "palestra": "Reciclando a poluição plástica em soluções de construção para metas de zero emissão",
-                "nacionalidade": "Estrangeiro",
-                "biografia": "O Dr. Alireza Moghayedi é um pesquisador e educador com foco em sustentabilidade, com mais de 20 anos de experiência na indústria de Engenharia e Ambiente Construído. Ele é Líder de Pesquisa em Ambiente Construído Digital na Escola de Arquitetura e Meio Ambiente da Universidade do Oeste da Inglaterra, em Bristol, pesquisador sênior na Universidade de Joanesburgo e fundador e codiretor do S+CUBE na Universidade da Cidade do Cabo. Sua pesquisa concentra-se no desenvolvimento de soluções inclusivas, sustentáveis e inteligentes para projetos de infraestrutura de engenharia e ambiente construído, utilizando tecnologias inovadoras. Ele atua como Pesquisador Principal de vários projetos de pesquisa internacionais, avaliados coletivamente em mais de £ 30 milhões. Seu trabalho foi publicado em importantes periódicos acadêmicos e conferências, e recebeu inúmeros prêmios por sua pesquisa e ensino. O Dr. Moghayedi é gerente de projetos credenciado e ocupou diversos cargos em agências governamentais, consultorias de engenharia, em empresas de construção e desenvolvimento em todo o mundo."
-            },
-            "barbara-pinheiro": {
-                "nome": "Bárbara Ramos Pinheiro",
-                "cargo": "Pesquisadora",
-                "instituicao": "Universidade Federal de Pernambuco",
-                "palestra": "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
-                "nacionalidade": "Brasil",
-                "biografia": "Bióloga, Mestre e Doutora em Oceanografia pela UFPE. Pesquisadora do PACTO MAR| UNIFESP| Maré de Ciências. Membro da Secretaria Executiva da Liga das Mulheres pelo Oceano e membro do Comitê Nacional da Década do Oceano Coordenadora Nacional da Black Women in Ecology Evolution and Marine Science."
-            },
-            "jemille": {
-                "nome": "Jemille Viaggi",
-                "cargo": "Pesquisadora",
-                "instituicao": "Cátedra Unesco para Sustentabilidade do Oceano",
-                "palestra": "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
-                "nacionalidade": "Brasil",
-                "biografia": "Bióloga marinha e Doutora em Ecologia pela UFRJ, atua com pesquisa interdisciplinar voltada à governança, diplomacia científica, conservação marinha, mudanças climáticas e poluição do oceano.Integra a Cátedra UNESCO para a Sustentabilidade do Oceano e coordena iniciativas como a Rede Oceano Limpo e o GT-COP30 da Liga das Mulheres pelo Oceano. Foi Sub-Coordenadora do O20-G20 e articuladora da Estratégia Nacional Oceano Sem Plástico. Atua como consultora em projetos de impacto socioambiental, incluindo o Programa Ondas do Futuro da Polen."
-            },
-            "jornalista": {
-                "nome": "Paulina Chamorro",
-                "cargo": "Jornalista",
-                "instituicao": "Universidade Federal do Paraná",
-                "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
-                "nacionalidade": "Brasil",
-                "biografia": "Jornalista premiada com mais de duas décadas de cobertura em temas ambientais. Fez do Oiapoque ao Chuí em um veleiro para o projeto Mar sem Fim. Teve por 10 anos programa de rádio da Rádio Eldorado além de coordenar projetos socioambientais na emissora. Por dois anos foi produtora de campo no Vale do Javari da documentarista Céline Cousteau. Conduz o Vozes do Planeta, um podcast pioneiro de temas ambientais no Brasil, com nove anos de estrada e o projeto multimídia Mulheres na Conservação. É colaboradora do O Eco, GO Outside e National Geographic Brasil e bolsista do Pulitzer Center. Também é coidealizadora da Liga das Mulheres pelo Oceano. É codiretora do documentário Mulheres na Conservação, premiado no Female Film Festival 2023, melhor filme ambiental do Montreal Women Film Festival e Toronto International Women Film Festival de 2024, e produtora-executiva do documentário No topo da Amazônia em busca de novas espécies, sobre a inédita expedição da USP à Serra do Imeri, a oeste do Amazonas."
-            },
-            "vazquez": {
-                "nome": "Ian Vázquez-Rowe",
-                "cargo": "Professor",
-                "instituicao": "Pontificia Universidad Católica del Perú",
-                "palestra": "Vias de emissão de macro e microplásticos para o Oceano Pacífico no Peru: detecção e quantificação",
-                "nacionalidade": "Estrangeiro",
-                "biografia": " Dr. Ian Vázquez-Rowe se formou em Biologia em 2006 pela Universidade do Texas em Arlington. Em seguida, continuou seus estudos de pós-graduação em Engenharia Ambiental na Universidade de Santiago de Compostela – USC (2006-2008). Em outubro de 2008, iniciou sua carreira de pesquisa na USC, onde obteve seu doutorado em Engenharia Química em julho de 2012. De janeiro de 2012 a dezembro de 2013, o Dr. Vázquez-Rowe continuou sua carreira de pesquisa como Engenheiro de P&D em Avaliação e Gestão Ambiental no Centre de Recherche Public Henri Tudor (agora LIST, em Luxemburgo). Atualmente, o Dr. Vázquez-Rowe é Professor Titular do Departamento de Engenharia da Pontifícia Universidade Católica do Peru. Ele também é editor de Recursos Oceânicos e Conservação Marinha no International Journal of Life Cycle Assessment. Seus principais interesses de pesquisa estão ligados à gestão ambiental, incluindo métodos de ciclo de vida, seu aprimoramento metodológico e sua combinação com outros métodos. Além disso, pesca e agricultura, sistemas alimentares em geral e sistemas de tratamento de resíduos e águas residuais, incluindo emissões de plástico para corpos d'água, têm sido o foco de sua pesquisa nos últimos anos. Em 2021, ele foi incluído na Hot List da Reuters dos 1.000 principais cientistas climáticos do mundo e, anualmente, figura entre os 2% melhores pesquisadores do mundo, de acordo com a Universidade de Stanford."
-            },
-            "clemilson": {
-                "nome": "Clemilson Marques Batista",
-                "cargo": "CEO",
-                "instituicao": "Plataforma Athenas",
-                "palestra": "Plataforma Athena: Inovação na gestão da pesquisa e da produção científica brasileira",
-                "nacionalidade": "Brasil",
-                "biografia": "Clemilson Marques Batista (CEO).Especialista em avaliação da pós-graduação e em políticas públicas de ensino superior, Clemilson Marques Batista acumula mais de 25 anos de experiência no SNPG. Atuou por oito anos na Diretoria de Avaliação da CAPES, com destaque para sua atuação na capacitação de Pró-Reitores, Coordenadores e equipes técnicas de Programas de Pós-Graduação em todo o país. Também atuou como assessor nas Pró-Reitorias das Universidades Metodistas de São Paulo (UMESP) e de Piracicaba (UNIMEP), onde foi responsável pela articulação com a CAPES, CNPq e pela gestão da secretaria acadêmica dos cursos Stricto Sensu.Como fundador e diretor da JANUS EDUCARE, prestou consultoria especializada a dezenas de universidades públicas e privadas, entre elas: UFRJ, USP, UNB, UPM, UNICAP, UFSC, FGV, assessorando na criação, reformulação e avaliação de cursos de mestrado e doutorado, sempre com foco na aderência aos critérios da CAPES e na sustentabilidade acadêmica dos programas. É o idealizador da Plataforma Athena, concebida com base em sua experiência de campo e orientada à transformação digital da avaliação e da gestão da pós-graduação. Atualmente lidera a expansão estratégica do projeto Athena, com foco em parcerias, validação tecnológica e escalabilidade nacional e internacional."
-            },
-
-             "aldilane": {
-                "nome": "Aldilane Lays Xavier Marques",
-                "cargo": "Pesquisadora",
-                "instituicao": "UFAL- Universidade Federal de Alagoas", 
-                "palestra": "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional",
-                "nacionalidade": "Brasil",
-                "biografia": "Doutoranda em Ciências dos Materiais (PPGM) com período sanduíche na University of Hawaii at Manoa (Hawaii, EUA), Mestra em Ciências da Saúde (PPGCS), Graduada em Ciências Biológicas - bacharelado pela Universidade Federal de Alagoas (UFAL). Membro do Grupo de Pesquisa em Saúde da Mulher e da Gestação, o qual integra o Laboratório de Biologia Celular/ UFAL. Possui experiência e colabora em projetos na área de Biologia Celular, Biofísica, Bioquímica e estuda atualmente o bioacúmulo e os efeitos de microplásticos na placenta humana."
+                "bio": "Possui graduação em História pela Universidade Federal de Alagoas (1972), mestrado em História pela Universidade Federal de Pernambuco (1992) e doutorado em História pela Universidade Federal de Pernambuco (1994). Atualmente é professor do Centro Universitário CESMAC. Tem experiência na área de pesquisa, com ênfase em História Regional."
             }
+        },
+        "PalestrantesConfirmados": {
+            "title1": "Quem já",
+            "title2": "está confirmado",
+            "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
+            "placeholder": "Buscar palestrantes ou temas...",
+            "titulo_palestra": "Palestra",
+            "biografia": "Biografia",
+            "voltar": "Voltar",
+            "palestrantes": {
+                "robson-santos": {
+                    "nome": "Robson Guimarães dos Santos",
+                    "cargo": "Pesquisador",
+                    "instituicao": "UFAL",
+                    "palestra": "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Robson é pesquisador na área de oceanografia, com foco em poluição plástica, atuando há mais de 15 anos em projetos de monitoramento e conservação marinha."
+                },
+                "katia-viana": {
+                    "nome": "Katia Viana Cavalcante",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "Universidade Federal do Amazonas",
+                    "palestra": "Cerimônia de Abertura",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
+                },
+                "fernando-lopez": {
+                    "nome": "Fernando J. Díaz López",
+                    "cargo": "Pesquisador Internacional",
+                    "instituicao": "Climate and Earth Center of HEC Paris",
+                    "palestra": "Cerimônia de Fechamento",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "Fernando é pesquisador internacional especializado em ecologia marinha e gestão sustentável dos oceanos, com extensa experiência em projetos globais."
+                },
+                "scott-wilson": {
+                    "nome": "Scott Paton Wilson",
+                    "cargo": "Pesquisador Internacional",
+                    "instituicao": "Macquarie University",
+                    "palestra": "Cerimônia de Encerramento",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "Minibio do Scott Wilson: Dr. Scott Wilson é um Pesquisador Sênior Honorário na Universidade Macquarie e o Diretor de Pesquisa do Projeto de Avaliação de Microplásticos da Total Environment Centre, um programa de coleta de dados e educação orientado por cidadãos, projetado para aumentar a conscientização e oferecer soluções sobre a poluição por microplásticos. Ele é um toxicologista aquático e, ao longo dos últimos 20 anos, pesquisou os impactos dos plásticos e detritos marinhos em ambientes aquáticos, tanto na Austrália quanto internacionalmente. Seu foco atual é entender as fontes e os impactos dos plásticos no meio ambiente, enquanto colabora com partes interessadas e a comunidade para ajudar a reduzir essas entradas. Trabalhando juntos nesse problema, Dr. Wilson acredita que todos nós podemos fazer a diferença!"
+                },
+                "Fernando-miguel": {
+                    "nome": "Fernando Miguel",
+                    "cargo": "Pesquisador",
+                    "instituicao": "Universidade do Algarve - Portugal",
+                    "palestra": "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais.",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "Fernando é especialista em geotecnologias aplicadas à gestão ambiental, com foco em zonas costeiras."
+                },
+                "Helena-fernandez": {
+                    "nome": "Helena Fernandez",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "Universidade do Algarve - Portugal",
+                    "palestra": "Gestão Territorial na Deteção de Plásticos nos Oceanos.",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "Helena pesquisa estratégias de gestão territorial para combater a poluição plástica marinha."
+                },
+                "cristiane-siqueira": {
+                    "nome": "Cristiane Siqueira",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "Universidade de Vassouras - Rio de Janeiro",
+                    "palestra": "- Construção de biosensores para detecção de poluentes e microplásticos em recursos hídricos.",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Cristiane é especialista em políticas públicas e gestão costeira com ênfase em detecção de plásticos."
+                },
+                "Biagio": {
+                    "nome": "Biagio Fernando Giannetti",
+                    "cargo": "Pesquisador",
+                    "instituicao": "Universidade Paulista - UNIP",
+                    "palestra": "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Biagio F. Giannetti é Doutor (DSc) e Mestre pela Universidade de São Paulo (USP). Iniciou sua carreira na Universidade Paulista (UNIP) em 1992 como Professor Adjunto e atualmente ocupa o cargo de Professor Titular. Na UNIP, coordenou cursos de graduação em engenharia química e alimentos (1996-2000) e, desde 1998, atua como docente permanente no Programa de Pós-Graduação em Engenharia de Produção (níveis de Mestrado, Doutorado e Pós-Doutorado), além de liderar as atividades de pesquisa do Laboratório de Produção e Meio Ambiente (LaProMA). Desde 2005, é líder de grupo de pesquisa cadastrado no Diretório dos Grupos de Pesquisa do CNPq. Entre 2016 e 2024, foi Professor Visitante na Beijing Normal University (China), no âmbito do Programa Nacional de Recrutamento de Especialistas Estrangeiros de Alto Nível. Também atuou como Professor Visitante na Universidade de Sonora (México, 2013 e 2019) e na Universidade de Florença (Itália, 2022).O Prof. Giannetti é autor de mais de 300 publicações científicas, incluindo livros, artigos e trabalhos em conferências internacionais, com foco em produção e meio ambiente. Seu índice h na Scopus é 37, e o índice i10 no Google Scholar é 115.Foi Presidente da International Society for the Advancement of Emergy Research (2023–2025) e atualmente, é Membro Honorário do Conselho e Editor Associado do Journal of Cleaner Production, Editor Associado da Frontiers in Energy Research, , além de Diretor Global e fundador da Advances in Cleaner Production Network."
+                },
+                "federico-sulis": {
+                    "nome": "Federico Sulis",
+                    "cargo": "Pesquisador",
+                    "instituicao": "Universidade Paulista - UNIP",
+                    "palestra": "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "Dr. Federico Sulis Possui graduação em Ciências Naturais pela Università degli Studi di Cagliari (2006), Mestrado em Ecotoxicologia pela Università degli Studi di Siena (2011) e Especialização na concepção e controle de sistemas de gestão ambiental ISO 14001 e EMAS pela Escola EMAS ECOLABEL da Toscana (2014). Recentemente, concluiu o Doutorado em Engenharia de Produção na Universidade Paulista (2023).Tem experiência na área de Ciências Ambientais, com ênfase em Engenharia de Produção, atuando principalmente nos seguintes temas: Produção Mais Limpa, Ecologia Industrial, Ecotoxicologia, Desenvolvimento Sustentável e Reciclagem de Resíduos. Atualmente é pesquisador pós-doc no Laboratório de Produção de Meio Ambiente (LAPROMA) do Programa de Pós-Graduação em Engenharia de Produção (PPEG) na Universidade Paulista (UNIP), onde desenvolve sua pesquisa em parceria com o Laboratório de Emergia e Resiliência de Ecossistemas (LERE) do Programa de Pós-Graduação em Análise de Sistemas Ambientais (PPGASA) do Centro Universitário CESMAC."
+                },
+                "Marcell": {
+                    "nome": "Marcell Mariano Correa Maceno",
+                    "cargo": "Pesquisador",
+                    "instituicao": "Universidade Federal do Paraná",
+                    "palestra": "Life cycle assessment and microplastics: an overview",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Dr. Marcell Mariano Corrêa Maceno.Engenheiro Ambiental pela Universidade Federal do Paraná (2007), Especialista em Auditoria da Qualidade e Ambiental pela Universidade Tecnológica Federal do Paraná (2010), Mestre e Doutor em Engenharia de Recursos Hídricos e Ambiental pela Universidade Federal do Paraná (2010 e 2015). Atualmente Professor Adjunto IV pela UFPR no curso de Engenharia de Produção na área de Gestão ambiental e Projeto de Produto. Coordenador do Programa de Pós-Graduação em Engenharia de Produção da UFPR (nível mestrado) da UFPR. Coordenador da RAICV – Rede brasileira de Avaliação do Impacto do Ciclo de Vida, e membro da Advances on Cleaner Production Network (ACPN). Atua na área de gestão ambiental e sustentabilidade desde 2008, com Pesquisas atuais relacionadas as áreas de ACV de produtos, DfX na busca de melhorias de uso de materiais e energia, Economia Circular, Avaliação da sustentabilidade de sistemas e Avaliação da circularidade de produtos."
+                },
+                "alireza": {
+                    "nome": "Alireza Moghayedi",
+                    "cargo": "professor e/ou pesquisador",
+                    "instituicao": "Universidade do Oeste da Inglaterra, Reino Unido; Universidade da Cidade do Cabo, África do Sul",
+                    "palestra": "Reciclando a poluição plástica em soluções de construção para metas de zero emissão",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": "O Dr. Alireza Moghayedi é um pesquisador e educador com foco em sustentabilidade, com mais de 20 anos de experiência na indústria de Engenharia e Ambiente Construído. Ele é Líder de Pesquisa em Ambiente Construído Digital na Escola de Arquitetura e Meio Ambiente da Universidade do Oeste da Inglaterra, em Bristol, pesquisador sênior na Universidade de Joanesburgo e fundador e codiretor do S+CUBE na Universidade da Cidade do Cabo. Sua pesquisa concentra-se no desenvolvimento de soluções inclusivas, sustentáveis e inteligentes para projetos de infraestrutura de engenharia e ambiente construído, utilizando tecnologias inovadoras. Ele atua como Pesquisador Principal de vários projetos de pesquisa internacionais, avaliados coletivamente em mais de £ 30 milhões. Seu trabalho foi publicado em importantes periódicos acadêmicos e conferências, e recebeu inúmeros prêmios por sua pesquisa e ensino. O Dr. Moghayedi é gerente de projetos credenciado e ocupou diversos cargos em agências governamentais, consultorias de engenharia, em empresas de construção e desenvolvimento em todo o mundo."
+                },
+                "barbara-pinheiro": {
+                    "nome": "Bárbara Ramos Pinheiro",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "Universidade Federal de Pernambuco",
+                    "palestra": "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Bióloga, Mestre e Doutora em Oceanografia pela UFPE. Pesquisadora do PACTO MAR| UNIFESP| Maré de Ciências. Membro da Secretaria Executiva da Liga das Mulheres pelo Oceano e membro do Comitê Nacional da Década do Oceano Coordenadora Nacional da Black Women in Ecology Evolution and Marine Science."
+                },
+                "jemille": {
+                    "nome": "Jemille Viaggi",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "Cátedra Unesco para Sustentabilidade do Oceano",
+                    "palestra": "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Bióloga marinha e Doutora em Ecologia pela UFRJ, atua com pesquisa interdisciplinar voltada à governança, diplomacia científica, conservação marinha, mudanças climáticas e poluição do oceano.Integra a Cátedra UNESCO para a Sustentabilidade do Oceano e coordena iniciativas como a Rede Oceano Limpo e o GT-COP30 da Liga das Mulheres pelo Oceano. Foi Sub-Coordenadora do O20-G20 e articuladora da Estratégia Nacional Oceano Sem Plástico. Atua como consultora em projetos de impacto socioambiental, incluindo o Programa Ondas do Futuro da Polen."
+                },
+                "jornalista": {
+                    "nome": "Paulina Chamorro",
+                    "cargo": "Jornalista",
+                    "instituicao": "Universidade Federal do Paraná",
+                    "palestra": "Planeta ou Plastico?- histórias de uma cobertura jornalistica",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Jornalista premiada com mais de duas décadas de cobertura em temas ambientais. Fez do Oiapoque ao Chuí em um veleiro para o projeto Mar sem Fim. Teve por 10 anos programa de rádio da Rádio Eldorado além de coordenar projetos socioambientais na emissora. Por dois anos foi produtora de campo no Vale do Javari da documentarista Céline Cousteau. Conduz o Vozes do Planeta, um podcast pioneiro de temas ambientais no Brasil, com nove anos de estrada e o projeto multimídia Mulheres na Conservação. É colaboradora do O Eco, GO Outside e National Geographic Brasil e bolsista do Pulitzer Center. Também é coidealizadora da Liga das Mulheres pelo Oceano. É codiretora do documentário Mulheres na Conservação, premiado no Female Film Festival 2023, melhor filme ambiental do Montreal Women Film Festival e Toronto International Women Film Festival de 2024, e produtora-executiva do documentário No topo da Amazônia em busca de novas espécies, sobre a inédita expedição da USP à Serra do Imeri, a oeste do Amazonas."
+                },
+                "vazquez": {
+                    "nome": "Ian Vázquez-Rowe",
+                    "cargo": "Professor",
+                    "instituicao": "Pontificia Universidad Católica del Perú",
+                    "palestra": "Vias de emissão de macro e microplásticos para o Oceano Pacífico no Peru: detecção e quantificação",
+                    "nacionalidade": "Estrangeiro",
+                    "biografia": " Dr. Ian Vázquez-Rowe se formou em Biologia em 2006 pela Universidade do Texas em Arlington. Em seguida, continuou seus estudos de pós-graduação em Engenharia Ambiental na Universidade de Santiago de Compostela – USC (2006-2008). Em outubro de 2008, iniciou sua carreira de pesquisa na USC, onde obteve seu doutorado em Engenharia Química em julho de 2012. De janeiro de 2012 a dezembro de 2013, o Dr. Vázquez-Rowe continuou sua carreira de pesquisa como Engenheiro de P&D em Avaliação e Gestão Ambiental no Centre de Recherche Public Henri Tudor (agora LIST, em Luxemburgo). Atualmente, o Dr. Vázquez-Rowe é Professor Titular do Departamento de Engenharia da Pontifícia Universidade Católica do Peru. Ele também é editor de Recursos Oceânicos e Conservação Marinha no International Journal of Life Cycle Assessment. Seus principais interesses de pesquisa estão ligados à gestão ambiental, incluindo métodos de ciclo de vida, seu aprimoramento metodológico e sua combinação com outros métodos. Além disso, pesca e agricultura, sistemas alimentares em geral e sistemas de tratamento de resíduos e águas residuais, incluindo emissões de plástico para corpos d'água, têm sido o foco de sua pesquisa nos últimos anos. Em 2021, ele foi incluído na Hot List da Reuters dos 1.000 principais cientistas climáticos do mundo e, anualmente, figura entre os 2% melhores pesquisadores do mundo, de acordo com a Universidade de Stanford."
+                },
+                "clemilson": {
+                    "nome": "Clemilson Marques Batista",
+                    "cargo": "CEO",
+                    "instituicao": "Plataforma Athenas",
+                    "palestra": "Plataforma Athena: Inovação na gestão da pesquisa e da produção científica brasileira",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Clemilson Marques Batista (CEO).Especialista em avaliação da pós-graduação e em políticas públicas de ensino superior, Clemilson Marques Batista acumula mais de 25 anos de experiência no SNPG. Atuou por oito anos na Diretoria de Avaliação da CAPES, com destaque para sua atuação na capacitação de Pró-Reitores, Coordenadores e equipes técnicas de Programas de Pós-Graduação em todo o país. Também atuou como assessor nas Pró-Reitorias das Universidades Metodistas de São Paulo (UMESP) e de Piracicaba (UNIMEP), onde foi responsável pela articulação com a CAPES, CNPq e pela gestão da secretaria acadêmica dos cursos Stricto Sensu.Como fundador e diretor da JANUS EDUCARE, prestou consultoria especializada a dezenas de universidades públicas e privadas, entre elas: UFRJ, USP, UNB, UPM, UNICAP, UFSC, FGV, assessorando na criação, reformulação e avaliação de cursos de mestrado e doutorado, sempre com foco na aderência aos critérios da CAPES e na sustentabilidade acadêmica dos programas. É o idealizador da Plataforma Athena, concebida com base em sua experiência de campo e orientada à transformação digital da avaliação e da gestão da pós-graduação. Atualmente lidera a expansão estratégica do projeto Athena, com foco em parcerias, validação tecnológica e escalabilidade nacional e internacional."
+                },
+                "aldilane": {
+                    "nome": "Aldilane Lays Xavier Marques",
+                    "cargo": "Pesquisadora",
+                    "instituicao": "UFAL- Universidade Federal de Alagoas",
+                    "palestra": "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Doutoranda em Ciências dos Materiais (PPGM) com período sanduíche na University of Hawaii at Manoa (Hawaii, EUA), Mestra em Ciências da Saúde (PPGCS), Graduada em Ciências Biológicas - bacharelado pela Universidade Federal de Alagoas (UFAL). Membro do Grupo de Pesquisa em Saúde da Mulher e da Gestação, o qual integra o Laboratório de Biologia Celular/ UFAL. Possui experiência e colabora em projetos na área de Biologia Celular, Biofísica, Bioquímica e estuda atualmente o bioacúmulo e os efeitos de microplásticos na placenta humana."
+                }
+            }
+        },
+        "ComiteCientifico": {
+            "title": "Comitê Científico",
+            "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
+            "description": "Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos."
         }
-    },
-    "ComiteCientifico": {
-        "title": "Comitê Científico",
-        "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
-        "description": "Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos."
     }
 }

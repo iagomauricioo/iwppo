@@ -21,22 +21,32 @@ export default function MesaDeAbertura() {
   const t = useTranslations("MesaDeAbertura");
   const locale = useLocale();
 
-  // helper para evitar digitar o caminho toda hora
-  const m = (id: string): Integrante => ({
-    id,
-    nome: t(`integrantes.${id}.nome`),
-    cargo: t(`integrantes.${id}.cargo`), // <-- chave CORRETA
-    instituicao: t(`integrantes.${id}.instituicao`),
-    nacionalidade: t.has(`integrantes.${id}.nacionalidade`)
-      ? t(`integrantes.${id}.nacionalidade`)
-      : "",
-    foto: `/mesa/${id}.jpeg`, // ajuste se a extensão/nome variar
-  });
+const FOTO_MAP: Record<string, string> = {
+  "alexander": "/mesa/alexander.png",
+  "fabio-guedes": "/mesa/fabio.jpeg",
+  "nidia": "/mesa/nidia.jpg",
+  "katia-viana": "/comissao-organizadora/katia.png",
+  "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
+};
+
+const m = (id: string): Integrante => ({
+  id,
+  nome: t(`integrantes.${id}.nome`),
+  cargo: t(`integrantes.${id}.cargo`),
+  instituicao: t(`integrantes.${id}.instituicao`),
+  nacionalidade: t.has(`integrantes.${id}.nacionalidade`)
+    ? t(`integrantes.${id}.nacionalidade`)
+    : "",
+  foto: FOTO_MAP[id] || `/mesa/${id}.jpeg`, // fallback padrão
+});
 
   const integrantes: Integrante[] = [
     m("alexander"),
-    // m("reitor-universidade"),
-    // m("secretaria-meio-ambiente"),
+    m("fabio-guedes"),
+    m("nidia"),
+    m("katia-viana"),
+    m("douglas-apratto"),
+
   ];
 
   const filtered = integrantes.filter((p) => {
