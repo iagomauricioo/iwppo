@@ -22,9 +22,9 @@ export default function MesaDeAbertura() {
   const locale = useLocale();
 
 const FOTO_MAP: Record<string, string> = {
-  "alexander": "/mesa/alexander.png",
+  "alexander": "/mesa/alexander.jpeg",
   "fabio-guedes": "/mesa/fabio.jpeg",
-  "nidia": "/mesa/nidia.jpg",
+  "nidia": "/mesa/nidia.jpeg",
   "katia-viana": "/comissao-organizadora/katia.png",
   "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
 };

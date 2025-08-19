@@ -20,10 +20,10 @@ export default function MesaAberturaDetailPage({ params }: any) {
 
   // mapeie aqui as fotos por ID (adicione mais quando necessário)
   const fotosMap: Record<string, string> = {
-   " alexander": "/mesa/alexander.jpeg",
+   alexander: "/mesa/alexander.jpeg",
     "fabio-guedes": "/mesa/fabio-guedes.jpeg",
-    "nidia": "/mesa/fabio-guedes.jpeg",
-  " katia-viana": "/comissao-organizadora/katia.png",
+    nidia: "/mesa/nidia.jpeg",
+  "katia-viana": "/comissao-organizadora/katia.png",
     "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
   };
 
