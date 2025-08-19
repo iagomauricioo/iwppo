@@ -23,7 +23,7 @@ export default function MesaDeAbertura() {
 
 const FOTO_MAP: Record<string, string> = {
   "alexander": "/mesa/alexander.jpeg",
-  "fabio-guedes": "/mesa/fabio.jpeg",
+  "fabio-guedes": "/mesa/fabio-guedes.jpeg",
   "nidia": "/mesa/nidia.jpeg",
   "katia-viana": "/comissao-organizadora/katia.png",
   "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
