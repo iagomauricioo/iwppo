@@ -768,6 +768,15 @@
         "sem_resultados": "Nenhum integrante encontrado para \"{termo}\"",
         "limpar_busca": "Limpar busca",
         "integrantes": {
+
+             "douglas-apratto": {
+                "nome": "Douglas Apratto Tenório",
+                "cargo": "Vice-Reitor do CESMAC",
+                "instituicao": "CESMAC",
+                "nacionalidade": "Brasil",
+                "bio": "Possui graduação em História pela Universidade Federal de Alagoas (1972), mestrado em História pela Universidade Federal de Pernambuco (1992) e doutorado em História pela Universidade Federal de Pernambuco (1994). Atualmente é professor do Centro Universitário CESMAC. Tem experiência na área de pesquisa, com ênfase em História Regional."
+            },
+
             "alexander": {
                 "nome": "Alexander Turra",
                 "cargo": "Professor Titular",
@@ -795,14 +804,8 @@
                 "instituicao": "Universidade Federal do Amazonas",
                 "nacionalidade": "Brasil",
                 "bio": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
-            },
-            "douglas-apratto": {
-                "nome": "Douglas Apratto Tenório",
-                "cargo": "Vice-Reitor do CESMAC",
-                "instituicao": "CESMAC",
-                "nacionalidade": "Brasil",
-                "bio": "Possui graduação em História pela Universidade Federal de Alagoas (1972), mestrado em História pela Universidade Federal de Pernambuco (1992) e doutorado em História pela Universidade Federal de Pernambuco (1994). Atualmente é professor do Centro Universitário CESMAC. Tem experiência na área de pesquisa, com ênfase em História Regional."
             }
+            
         },
         "PalestrantesConfirmados": {
             "title1": "Quem já",
