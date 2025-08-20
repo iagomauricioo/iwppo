@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
-import { useTranslations, useParams } from "next-intl";
+import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 interface Palestrante {
   id: string;
@@ -24,7 +25,8 @@ export default function PalestrantesConfirmados() {
   const params = useParams();
   const locale = (params?.locale as string) || "pt-BR";
 
-  // Debug log to check translations
+  // Debug logs to check translations and locale
+  console.log("Current locale:", locale);
   console.log("Translations for PalestrantesConfirmados:", {
     title1: t("title1"),
     title2: t("title2"),
@@ -197,10 +199,11 @@ export default function PalestrantesConfirmados() {
     },
   ];
 
-  const filteredPalestrantes = palestrantes.filter((palestrante) =>
-    palestrante.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    palestrante.instituicao.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    palestrante.palestra.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredPalestrantes = palestrantes.filter(
+    (palestrante) =>
+      palestrante.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      palestrante.instituicao.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      palestrante.palestra.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -282,6 +285,8 @@ export default function PalestrantesConfirmados() {
                       alt={palestrante.nome}
                       fill
                       className="object-cover object-center cursor-pointer hover:opacity-90 transition"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority={index < 2}
                     />
                     <span className="sr-only">{t("ver_detalhes") || "Ver detalhes"}</span>
                   </Link>
