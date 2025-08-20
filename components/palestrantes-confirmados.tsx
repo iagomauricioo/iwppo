@@ -25,186 +25,276 @@ export default function PalestrantesConfirmados() {
   const params = useParams();
   const locale = (params?.locale as string) || "pt-BR";
 
-  // Debug logs to check translations and locale
-  console.log("Current locale:", locale);
-  console.log("Translations for PalestrantesConfirmados:", {
-    title1: t("title1"),
-    title2: t("title2"),
-    descricao: t("descricao"),
-    robsonNome: t("palestrantes.robson-santos.nome"),
-  });
+  // Helper para aplicar fallback quando a tradução vier como chave crua
+  const tr = (key: string, fallback: string) => {
+    try {
+      const value = t(key) as string;
+      // se vier vazio, igual à chave, ou com cara de caminho de chave => usa fallback
+      if (
+        !value ||
+        value === key ||
+        value.startsWith("PalestrantesConfirmados.") ||
+        /^[A-Za-z0-9_.-]+(\.[A-Za-z0-9_.-]+)+$/.test(value)
+      ) {
+        return fallback;
+      }
+      return value;
+    } catch {
+      return fallback;
+    }
+  };
 
-  // Fallbacks to prevent raw key display
-  const title1 = t("title1") || "Quem já";
-  const title2 = t("title2") || "está confirmado";
-  const descricao = t("descricao") || "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO";
-  const placeholder = t("placeholder") || "Buscar palestrantes ou temas...";
-  const titulo_palestra = t("titulo_palestra") || "Palestra";
-  const sem_resultados = t("sem_resultados") || 'Nenhum palestrante encontrado para "{termo}"';
-  const limpar_busca = t("limpar_busca") || "Limpar busca";
+  // Textos principais com fallbacks
+  const title1 = tr("title1", "Quem já");
+  const title2 = tr("title2", "está confirmado");
+  const descricao = tr(
+    "descricao",
+    "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO"
+  );
+  const placeholder = tr("placeholder", "Buscar palestrantes ou temas...");
+  const titulo_palestra = tr("titulo_palestra", "Palestra");
+  const sem_resultados = tr("sem_resultados", 'Nenhum palestrante encontrado para "{termo}"');
+  const limpar_busca = tr("limpar_busca", "Limpar busca");
+  const ver_detalhes = tr("ver_detalhes", "Ver detalhes");
 
   const palestrantes: Palestrante[] = [
     {
       id: "robson-santos",
-      nome: t("palestrantes.robson-santos.nome") || "Robson Guimarães dos Santos",
-      cargo: t("palestrantes.robson-santos.cargo") || "Pesquisador",
-      instituicao: t("palestrantes.robson-santos.instituicao") || "UFAL",
+      nome: tr("palestrantes.robson-santos.nome", "Robson Guimarães dos Santos"),
+      cargo: tr("palestrantes.robson-santos.cargo", "Pesquisador"),
+      instituicao: tr("palestrantes.robson-santos.instituicao", "UFAL"),
       foto: "/palestrantes/robson.png",
-      palestra: t("palestrantes.robson-santos.palestra") || "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico",
-      nacionalidade: t("palestrantes.robson-santos.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.robson-santos.palestra",
+        "Apresentação dos principais resultados das pesquisas a partir dos pontos focais do projeto Oceanos de Plástico"
+      ),
+      nacionalidade: tr("palestrantes.robson-santos.nacionalidade", "Brasil"),
     },
     {
       id: "katia-viana",
-      nome: t("palestrantes.katia-viana.nome") || "Katia Viana Cavalcante",
-      cargo: t("palestrantes.katia-viana.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.katia-viana.instituicao") || "Universidade Federal do Amazonas",
+      nome: tr("palestrantes.katia-viana.nome", "Katia Viana Cavalcante"),
+      cargo: tr("palestrantes.katia-viana.cargo", "Pesquisadora"),
+      instituicao: tr("palestrantes.katia-viana.instituicao", "Universidade Federal do Amazonas"),
       foto: "/comissao-organizadora/katia.png",
-      palestra: t("palestrantes.katia-viana.palestra") || "Cerimônia de Abertura",
-      nacionalidade: t("palestrantes.katia-viana.nacionalidade") || "Brasil",
+      palestra: tr("palestrantes.katia-viana.palestra", "Cerimônia de Abertura"),
+      nacionalidade: tr("palestrantes.katia-viana.nacionalidade", "Brasil"),
     },
     {
       id: "fernando-lopez",
-      nome: t("palestrantes.fernando-lopez.nome") || "Fernando J. Díaz López",
-      cargo: t("palestrantes.fernando-lopez.cargo") || "Pesquisador Internacional",
-      instituicao: t("palestrantes.fernando-lopez.instituicao") || "Climate and Earth Center of HEC Paris",
+      nome: tr("palestrantes.fernando-lopez.nome", "Fernando J. Díaz López"),
+      cargo: tr("palestrantes.fernando-lopez.cargo", "Pesquisador Internacional"),
+      instituicao: tr(
+        "palestrantes.fernando-lopez.instituicao",
+        "Climate and Earth Center of HEC Paris"
+      ),
       foto: "/palestrantes/dias.jpeg",
-      palestra: t("palestrantes.fernando-lopez.palestra") || "Cerimônia de Fechamento",
-      nacionalidade: t("palestrantes.fernando-lopez.nacionalidade") || "Estrangeiro",
+      palestra: tr("palestrantes.fernando-lopez.palestra", "Cerimônia de Fechamento"),
+      nacionalidade: tr("palestrantes.fernando-lopez.nacionalidade", "Estrangeiro"),
     },
     {
       id: "scott-wilson",
-      nome: t("palestrantes.scott-wilson.nome") || "Scott Paton Wilson",
-      cargo: t("palestrantes.scott-wilson.cargo") || "Pesquisador Internacional",
-      instituicao: t("palestrantes.scott-wilson.instituicao") || "Macquarie University",
+      nome: tr("palestrantes.scott-wilson.nome", "Scott Paton Wilson"),
+      cargo: tr("palestrantes.scott-wilson.cargo", "Pesquisador Internacional"),
+      instituicao: tr("palestrantes.scott-wilson.instituicao", "Macquarie University"),
       foto: "/palestrantes/scott_patton_wilson.jpg",
-      palestra: t("palestrantes.scott-wilson.palestra") || "Cerimônia de Encerramento",
-      nacionalidade: t("palestrantes.scott-wilson.nacionalidade") || "Estrangeiro",
+      palestra: tr("palestrantes.scott-wilson.palestra", "Cerimônia de Encerramento"),
+      nacionalidade: tr("palestrantes.scott-wilson.nacionalidade", "Estrangeiro"),
     },
     {
       id: "Fernando-miguel",
-      nome: t("palestrantes.Fernando-miguel.nome") || "Fernando Miguel",
-      cargo: t("palestrantes.Fernando-miguel.cargo") || "Pesquisador",
-      instituicao: t("palestrantes.Fernando-miguel.instituicao") || "Universidade do Algarve - Portugal",
+      nome: tr("palestrantes.Fernando-miguel.nome", "Fernando Miguel"),
+      cargo: tr("palestrantes.Fernando-miguel.cargo", "Pesquisador"),
+      instituicao: tr(
+        "palestrantes.Fernando-miguel.instituicao",
+        "Universidade do Algarve - Portugal"
+      ),
       foto: "/palestrantes/fernando.png",
-      palestra: t("palestrantes.Fernando-miguel.palestra") || "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais",
-      nacionalidade: t("palestrantes.Fernando-miguel.nacionalidade") || "Estrangeiro",
+      palestra: tr(
+        "palestrantes.Fernando-miguel.palestra",
+        "Geotecnologias Aplicadas à Análise e Mitigação de Impactos Ambientais"
+      ),
+      nacionalidade: tr("palestrantes.Fernando-miguel.nacionalidade", "Estrangeiro"),
     },
     {
       id: "Helena-fernandez",
-      nome: t("palestrantes.Helena-fernandez.nome") || "Helena Fernandez",
-      cargo: t("palestrantes.Helena-fernandez.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.Helena-fernandez.instituicao") || "Universidade do Algarve - Portugal",
+      nome: tr("palestrantes.Helena-fernandez.nome", "Helena Fernandez"),
+      cargo: tr("palestrantes.Helena-fernandez.cargo", "Pesquisadora"),
+      instituicao: tr(
+        "palestrantes.Helena-fernandez.instituicao",
+        "Universidade do Algarve - Portugal"
+      ),
       foto: "/palestrantes/helena-fernandez.png",
-      palestra: t("palestrantes.Helena-fernandez.palestra") || "Gestão Territorial na Deteção de Plásticos nos Oceanos",
-      nacionalidade: t("palestrantes.Helena-fernandez.nacionalidade") || "Estrangeiro",
+      palestra: tr(
+        "palestrantes.Helena-fernandez.palestra",
+        "Gestão Territorial na Deteção de Plásticos nos Oceanos"
+      ),
+      nacionalidade: tr("palestrantes.Helena-fernandez.nacionalidade", "Estrangeiro"),
     },
     {
       id: "cristiane-siqueira",
-      nome: t("palestrantes.cristiane-siqueira.nome") || "Cristiane Siqueira",
-      cargo: t("palestrantes.cristiane-siqueira.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.cristiane-siqueira.instituicao") || "Universidade de Vassouras - Rio de Janeiro",
+      nome: tr("palestrantes.cristiane-siqueira.nome", "Cristiane Siqueira"),
+      cargo: tr("palestrantes.cristiane-siqueira.cargo", "Pesquisadora"),
+      instituicao: tr(
+        "palestrantes.cristiane-siqueira.instituicao",
+        "Universidade de Vassouras - Rio de Janeiro"
+      ),
       foto: "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
-      palestra: t("palestrantes.cristiane-siqueira.palestra") || "Construção de biosensores para detecção de poluentes e microplásticos em recursos hídricos",
-      nacionalidade: t("palestrantes.cristiane-siqueira.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.cristiane-siqueira.palestra",
+        "Construção de biosensores para detecção de poluentes e microplásticos em recursos hídricos"
+      ),
+      nacionalidade: tr("palestrantes.cristiane-siqueira.nacionalidade", "Brasil"),
     },
     {
       id: "Biagio",
-      nome: t("palestrantes.Biagio.nome") || "Biagio Fernando Giannetti",
-      cargo: t("palestrantes.Biagio.cargo") || "Pesquisador",
-      instituicao: t("palestrantes.Biagio.instituicao") || "Universidade Paulista - UNIP",
+      nome: tr("palestrantes.Biagio.nome", "Biagio Fernando Giannetti"),
+      cargo: tr("palestrantes.Biagio.cargo", "Pesquisador"),
+      instituicao: tr("palestrantes.Biagio.instituicao", "Universidade Paulista - UNIP"),
       foto: "/palestrantes/biagio-nova-foto.jpeg",
-      palestra: t("palestrantes.Biagio.palestra") || "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos",
-      nacionalidade: t("palestrantes.Biagio.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.Biagio.palestra",
+        "Emergia e Justiça Ecológica: uma nova base para a responsabilidade compartilhada nos oceanos"
+      ),
+      nacionalidade: tr("palestrantes.Biagio.nacionalidade", "Brasil"),
     },
     {
       id: "federico-sulis",
-      nome: t("palestrantes.federico-sulis.nome") || "Federico Sulis",
-      cargo: t("palestrantes.federico-sulis.cargo") || "Pesquisador",
-      instituicao: t("palestrantes.federico-sulis.instituicao") || "Universidade Paulista - UNIP",
+      nome: tr("palestrantes.federico-sulis.nome", "Federico Sulis"),
+      cargo: tr("palestrantes.federico-sulis.cargo", "Pesquisador"),
+      instituicao: tr("palestrantes.federico-sulis.instituicao", "Universidade Paulista - UNIP"),
       foto: "/palestrantes/federico-atualizada.jpeg",
-      palestra: t("palestrantes.federico-sulis.palestra") || "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos",
-      nacionalidade: t("palestrantes.federico-sulis.nacionalidade") || "Estrangeiro",
+      palestra: tr(
+        "palestrantes.federico-sulis.palestra",
+        "Fechando o Ciclo: Avaliação da Sustentabilidade de Cobogós com Resíduos Plásticos Marinhos"
+      ),
+      nacionalidade: tr("palestrantes.federico-sulis.nacionalidade", "Estrangeiro"),
     },
     {
       id: "Marcell",
-      nome: t("palestrantes.Marcell.nome") || "Marcell Mariano Correa Maceno",
-      cargo: t("palestrantes.Marcell.cargo") || "Pesquisador",
-      instituicao: t("palestrantes.Marcell.instituicao") || "Universidade Federal do Paraná",
+      nome: tr("palestrantes.Marcell.nome", "Marcell Mariano Correa Maceno"),
+      cargo: tr("palestrantes.Marcell.cargo", "Pesquisador"),
+      instituicao: tr("palestrantes.Marcell.instituicao", "Universidade Federal do Paraná"),
       foto: "/palestrantes/marcell.jpeg",
-      palestra: t("palestrantes.Marcell.palestra") || "Life cycle assessment and microplastics: an overview",
-      nacionalidade: t("palestrantes.Marcell.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.Marcell.palestra",
+        "Life cycle assessment and microplastics: an overview"
+      ),
+      nacionalidade: tr("palestrantes.Marcell.nacionalidade", "Brasil"),
     },
+
+    // ==== OS QUE ESTAVAM FALTANDO ====
     {
       id: "jornalista",
-      nome: t("palestrantes.jornalista.nome") || "Paulina Chamorro",
-      cargo: t("palestrantes.jornalista.cargo") || "Jornalista",
-      instituicao: t("palestrantes.jornalista.instituicao") || "Universidade Federal do Paraná",
+      nome: tr("palestrantes.jornalista.nome", "Paulina Chamorro"),
+      cargo: tr("palestrantes.jornalista.cargo", "Jornalista"),
+      instituicao: tr(
+        "palestrantes.jornalista.instituicao",
+        "Universidade Federal do Paraná"
+      ),
       foto: "/palestrantes/jornalista.jpeg",
-      palestra: t("palestrantes.jornalista.palestra") || "Planeta ou Plástico? - histórias de uma cobertura jornalística",
-      nacionalidade: t("palestrantes.jornalista.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.jornalista.palestra",
+        "Planeta ou Plástico? - histórias de uma cobertura jornalística"
+      ),
+      nacionalidade: tr("palestrantes.jornalista.nacionalidade", "Brasil"),
     },
     {
       id: "jemille",
-      nome: t("palestrantes.jemille.nome") || "Jemille Viaggi",
-      cargo: t("palestrantes.jemille.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.jemille.instituicao") || "Cátedra Unesco para Sustentabilidade do Oceano",
+      nome: tr("palestrantes.jemille.nome", "Jemille Viaggi"),
+      cargo: tr("palestrantes.jemille.cargo", "Pesquisadora"),
+      instituicao: tr(
+        "palestrantes.jemille.instituicao",
+        "Cátedra Unesco para Sustentabilidade do Oceano"
+      ),
       foto: "/palestrantes/jemille.jpeg",
-      palestra: t("palestrantes.jemille.palestra") || "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
-      nacionalidade: t("palestrantes.jemille.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.jemille.palestra",
+        "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica"
+      ),
+      nacionalidade: tr("palestrantes.jemille.nacionalidade", "Brasil"),
     },
     {
       id: "alireza",
-      nome: t("palestrantes.alireza.nome") || "Alireza Moghayedi",
-      cargo: t("palestrantes.alireza.cargo") || "Professor e/ou Pesquisador",
-      instituicao: t("palestrantes.alireza.instituicao") || "Universidade do Oeste da Inglaterra, Reino Unido; Universidade da Cidade do Cabo, África do Sul",
+      nome: tr("palestrantes.alireza.nome", "Alireza Moghayedi"),
+      cargo: tr("palestrantes.alireza.cargo", "Professor e/ou Pesquisador"),
+      instituicao: tr(
+        "palestrantes.alireza.instituicao",
+        "Universidade do Oeste da Inglaterra, Reino Unido; Universidade da Cidade do Cabo, África do Sul"
+      ),
       foto: "/palestrantes/alireza.jpeg",
-      palestra: t("palestrantes.alireza.palestra") || "Reciclando a poluição plástica em soluções de construção para metas de zero emissão",
-      nacionalidade: t("palestrantes.alireza.nacionalidade") || "Estrangeiro",
+      palestra: tr(
+        "palestrantes.alireza.palestra",
+        "Reciclando a poluição plástica em soluções de construção para metas de zero emissão"
+      ),
+      nacionalidade: tr("palestrantes.alireza.nacionalidade", "Estrangeiro"),
     },
     {
       id: "barbara-pinheiro",
-      nome: t("palestrantes.barbara-pinheiro.nome") || "Bárbara Ramos Pinheiro",
-      cargo: t("palestrantes.barbara-pinheiro.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.barbara-pinheiro.instituicao") || "Universidade Federal de Pernambuco",
+      nome: tr("palestrantes.barbara-pinheiro.nome", "Bárbara Ramos Pinheiro"),
+      cargo: tr("palestrantes.barbara-pinheiro.cargo", "Pesquisadora"),
+      instituicao: tr(
+        "palestrantes.barbara-pinheiro.instituicao",
+        "Universidade Federal de Pernambuco"
+      ),
       foto: "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg",
-      palestra: t("palestrantes.barbara-pinheiro.palestra") || "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica",
-      nacionalidade: t("palestrantes.barbara-pinheiro.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.barbara-pinheiro.palestra",
+        "Fronteiras da Ciência e da Política no Enfrentamento da Poluição Plástica"
+      ),
+      nacionalidade: tr("palestrantes.barbara-pinheiro.nacionalidade", "Brasil"),
     },
     {
       id: "vazquez",
-      nome: t("palestrantes.vazquez.nome") || "Ian Vázquez-Rowe",
-      cargo: t("palestrantes.vazquez.cargo") || "Professor",
-      instituicao: t("palestrantes.vazquez.instituicao") || "Pontificia Universidad Católica del Perú",
+      nome: tr("palestrantes.vazquez.nome", "Ian Vázquez-Rowe"),
+      cargo: tr("palestrantes.vazquez.cargo", "Professor"),
+      instituicao: tr(
+        "palestrantes.vazquez.instituicao",
+        "Pontificia Universidad Católica del Perú"
+      ),
       foto: "/palestrantes/vazquez.jpg",
-      palestra: t("palestrantes.vazquez.palestra") || "Vias de emissão de macro e microplásticos para o Oceano Pacífico no Peru: detecção e quantificação",
-      nacionalidade: t("palestrantes.vazquez.nacionalidade") || "Estrangeiro",
+      palestra: tr(
+        "palestrantes.vazquez.palestra",
+        "Vias de emissão de macro e microplásticos para o Oceano Pacífico no Peru: detecção e quantificação"
+      ),
+      nacionalidade: tr("palestrantes.vazquez.nacionalidade", "Estrangeiro"),
     },
     {
       id: "clemilson",
-      nome: t("palestrantes.clemilson.nome") || "Clemilson Marques Batista",
-      cargo: t("palestrantes.clemilson.cargo") || "CEO",
-      instituicao: t("palestrantes.clemilson.instituicao") || "Plataforma Athenas",
+      nome: tr("palestrantes.clemilson.nome", "Clemilson Marques Batista"),
+      cargo: tr("palestrantes.clemilson.cargo", "CEO"),
+      instituicao: tr("palestrantes.clemilson.instituicao", "Plataforma Athenas"),
       foto: "/palestrantes/clemilson.jpeg",
-      palestra: t("palestrantes.clemilson.palestra") || "Plataforma Athena: Inovação na gestão da pesquisa e da produção científica brasileira",
-      nacionalidade: t("palestrantes.clemilson.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.clemilson.palestra",
+        "Plataforma Athena: Inovação na gestão da pesquisa e da produção científica brasileira"
+      ),
+      nacionalidade: tr("palestrantes.clemilson.nacionalidade", "Brasil"),
     },
     {
       id: "aldilane",
-      nome: t("palestrantes.aldilane.nome") || "Aldilane Lays Xavier Marques",
-      cargo: t("palestrantes.aldilane.cargo") || "Pesquisadora",
-      instituicao: t("palestrantes.aldilane.instituicao") || "UFAL - Universidade Federal de Alagoas",
+      nome: tr("palestrantes.aldilane.nome", "Aldilane Lays Xavier Marques"),
+      cargo: tr("palestrantes.aldilane.cargo", "Pesquisadora"),
+      instituicao: tr(
+        "palestrantes.aldilane.instituicao",
+        "UFAL - Universidade Federal de Alagoas"
+      ),
       foto: "/palestrantes/aldilane.jpeg",
-      palestra: t("palestrantes.aldilane.palestra") || "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional",
-      nacionalidade: t("palestrantes.aldilane.nacionalidade") || "Brasil",
+      palestra: tr(
+        "palestrantes.aldilane.palestra",
+        "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional"
+      ),
+      nacionalidade: tr("palestrantes.aldilane.nacionalidade", "Brasil"),
     },
   ];
 
-  const filteredPalestrantes = palestrantes.filter(
-    (palestrante) =>
-      palestrante.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      palestrante.instituicao.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      palestrante.palestra.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredPalestrantes = palestrantes.filter((p) => {
+    const termo = searchTerm.toLowerCase();
+    return (
+      p.nome.toLowerCase().includes(termo) ||
+      p.instituicao.toLowerCase().includes(termo) ||
+      p.palestra.toLowerCase().includes(termo)
+    );
+  });
 
   return (
     <section
@@ -273,11 +363,12 @@ export default function PalestrantesConfirmados() {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 whileHover={{
                   y: -5,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
+                  boxShadow:
+                    "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)",
                   transition: { duration: 0.2 },
                 }}
               >
-                {/* Foto do palestrante com link */}
+                {/* Foto do palestrante com link para a página de detalhes */}
                 <div className="relative h-64 overflow-hidden">
                   <Link href={`/${locale}/palestrantes/${palestrante.id}`}>
                     <Image
@@ -288,18 +379,14 @@ export default function PalestrantesConfirmados() {
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       priority={index < 2}
                     />
-                    <span className="sr-only">{t("ver_detalhes") || "Ver detalhes"}</span>
+                    <span className="sr-only">{ver_detalhes}</span>
                   </Link>
                 </div>
 
                 {/* Informações do palestrante */}
                 <div className="p-4">
-                  <h3 className={`text-xl font-bold ${corAtual.text}`}>
-                    {palestrante.nome}
-                  </h3>
-                  <p className={`${corAtual.text} opacity-90 font-medium`}>
-                    {palestrante.cargo}
-                  </p>
+                  <h3 className={`text-xl font-bold ${corAtual.text}`}>{palestrante.nome}</h3>
+                  <p className={`${corAtual.text} opacity-90 font-medium`}>{palestrante.cargo}</p>
                   <p className={`${corAtual.text} opacity-80 text-sm mb-1`}>
                     {palestrante.instituicao}
                   </p>
