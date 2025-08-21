@@ -805,9 +805,11 @@
                 "nacionalidade": "Brasil",
                 "bio": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
             }
+
+        }
             
         },
-        "PalestrantesConfirmados": {
+    "PalestrantesConfirmados": {
             "title1": "Quem já",
             "title2": "está confirmado",
             "descricao": "Conheça os especialistas que compartilharão seus conhecimentos no IWPPO",
@@ -960,4 +962,3 @@
             "description": "Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos."
         }
     }
-}
