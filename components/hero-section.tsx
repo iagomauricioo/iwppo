@@ -291,7 +291,7 @@ export default function HeroSection() {
                   transition={{ duration: 0.8, delay: 1 }}
                   className="hidden md:block"
                 >
-                  <SeloSustentavel size="lg" />
+                  <SeloAtitudeSustentavel size="lg" variant="hero" />
                 </motion.div>
               </div>
             </div>

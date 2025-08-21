@@ -24,7 +24,9 @@
     },
     "SeloAtitudeSustentavel": {
         "atitude": "ATITUDE",
-        "sustentavel": "SUSTENTÁVEL"
+        "sustentavel": "SUSTENTÁVEL",
+        "premiacao_texto": "Participe também da premiação de vídeos do Selo de Atitude Sustentável e mostre suas ideias para um futuro mais verde.",
+        "saiba_mais": "Saiba mais"
     },
     "SeloSustentavelPage": {
         "title": "Selo de Atitude Sustentável",
@@ -270,6 +272,37 @@
             "email": "contato@centroculturaljs.com.br"
         }
     },
+
+
+    "MainLocationSection": {
+  "title": "Local do Evento CITEC/ROBOTICA CESMAC",
+  "description": "As sessões científicas (banners, apresentações orais, keynotes e mesas redondas) ocorrerão no Complexo de Inovações Pedagógicas do CESMAC.",
+  "map_title": "Mapa do Complexo de Inovações Pedagógicas CESMAC",
+  "address": {
+    "title": "Endereço",
+    "place": "CITEC/ROBOTICA  – CESMAC",
+    "street": "Rua Professor Angelo Neto",
+    "neighborhood": "Farol, Maceió - AL",
+    "zip": "CEP: 57051-530"
+  },
+  "howToGetThere": {
+    "title": "Como Chegar",
+    "ofCar": "De carro:",
+    "car": "Há opções de estacionamento nas imediações do campus.",
+    "ofPublicTransport": "Transporte público:",
+    "publicTransport": "Algumas linhas de ônibus passam próximo ao campus. Consulte o aplicativo ",
+    "ofAirport": "Do aeroporto:",
+    "airport": "Cerca de 30–45 min de carro/táxi, a depender do trânsito."
+  },
+  "contact": {
+    "title": "Contato do Local",
+    "phoneLabel": "Telefone:",
+    "emailLabel": "Email:"
+  }
+},
+
+
+
     "TopicsSection": {
         "title": "Tópicos Principais",
         "items": {

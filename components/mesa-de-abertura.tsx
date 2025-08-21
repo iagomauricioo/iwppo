@@ -118,7 +118,7 @@ const m = (id: string): Integrante => ({
                   src={p.foto || "/placeholder.svg"}
                   alt={`${p.nome} – ${p.cargo}`}
                   fill
-                  className="object-cover object-center transition-transform duration-200 hover:scale-[1.02]"
+                  className="object-contain object-center transition-transform duration-200 hover:scale-[1.02] bg-white"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   priority={idx < 2}
                 />

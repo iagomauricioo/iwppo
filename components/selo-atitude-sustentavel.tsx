@@ -1,31 +1,31 @@
-"use client";
-
-import Image from "next/image";
-import Link from "next/link";
-import { useTranslations } from "next-intl";
-import { useParams } from "next/navigation";
-
 interface SeloProps {
   size?: "sm" | "md" | "lg";
   className?: string;
+  variant?: "default" | "hero"; // <- nova prop
 }
 
 export default function SeloAtitudeSustentavel({
   size = "md",
   className = "",
+  variant = "default",
 }: SeloProps) {
   const t = useTranslations("SeloAtitudeSustentavel");
-
-  // Get params first, then read locale
   const params = useParams();
   const locale = (params?.locale as string) || "pt";
 
   const w = size === "sm" ? 100 : size === "md" ? 150 : 200;
-  const h = w; // same as width
+  const h = w;
+
+  // Define estilos conforme o variant
+  const textColor =
+    variant === "hero" ? "text-blue-100" : "text-blue-800";
+  const buttonColor =
+    variant === "hero"
+      ? "bg-green-400 hover:bg-green-500 text-gray-900"
+      : "bg-green-600 hover:bg-green-700 text-white";
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      {/* Conteúdo original do selo */}
       <div className="relative flex flex-col items-center">
         <Image
           src="/Selo Sustentável (1).png"
@@ -34,23 +34,24 @@ export default function SeloAtitudeSustentavel({
           height={h}
           className="object-contain"
         />
-        <div className="mt-2 text-center font-bold text-blue-800 uppercase">
+        <div className={`mt-2 text-center font-bold uppercase ${textColor}`}>
           {t("atitude")} <br /> {t("sustentavel")}
         </div>
       </div>
 
-      {/* Nova menção à competição */}
       <div className="mt-4 text-center max-w-sm">
-        <p className="text-gray-700 text-sm">
-          Participe também da competição de vídeos do{" "}
-          <span className="font-semibold">Selo de Atitude Sustentável</span> e
-          mostre suas ideias para um futuro mais verde.
+        <p
+          className={`text-sm ${
+            variant === "hero" ? "text-blue-100" : "text-gray-700"
+          }`}
+        >
+          {t("premiacao_texto")}
         </p>
         <Link
           href={`/${locale}/selo-sustentavel`}
-          className="inline-block mt-3 px-4 py-2 bg-green-600 text-white text-sm rounded-lg shadow hover:bg-green-700 transition-colors"
+          className={`inline-block mt-3 px-4 py-2 rounded-lg shadow transition-colors ${buttonColor}`}
         >
-          Saiba mais
+          {t("saiba_mais")}
         </Link>
       </div>
     </div>

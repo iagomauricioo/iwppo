@@ -16,6 +16,7 @@ import EixosTematicos from "@/components/eixos-tematicos"
 import PalestrantesConfirmados from "@/components/palestrantes-confirmados"
 import RegulamentoSection from "@/components/regulamento-section";
 import MesaDeAbertura from "@/components/mesa-de-abertura";
+import MainLocationSection from "@/components/localizacao-evento";
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         <MesaDeAbertura />
         <PalestrantesConfirmados />
         <LocationSection />
+        <MainLocationSection />
         <EixosTematicos />
         <ParticipantsSection />
         <ProgramacaoSection />
