@@ -301,6 +301,27 @@
   }
 },
 
+"RevistasSection": {
+  "kicker": "Publicações Parceiras",
+  "title": "Revistas para publicar e acompanhar",
+  "subtitle": "Seleção de periódicos alinhados ao IWPPO para submissões e leitura contínua.",
+  "visit": "Visitar",
+  "highlight": "Indexação e boas práticas editoriais",
+  "badges": {
+    "openAccess": "Acesso Aberto",
+    "peerReviewed": "Revisado por Pares"
+  },
+  "scopes": {
+    "chemistry": "Química & Materiais",
+    "materials": "Materiais & Processos",
+    "environment": "Meio Ambiente",
+    "fisheries": "Pesca & Recursos Aquáticos",
+    "ocean": "Oceanografia & Ecossistemas",
+    "sustainability": "Sustentabilidade"
+  }
+},
+
+
 
 
     "TopicsSection": {
