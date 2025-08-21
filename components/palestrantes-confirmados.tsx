@@ -38,7 +38,7 @@ export default function PalestrantesConfirmados() {
     "jornalista": "/palestrantes/jornalista.jpeg",
     "jemille": "/palestrantes/jemille.jpeg",
     "alireza": "/palestrantes/alireza.jpeg",
-    "barbara-pinheiro": "/palestrantes/barbara-pinheiro.jpg", // evite espaços em nomes de arquivo
+    "barbara-pinheiro": "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg", // evite espaços em nomes de arquivo
     "vazquez": "/palestrantes/vazquez.jpg",
     "clemilson": "/palestrantes/clemilson.jpeg",
     "aldilane": "/palestrantes/aldilane.jpeg",
@@ -76,6 +76,8 @@ export default function PalestrantesConfirmados() {
     "vazquez",
     "clemilson",
     "aldilane",
+    "gomes",
+    "monteiro",
   ] as const;
 
   const palestrantes: Palestrante[] = ids.map((id) => p(id));

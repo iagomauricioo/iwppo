@@ -27,6 +27,7 @@ const FOTO_MAP: Record<string, string> = {
   "nidia": "/mesa/nidia.jpeg",
   "katia-viana": "/comissao-organizadora/katia.png",
   "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
+  "CF": "/mesa/CF.png",
 };
 
 const m = (id: string): Integrante => ({
@@ -42,10 +43,12 @@ const m = (id: string): Integrante => ({
 
   const integrantes: Integrante[] = [
     m("douglas-apratto"),
+    m("neto"),
     m("alexander"),
     m("fabio-guedes"),
     m("nidia"),
     m("katia-viana"),
+    m("CF"),
 
   ];
 

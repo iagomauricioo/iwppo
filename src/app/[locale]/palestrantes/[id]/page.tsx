@@ -34,6 +34,8 @@ export default function PalestranteDetailPage({ params }: any) {
     "vazquez": "/palestrantes/vazquez.jpg",
     "clemilson": "/palestrantes/clemilson.jpeg",
     "aldilane": "/palestrantes/aldilane.jpeg",
+    "gomes": "/palestrantes/gomes.jpeg",
+    "monteiro": "/palestrantes/monteiro.jpeg"
   };
 
   const palestrante = {

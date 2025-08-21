@@ -25,6 +25,8 @@ export default function MesaAberturaDetailPage({ params }: any) {
     nidia: "/mesa/nidia.jpeg",
   "katia-viana": "/comissao-organizadora/katia.png",
     "douglas-apratto": "/comissao-organizadora/douglas-apratto.jpeg",
+    neto: "/mesa/neto.jpeg",
+    CF: "/mesa/CF.png",
   };
 
   const integrante = {

@@ -769,7 +769,7 @@
         "limpar_busca": "Limpar busca",
         "integrantes": {
 
-             "douglas-apratto": {
+            "douglas-apratto": {
                 "nome": "Douglas Apratto Tenório",
                 "cargo": "Vice-Reitor do CESMAC",
                 "instituicao": "CESMAC",
@@ -804,11 +804,31 @@
                 "instituicao": "Universidade Federal do Amazonas",
                 "nacionalidade": "Brasil",
                 "bio": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
-            }
+            },
 
+
+            "neto": {
+                "nome": "João Rodrigues Sampaio Neto",
+                "cargo": "Pró-Reitor de Gestão e Planejamento do Centro Universitário Cesmac.",
+                "instituicao": "CESMAC",
+                "nacionalidade": "Brasil",
+                "bio": "Graduado em Direito pela própria instituição, é pós-graduado em Gestão Empresarial pela Fundação Getúlio Vargas (FGV/RJ) e mestre em Educação, com foco em Políticas Públicas Educacionais, pela Universidade Cidade de São Paulo (UNICID). Possui ainda formação militar, sendo 2º Tenente da Reserva do Exército Brasileiro. Ao longo de sua trajetória, tem se destacado pela atuação estratégica na área de gestão acadêmica e administrativa, contribuindo significativamente para o fortalecimento da educação superior no estado. É membro da Diretoria da ABMES – Associação Brasileira de Mantenedores de Ensino Superior e conselheiro da FEJAL – Fundação Educacional Jayme de Altavila."
+            },
+
+
+            "CF": {
+                "nome": "Rodrigo Ribeiro Gonçalves Garcia ",
+                "cargo": "Capitão de Fragata",
+                "instituicao": "Marinha do Brasil",
+                "nacionalidade": "Brasil",
+                "bio": "O Capitão de Fragata Rodrigo Ribeiro Gonçalves Garcia ingressou na Marinha do Brasil em 1997, como aluno da Escola de Formação de Oficiais da Marinha Mercante. Em 2000, tornou-se Aspirante da Escola Naval, alcançando, ao longo de sua carreira, o posto de Capitão de Fragata em 25 de dezembro de 2021. Durante sua trajetória profissional, exerceu relevantes funções a bordo de diversos navios, como a Corveta Frontin, as Fragatas Niterói, Constituição e União, o Navio-Patrulha Oceânico Amazonas e o Rebocador de Alto-Mar Almirante Guillobel. O Oficial foi Encarregado do Aviso de Patrulha Barracuda, comandou o Navio-Patrulha Fluvial Raposo Tavares e, atualmente, exerce o cargo de Capitão dos Portos de Alagoas. Antes de assumir o comando da Capitania, o Oficial exerceu função no Estado-Maior da Armada sendo o responsável pela coordenação de todos os Exercícios e Operações da MB no exterior. Sua formação inclui graduação em Ciências Navais, com habilitação em Eletrônica, e cursos de Estado-Maior, além de especializações em operações de paz, segurança marítima, inteligência e análise de crises internacionais. Foi agraciado com diversas condecorações, dentre as quais destacam-se a Medalha Militar de Prata, a Medalha Mérito Marinheiro, a Medalha dos Mantenedores da Paz das Nações Unidas (UNIFIL), a Medalha do Serviço Amazônico, a Medalha de Operações de Paz da OEA e a Medalha Mérito Tamandaré."
+            }
         }
-            
+
         },
+            
+        
+        
     "PalestrantesConfirmados": {
             "title1": "Quem já",
             "title2": "está confirmado",
@@ -953,6 +973,24 @@
                     "palestra": "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional",
                     "nacionalidade": "Brasil",
                     "biografia": "Doutoranda em Ciências dos Materiais (PPGM) com período sanduíche na University of Hawaii at Manoa (Hawaii, EUA), Mestra em Ciências da Saúde (PPGCS), Graduada em Ciências Biológicas - bacharelado pela Universidade Federal de Alagoas (UFAL). Membro do Grupo de Pesquisa em Saúde da Mulher e da Gestação, o qual integra o Laboratório de Biologia Celular/ UFAL. Possui experiência e colabora em projetos na área de Biologia Celular, Biofísica, Bioquímica e estuda atualmente o bioacúmulo e os efeitos de microplásticos na placenta humana."
+                },
+
+                "gomes": {
+                    "nome": "Márcio Gomes Barboza",
+                    "cargo": "Pesquisador",
+                    "instituicao": "UFAL- Universidade Federal de Alagoas",
+                    "palestra": "Microplásticos na Placenta Humana: Evidências em Alagoas e no Cenário Internacional",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Possui graduação em Engenharia Civil pela Universidade Federal de Alagoas (1987), mestrado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (1995) e doutorado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (2002). Atualmente é pesquisador do Laboratório de Reúso de Águas-LRA e Professor Titular Centro de Tecnologia-CTEC da Universidade Federal de Alagoas-UFAL. É Presidente do Comitê de Bacias da Região Hidrográfica do Pratagy. Tem experiência na área de Engenharia Sanitária e Gestão Ambiental, com ênfase em Técnicas Avançadas de Tratamento de Águas, atuando principalmente nos seguintes temas: Tratamento Biológico de Águas Residuárias visando o reúso, Qualidade de Água, Sistema de Saneamento Básico e Avaliações de Impactos Ambientais."
+                },
+
+                "monteiro": {
+                    "nome": "Ariane Monteiro",
+                    "cargo": "Diretora Executiva",
+                    "instituicao": "Território Sustentável",
+                    "palestra": "Gestão de resíduos nos nossos eventos",
+                    "nacionalidade": "Brasil",
+                    "biografia": "Possui graduação em Engenharia Civil pela Universidade Federal de Alagoas (1987), mestrado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (1995) e doutorado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (2002). Atualmente é pesquisador do Laboratório de Reúso de Águas-LRA e Professor Titular Centro de Tecnologia-CTEC da Universidade Federal de Alagoas-UFAL. É Presidente do Comitê de Bacias da Região Hidrográfica do Pratagy. Tem experiência na área de Engenharia Sanitária e Gestão Ambiental, com ênfase em Técnicas Avançadas de Tratamento de Águas, atuando principalmente nos seguintes temas: Tratamento Biológico de Águas Residuárias visando o reúso, Qualidade de Água, Sistema de Saneamento Básico e Avaliações de Impactos Ambientais."
                 }
             }
         },
