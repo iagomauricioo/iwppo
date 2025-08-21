@@ -112,7 +112,7 @@ const m = (id: string): Integrante => ({
               {/* FOTO → Link para detalhes (com locale na rota) */}
               <Link
                 href={`/${locale}/mesa-de-abertura/${p.id}`}
-                className="relative block h-64 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300"
+                className="relative block h-64 bg-blue-900/20 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300"
               >
                 <Image
                   src={p.foto || "/placeholder.svg"}
