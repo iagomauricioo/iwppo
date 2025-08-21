@@ -13,7 +13,7 @@ import {
 import Image from "next/image";
 import { Orbitron } from "next/font/google";
 import { useTranslations } from "next-intl";
-import SeloSustentavel from "./selo-atitude-sustentavel";
+import SeloAtitudeSustentavel from "./selo-atitude-sustentavel";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
