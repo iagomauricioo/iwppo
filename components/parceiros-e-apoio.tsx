@@ -66,6 +66,25 @@ const parceiros = [
     nome: "PSCOM",
     logo: "/parceiros/pscom.png",
   },
+
+  {
+    nome: "Marinha do Brasil",
+    logo: "/parceiros/marinha novo.png",
+
+  },
+
+  {
+    nome: "Capitania dos Portos de Alagoas",  
+    logo: "/parceiros/sinplast.png",
+    
+  },
+
+  {
+    nome: "Sindicato das Indústrias de Plástico e Tintas do Estado de Alagoas",  
+    logo: "/parceiros/brasao_cpal.png",
+    
+  },
+
 ];
 
 // Componente de Seção reutilizável para Parceiros, Apoio e Realização
