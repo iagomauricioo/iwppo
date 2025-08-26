@@ -148,6 +148,15 @@ const membrosComissao: MemberProps[] = [
     image: "/comissao-organizadora/sue.jpeg",
   },
 
+  {
+    name: "Luis Alcides Brandini de Boni",
+    country: "Brasil",
+    lattesUrl: " http://lattes.cnpq.br/1040006998754753",
+    title: "",
+    image: "/comissao-organizadora/brandine.png",
+  },
+
+
 ];
 
 // Componentes de bandeira para Reino Unido (usando Austrália como solicitado) e Itália

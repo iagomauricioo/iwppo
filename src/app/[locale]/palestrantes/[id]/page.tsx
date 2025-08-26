@@ -9,13 +9,20 @@ import { ChevronRight } from "lucide-react";
 
 export default function PalestranteDetailPage({ params }: any) {
   const t = useTranslations("PalestrantesConfirmados");
-  const data = t.raw(`palestrantes.${params.id}`);
+
+  // normalize sempre em minúsculas
+  const id = String(params.id || "").toLowerCase();
+
+  // tente pegar exatamente, em minúsculas, e um fallback kebab-case (se precisar)
+  const data =
+    t.has(`palestrantes.${id}`)
+      ? t.raw(`palestrantes.${id}`)
+      : t.raw(`palestrantes.${id}`);
 
   if (!data) {
     notFound();
   }
 
-  const id = params.id.toLowerCase();
   const fotosMap: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
     "katia-viana": "/comissao-organizadora/katia.png",
@@ -30,19 +37,21 @@ export default function PalestranteDetailPage({ params }: any) {
     "jornalista": "/palestrantes/jornalista.jpeg",
     "jemille": "/palestrantes/jemille.jpeg",
     "alireza": "/palestrantes/alireza.jpeg",
-    "barbara-pinheiro": "/palestrantes/Dr Barbara Pinheiro_profile photo.jpg",
+    "barbara-pinheiro": "/palestrantes/barbara-pinheiro.jpg", // evite espaços no nome do arquivo
     "vazquez": "/palestrantes/vazquez.jpg",
     "clemilson": "/palestrantes/clemilson.jpeg",
     "aldilane": "/palestrantes/aldilane.jpeg",
     "gomes": "/palestrantes/gomes.jpeg",
-    "monteiro": "/palestrantes/monteiro.jpeg"
+    "monteiro": "/palestrantes/monteiro.jpeg",
   };
 
   const palestrante = {
-    id: params.id,
+    id,
     foto: fotosMap[id] || "/placeholder.svg",
     ...data,
   };
+
+
 
   // Depuração
   console.log("Params ID:", params.id);

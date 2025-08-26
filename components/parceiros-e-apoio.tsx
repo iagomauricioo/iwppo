@@ -69,7 +69,7 @@ const parceiros = [
 
   {
     nome: "Marinha do Brasil",
-    logo: "/parceiros/marinha novo.png",
+    logo: "/parceiros/marinha2.jpeg",
 
   },
 
