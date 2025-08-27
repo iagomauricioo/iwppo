@@ -43,6 +43,7 @@ export default function PalestranteDetailPage({ params }: any) {
     "aldilane": "/palestrantes/aldilane.jpeg",
     "gomes": "/palestrantes/gomes.jpeg",
     "monteiro": "/palestrantes/monteiro.jpeg",
+    "bessa": "/palestrantes/bessa.jpeg",
   };
 
   const palestrante = {

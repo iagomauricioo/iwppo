@@ -29,12 +29,12 @@ export default function PalestrantesConfirmados() {
     "katia-viana": "/comissao-organizadora/katia.png",
     "fernando-lopez": "/palestrantes/dias.jpeg",
     "scott-wilson": "/palestrantes/scott_patton_wilson.jpg",
-    "Fernando-miguel": "/palestrantes/fernando.png",
-    "Helena-fernandez": "/palestrantes/helena-fernandez.png",
+    "fernando-miguel": "/palestrantes/fernando.png",
+    "helena-fernandez": "/palestrantes/helena-fernandez.png",
     "cristiane-siqueira": "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
-    "Biagio": "/palestrantes/biagio-nova-foto.jpeg",
+    "biagio": "/palestrantes/biagio-nova-foto.jpeg",
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
-    "Marcell": "/palestrantes/marcell.jpeg",
+    "marcell": "/palestrantes/marcell.jpeg",
     "jornalista": "/palestrantes/jornalista.jpeg",
     "jemille": "/palestrantes/jemille.jpeg",
     "alireza": "/palestrantes/alireza.jpeg",
@@ -42,6 +42,7 @@ export default function PalestrantesConfirmados() {
     "vazquez": "/palestrantes/vazquez.jpg",
     "clemilson": "/palestrantes/clemilson.jpeg",
     "aldilane": "/palestrantes/aldilane.jpeg",
+     
   };
 
   // helper para evitar digitar o caminho e as chaves toda hora
@@ -63,12 +64,12 @@ export default function PalestrantesConfirmados() {
     "katia-viana",
     "fernando-lopez",
     "scott-wilson",
-    "Fernando-miguel",
-    "Helena-fernandez",
+    "fernando-miguel",
+    "helena-fernandez",
     "cristiane-siqueira",
-    "Biagio",
+    "biagio",
     "federico-sulis",
-    "Marcell",
+    "marcell",
     "jornalista",
     "jemille",
     "alireza",
@@ -78,6 +79,7 @@ export default function PalestrantesConfirmados() {
     "aldilane",
     "gomes",
     "monteiro",
+    "bessa",
   ] as const;
 
   const palestrantes: Palestrante[] = ids.map((id) => p(id));

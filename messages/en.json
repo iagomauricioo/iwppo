@@ -907,7 +907,7 @@
                 "nacionalidade": "Foreign",
                 "biografia": "Dr. Scott Wilson is a Senior Honorary Researcher at Macquarie University and the Research Director of the Total Environment Centre’s Microplastics Assessment Project, a citizen-driven data collection and education program designed to raise awareness and provide solutions for microplastic pollution. He is an aquatic toxicologist and, over the past 20 years, has researched the impacts of plastics and marine debris in aquatic environments, both in Australia and internationally. His current focus is understanding the sources and impacts of plastics in the environment while collaborating with stakeholders and the community to help reduce these inputs. By working together on this issue, Dr. Wilson believes we can all make a difference!"
             },
-            "Fernando-miguel": {
+            "fernando-miguel": {
                 "nome": "Fernando Miguel",
                 "cargo": "Researcher",
                 "instituicao": "University of Algarve - Portugal",
@@ -915,7 +915,7 @@
                 "nacionalidade": "Foreign",
                 "biografia": "Fernando is a specialist in geotechnologies applied to environmental management, with a focus on coastal zones."
             },
-            "Helena-fernandez": {
+            "helena-fernandez": {
                 "nome": "Helena Fernandez",
                 "cargo": "Researcher",
                 "instituicao": "University of Algarve - Portugal",
@@ -931,7 +931,7 @@
                 "nacionalidade": "Brazil",
                 "biografia": "Cristiane specializes in public policies and coastal management with an emphasis on plastic detection."
             },
-            "Biagio": {
+            "biagio": {
                 "nome": "Biagio Fernando Giannetti",
                 "cargo": "Researcher",
                 "instituicao": "Paulista University - UNIP",
@@ -947,7 +947,7 @@
                 "nacionalidade": "Foreign",
                 "biografia": "Dr. Federico Sulis holds a degree in Natural Sciences from the University of Cagliari (2006), a Master’s degree in Ecotoxicology from the University of Siena (2011), and a specialization in the design and control of environmental management systems ISO 14001 and EMAS from the Tuscany EMAS ECOLABEL School (2014). He recently completed a PhD in Production Engineering at Paulista University (2023). He has experience in Environmental Sciences, with an emphasis on Production Engineering, focusing on Cleaner Production, Industrial Ecology, Ecotoxicology, Sustainable Development, and Waste Recycling. He is currently a postdoctoral researcher at the Production and Environment Laboratory (LAPROMA) of the Postgraduate Program in Production Engineering (PPEG) at Paulista University (UNIP), where he conducts research in partnership with the Emergy and Ecosystem Resilience Laboratory (LERE) of the Postgraduate Program in Environmental Systems Analysis (PPGASA) at Cesmac University Center."
             },
-            "Marcell": {
+            "marcell": {
                 "nome": "Marcell Mariano Correa Maceno",
                 "cargo": "Researcher",
                 "instituicao": "Federal University of Paraná",
@@ -1026,6 +1026,15 @@
                 "palestra": "Waste management at our events",
                 "nacionalidade": "Brazil",
                 "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). She is currently a researcher at the Water Reuse Laboratory (LRA) and a Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). She is the President of the Pratagy Hydrographic Basin Committee. She has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
+            },
+
+            "bessa": {
+                "nome": "Filipa Bessa",
+                "cargo": "Teacher",
+                "instituicao": "University of Coimbra",
+                "palestra": "Assessment of the impacts of human activities, with a special focus on (micro)plastic pollution, on marine ecosystems",
+                "nacionalidade": "Foreign",
+                "biografia": "Filipa Bessa is a biologist, professor in the Department of Life Sciences at the University of Coimbra, and a researcher at the Center for Functional Ecology. Her research has focused on assessing the impacts of human activities, with a particular focus on (micro)plastic pollution, on marine and coastal ecosystems. This work ranges from the Portuguese coastal zone to remote areas such as Antarctica, including projects studying the effects of plastics on Cape Verde turtles, and has expanded her work to study pollution in inland waters and mountain ecosystems.She serves on several international advisory bodies (OSPAR and GESAMP/UNEP) and is a member of the working group that supports the European Commission's Scientific Advisory Mechanism through the "micro and nanoplastics" working group. She recently created the Zero Pollution Manifesto for UNESCO Biosphere Reserves in Portugal. She coordinates projects related to citizen science - lixomarinho.pt and Portugal Pellets Watch. In parallel, it promotes science communication initiatives (photographic exhibitions and workshops) related to ocean literacy and the problem of marine pollution."
             }
         }
     },
