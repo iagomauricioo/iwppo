@@ -1028,19 +1028,21 @@
                 "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). She is currently a researcher at the Water Reuse Laboratory (LRA) and a Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). She is the President of the Pratagy Hydrographic Basin Committee. She has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
             },
 
-            "bessa": {
+            "bessa": {    
                 "nome": "Filipa Bessa",
                 "cargo": "Teacher",
                 "instituicao": "University of Coimbra",
                 "palestra": "Assessment of the impacts of human activities, with a special focus on (micro)plastic pollution, on marine ecosystems",
                 "nacionalidade": "Foreign",
-                "biografia": "Filipa Bessa is a biologist, professor in the Department of Life Sciences at the University of Coimbra, and a researcher at the Center for Functional Ecology. Her research has focused on assessing the impacts of human activities, with a particular focus on (micro)plastic pollution, on marine and coastal ecosystems. This work ranges from the Portuguese coastal zone to remote areas such as Antarctica, including projects studying the effects of plastics on Cape Verde turtles, and has expanded her work to study pollution in inland waters and mountain ecosystems.She serves on several international advisory bodies (OSPAR and GESAMP/UNEP) and is a member of the working group that supports the European Commission's Scientific Advisory Mechanism through the micro and nanoplastics working group. She recently created the Zero Pollution Manifesto for UNESCO Biosphere Reserves in Portugal. She coordinates projects related to citizen science - lixomarinho.pt and Portugal Pellets Watch. In parallel, it promotes science communication initiatives (photographic exhibitions and workshops) related to ocean literacy and the problem of marine pollution."
+                "biografia": "Filipa Bessa is a biologist, professor in the Department of Life Sciences at the University of Coimbra, and a researcher at the Center for Functional Ecology. Her research has focused on assessing the impacts of human activities, with a particular focus on (micro)plastic pollution, on marine and coastal ecosystems. This work ranges from the Portuguese coastal zone to remote areas such as Antarctica, including projects studying the effects of plastics on Cape Verde turtles, and has expanded her work to study pollution in inland waters and mountain ecosystems. She serves on several international advisory bodies (OSPAR and GESAMP/UNEP) and is a member of the working group that supports the European Commission's Scientific Advisory Mechanism through the micro and nanoplastics working group. She recently created the Zero Pollution Manifesto for UNESCO Biosphere Reserves in Portugal. She coordinates projects related to citizen science - lixomarinho.pt and Portugal Pellets Watch. In parallel, she promotes science communication initiatives (photographic exhibitions and workshops) related to ocean literacy and the problem of marine pollution."
+
             }
-        }
     },
     "ComiteCientifico": {
         "title": "Scientific Committee",
         "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
         "description": "Our scientific committee is composed of renowned researchers dedicated to advancing knowledge about plastic pollution in the oceans."
     }
+}
+
 }

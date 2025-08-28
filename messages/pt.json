@@ -131,6 +131,65 @@
         ],
         "save_the_planet": "Salve o Planeta!"
     },
+
+    "CineAmbientalCTA": {
+    "alt": "Arte do Cine Ambiental + Shark Quiz",
+    "badge": "Educação Ambiental",
+    "title": "Cine Ambiental + Shark Quiz",
+    "desc": "Sessão especial sobre poluição plástica seguida de um quiz divertido sobre tubarões. Traga sua escola!",
+    "cta": "Saiba mais e inscreva sua escola",
+    "sub": "Clique para ver data, local, agenda e como participar."
+
+    },
+
+    "CineAmbientalSection": {
+    "titulo": "Participe do Cine Ambiental – IWPPO 2025!",
+    "descricao": "Sessão especial com documentário sobre poluição plástica e, em seguida, o Shark Quiz - O Jogo dos tubarões. Voltado para alunos do Ensino Fundamental e Médio.",
+    "data": { "valor": "17/09/2025" },
+    "local": {
+      "label": "Local",
+      "titulo": "Centro Cultural João Sampaio",
+      "endereco": {
+        "l1": "Av. Moreira e Silva, 595 • Farol, Maceió – AL",
+        "l2": "",
+        "cep": "CEP: 57051-500"
+      }
+    },
+    "publico": {
+      "label": "Público-alvo",
+      "texto": "Alunos do Ensino Fundamental e Médio (escolas públicas)."
+    },
+    "agenda": {
+      "label": "Agenda",
+      "itens": [
+        { "hora": "09:30", "titulo": "Recepção" },
+        { "hora": "10:00", "titulo": "Cine Ambiental – Documentário \"Entre o Plástico e o Mar\"" }
+      ]
+    },
+    "comoParticipar": {
+      "label": "Como participar",
+      "0": "Inscrições realizadas pelos professores representando a escola.",
+      "1": "Cada inscrição deve incluir o nome da escola e a lista dos alunos participantes.",
+      "2": "Vagas limitadas."
+    },
+    "contato": { "label": "Inscrições e informações:", "email": "iwppo@cesmac.edu.br" },
+    "cta": {
+      "botao": "Inscrever minha escola",
+      "assunto": "Inscrição Cine Ambiental – IWPPO 2025",
+      "body": {
+        "l1": "Olá, equipe IWPPO!",
+        "l2": "Gostaríamos de inscrever nossa escola no Cine Ambiental.",
+        "escola": "Escola",
+        "prof": "Professor(a) responsável",
+        "tel": "Telefone/WhatsApp",
+        "lista": "Lista de alunos participantes",
+        "obs": "Observações"
+      }
+    }
+  },
+
+
+
     "Navbar": {
         "inicio": "Início",
         "sobre": "Sobre",
@@ -1045,7 +1104,16 @@
                     "palestra": "Gestão de resíduos nos nossos eventos",
                     "nacionalidade": "Brasil",
                     "biografia": "Possui graduação em Engenharia Civil pela Universidade Federal de Alagoas (1987), mestrado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (1995) e doutorado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (2002). Atualmente é pesquisador do Laboratório de Reúso de Águas-LRA e Professor Titular Centro de Tecnologia-CTEC da Universidade Federal de Alagoas-UFAL. É Presidente do Comitê de Bacias da Região Hidrográfica do Pratagy. Tem experiência na área de Engenharia Sanitária e Gestão Ambiental, com ênfase em Técnicas Avançadas de Tratamento de Águas, atuando principalmente nos seguintes temas: Tratamento Biológico de Águas Residuárias visando o reúso, Qualidade de Água, Sistema de Saneamento Básico e Avaliações de Impactos Ambientais."
-                }
+                },
+
+                "bessa": {
+                    "nome": "Filipa Bessa",
+                    "cargo": "Professora",
+                    "instituicao": "Universidade de Coimbra",
+                    "palestra": "Avaliação dos impactos das atividades humanas, com foco especial na poluição por (micro)plásticos, em ecossistemas marinhos",
+                    "nacionalidade": "Estrangeira",
+                    "biografia": "Filipa Bessa é bióloga, professora no Departamento de Ciências da Vida da Universidade de Coimbra e investigadora no Centro de Ecologia Funcional. A sua pesquisa tem se concentrado na avaliação dos impactos das atividades humanas, com particular ênfase na poluição por (micro)plásticos, em ecossistemas marinhos e costeiros. Este trabalho abrange desde a zona costeira portuguesa até áreas remotas como a Antártida, incluindo projetos que estudam os efeitos dos plásticos em tartarugas de Cabo Verde, e expandiu seu trabalho para estudar a poluição em águas interiores e ecossistemas montanhosos. Ela participa de vários órgãos consultivos internacionais (OSPAR e GESAMP/UNEP) e é membro do grupo de trabalho que apoia o Mecanismo de Aconselhamento Científico da Comissão Europeia por meio do grupo de trabalho sobre micro e nanoplásticos. Recentemente, criou o Manifesto Zero Poluição para as Reservas da Biosfera da UNESCO em Portugal. Coordena projetos relacionados com ciência cidadã - lixomarinho.pt e Portugal Pellets Watch. Paralelamente, promove iniciativas de comunicação científica (exposições fotográficas e workshops) relacionadas com a literacia dos oceanos e o problema da poluição marinha."
+        }
             }
         },
         "ComiteCientifico": {

@@ -18,6 +18,7 @@ import RegulamentoSection from "@/components/regulamento-section";
 import MesaDeAbertura from "@/components/mesa-de-abertura";
 import MainLocationSection from "@/components/localizacao-evento";
 import RevistaSection from "@/components/revistas-section";
+import CineAmbientalCTA from "@/components/cine-ambiental-cta";
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
       <main className="flex-1 bg-white">
         <ZeroResiduo />
         <AboutSection />
+        <CineAmbientalCTA className="mt-12" />
         <MesaDeAbertura />
         <PalestrantesConfirmados />
         <RevistaSection />
