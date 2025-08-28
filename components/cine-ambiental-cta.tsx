@@ -3,13 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
 import { Film } from "lucide-react";
+import { useTranslations, useLocale } from "next-intl";
 
 type Props = { className?: string; };
 
 export default function CineAmbientalCTA({ className = "" }: Props) {
   const t = useTranslations("CineAmbientalCTA");
+    const locale = useLocale();
 
   return (
     <section className={`relative isolate ${className}`}>
@@ -50,7 +51,7 @@ export default function CineAmbientalCTA({ className = "" }: Props) {
 
             <div className="mt-6">
               <Link
-                href="{`/${locale}/cine-ambiental`}"
+                href={`/${locale}/cine-ambiental`}
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-blue-600 px-6 py-3 text-white font-semibold shadow hover:bg-blue-700 transition"
               >
                 {t("cta")}
