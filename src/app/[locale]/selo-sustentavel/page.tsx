@@ -55,7 +55,7 @@ export default function SeloSustentavelPage({ params }: any) {
           >
             <video
               controls
-              className="w-full max-w-3xl rounded-lg shadow-lg"
+              className="w-full max-w-xl rounded-lg shadow-lg"
             >
               <source src="/premiacao-sustentavel/IWPPO (6).mp4" type="video/mp4" />
               Seu navegador não suporta a tag de vídeo.
