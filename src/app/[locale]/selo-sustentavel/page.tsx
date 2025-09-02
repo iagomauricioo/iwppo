@@ -46,18 +46,34 @@ export default function SeloSustentavelPage({ params }: any) {
             {t("title") || "Selo de Atitude Sustentável"}
           </motion.h1>
 
+          {/* 🎥 Vídeo abaixo do título */}
+          <motion.div
+            className="mb-10 flex justify-center"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <video
+              controls
+              className="w-full max-w-3xl rounded-lg shadow-lg"
+            >
+              <source src="/premiacao-sustentavel/IWPPO (6).mp4" type="video/mp4" />
+              Seu navegador não suporta a tag de vídeo.
+            </video>
+          </motion.div>
+
           <motion.p
             className="mb-10 text-blue-100 text-lg max-w-3xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
           >
             {t("intro") ||
               "Confira abaixo os critérios e como participar da competição de vídeos do Selo de Atitude Sustentável."}
           </motion.p>
         </div>
 
-        {/* 🔽 Aqui entra o componente completo do selo, no mesmo padrão do RegulamentoSection */}
+        {/* 🔽 Aqui entra o componente completo do selo */}
         <SeloSustentavelPremiacao />
       </main>
     </div>
