@@ -2,26 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
-import { notFound } from "next/navigation";
-import { motion } from "framer-motion";
-import { ChevronRight } from "lucide-react";
+import {useTranslations, useLocale} from "next-intl";
+import {notFound} from "next/navigation";
+import {motion} from "framer-motion";
+import {ChevronRight} from "lucide-react";
 
-export default function PalestranteDetailPage({ params }: any) {
+export default function PalestranteDetailPage({params}: any) {
   const t = useTranslations("PalestrantesConfirmados");
+  const locale = useLocale();
 
-  // normalize sempre em minúsculas
-  const id = String(params.id || "").toLowerCase();
+  const id = String(params?.id || "").toLowerCase();
 
-  // tente pegar exatamente, em minúsculas, e um fallback kebab-case (se precisar)
-  const data =
-    t.has(`palestrantes.${id}`)
-      ? t.raw(`palestrantes.${id}`)
-      : t.raw(`palestrantes.${id}`);
-
-  if (!data) {
+  if (!t.has(`palestrantes.${id}`)) {
     notFound();
   }
+  const data = t.raw(`palestrantes.${id}`);
 
   const fotosMap: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
@@ -31,19 +26,19 @@ export default function PalestranteDetailPage({ params }: any) {
     "fernando-miguel": "/palestrantes/fernando.png",
     "helena-fernandez": "/palestrantes/helena-fernandez.png",
     "cristiane-siqueira": "/palestrantes/cristiane_de_souza_siqueira_pereira.jpg",
-    "biagio": "/palestrantes/biagio-nova-foto.jpeg",
+    biagio: "/palestrantes/biagio-nova-foto.jpeg",
     "federico-sulis": "/palestrantes/federico-atualizada.jpeg",
-    "marcell": "/palestrantes/marcell.jpeg",
-    "jornalista": "/palestrantes/jornalista.jpeg",
-    "jemille": "/palestrantes/jemille.jpeg",
-    "alireza": "/palestrantes/alireza.jpeg",
-    "barbara-pinheiro": "/palestrantes/barbara-pinheiro.jpg", // evite espaços no nome do arquivo
-    "vazquez": "/palestrantes/vazquez.jpg",
-    "clemilson": "/palestrantes/clemilson.jpeg",
-    "aldilane": "/palestrantes/aldilane.jpeg",
-    "gomes": "/palestrantes/gomes.jpeg",
-    "monteiro": "/palestrantes/monteiro.jpeg",
-    "bessa": "/palestrantes/bessa.jpeg",
+    marcell: "/palestrantes/marcell.jpeg",
+    jornalista: "/palestrantes/jornalista.jpeg",
+    jemille: "/palestrantes/jemille.jpeg",
+    alireza: "/palestrantes/alireza.jpeg",
+    "barbara-pinheiro": "/palestrantes/barbara-pinheiro.jpg",
+    vazquez: "/palestrantes/vazquez.jpg",
+    clemilson: "/palestrantes/clemilson.jpeg",
+    aldilane: "/palestrantes/aldilane.jpeg",
+    gomes: "/palestrantes/gomes.jpeg",
+    monteiro: "/palestrantes/monteiro.jpeg",
+    bessa: "/palestrantes/bessa.jpeg",
   };
 
   const palestrante = {
@@ -52,17 +47,10 @@ export default function PalestranteDetailPage({ params }: any) {
     ...data,
   };
 
-
-
-  // Depuração
-  console.log("Params ID:", params.id);
-  console.log("Normalized ID:", id);
-  console.log("Foto selecionada:", palestrante.foto);
-
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden bg-gradient-to-b from-blue-900 via-blue-800 to-blue-100 text-white">
       <header className="py-4 px-6 flex justify-between items-center border-b border-blue-700">
-        <Link href={`/${params.locale}`}>
+        <Link href={`/${locale}`}>
           <Image
             src="/logo-iwppo.png"
             alt="IWPPO Logo"
@@ -72,7 +60,7 @@ export default function PalestranteDetailPage({ params }: any) {
           />
         </Link>
         <Link
-          href={`/${params.locale}#palestrantes`}
+          href={`/${locale}#palestrantes`}
           className="text-sm md:text-base px-4 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-full font-medium flex items-center gap-1"
         >
           <ChevronRight size={18} />
@@ -84,11 +72,11 @@ export default function PalestranteDetailPage({ params }: any) {
         <div className="container mx-auto px-4 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden" // Garantindo dimensões
-              style={{ minHeight: "384px" }} // Adicionando altura mínima como fallback
+              initial={{opacity: 0, scale: 0.95}}
+              animate={{opacity: 1, scale: 1}}
+              transition={{duration: 0.5}}
+              className="w-full max-w-md mx-auto relative h-96 rounded-lg overflow-hidden"
+              style={{minHeight: "384px"}}
             >
               <Image
                 src={palestrante.foto}
@@ -99,20 +87,23 @@ export default function PalestranteDetailPage({ params }: any) {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              initial={{opacity: 0, y: 20}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.5, delay: 0.2}}
             >
               <h1 className="text-3xl font-bold mb-2 text-white">
                 {palestrante.nome}
               </h1>
               <p className="text-lg text-blue-100 mb-4">
-                {palestrante.cargo} - {palestrante.instituicao}
+                {palestrante.cargo}
+                {palestrante.instituicao ? ` - ${palestrante.instituicao}` : ""}
               </p>
+
               <h2 className="text-xl font-semibold text-blue-200 mb-2">
                 {t("titulo_palestra")}
               </h2>
               <p className="mb-6 text-white/90">{palestrante.palestra}</p>
+
               <h2 className="text-xl font-semibold text-blue-200 mb-2">
                 {t("biografia")}
               </h2>

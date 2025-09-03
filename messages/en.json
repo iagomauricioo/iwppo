@@ -19,7 +19,7 @@
         "data_2": "Until September 8",
         "envio_final": "Final Submission",
         "data_3": "Until September 10",
-        "realizacao_do_evento": "Event Dates",
+        "realizacao_do_evento": "Event Date",
         "data_4": "September 17-19"
     },
     "SeloAtitudeSustentavel": {
@@ -35,23 +35,23 @@
     },
     "SeloSustentavelPremiacao": {
         "title": "SUSTAINABLE ATTITUDE – IWPPO",
-        "intro1": "Imagine a world where every small action matters. On beaches, in ports, rivers, and even streets, daily decisions shape the future of the oceans. At IWPPO, we believe that good ideas deserve more than recognition — they deserve to set an example. That’s how the Sustainable Attitude Seal was born: more than an award, a symbol of commitment, creativity, and positive impact.",
-        "intro2": "During the event, participants from different countries and communities are invited to share their stories in videos of up to 3 minutes — showcasing real actions to reduce plastic pollution: from educational campaigns and cleanup initiatives to innovative technologies and simple, replicable solutions.",
-        "network_text": "Receiving the seal means joining a global network of change agents. At the end of the event, the winning videos will be shared internationally, inspiring new actions and amplifying the reach of these attitudes. Each winner receives not only recognition but an invitation: to keep acting and inspiring. The ocean starts in our backyard — and caring for it begins with a choice, today.",
+        "intro1": "Imagine a world where every small action counts. On beaches, in ports, rivers, and even on the streets, daily decisions shape the future of the oceans. At IWPPO, we believe that good ideas deserve more than recognition—they deserve to be an example. This is how the Sustainable Attitude Seal was born: more than an award, a symbol of commitment, creativity, and positive impact.",
+        "intro2": "During the event, participants from different countries and communities are invited to share their stories in videos up to 3 minutes long—showcasing real actions to reduce plastic pollution: from educational campaigns and cleanup efforts to innovative technologies and simple, replicable solutions.",
+        "network_text": "Receiving the seal means joining a global network of change agents. At the end of the event, the awarded videos will be shared internationally, inspiring new actions and amplifying the reach of these attitudes. Each winner takes home not just recognition but an invitation: to keep acting and inspiring. The ocean starts in our backyard—and caring for it begins with a choice, today.",
         "destaques": [
             {
                 "icon": "check",
                 "title": "Clarity and strength of the message",
-                "desc": "A well-told, clear, and coherent story. Audio and image quality that supports understanding."
+                "desc": "A well-told, direct, and coherent story. Audio and video quality that enhances understanding."
             },
             {
                 "icon": "bulb",
                 "title": "Relevance and originality of ideas",
-                "desc": "Alignment with the theme of plastic pollution, including data, facts, or real examples. Creative approaches score higher."
+                "desc": "Alignment with the theme of plastic pollution, with data, facts, or real examples. Creative approaches score extra points."
             },
             {
                 "icon": "users",
-                "title": "Community engagement",
+                "title": "Community involvement",
                 "desc": "Representation and engagement (number/diversity of participants, inclusion of different groups)."
             },
             {
@@ -68,11 +68,11 @@
         "criterios_title": "Video Evaluation Criteria – Sustainable Seal",
         "criterios_intro": "Each criterion is scored from 0 to 5. Use the guiding questions to validate your video:",
         "perguntas_guia": "Guiding Questions:",
-        "pontuacao_rodape": "Scoring: 0–5",
+        "pontuacao_rodape": "Score: 0–5",
         "criterios": [
             {
                 "titulo": "1. Clarity and quality of the message",
-                "desc": "The video presents the idea clearly, directly, and coherently, with good audio and image quality.",
+                "desc": "The video presents the idea clearly, directly, and coherently, with good audio and video quality.",
                 "perguntas": "Is the message easily understood? Is there a coherent narrative?"
             },
             {
@@ -82,11 +82,11 @@
             },
             {
                 "titulo": "3. Community involvement",
-                "desc": "Representation and community engagement (number and diversity of participants, inclusion of different social groups).",
-                "perguntas": "How many people actively participated? Is there age, gender, or cultural diversity?"
+                "desc": "Community representation and engagement (number and diversity of participants, inclusion of different social groups).",
+                "perguntas": "How many people actively participated? Is there diversity in age, gender, or culture?"
             },
             {
-                "titulo": "4. Significance of presented actions",
+                "titulo": "4. Significance of the presented actions",
                 "desc": "Actions with the potential to generate real and measurable positive environmental impact.",
                 "perguntas": "Are the actions concrete and replicable? Do they have scalability or lasting effects?"
             },
@@ -102,21 +102,21 @@
             },
             {
                 "titulo": "7. Compliance with time and format",
-                "desc": "Adherence to the 3-minute limit and technical suitability (resolution, framing, editing).",
-                "perguntas": "Is the video within the time limit and technically suitable?"
+                "desc": "Adheres to the 3-minute limit and technical requirements (resolution, framing, editing).",
+                "perguntas": "Is the video within the time limit and technically adequate?"
             }
         ],
         "escala_title": "Suggested Evaluation Scale",
         "escala": [
             "0 = Does not meet the criterion",
-            "1–2 = Meets the criterion very minimally",
+            "1–2 = Meets the criterion in a very limited way",
             "3 = Partially meets, with gaps",
             "4 = Meets well, with minor adjustments possible",
             "5 = Meets excellently, with no adjustments needed"
         ],
         "actions": {
             "baixar_pdf": "Download PDF",
-            "enviar_video": "Submit video by email"
+            "enviar_video": "Send file via email"
         }
     },
     "ZeroResiduo": {
@@ -130,6 +130,59 @@
             "Bag"
         ],
         "save_the_planet": "Save the Planet!"
+    },
+    "CineAmbientalCTA": {
+        "alt": "Environmental Cinema + Shark Quiz Artwork",
+        "badge": "Environmental Education",
+        "title": "Environmental Cinema + Shark Quiz",
+        "desc": "Special session on plastic pollution followed by a fun shark quiz. Bring your school!",
+        "cta": "Learn more and register your school",
+        "sub": "Click to see the date, location, schedule, and how to participate."
+    },
+    "CineAmbientalSection": {
+        "titulo": "Participate in the Environmental Cinema – IWPPO 2025!",
+        "descricao": "Special session with a documentary on plastic pollution, followed by the Shark Quiz - The Shark Game. Aimed at elementary and high school students.",
+        "data": { "valor": "09/17/2025" },
+        "local": {
+            "label": "Location",
+            "titulo": "João Sampaio Cultural Center",
+            "endereco": {
+                "l1": "Av. Moreira e Silva, 595 • Farol, Maceió – AL",
+                "l2": "",
+                "cep": "ZIP: 57051-500"
+            }
+        },
+        "publico": {
+            "label": "Target Audience",
+            "texto": "Elementary and high school students (public schools)."
+        },
+        "agenda": {
+            "label": "Schedule",
+            "itens": [
+                { "hora": "09:30", "titulo": "Reception" },
+                { "hora": "10:00", "titulo": "Environmental Cinema – Documentary 'Between Plastic and the Sea'" }
+            ]
+        },
+        "comoParticipar": {
+            "label": "How to Participate",
+            "0": "Registrations are made by teachers representing the school.",
+            "1": "Each registration must include the school’s name and the list of participating students.",
+            "2": "Limited spots."
+        },
+        "contato": { "label": "Registrations and Information:", "email": "iwppo@cesmac.edu.br" },
+        "cta": {
+            "botao": "Register my school",
+            "assunto": "Environmental Cinema Registration – IWPPO 2025",
+            "body": {
+                "l1": "Hello, IWPPO team!",
+                "l2": "We would like to register our school for the Environmental Cinema.",
+                "escola": "School",
+                "prof": "Responsible Teacher",
+                "tel": "Phone/WhatsApp",
+                "lista": "List of participating students",
+                "obs": "Observations"
+            }
+        }
     },
     "Navbar": {
         "inicio": "Home",
@@ -149,11 +202,11 @@
         "title": "About the Event",
         "section1": {
             "heading": "II IWPPO 2025",
-            "paragraph": "The IWPPO was born from the need to discuss and find solutions to one of the greatest environmental challenges of our time: plastic pollution in the oceans. Originating from CEMEIA (Environmental Studies Congress) and supported by CAPES (PAEP Call) and CNPq, our workshop brings together international experts in an interdisciplinary approach."
+            "paragraph": "The IWPPO was born from the need to discuss and find solutions for one of the greatest environmental challenges of our time: plastic pollution in the oceans. Originating from CEMEIA (Congress of Environmental Studies) and supported by CAPES (PAEP Call) and CNPq, our workshop brings together international experts in an interdisciplinary approach."
         },
         "section2": {
             "heading": "Our Approach",
-            "paragraph": "The workshop combines scientific research, public policy, and technological innovation to address the issue of plastic pollution. With participants from various countries, we promote the exchange of knowledge and practical solutions."
+            "paragraph": "The workshop combines scientific research, public policies, and technological innovation to address the issue of plastic pollution. With participants from various countries, we promote the exchange of knowledge and practical solutions."
         },
         "highlights": [
             "Endorsed by the UN Executive Committee",
@@ -166,9 +219,9 @@
         "photo_credit": "Photo: @lucasmenesesphoto"
     },
     "RegistrationSection": {
-        "title": "Registration",
+        "title": "Registrations",
         "description": "Choose the plan that best suits your needs and secure your participation in the II International Workshop on Public Policy and Social Development Research.",
-        "subtitle": "Secure Your Spot",
+        "subtitle": "Secure your spot",
         "date": "September 17-19, 2025",
         "register_button": "Register Now",
         "deadline_title": "Registration Deadline",
@@ -185,8 +238,8 @@
     "plans": {
         "features": {
             "access_lectures": "Access to all lectures",
-            "digital_material": "Digital materials",
-            "printed_material": "Digital and printed materials",
+            "digital_material": "Digital material",
+            "printed_material": "Digital and printed material",
             "participation_certificate": "Participation certificate",
             "priority_workshops": "Priority access to workshops",
             "presentation_certificate": "Presentation certificate"
@@ -196,11 +249,11 @@
         "select": "Select",
         "selected": "Selected",
         "select_plan_alert": "Please select a registration plan",
-        "select_plan_message": "Please select a plan above to continue"
+        "select_plan_message": "Please select a plan above to proceed"
     },
     "RegulamentoSection": {
         "title": "Guidelines for Paper Submission",
-        "subtitle": "Learn the rules and guidelines for submitting papers to the II IWPPO",
+        "subtitle": "Learn about the rules and guidelines for submitting papers to the II IWPPO",
         "itens": {
             "ineditismo": {
                 "title": "Originality",
@@ -220,7 +273,7 @@
             },
             "autores": {
                 "title": "Number of Authors/Co-authors",
-                "desc": "Each work may have up to 6 authors/co-authors (including the main author)."
+                "desc": "Each paper may have up to 6 authors/co-authors (including the main author)."
             },
             "limites": {
                 "title": "Limit of Papers per Participant",
@@ -229,16 +282,16 @@
         },
         "avaliacao": {
             "title": "Evaluation Criteria",
-            "desc": "Papers will be evaluated in two stages: (1) preliminary evaluation by the steering committee and (2) evaluation by the Scientific Committee, considering originality, contribution, methodological rigor, writing quality, and relevance to the state of the art.",
+            "desc": "Papers will be evaluated in two stages: (1) preliminary evaluation by the steering committee and (2) evaluation by the Scientific Committee, considering originality, contribution, methodological rigor, writing quality, and alignment with the state of the art.",
             "escala": "Very Poor = 1, Poor = 2, Fair = 3, Good = 4, Very Good = 5. Papers with an average score of 4 or higher will be accepted.",
-            "resultados": "E-poster/banner presentation: 1-hour display (recommended template available on the website). Oral presentation: 10 minutes of presentation + 5 minutes for questions (recommended template available on the website)."
+            "resultados": "E-poster/banner presentation: 1-hour display (recommended template available on the website). Oral presentation: 10-minute presentation + 5-minute Q&A (recommended template available on the website)."
         },
         "criterios": [
             "Originality",
             "Contribution to the field",
             "Methodological rigor",
             "Writing quality",
-            "Relevance to the state of the art"
+            "Alignment with the state of the art"
         ],
         "actions": {
             "baixar_pdf": "Download Guidelines in PDF",
@@ -246,7 +299,7 @@
         }
     },
     "LocationSection": {
-        "title": "Cerimony Location",
+        "title": "Opening Location",
         "description": "The event opening will take place at the João Sampaio Cultural Center, located in Maceió, Alagoas.",
         "address": {
             "title": "Address",
@@ -260,7 +313,7 @@
             "ofCar": "By Car",
             "car": "Parking available on-site.",
             "ofPublicTransport": "Public Transport",
-            "publicTransport": "Some bus lines pass near the venue, such as 703 and 704. For more information, check the app ",
+            "publicTransport": "Some bus lines pass near the venue, such as 703 and 704. For more information, check the app.",
             "ofAirport": "From the Airport",
             "airport": "Approximately 1 hour by car or taxi."
         },
@@ -269,7 +322,7 @@
             "phoneLabel": "Phone:",
             "phone": "(82) 3333-4444",
             "emailLabel": "Email:",
-            "email": "contact@centroculturaljs.com.br"
+            "email": "contato@centroculturaljs.com.br"
         }
     },
     "MainLocationSection": {
@@ -288,7 +341,7 @@
             "ofCar": "By car:",
             "car": "Parking options available near the campus.",
             "ofPublicTransport": "Public transport:",
-            "publicTransport": "Some bus lines pass near the campus. Check the app ",
+            "publicTransport": "Some bus lines pass near the campus. Check the app.",
             "ofAirport": "From the airport:",
             "airport": "Approximately 30–45 minutes by car/taxi, depending on traffic."
         },
@@ -303,7 +356,7 @@
         "title": "Journals for Publishing and Following",
         "subtitle": "Selection of journals aligned with IWPPO for submissions and continuous reading.",
         "visit": "Visit",
-        "highlight": "Indexing and good editorial practices",
+        "highlight": "Indexing and editorial best practices",
         "badges": {
             "openAccess": "Open Access",
             "peerReviewed": "Peer-Reviewed"
@@ -322,7 +375,7 @@
         "items": {
             "research": {
                 "title": "Research and Innovation",
-                "description": "Development of innovative technological and public policy solutions."
+                "description": "Development of innovative technological solutions and public policies."
             },
             "circular": {
                 "title": "Circular Economy",
@@ -330,7 +383,7 @@
             },
             "cooperation": {
                 "title": "Global Cooperation",
-                "description": "Interdisciplinary dialogue and international knowledge exchange."
+                "description": "Interdisciplinary dialogue and exchange of international knowledge."
             },
             "education": {
                 "title": "Education and Training",
@@ -354,7 +407,7 @@
                 "events": [
                     {
                         "time": "10:00",
-                        "title": "Environmental Film Screening - Session for Elementary and High School Students",
+                        "title": "Environmental Cinema - Session for Elementary and High School",
                         "location": "João Sampaio Cultural Center",
                         "nature": "Screening",
                         "speakers": "-",
@@ -362,7 +415,7 @@
                     },
                     {
                         "time": "19:00",
-                        "title": "Opening Ceremony of the 2nd IWPPO",
+                        "title": "2nd IWPPO Opening Ceremony",
                         "location": "João Sampaio Cultural Center",
                         "nature": "Ceremony",
                         "speakers": "-",
@@ -370,7 +423,7 @@
                     },
                     {
                         "time": "19:45",
-                        "title": "Lecture: The Plastic Crisis in the Oceans and Its Consequences for the Planet's Future",
+                        "title": "Lecture: The Plastic Crisis in the Oceans and Its Consequences for the Planet’s Future",
                         "location": "João Sampaio Cultural Center",
                         "nature": "Lecture",
                         "speakers": "-",
@@ -400,11 +453,11 @@
                     },
                     {
                         "time": "10:30",
-                        "title": "Roundtable 1:",
+                        "title": "Roundtable 1",
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Lecture",
                         "speakers": "Jemille Viaggi, Barbara Ramos Pinheiro, and Paulina Chamorro",
-                        "description": "Morning keynote lecture"
+                        "description": "Main morning lecture"
                     },
                     {
                         "time": "11:30",
@@ -444,7 +497,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Lecture",
                         "speakers": "Ian Vázquez-Rowe",
-                        "description": "Afternoon keynote lecture"
+                        "description": "Main afternoon lecture"
                     },
                     {
                         "time": "16:15",
@@ -460,7 +513,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Roundtable",
                         "speakers": "Robson Guimarães dos Santos, Katia Viana Cavalcante",
-                        "description": "Discussion on marine plastic monitoring"
+                        "description": "Discussion on marine plastics monitoring"
                     },
                     {
                         "time": "18:00",
@@ -468,7 +521,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Ceremony",
                         "speakers": "-",
-                        "description": "Closure of the day's activities"
+                        "description": "Closing of the day's activities"
                     }
                 ]
             },
@@ -498,7 +551,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Lecture",
                         "speakers": "Clemilson Marques Batista",
-                        "description": "Morning keynote lecture"
+                        "description": "Main morning lecture"
                     },
                     {
                         "time": "11:15",
@@ -538,7 +591,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Lecture",
                         "speakers": "Biagio Fernando Giannetti, Federico Sulis, and Marcell Mariano Correa Maceno",
-                        "description": "Afternoon keynote lecture"
+                        "description": "Main afternoon lecture"
                     },
                     {
                         "time": "15:30",
@@ -546,7 +599,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Lecture",
                         "speakers": "Alagoas Hydrographic Basin Committee and Cristiane Siqueira",
-                        "description": "Afternoon keynote lecture"
+                        "description": "Main afternoon lecture"
                     },
                     {
                         "time": "16:30",
@@ -554,7 +607,7 @@
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Ceremony",
                         "speakers": "-",
-                        "description": "Participant awards"
+                        "description": "Awarding of participants"
                     },
                     {
                         "time": "17:00",
@@ -566,7 +619,7 @@
                     },
                     {
                         "time": "18:00",
-                        "title": "Closing Ceremony of the 2nd IWPPO and Future Commitments Protocol (3rd IWPPO)",
+                        "title": "2nd IWPPO Closing Ceremony and Future Commitments Protocol (3rd IWPPO)",
                         "location": "CESMAC Complex of Pedagogical Innovations",
                         "nature": "Ceremony",
                         "speakers": "-",
@@ -577,7 +630,7 @@
         ]
     },
     "SubscribeSection": {
-        "title": "Registration",
+        "title": "Registrations",
         "options": [
             {
                 "title": "Undergraduate Students",
@@ -586,7 +639,7 @@
                     "Registration",
                     "Paper submission",
                     "Lectures",
-                    "Workshops",
+                    "Short courses",
                     "Certificate"
                 ],
                 "buttonText": "Register"
@@ -598,31 +651,31 @@
                     "Registration",
                     "Paper submission",
                     "Lectures",
-                    "Workshops",
+                    "Short courses",
                     "Certificate"
                 ],
                 "buttonText": "Register"
             },
             {
-                "title": "Primary/Secondary School Teachers",
+                "title": "Basic Education Teachers",
                 "price": "FREE",
                 "features": [
                     "Registration",
                     "Paper submission",
                     "Lectures",
-                    "Workshops",
+                    "Short courses",
                     "Certificate"
                 ],
                 "buttonText": "Register"
             },
             {
-                "title": "Professors/Researchers",
+                "title": "Professors / Researchers",
                 "price": "R$ 100.00",
                 "features": [
                     "Registration",
                     "Paper submission",
                     "Lectures",
-                    "Workshops",
+                    "Short courses",
                     "Certificate"
                 ],
                 "buttonText": "Participate"
@@ -633,7 +686,7 @@
                 "features": [
                     "Registration",
                     "Lectures",
-                    "Workshops",
+                    "Short courses",
                     "Certificate"
                 ],
                 "buttonText": "Confirm"
@@ -642,16 +695,16 @@
     },
     "ContactPage": {
         "title": "Get in Touch",
-        "subtitle": "Have any questions about the event? Contact us, and we’ll respond as soon as possible.",
+        "subtitle": "Have any questions about the event? Contact us, and we will respond as soon as possible.",
         "contactSection": {
             "title": "Contact Information",
             "items": [
                 {
                     "icon": "Mail",
                     "title": "Email",
-                    "content": "contact@iwppo.com.br",
+                    "content": "contato@iwppo.com.br",
                     "action": "Send email",
-                    "actionLink": "mailto:contact@iwppo.com.br"
+                    "actionLink": "mailto:contato@iwppo.com.br"
                 },
                 {
                     "icon": "Phone",
@@ -701,13 +754,13 @@
             "success": "Message Sent",
             "error": "Error Sending",
             "successTitle": "Message Sent!",
-            "successMessage": "Thank you for your contact. We will respond soon."
+            "successMessage": "Thank you for your contact. We will respond shortly."
         }
     },
     "ComissaoOrganizadora": {
         "title": "Organizing Committee",
         "event_title": "International Workshop on Plastic Pollution in the Oceans",
-        "subtitle": "Our organizing committee is composed of renowned researchers and international experts dedicated to studying and combating plastic pollution in the oceans.",
+        "subtitle": "Our organizing committee is composed of renowned researchers and international experts dedicated to the study and fight against plastic pollution in the oceans.",
         "stats": {
             "countries": {
                 "value": "15+",
@@ -733,14 +786,14 @@
             }
         },
         "realizacao": {
-            "titulo": "Realization",
+            "titulo": "Organization",
             "cesmac": {
                 "nome": "Cesmac University Center",
                 "descricao": "Higher education institution committed to academic excellence and the training of qualified professionals."
             },
             "ppgasa": {
-                "nome": "PPGASA - Postgraduate Program in Environmental Systems Analysis",
-                "descricao": "Postgraduate program dedicated to research and training in environmental systems analysis."
+                "nome": "PPGASA - Graduate Program in Environmental Systems Analysis",
+                "descricao": "Graduate program dedicated to research and training in environmental systems analysis."
             }
         },
         "parceiros": {
@@ -748,43 +801,43 @@
         }
     },
     "EixosTematicos": {
-        "titulo": "Thematic Tracks for Paper Submission",
-        "descricao": "Choose one of the tracks below to submit your scientific paper",
-        "envie_trabalho": "Submit your paper now on Doity",
+        "titulo": "Thematic Axes for Paper Submission",
+        "descricao": "Choose one of the axes below to submit your scientific paper",
+        "envie_trabalho": "Submit your paper on Doity now",
         "prazo_submissao": "Submission Deadline",
-        "data_submissao": "September 05, 2025",
+        "data_submissao": "September 5, 2025",
         "itens": [
             {
                 "titulo": "Ocean Diagnosis: The Current Crisis",
-                "descricao": "This thematic track addresses the current state of the oceans in the face of contemporary environmental challenges. It aims to gather studies that assess the health of marine ecosystems, highlighting indicators of environmental degradation, biodiversity loss, acidification, overfishing, and climate change impacts. Research using monitoring tools, ocean modeling, and conservation policy evaluation is also welcome. The goal is to provide a comprehensive and scientific overview of the real condition of the oceans on local, regional, and global scales."
+                "descricao": "This thematic axis addresses the current state of the oceans in the face of contemporary environmental challenges. It aims to gather studies that assess the health of marine ecosystems, highlighting indicators of environmental degradation, biodiversity loss, acidification, overfishing, and climate change impacts. Research using monitoring tools, ocean modeling, and conservation policy evaluation is also welcome. The goal is to provide a comprehensive and scientific overview of the real condition of the oceans on a local, regional, and global scale."
             },
             {
                 "titulo": "Pollution and Emerging Contaminants",
-                "descricao": "This track covers research focused on the identification, characterization, and mitigation of pollutants in marine environments, with a special emphasis on emerging contaminants such as microplastics, nanoplastics, pharmaceutical residues, pesticides, and heavy metals. Studies investigating sources, dispersion routes, ecotoxicological effects, and potential solutions for these contaminants are expected. Innovative approaches in detection technologies, remediation, and prevention strategies focused on marine sustainability are also included."
+                "descricao": "This axis covers research focused on the identification, characterization, and mitigation of pollutants in marine environments, with a special emphasis on emerging contaminants such as microplastics, nanoplastics, pharmaceutical residues, pesticides, and heavy metals. Papers investigating sources, dispersal pathways, ecotoxicological effects, and potential solutions for these contaminants are expected. Innovative approaches in detection technologies, remediation, and prevention strategies focused on marine sustainability are also included."
             },
             {
-                "titulo": "Science with Purpose: Applied Ocean Research",
-                "descricao": "This track highlights applied science as a strategic tool to address ocean challenges. Research involving remote sensing monitoring, climate modeling, marine biotechnology, and solutions based on emerging technologies such as Artificial Intelligence and Big Data is welcome. The focus is on generating technical knowledge with a direct impact on conservation, management, and sustainable use of the seas."
+                "titulo": "Science with Purpose: Applied Research for the Oceans",
+                "descricao": "This axis highlights applied science as a strategic tool to address ocean challenges. Research involving remote sensing monitoring, climate modeling, marine biotechnology, and solutions based on emerging technologies such as Artificial Intelligence and Big Data is welcome. The focus is on producing technical knowledge with a direct impact on conservation, management, and sustainable use of the seas."
             },
             {
                 "titulo": "Traditional Communities and Local Knowledge",
-                "descricao": "This track addresses the importance of traditional knowledge and the protagonism of coastal communities in ocean preservation. It values interdisciplinary studies on sustainable practices, environmental justice, and the impacts of the climate crisis on the lives of indigenous peoples, artisanal fishers, shellfish gatherers, and riverine communities. It encourages dialogue between science and local knowledge as a strategy for fairer and more effective policies."
+                "descricao": "This axis addresses the importance of traditional knowledge and the role of coastal communities in ocean preservation. It values interdisciplinary studies on sustainable practices, environmental justice, and the impacts of the climate crisis on the lives of indigenous peoples, artisanal fishermen, shellfish gatherers, and riverine communities. It encourages dialogue between science and local knowledge as a strategy for fairer and more effective policies."
             },
             {
                 "titulo": "Scientific Communication and Ocean Education",
-                "descricao": "This track focuses on the dissemination of scientific knowledge and the strengthening of ocean culture. It includes initiatives for science popularization, educational material production, actions in schools and communities, and communication strategies aimed at social mobilization and support for public policies. Studies exploring risk communication in the context of the climate crisis are also expected."
+                "descricao": "This axis focuses on the dissemination of scientific knowledge and the strengthening of ocean culture. It covers initiatives for science popularization, production of educational materials, actions in schools and communities, as well as communication strategies aimed at social mobilization and support for public policies. Papers exploring risk communication in the context of the climate crisis are also expected."
             },
             {
                 "titulo": "Public Policies and Ocean Governance",
-                "descricao": "This track explores the role of public policies in the protection and sustainable management of the oceans. It covers topics such as multilateral agreements, the creation of marine protected areas, national legal instruments, participatory governance, and transparency in coastal management. The track seeks to connect science, society, and the state to promote effective and equitable ocean governance."
+                "descricao": "This axis explores the role of public policies in the protection and sustainable management of the oceans. It covers topics such as multilateral agreements, the creation of marine protected areas, national legal instruments, participatory governance, and transparency in coastal management. This axis seeks to articulate science, society, and the state to promote effective and equitable ocean governance."
             },
             {
                 "titulo": "Innovation, Sustainability, and Nature-Based Solutions",
-                "descricao": "This track promotes innovative approaches to the regeneration and preservation of marine environments. It includes research on coastal ecosystem restoration, ocean renewable energies, blue economy, sustainable production chains, and nature-based technologies. The goal is to encourage solutions that balance socioeconomic development with ecological integrity."
+                "descricao": "This axis promotes innovative approaches for the regeneration and preservation of marine environments. It includes research on coastal ecosystem restoration, ocean renewable energies, blue economy, sustainable production chains, and nature-based technologies. The goal is to encourage solutions that reconcile socioeconomic development with ecological integrity."
             },
             {
                 "titulo": "Oceans and Climate: Interactions and Impacts",
-                "descricao": "This track analyzes the role of the oceans in the global climate system and the effects of climate change on marine and coastal environments. Studies on extreme events, sea level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies are welcome. The emphasis is on understanding and responding to climate risks with a solid scientific basis."
+                "descricao": "This axis analyzes the role of the oceans in the global climate system and the effects of climate change on marine and coastal environments. Studies on extreme events, sea level rise, acidification, impacts on vulnerable communities, and mitigation and adaptation strategies are welcome. The emphasis is on understanding and responding to climate risks with a solid scientific basis."
             }
         ]
     },
@@ -795,7 +848,7 @@
         "links_rapidos": [
             "Home",
             "Program",
-            "Registration",
+            "Registrations",
             "Contact"
         ],
         "parceiros_titulo": "Partners",
@@ -810,9 +863,9 @@
         "descricao": "Authorities and institutional representatives who officially open the event.",
         "placeholder": "Search for member, position, or institution...",
         "ver_detalhes": "View details",
-        "voltar": "Back to the Opening Roundtable",
+        "voltar": "Back to Opening Roundtable",
         "bio_titulo": "Biography",
-        "sem_resultados": "No member found for \"{term}\"",
+        "sem_resultados": "No members found for \"{termo}\"",
         "limpar_busca": "Clear search",
         "integrantes": {
             "douglas-apratto": {
@@ -838,10 +891,10 @@
             },
             "nidia": {
                 "nome": "Nídia Noemi Fabré",
-                "cargo": "Teacher",
+                "cargo": "Professor",
                 "instituicao": "UFAL - Federal University of Alagoas",
                 "nacionalidade": "Brazil",
-                "bio": "Nídia Noemi Fabré is a biologist, graduated in 1983, with a doctorate in Biological Sciences (1992) from the National University of Mar del Plata, Argentina. She worked as a researcher at the Argentine Institute for Fisheries Research and Development and as a professor at the National University of Mar del Plata between 1984 and 1988. She was a collaborating researcher at the Max Planck Institute, under a scientific cooperation agreement with the National Institute for Amazon Research (INPA), between 1991 and 1997, as well as a professor-advisor in the Postgraduate Program in Tropical Biology at INPA/UFAM and the Postgraduate Program in Environmental Sciences and Sustainability in the Amazon until 2006. Between 1997 and 2006, she was a professor at the Federal University of Amazonas (Institute of Biological Sciences), working in the area of Ecology, and coordinator of the Integrated Aquatic Resources and Floodplain Program – PYRÁ. She designed the Postgraduate Program in Environmental Sciences and Sustainability in the Amazon, which she coordinated between 1999 and 2003, before taking on the Technical-Scientific Directorate of the Amazonas State Research Support Foundation (FAPEAM), a position she held until June 2005, receiving an honorable mention for her performance in strengthening the state science and technology system. She coordinated the project 'Fisheries and Management of Large Migratory Catfish in the Amazon' (2003–2005), funded by UNDP/Provárzea-IBAMA, with the participation of three Brazilian federal institutions and the SINCHI Institute (Colombia). The project resulted in the development of an integrated and participatory management plan for these species in the Amazon Basin, with measures for neighboring countries, published as a book in 2005. Since 2006, she has been a professor at the Federal University of Alagoas, where she designed the Postgraduate Program in Biological Diversity and Conservation in the Tropics (ICBS/UFAL), where she is a permanent professor and served as coordinator for two terms. She conducts research in ecology and fisheries resource management since the beginning of her career, with scientific production including over 150 titles: 93 articles in national and international journals, 31 book chapters, and 7 organized books. She has supervised 27 master’s dissertations and 11 doctoral theses. Her technical-scientific career is associated with the conservation of natural resources, with an emphasis on fisheries and the socio-environmental development of communities using these resources. Since 2017, she has been part of the Long-Term Ecological Research Program – PELD Costa dos Corais Alagoas (CNPq/FAPEAL), coordinating the second cycle (2020–2024), conducting research on estuarine fish ecology, assessment of tropical marine fisheries resources, and socio-environmental actions with traditional communities in the Costa dos Corais APA."
+                "bio": "Nídia Noemi Fabré is a biologist, graduated in 1983, with a doctorate in Biological Sciences (1992) from the National University of Mar del Plata, Argentina. She worked as a researcher at the Institute of Fisheries Research and Development in Argentina and as a professor at the National University of Mar del Plata between 1984 and 1988. She was a collaborating researcher at the Max Planck Institute under a scientific cooperation agreement with the National Institute of Amazonian Research (INPA) from 1991 to 1997, as well as a professor-advisor in the Postgraduate Program in Tropical Biology at INPA/UFAM and the Postgraduate Program in Environmental Sciences and Sustainability in the Amazon until 2006. From 1997 to 2006, she was a professor at the Federal University of Amazonas (Institute of Biological Sciences), working in the field of Ecology, and coordinator of the Integrated Program for Aquatic Resources and Floodplains – PYRÁ. She founded the Postgraduate Program in Environmental Sciences and Sustainability in the Amazon, which she coordinated from 1999 to 2003, before taking on the role of Technical-Scientific Director of the Amazonas State Research Support Foundation (FAPEAM) until June 2005, receiving an honorable mention for her performance in strengthening the state science and technology system. She coordinated the project 'Fisheries and Management of Large Migratory Catfish in the Amazon' (2003–2005), funded by PNUD/Provárzea-IBAMA, involving three Brazilian federal institutions and the SINCHI Institute (Colombia). The project resulted in an integrated and participatory management plan for these species in the Amazon Basin, with measures for neighboring countries, published as a book in 2005. Since 2006, she has been a professor at the Federal University of Alagoas, where she founded the Postgraduate Program in Biological Diversity and Conservation in the Tropics (ICBS/UFAL), where she is a permanent professor and served as coordinator for two terms. She conducts research in ecology and fisheries resource management since the beginning of her career, with scientific production including over 150 titles: 93 articles in national and international journals, 31 book chapters, and 7 edited books. She has supervised 27 master’s dissertations and 11 doctoral theses. Her technical-scientific career is associated with the conservation of natural resources, with an emphasis on fisheries and the socio-environmental development of communities that use these resources. Since 2017, she has been part of the Long-Term Ecological Research Program – PELD Costa dos Corais Alagoas (CNPq/FAPEAL), coordinating the second cycle (2020–2024), conducting research on estuarine fish ecology, assessment of tropical marine fisheries resources, and socio-environmental actions with traditional communities in the Costa dos Corais APA."
             },
             "katia-viana": {
                 "nome": "Katia Viana Cavalcante",
@@ -855,14 +908,14 @@
                 "cargo": "Pro-Rector of Management and Planning at Cesmac University Center",
                 "instituicao": "CESMAC",
                 "nacionalidade": "Brazil",
-                "bio": "Graduated in Law from the institution itself, he holds a postgraduate degree in Business Management from Fundação Getúlio Vargas (FGV/RJ) and a master’s degree in Education, focusing on Educational Public Policies, from the University City of São Paulo (UNICID). He also has military training, being a 2nd Lieutenant in the Brazilian Army Reserve. Throughout his career, he has stood out for his strategic performance in academic and administrative management, significantly contributing to the strengthening of higher education in the state. He is a member of the Board of Directors of ABMES – Brazilian Association of Higher Education Maintainers and a councilor of FEJAL – Jayme de Altavila Educational Foundation."
+                "bio": "Graduated in Law from the institution itself, he holds a postgraduate degree in Business Management from Fundação Getúlio Vargas (FGV/RJ) and a master’s degree in Education, focusing on Educational Public Policies, from the University City of São Paulo (UNICID). He also has military training, being a 2nd Lieutenant in the Brazilian Army Reserve. Throughout his career, he has stood out for his strategic role in academic and administrative management, significantly contributing to the strengthening of higher education in the state. He is a member of the Board of Directors of ABMES – Brazilian Association of Higher Education Maintainers and a councilor of FEJAL – Jayme de Altavila Educational Foundation."
             },
             "CF": {
                 "nome": "Rodrigo Ribeiro Gonçalves Garcia",
                 "cargo": "Frigate Captain",
                 "instituicao": "Brazilian Navy",
                 "nacionalidade": "Brazil",
-                "bio": "Frigate Captain Rodrigo Ribeiro Gonçalves Garcia joined the Brazilian Navy in 1997 as a student at the Merchant Marine Officer Training School. In 2000, he became an Aspirant at the Naval School, reaching the rank of Frigate Captain on December 25, 2021. Throughout his career, he has held significant roles aboard various ships, such as the Corvette Frontin, the Frigates Niterói, Constituição, and União, the Oceanic Patrol Vessel Amazonas, and the High Seas Tugboat Almirante Guillobel. The officer was in charge of the Patrol Vessel Barracuda, commanded the River Patrol Vessel Raposo Tavares, and currently serves as the Captain of the Ports of Alagoas. Before assuming command of the Captaincy, he served in the Navy General Staff, coordinating all Navy exercises and operations abroad. His training includes a degree in Naval Sciences, with a specialization in Electronics, and courses in joint staff, peacekeeping operations, maritime security, intelligence, and international crisis analysis. He has been awarded several decorations, including the Silver Military Medal, the Meritorious Sailor Medal, the United Nations Peacekeepers Medal (UNIFIL), the Amazon Service Medal, the OAS Peace Operations Medal, and the Tamandaré Merit Medal."
+                "bio": "Frigate Captain Rodrigo Ribeiro Gonçalves Garcia joined the Brazilian Navy in 1997 as a student at the Merchant Navy Officer Training School. In 2000, he became an Aspirant at the Naval Academy, reaching the rank of Frigate Captain on December 25, 2021. Throughout his career, he has held significant roles aboard various ships, such as the Corvette Frontin, the Frigates Niterói, Constituição, and União, the Oceanic Patrol Vessel Amazonas, and the High Seas Tugboat Almirante Guillobel. He was in charge of the Patrol Boat Barracuda, commanded the River Patrol Vessel Raposo Tavares, and currently serves as the Captain of the Ports of Alagoas. Before taking command of the Captaincy, he served in the Navy General Staff, coordinating all Navy exercises and operations abroad. His training includes a degree in Naval Sciences with a specialization in Electronics, as well as Staff courses and specializations in peacekeeping operations, maritime security, intelligence, and international crisis analysis. He has been awarded several decorations, including the Silver Military Medal, the Sailor Merit Medal, the United Nations Peacekeepers Medal (UNIFIL), the Amazon Service Medal, the OAS Peace Operations Medal, and the Tamandaré Merit Medal."
             }
         }
     },
@@ -879,7 +932,7 @@
                 "nome": "Robson Guimarães dos Santos",
                 "cargo": "Researcher",
                 "instituicao": "UFAL",
-                "palestra": "Presentation of the main results of research from the focal points of the Plastic Oceans project",
+                "palestra": "Presentation of the main results of research from the focal points of the Oceans of Plastic project",
                 "nacionalidade": "Brazil",
                 "biografia": "Robson is a researcher in oceanography, focusing on plastic pollution, with over 15 years of experience in marine monitoring and conservation projects."
             },
@@ -905,7 +958,7 @@
                 "instituicao": "Macquarie University",
                 "palestra": "Closing Ceremony",
                 "nacionalidade": "Foreign",
-                "biografia": "Dr. Scott Wilson is a Senior Honorary Researcher at Macquarie University and the Research Director of the Total Environment Centre’s Microplastics Assessment Project, a citizen-driven data collection and education program designed to raise awareness and provide solutions for microplastic pollution. He is an aquatic toxicologist and, over the past 20 years, has researched the impacts of plastics and marine debris in aquatic environments, both in Australia and internationally. His current focus is understanding the sources and impacts of plastics in the environment while collaborating with stakeholders and the community to help reduce these inputs. By working together on this issue, Dr. Wilson believes we can all make a difference!"
+                "biografia": "Dr. Scott Wilson is an Honorary Senior Researcher at Macquarie University and the Research Director of the Total Environment Centre’s Microplastics Assessment Project, a citizen-driven data collection and education program designed to raise awareness and provide solutions for microplastic pollution. He is an aquatic toxicologist and, over the past 20 years, has researched the impacts of plastics and marine debris in aquatic environments, both in Australia and internationally. His current focus is understanding the sources and impacts of plastics in the environment while collaborating with stakeholders and the community to help reduce these inputs. Working together on this issue, Dr. Wilson believes we can all make a difference!"
             },
             "fernando-miguel": {
                 "nome": "Fernando Miguel",
@@ -913,7 +966,7 @@
                 "instituicao": "University of Algarve - Portugal",
                 "palestra": "Geotechnologies Applied to the Analysis and Mitigation of Environmental Impacts",
                 "nacionalidade": "Foreign",
-                "biografia": "Fernando is a specialist in geotechnologies applied to environmental management, with a focus on coastal zones."
+                "biografia": "Fernando is an expert in geotechnologies applied to environmental management, focusing on coastal areas."
             },
             "helena-fernandez": {
                 "nome": "Helena Fernandez",
@@ -927,7 +980,7 @@
                 "nome": "Cristiane Siqueira",
                 "cargo": "Researcher",
                 "instituicao": "University of Vassouras - Rio de Janeiro",
-                "palestra": "Development of biosensors for detecting pollutants and microplastics in water resources",
+                "palestra": "Development of biosensors for the detection of pollutants and microplastics in water resources",
                 "nacionalidade": "Brazil",
                 "biografia": "Cristiane specializes in public policies and coastal management with an emphasis on plastic detection."
             },
@@ -935,9 +988,9 @@
                 "nome": "Biagio Fernando Giannetti",
                 "cargo": "Researcher",
                 "instituicao": "Paulista University - UNIP",
-                "palestra": "Emergy and Ecological Justice: A new basis for shared responsibility in the oceans",
+                "palestra": "Emergy and Ecological Justice: A New Basis for Shared Responsibility in the Oceans",
                 "nacionalidade": "Brazil",
-                "biografia": "Biagio F. Giannetti holds a PhD and Master’s degree from the University of São Paulo (USP). He began his career at Paulista University (UNIP) in 1992 as an Adjunct Professor and currently holds the position of Full Professor. At UNIP, he coordinated undergraduate courses in chemical engineering and food engineering (1996-2000) and, since 1998, has been a permanent professor in the Postgraduate Program in Production Engineering (Master’s, Doctoral, and Postdoctoral levels), as well as leading research activities at the Production and Environment Laboratory (LaProMA). Since 2005, he has been a leader of a research group registered with the CNPq Research Groups Directory. From 2016 to 2024, he was a Visiting Professor at Beijing Normal University (China) under the National Program for Recruiting High-Level Foreign Experts. He also served as a Visiting Professor at the University of Sonora (Mexico, 2013 and 2019) and the University of Florence (Italy, 2022). Professor Giannetti is the author of over 300 scientific publications, including books, articles, and conference papers, focusing on production and the environment. His Scopus h-index is 37, and his Google Scholar i10-index is 115. He was President of the International Society for the Advancement of Emergy Research (2023–2025) and is currently an Honorary Council Member and Associate Editor of the Journal of Cleaner Production, Associate Editor of Frontiers in Energy Research, and Global Director and founder of the Advances in Cleaner Production Network."
+                "biografia": "Biagio F. Giannetti holds a PhD and Master’s degree from the University of São Paulo (USP). He began his career at Paulista University (UNIP) in 1992 as an Adjunct Professor and currently holds the position of Full Professor. At UNIP, he coordinated undergraduate programs in chemical engineering and food science (1996–2000) and, since 1998, has been a permanent professor in the Postgraduate Program in Production Engineering (Master’s, Doctoral, and Postdoctoral levels), as well as leading research activities at the Production and Environment Laboratory (LaProMA). Since 2005, he has been a leader of a research group registered with the CNPq Research Group Directory. From 2016 to 2024, he was a Visiting Professor at Beijing Normal University (China) under the National Program for Recruiting High-Level Foreign Experts. He also served as a Visiting Professor at the University of Sonora (Mexico, 2013 and 2019) and the University of Florence (Italy, 2022). Professor Giannetti has authored over 300 scientific publications, including books, articles, and conference papers, focusing on production and the environment. His h-index on Scopus is 37, and his i10-index on Google Scholar is 115. He was President of the International Society for the Advancement of Emergy Research (2023–2025) and is currently an Honorary Council Member and Associate Editor of the Journal of Cleaner Production, Associate Editor of Frontiers in Energy Research, and Global Director and founder of the Advances in Cleaner Production Network."
             },
             "federico-sulis": {
                 "nome": "Federico Sulis",
@@ -945,7 +998,7 @@
                 "instituicao": "Paulista University - UNIP",
                 "palestra": "Closing the Cycle: Sustainability Assessment of Cobogós with Marine Plastic Waste",
                 "nacionalidade": "Foreign",
-                "biografia": "Dr. Federico Sulis holds a degree in Natural Sciences from the University of Cagliari (2006), a Master’s degree in Ecotoxicology from the University of Siena (2011), and a specialization in the design and control of environmental management systems ISO 14001 and EMAS from the Tuscany EMAS ECOLABEL School (2014). He recently completed a PhD in Production Engineering at Paulista University (2023). He has experience in Environmental Sciences, with an emphasis on Production Engineering, focusing on Cleaner Production, Industrial Ecology, Ecotoxicology, Sustainable Development, and Waste Recycling. He is currently a postdoctoral researcher at the Production and Environment Laboratory (LAPROMA) of the Postgraduate Program in Production Engineering (PPEG) at Paulista University (UNIP), where he conducts research in partnership with the Emergy and Ecosystem Resilience Laboratory (LERE) of the Postgraduate Program in Environmental Systems Analysis (PPGASA) at Cesmac University Center."
+                "biografia": "Dr. Federico Sulis holds a degree in Natural Sciences from the University of Cagliari (2006), a Master’s in Ecotoxicology from the University of Siena (2011), and a specialization in the design and control of ISO 14001 and EMAS environmental management systems from the Tuscany EMAS ECOLABEL School (2014). He recently completed a PhD in Production Engineering at Paulista University (2023). He has experience in Environmental Sciences, with an emphasis on Production Engineering, focusing on Cleaner Production, Industrial Ecology, Ecotoxicology, Sustainable Development, and Waste Recycling. He is currently a postdoctoral researcher at the Production and Environment Laboratory (LAPROMA) of the Postgraduate Program in Production Engineering (PPEG) at Paulista University (UNIP), where he conducts research in partnership with the Emergy and Ecosystem Resilience Laboratory (LERE) of the Postgraduate Program in Environmental Systems Analysis (PPGASA) at Cesmac University Center."
             },
             "marcell": {
                 "nome": "Marcell Mariano Correa Maceno",
@@ -953,15 +1006,15 @@
                 "instituicao": "Federal University of Paraná",
                 "palestra": "Life cycle assessment and microplastics: an overview",
                 "nacionalidade": "Brazil",
-                "biografia": "Dr. Marcell Mariano Corrêa Maceno is an Environmental Engineer from the Federal University of Paraná (2007), with a specialization in Quality and Environmental Auditing from the Federal Technological University of Paraná (2010), and a Master’s and PhD in Water Resources and Environmental Engineering from the Federal University of Paraná (2010 and 2015). He is currently an Associate Professor IV at UFPR in the Production Engineering course, focusing on environmental management and product design. He coordinates the Postgraduate Program in Production Engineering (Master’s level) at UFPR, the Brazilian Network for Life Cycle Impact Assessment (RAICV), and is a member of the Advances in Cleaner Production Network (ACPN). He has been working in environmental management and sustainability since 2008, with current research related to product life cycle assessment, DfX for improving material and energy use, circular economy, sustainability assessment of systems, and product circularity evaluation."
+                "biografia": "Dr. Marcell Mariano Corrêa Maceno is an Environmental Engineer from the Federal University of Paraná (2007), with a specialization in Quality and Environmental Auditing from the Federal Technological University of Paraná (2010), and a Master’s and PhD in Water Resources and Environmental Engineering from the Federal University of Paraná (2010 and 2015). He is currently an Adjunct Professor IV at UFPR in the Production Engineering program, focusing on Environmental Management and Product Design. He coordinates the Postgraduate Program in Production Engineering (Master’s level) at UFPR, the RAICV – Brazilian Life Cycle Impact Assessment Network, and is a member of the Advances in Cleaner Production Network (ACPN). Since 2008, he has worked in environmental management and sustainability, with current research related to product life cycle assessment, DfX for improving material and energy use, circular economy, system sustainability assessment, and product circularity assessment."
             },
             "alireza": {
                 "nome": "Alireza Moghayedi",
                 "cargo": "Professor and/or Researcher",
-                "instituicao": "University of the West of England, UK; University of Cape Town, South Africa",
+                "instituicao": "University of the West of England, United Kingdom; University of Cape Town, South Africa",
                 "palestra": "Recycling plastic pollution into construction solutions for net-zero goals",
                 "nacionalidade": "Foreign",
-                "biografia": "Dr. Alireza Moghayedi is a researcher and educator focused on sustainability, with over 20 years of experience in the Engineering and Built Environment industry. He is the Research Leader in Digital Built Environment at the School of Architecture and Environment at the University of the West of England, Bristol, a senior researcher at the University of Johannesburg, and the founder and co-director of S+CUBE at the University of Cape Town. His research focuses on developing inclusive, sustainable, and smart solutions for engineering infrastructure and built environment projects, using innovative technologies. He serves as the Principal Investigator for several international research projects, collectively valued at over £30 million. His work has been published in leading academic journals and conferences and has received numerous awards for research and teaching. Dr. Moghayedi is an accredited project manager and has held various roles in government agencies, engineering consultancies, and construction and development companies worldwide."
+                "biografia": "Dr. Alireza Moghayedi is a researcher and educator focused on sustainability, with over 20 years of experience in the Engineering and Built Environment industry. He is a Research Leader in Digital Built Environment at the School of Architecture and Environment at the University of the West of England in Bristol, a senior researcher at the University of Johannesburg, and founder and co-director of S+CUBE at the University of Cape Town. His research focuses on developing inclusive, sustainable, and smart solutions for engineering infrastructure and built environment projects using innovative technologies. He serves as the Principal Investigator for several international research projects, collectively valued at over £30 million. His work has been published in leading academic journals and conferences and has received numerous awards for research and teaching. Dr. Moghayedi is an accredited project manager and has held various positions in government agencies, engineering consultancies, and construction and development companies worldwide."
             },
             "barbara-pinheiro": {
                 "nome": "Bárbara Ramos Pinheiro",
@@ -969,7 +1022,7 @@
                 "instituicao": "Federal University of Pernambuco",
                 "palestra": "Frontiers of Science and Policy in Addressing Plastic Pollution",
                 "nacionalidade": "Brazil",
-                "biografia": "Biologist, Master’s, and PhD in Oceanography from UFPE. Researcher at PACTO MAR| UNIFESP| Maré de Ciências. Member of the Executive Secretariat of the Women’s League for the Ocean and the National Committee of the Ocean Decade. Coordinator of Black Women in Ecology, Evolution, and Marine Science."
+                "biografia": "Biologist, Master’s, and PhD in Oceanography from UFPE. Researcher at PACTO MAR | UNIFESP | Maré de Ciências. Member of the Executive Secretariat of the League of Women for the Ocean and member of the National Committee of the Ocean Decade. National Coordinator of Black Women in Ecology, Evolution, and Marine Science."
             },
             "jemille": {
                 "nome": "Jemilli Castiglioni Viaggi",
@@ -977,7 +1030,7 @@
                 "instituicao": "UNESCO Chair for Ocean Sustainability",
                 "palestra": "Frontiers of Science and Policy in Addressing Plastic Pollution",
                 "nacionalidade": "Brazil",
-                "biografia": "Marine biologist and PhD in Ecology from UFRJ, she works with interdisciplinary research focused on governance, scientific diplomacy, marine conservation, climate change, and ocean pollution. She is part of the UNESCO Chair for Ocean Sustainability and coordinates initiatives such as the Clean Ocean Network and the GT-COP30 of the Women’s League for the Ocean. She was the Deputy Coordinator of the O20-G20 and an articulator of the National Plastic-Free Ocean Strategy. She serves as a consultant on socio-environmental impact projects, including the Polen Future Waves Program."
+                "biografia": "Marine biologist and PhD in Ecology from UFRJ, she conducts interdisciplinary research focused on governance, scientific diplomacy, marine conservation, climate change, and ocean pollution. She is part of the UNESCO Chair for Ocean Sustainability and coordinates initiatives such as the Clean Ocean Network and the GT-COP30 of the League of Women for the Ocean. She was the Sub-Coordinator of the O20-G20 and an articulator of the National Plastic-Free Ocean Strategy. She works as a consultant on socio-environmental impact projects, including the Polen Future Waves Program."
             },
             "jornalista": {
                 "nome": "Paulina Chamorro",
@@ -985,7 +1038,7 @@
                 "instituicao": "Federal University of Paraná",
                 "palestra": "Planet or Plastic? - Stories from journalistic coverage",
                 "nacionalidade": "Brazil",
-                "biografia": "Award-winning journalist with over two decades of coverage on environmental issues. Sailed from Oiapoque to Chuí for the Mar sem Fim project. Hosted a radio program at Rádio Eldorado for 10 years and coordinated socio-environmental projects at the station. For two years, she was a field producer in the Javari Valley for documentarian Céline Cousteau. She hosts Vozes do Planeta, a pioneering environmental podcast in Brazil with nine years of history, and the Women in Conservation multimedia project. She is a contributor to O Eco, GO Outside, and National Geographic Brazil and a Pulitzer Center fellow. She is also a co-creator of the Women’s League for the Ocean. She is the co-director of the documentary Women in Conservation, awarded at the Female Film Festival 2023, best environmental film at the Montreal Women Film Festival and Toronto International Women Film Festival in 2024, and executive producer of the documentary At the Top of the Amazon in Search of New Species, about USP’s unprecedented expedition to Serra do Imeri, western Amazonas."
+                "biografia": "Award-winning journalist with over two decades of coverage on environmental issues. She sailed from Oiapoque to Chuí for the Mar sem Fim project. For 10 years, she hosted a radio program at Rádio Eldorado and coordinated socio-environmental projects at the station. For two years, she was a field producer in the Javari Valley for documentary filmmaker Céline Cousteau. She hosts Vozes do Planeta, a pioneering environmental podcast in Brazil with nine years of history, and the Women in Conservation multimedia project. She is a contributor to O Eco, GO Outside, and National Geographic Brazil, and a Pulitzer Center fellow. She is also co-creator of the League of Women for the Ocean. She is co-director of the documentary Women in Conservation, awarded at the Female Film Festival 2023, best environmental film at the Montreal Women Film Festival and Toronto International Women Film Festival in 2024, and executive producer of the documentary At the Top of the Amazon in Search of New Species, about USP’s unprecedented expedition to Serra do Imeri in western Amazonas."
             },
             "vazquez": {
                 "nome": "Ian Vázquez-Rowe",
@@ -993,7 +1046,7 @@
                 "instituicao": "Pontifical Catholic University of Peru",
                 "palestra": "Emission pathways of macro- and microplastics to the Pacific Ocean in Peru: detection and quantification",
                 "nacionalidade": "Foreign",
-                "biografia": "Dr. Ian Vázquez-Rowe graduated in Biology in 2006 from the University of Texas at Arlington. He pursued postgraduate studies in Environmental Engineering at the University of Santiago de Compostela – USC (2006-2008). In October 2008, he began his research career at USC, where he obtained his PhD in Chemical Engineering in July 2012. From January 2012 to December 2013, Dr. Vázquez-Rowe continued his research career as an R&D Engineer in Environmental Assessment and Management at the Centre de Recherche Public Henri Tudor (now LIST, in Luxembourg). He is currently a Full Professor in the Engineering Department at the Pontifical Catholic University of Peru. He is also an editor of Ocean Resources and Marine Conservation at the International Journal of Life Cycle Assessment. His main research interests are related to environmental management, including life cycle methods, their methodological improvement, and their combination with other methods. Additionally, fisheries and agriculture, food systems in general, and waste and wastewater treatment systems, including plastic emissions to water bodies, have been the focus of his research in recent years. In 2021, he was included in Reuters’ Hot List of the world’s top 1,000 climate scientists and annually ranks among the top 2% of researchers worldwide, according to Stanford University."
+                "biografia": "Dr. Ian Vázquez-Rowe graduated in Biology in 2006 from the University of Texas at Arlington. He continued his postgraduate studies in Environmental Engineering at the University of Santiago de Compostela – USC (2006–2008). In October 2008, he began his research career at USC, obtaining his PhD in Chemical Engineering in July 2012. From January 2012 to December 2013, Dr. Vázquez-Rowe continued his research career as an R&D Engineer in Environmental Assessment and Management at the Centre de Recherche Public Henri Tudor (now LIST, in Luxembourg). Currently, Dr. Vázquez-Rowe is a Full Professor in the Engineering Department at the Pontifical Catholic University of Peru. He is also an editor of Ocean Resources and Marine Conservation at the International Journal of Life Cycle Assessment. His main research interests are related to environmental management, including life cycle methods, their methodological improvement, and their combination with other methods. Additionally, fisheries and agriculture, food systems in general, and waste and wastewater treatment systems, including plastic emissions to water bodies, have been the focus of his research in recent years. In 2021, he was included in Reuters’ Hot List of the top 1,000 climate scientists in the world and is annually among the top 2% of researchers worldwide, according to Stanford University."
             },
             "clemilson": {
                 "nome": "Clemilson Marques Batista",
@@ -1001,23 +1054,23 @@
                 "instituicao": "Athena Platform",
                 "palestra": "Athena Platform: Innovation in the management of Brazilian research and scientific production",
                 "nacionalidade": "Brazil",
-                "biografia": "Specialist in postgraduate evaluation and higher education public policies, Clemilson Marques Batista has over 25 years of experience in the National Postgraduate System (SNPG). He worked for eight years in the Evaluation Directorate of CAPES, notably contributing to the training of Pro-Rectors, Coordinators, and technical teams of Postgraduate Programs across the country. He also served as an advisor in the Pro-Rector’s offices of the Methodist Universities of São Paulo (UMESP) and Piracicaba (UNIMEP), where he was responsible for liaising with CAPES, CNPq, and managing the academic secretariat of Stricto Sensu courses. As the founder and director of JANUS EDUCARE, he provided specialized consultancy to dozens of public and private universities, including UFRJ, USP, UNB, UPM, UNICAP, UFSC, and FGV, assisting in the creation, reformulation, and evaluation of master’s and doctoral programs, always focusing on compliance with CAPES criteria and the academic sustainability of the programs. He is the creator of the Athena Platform, designed based on his field experience and oriented toward the digital transformation of postgraduate evaluation and management. He currently leads the strategic expansion of the Athena project, focusing on partnerships, technological validation, and national and international scalability."
+                "biografia": "Specialist in postgraduate evaluation and higher education public policies, Clemilson Marques Batista has over 25 years of experience in the National Postgraduate System (SNPG). He worked for eight years at CAPES’ Evaluation Directorate, notably in training Pro-Rectors, Coordinators, and technical teams of Postgraduate Programs nationwide. He also served as an advisor in the Pro-Rector’s offices of the Methodist Universities of São Paulo (UMESP) and Piracicaba (UNIMEP), where he was responsible for coordination with CAPES, CNPq, and the management of the academic secretariat of Stricto Sensu programs. As the founder and director of JANUS EDUCARE, he provided specialized consultancy to dozens of public and private universities, including UFRJ, USP, UNB, UPM, UNICAP, UFSC, and FGV, assisting in the creation, reformulation, and evaluation of master’s and doctoral programs, always focusing on compliance with CAPES criteria and academic sustainability. He is the creator of the Athena Platform, designed based on his field experience and oriented toward the digital transformation of postgraduate evaluation and management. He currently leads the strategic expansion of the Athena project, focusing on partnerships, technological validation, and national and international scalability."
             },
             "aldilane": {
                 "nome": "Aldilane Lays Xavier Marques",
                 "cargo": "Researcher",
                 "instituicao": "UFAL - Federal University of Alagoas",
-                "palestra": "Microplastics in the Human Placenta: Evidence in Alagoas and the International Scenario",
+                "palestra": "Microplastics in the Human Placenta: Evidence in Alagoas and the International Context",
                 "nacionalidade": "Brazil",
-                "biografia": "PhD candidate in Materials Science (PPGM) with a sandwich period at the University of Hawaii at Manoa (Hawaii, USA), Master’s in Health Sciences (PPGCS), and Bachelor’s in Biological Sciences from the Federal University of Alagoas (UFAL). Member of the Women’s Health and Pregnancy Research Group, which is part of the Cellular Biology Laboratory/UFAL. She has experience and collaborates on projects in Cellular Biology, Biophysics, Biochemistry, and currently studies the bioaccumulation and effects of microplastics in the human placenta."
+                "biografia": "PhD candidate in Materials Sciences (PPGM) with a sandwich period at the University of Hawaii at Manoa (Hawaii, USA), Master’s in Health Sciences (PPGCS), and Bachelor’s in Biological Sciences from the Federal University of Alagoas (UFAL). Member of the Women’s and Pregnancy Health Research Group, which is part of the Cellular Biology Laboratory/UFAL. She has experience and collaborates on projects in Cellular Biology, Biophysics, Biochemistry, and currently studies the bioaccumulation and effects of microplastics in the human placenta."
             },
             "gomes": {
                 "nome": "Márcio Gomes Barboza",
                 "cargo": "Researcher",
                 "instituicao": "UFAL - Federal University of Alagoas",
-                "palestra": "Multi-scalar governance: articulation between Basin Committees, municipalities, and states in combating plastic pollution",
+                "palestra": "Multi-scalar governance: coordination between Basin Committees, municipalities, and states in combating plastic pollution",
                 "nacionalidade": "Brazil",
-                "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). He is currently a researcher at the Water Reuse Laboratory (LRA) and a Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). He is the President of the Pratagy Hydrographic Basin Committee. He has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
+                "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). Currently a researcher at the Water Reuse Laboratory (LRA) and Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). He is the President of the Pratagy Hydrographic Basin Committee. He has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
             },
             "monteiro": {
                 "nome": "Ariane Monteiro",
@@ -1025,24 +1078,21 @@
                 "instituicao": "Sustainable Territory",
                 "palestra": "Waste management at our events",
                 "nacionalidade": "Brazil",
-                "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). She is currently a researcher at the Water Reuse Laboratory (LRA) and a Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). She is the President of the Pratagy Hydrographic Basin Committee. She has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
+                "biografia": "Holds a degree in Civil Engineering from the Federal University of Alagoas (1987), a Master’s in Hydraulic Engineering and Sanitation from the University of São Paulo (1995), and a PhD in Hydraulic Engineering and Sanitation from the University of São Paulo (2002). Currently a researcher at the Water Reuse Laboratory (LRA) and Full Professor at the Technology Center (CTEC) of the Federal University of Alagoas (UFAL). She is the President of the Pratagy Hydrographic Basin Committee. She has experience in Sanitary Engineering and Environmental Management, with an emphasis on Advanced Water Treatment Techniques, focusing on Biological Wastewater Treatment for reuse, Water Quality, Basic Sanitation Systems, and Environmental Impact Assessments."
             },
-
-            "bessa": {    
+            "bessa": {
                 "nome": "Filipa Bessa",
-                "cargo": "Teacher",
+                "cargo": "Professor",
                 "instituicao": "University of Coimbra",
-                "palestra": "Assessment of the impacts of human activities, with a special focus on (micro)plastic pollution, on marine ecosystems",
+                "palestra": "Assessment of the impacts of human activities, with a special focus on (micro)plastic pollution, in marine ecosystems",
                 "nacionalidade": "Foreign",
-                "biografia": "Filipa Bessa is a biologist, professor in the Department of Life Sciences at the University of Coimbra, and a researcher at the Center for Functional Ecology. Her research has focused on assessing the impacts of human activities, with a particular focus on (micro)plastic pollution, on marine and coastal ecosystems. This work ranges from the Portuguese coastal zone to remote areas such as Antarctica, including projects studying the effects of plastics on Cape Verde turtles, and has expanded her work to study pollution in inland waters and mountain ecosystems. She serves on several international advisory bodies (OSPAR and GESAMP/UNEP) and is a member of the working group that supports the European Commission's Scientific Advisory Mechanism through the micro and nanoplastics working group. She recently created the Zero Pollution Manifesto for UNESCO Biosphere Reserves in Portugal. She coordinates projects related to citizen science - lixomarinho.pt and Portugal Pellets Watch. In parallel, she promotes science communication initiatives (photographic exhibitions and workshops) related to ocean literacy and the problem of marine pollution."
-
+                "biografia": "Filipa Bessa is a biologist, professor at the Department of Life Sciences at the University of Coimbra, and a researcher at the Center for Functional Ecology. Her research focuses on assessing the impacts of human activities, particularly (micro)plastic pollution, in marine and coastal ecosystems. Her work spans from the Portuguese coast to remote areas such as Antarctica, including projects studying the effects of plastics on Cape Verde turtles, and has expanded to study pollution in inland waters and mountainous ecosystems. She participates in several international advisory bodies (OSPAR and GESAMP/UNEP) and is a member of the working group supporting the European Commission’s Scientific Advice Mechanism on micro- and nanoplastics. Recently, she created the Zero Pollution Manifesto for UNESCO Biosphere Reserves in Portugal. She coordinates citizen science projects – lixomarinho.pt and Portugal Pellets Watch. Additionally, she promotes scientific communication initiatives (photo exhibitions and workshops) related to ocean literacy and the issue of marine pollution."
             }
+        }
     },
     "ComiteCientifico": {
         "title": "Scientific Committee",
         "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
         "description": "Our scientific committee is composed of renowned researchers dedicated to advancing knowledge about plastic pollution in the oceans."
     }
-}
-
 }
