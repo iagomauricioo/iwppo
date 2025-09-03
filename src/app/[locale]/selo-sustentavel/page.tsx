@@ -57,9 +57,9 @@ export default function SeloSustentavelPage({ params }: any) {
               <video
                 controls
                 className="w-full h-full object-cover"
-                poster="/videos/capa-selo.jpg" // opcional
+                
               >
-                <source src="/videos/selo.mp4" type="video/mp4" />
+                <source src="/premiacao-sustentavel/IWPPO (6).mp4" type="video/mp4" />
                 Seu navegador não suporta a tag de vídeo.
               </video>
             </div>
