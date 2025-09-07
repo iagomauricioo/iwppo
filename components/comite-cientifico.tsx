@@ -237,11 +237,27 @@ export default function ComiteCientifico() {
     },
 
     {
+      name: "Hector Mauricio Casanova Navarro",
+      country: "Brasil",
+      lattesUrl: "  http://lattes.cnpq.br/0264279267603613",
+      title: "",
+      image: "/comite-cientifico/hector.jpeg",
+    },
+
+    {
       name: "Michella Grey Araújo Monteiro",
       country: "Brasil",
       lattesUrl: "http://lattes.cnpq.br/1558272977434037",
       title: "",
       image: "/comite-cientifico/Michella Grey Araújo Monteiro.jpeg",
+    },
+
+    {
+      name: "José Gilmar Cavalcante de Oliveira Júnior",
+      country: "Brasil",
+      lattesUrl: " http://lattes.cnpq.br/9176504282770774",
+      title: "",
+      image: "/comite-cientifico/gilmar.jpeg",
     },
   ];
 

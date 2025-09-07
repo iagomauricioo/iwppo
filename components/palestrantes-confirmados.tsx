@@ -27,7 +27,6 @@ export default function PalestrantesConfirmados() {
   const FOTO_MAP: Record<string, string> = {
     "robson-santos": "/palestrantes/robson.png",
     "katia-viana": "/comissao-organizadora/katia.png",
-    "fernando-lopez": "/palestrantes/dias.jpeg",
     "scott-wilson": "/palestrantes/scott_patton_wilson.jpg",
     "fernando-miguel": "/palestrantes/fernando.png",
     "helena-fernandez": "/palestrantes/helena-fernandez.png",
@@ -62,7 +61,6 @@ export default function PalestrantesConfirmados() {
   const ids = [
     "robson-santos",
     "katia-viana",
-    "fernando-lopez",
     "scott-wilson",
     "fernando-miguel",
     "helena-fernandez",

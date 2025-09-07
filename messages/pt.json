@@ -307,6 +307,11 @@
     "LocationSection": {
         "title": "Localização da abertura",
         "description": "A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
+
+        "dates": {
+    "opening": "Cerimônia de Abertura: 17 de setembro de 2025 às 19:00"
+  },
+
         "address": {
             "title": "Endereço",
             "place": "Centro Cultural João Sampaio",
@@ -336,6 +341,12 @@
     "MainLocationSection": {
   "title": "Local do Evento CITEC/ROBOTICA CESMAC",
   "description": "As sessões científicas (banners, apresentações orais, keynotes e mesas redondas) ocorrerão no Complexo de Inovações Pedagógicas do CESMAC.",
+
+"dates": {
+
+    "event": "Evento: 18 de setembro de 2025 às 9:00 até 19 de setembro às 18:00"
+  },
+
   "map_title": "Mapa do Complexo de Inovações Pedagógicas CESMAC",
   "address": {
     "title": "Endereço",
@@ -966,14 +977,6 @@
                     "palestra": "Cerimônia de Abertura",
                     "nacionalidade": "Brasil",
                     "biografia": "Katia desenvolve estudos sobre biodiversidade e conservação de ambientes aquáticos na região amazônica."
-                },
-                "fernando-lopez": {
-                    "nome": "Fernando J. Díaz López",
-                    "cargo": "Pesquisador Internacional",
-                    "instituicao": "Climate and Earth Center of HEC Paris",
-                    "palestra": "Cerimônia de Fechamento",
-                    "nacionalidade": "Estrangeiro",
-                    "biografia": "Fernando é pesquisador internacional especializado em ecologia marinha e gestão sustentável dos oceanos, com extensa experiência em projetos globais."
                 },
                 "scott-wilson": {
                     "nome": "Scott Paton Wilson",

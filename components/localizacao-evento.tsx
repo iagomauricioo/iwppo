@@ -19,13 +19,22 @@ export default function MainLocationSection() {
           <p className="text-sm md:text-base text-blue-700 max-w-2xl mx-auto px-2">
             {t("description")}
           </p>
+
+          {/* Datas do evento */}
+          <div className="mt-4 flex flex-col items-center gap-1">
+            <p className="text-sm md:text-base text-gray-700 font-medium">
+              {t("dates.opening")}
+            </p>
+            <p className="text-sm md:text-base text-gray-700 font-medium">
+              {t("dates.event")}
+            </p>
+          </div>
         </div>
 
         <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8 items-start">
           {/* Mapa */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] w-full order-2 md:order-1">
             <iframe
-              // Busca o Complexo de Inovações Pedagógicas do CESMAC (Maceió)
               src="https://www.google.com/maps?q=Complexo%20de%20Inova%C3%A7%C3%B5es%20Pedag%C3%B3gicas%20CESMAC%2C%20Macei%C3%B3&output=embed"
               width="100%"
               height="100%"
@@ -132,7 +141,6 @@ export default function MainLocationSection() {
                 </div>
               </div>
             </div>
-
           </div>{/* /col direita */}
         </div>
       </div>
