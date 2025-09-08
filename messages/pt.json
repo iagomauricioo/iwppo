@@ -308,9 +308,9 @@
         "title": "Localização da abertura",
         "description": "A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
 
-        "dates": {
-    "opening": "Cerimônia de Abertura: 17 de setembro de 2025 às 19:00"
-  },
+            "dates": {
+        "opening": "Cerimônia de Abertura: 17 de setembro de 2025 às 19:00"
+    },
 
         "address": {
             "title": "Endereço",
