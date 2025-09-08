@@ -23,9 +23,6 @@ export default function MainLocationSection() {
           {/* Datas do evento */}
           <div className="mt-4 flex flex-col items-center gap-1">
             <p className="text-sm md:text-base text-gray-700 font-medium">
-              {t("dates.opening")}
-            </p>
-            <p className="text-sm md:text-base text-gray-700 font-medium">
               {t("dates.event")}
             </p>
           </div>

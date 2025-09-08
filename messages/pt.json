@@ -308,8 +308,8 @@
         "title": "Localização da abertura",
         "description": "A abertura do evento será realizado no Centro Cultural João Sampaio, localizado em Maceió, Alagoas.",
 
-            "dates": {
-        "opening": "Cerimônia de Abertura: 17 de setembro de 2025 às 19:00"
+        "dates": {
+            "opening": "Cerimônia de Abertura: 17 de setembro de 2025 às 19:00"
     },
 
         "address": {
@@ -342,10 +342,10 @@
   "title": "Local do Evento CITEC/ROBOTICA CESMAC",
   "description": "As sessões científicas (banners, apresentações orais, keynotes e mesas redondas) ocorrerão no Complexo de Inovações Pedagógicas do CESMAC.",
 
-"dates": {
+    "dates": {
 
-    "event": "Evento: 18 de setembro de 2025 às 9:00 até 19 de setembro às 18:00"
-  },
+        "event": "Evento: 18 de setembro de 2025 às 9:00 até 19 de setembro às 18:00"
+    },
 
   "map_title": "Mapa do Complexo de Inovações Pedagógicas CESMAC",
   "address": {
