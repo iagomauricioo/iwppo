@@ -419,240 +419,289 @@
             }
         }
     },
-    "ProgramacaoPage": {
-        "programacao": "Programação",
-        "buscar_eventos": "Buscar eventos, palestrantes...",
-        "todos": "Todos",
-        "hoje": "Hoje",
-        "days": [
-            {
-                "day": "Quarta-feira",
-                "date": "2025-09-17",
-                "events": [
-                    {
-                        "time": "10:00",
-                        "title": "Cine Ambiental - Sessão para Ensino Fundamental e Médio",
-                        "location": "Centro Cultural João Sampaio",
-                        "nature": "Exibição",
-                        "speakers": "-",
-                        "description": "Sessão de filmes ambientais voltada para estudantes do ensino fundamental e médio."
-                    },
-                    {
-                        "time": "19:00",
-                        "title": "Cerimônia de Abertura do 2º IWPPO",
-                        "location": "Centro Cultural João Sampaio",
-                        "nature": "Cerimônia",
-                        "speakers": "-",
-                        "description": "Abertura oficial do evento"
-                    },
-                    {
-                        "time": "19:45",
-                        "title": "Palestra: A Crise do Plástico nos Oceanos e as Consequências para o Futuro do Planeta",
-                        "location": "Centro Cultural João Sampaio",
-                        "nature": "Palestra",
-                        "speakers": "-",
-                        "description": "Discussão sobre o impacto do plástico nos oceanos"
-                    }
-                ]
-            },
-            {
-                "day": "Quinta-feira",
-                "date": "2025-09-18",
-                "events": [
-                    {
-                        "time": "09:00",
-                        "title": "Seção de Banners – Trabalhos de 1 à 20",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Exibição de trabalhos acadêmicos"
-                    },
-                    {
-                        "time": "10:00",
-                        "title": "COFFEE BREAK",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Intervalo para networking"
-                    },
-                    {
-                        "time": "10:30",
-                        "title": "Mesa Redonda 1:",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Palestra",
-                        "speakers": "Jemille Viaggi, Barbara Ramos Pinheiro e Paulina Chamorro",
-                        "description": "Palestra principal da manhã"
-                    },
-                    {
-                        "time": "11:30",
-                        "title": "Apresentações Orais – Seções 1 a 9",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Apresentações orais de pesquisas"
-                    },
-                    {
-                        "time": "12:30",
-                        "title": "HORÁRIO DE ALMOÇO",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Pausa para almoço"
-                    },
-                    {
-                        "time": "14:00",
-                        "title": "Seção de Banners – Trabalhos de 21 à 40",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Exibição de trabalhos acadêmicos"
-                    },
-                    {
-                        "time": "15:00",
-                        "title": "COFFEE BREAK",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Intervalo para networking"
-                    },
-                    {
-                        "time": "15:30",
-                        "title": "Palestra: Emission pathways of macro- and microplastics to the Pacific Ocean in Peru: detection and quantification",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Palestra",
-                        "speakers": "Ian Vázquez-Rowe",
-                        "description": "Palestra principal da tarde"
-                    },
-                    {
-                        "time": "16:15",
-                        "title": "Apresentações Orais – Seções 10 a 18",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Apresentações orais de pesquisas"
-                    },
-                    {
-                        "time": "17:00",
-                        "title": ": Palestra 2 ",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Mesa Redonda",
-                        "speakers": "Robson Guimarães dos Santos, Katia Viana Cavalcante",
-                        "description": "Discussão sobre monitoramento de plásticos marinhos"
-                    },
-                    {
-                        "time": "18:00",
-                        "title": "Encerramento das Atividades Acadêmicas",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Cerimônia",
-                        "speakers": "-",
-                        "description": "Fechamento das atividades do dia"
-                    }
-                ]
-            },
-            {
-                "day": "Sexta-feira",
-                "date": "2025-09-19",
-                "events": [
-                    {
-                        "time": "09:00",
-                        "title": "Seção de Banners – Trabalhos de 41 à 60",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Exibição de trabalhos acadêmicos"
-                    },
-                    {
-                        "time": "10:00",
-                        "title": "COFFEE BREAK",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Intervalo para networking"
-                    },
-                    {
-                        "time": "10:30",
-                        "title": "Palestra 3",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Palestra",
-                        "speakers": "Clemilson Marques Batista",
-                        "description": "Palestra principal da manhã"
-                    },
-                    {
-                        "time": "11:15",
-                        "title": "Apresentações Orais – Seções 19 a 27",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Apresentações orais de pesquisas"
-                    },
-                    {
-                        "time": "12:30",
-                        "title": "HORÁRIO DE ALMOÇO",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Pausa para almoço"
-                    },
-                    {
-                        "time": "14:00",
-                        "title": "Apresentações Orais – Seções de 28 à 36",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Apresentação",
-                        "speakers": "-",
-                        "description": "Apresentações orais de pesquisas"
-                    },
-                    {
-                        "time": "15:00",
-                        "title": "COFFEE BREAK",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Outro",
-                        "speakers": "-",
-                        "description": "Intervalo para networking"
-                    },
-                    {
-                        "time": "15:30",
-                        "title": "Palestra 4A",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC - Sala 4A",
-                        "nature": "Palestra",
-                        "speakers": "Aldilane Lays Xavier Marques,Biagio Fernando Giannetti,Federico Sulis e Marcell Mariano Correa Maceno",
-                        "description": "Palestra principal da tarde"
-                    },
-                    {
-                        "time": "15:30",
-                        "title": "Palestra 4B",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Palestra",
-                        "speakers": "Comitê de Bacias Hidrográficas de Alagoas e Cristiane Siqueira",
-                        "description": "Palestra principal da tarde"
-                    },
-                    {
-                        "time": "16:30",
-                        "title": "Momento de Reconhecimento e Premiações: Vozes que valorizamos, esforços que celebramos - Premiação do Selo Atitude Sustentável",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Cerimônia",
-                        "speakers": "-",
-                        "description": "Premiação de participantes"
-                    },
-                    {
-                        "time": "17:00",
-                        "title": "Palestra de encerramento",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Mesa Redonda",
-                        "speakers": "Scott Paton Wilson e Alireza Moghayedi",
-                        "description": "Discussão sobre políticas e soluções para plásticos"
-                    },
-                    {
-                        "time": "18:00",
-                        "title": "Cerimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
-                        "location": "Complexo de Inovações Pedagógicas CESMAC",
-                        "nature": "Cerimônia",
-                        "speakers": "-",
-                        "description": "Encerramento oficial e compromissos para o próximo evento"
-                    }
-                ]
-            }
+    
+  "ProgramacaoPage": {
+    "programacao": "Programação",
+    "buscar_eventos": "Buscar eventos, palestrantes...",
+    "todos": "Todos",
+    "hoje": "Hoje",
+    "ao_vivo": "AO VIVO",
+    "adicionar_calendario": "Adicionar ao calendário",
+    "compartilhar": "Compartilhar",
+    "palestrantes_label": "Palestrantes",
+    "copiado_area_transferencia": "Copiado para a área de transferência!",
+    "nenhum_evento": "Nenhum evento encontrado para sua busca.",
+    "days": [
+      {
+        "day": "Quarta-feira",
+        "date": "2025-09-17",
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Cine Ambiental – Sessão para Ensino Fundamental e Médio",
+            "location": "Centro Cultural João Sampaio",
+            "nature": "Exibição",
+            "speakers": "-",
+            "description": "Sessão especial de filmes ambientais para estudantes, com mediação e atividades educativas."
+          },
+          {
+            "time": "19:00",
+            "title": "Cerimônia de Abertura do 2º IWPPO",
+            "location": "Centro Cultural João Sampaio",
+            "nature": "Cerimônia",
+            "speakers": "-",
+            "description": "Abertura oficial do evento."
+          },
+          {
+            "time": "19:45",
+            "title": "Palestra: A Crise do Plástico nos Oceanos e as Consequências para o Futuro do Planeta",
+            "location": "Centro Cultural João Sampaio",
+            "nature": "Palestra",
+            "speakers": "-",
+            "description": "Panorama global dos impactos do plástico no oceano e caminhos para mitigação."
+          }
         ]
-    },
+      },
+      {
+        "day": "Quinta-feira",
+        "date": "2025-09-18",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Apresentações Orais – Seções 1 a 4",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 01)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 1 a 4."
+          },
+          {
+            "time": "09:00",
+            "title": "Apresentações Orais – Seções 5 a 8",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 03)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 5 a 8."
+          },
+          {
+            "time": "10:00",
+            "title": "COFFEE BREAK & Visitação de Stands",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Intervalo para networking e visita aos expositores."
+          },
+          {
+            "time": "10:30",
+            "title": "Mesa Redonda 01",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Mesa Redonda",
+            "speakers": "Jemille Viaggi, Barbara Ramos Pinheiro, Paulina Chamorro",
+            "description": "Diálogo sobre desafios e soluções no monitoramento de plásticos marinhos."
+          },
+          {
+            "time": "11:30",
+            "title": "Apresentações Orais – Seções 9 a 12",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 01)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 9 a 12."
+          },
+          {
+            "time": "11:30",
+            "title": "Apresentações Orais – Seções 13 a 16",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 03)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 13 a 16."
+          },
+          {
+            "time": "12:30",
+            "title": "HORÁRIO DE ALMOÇO",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Pausa para almoço."
+          },
+          {
+            "time": "14:00",
+            "title": "Apresentações Orais – Seções 17 a 20",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 01)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 17 a 20."
+          },
+          {
+            "time": "14:00",
+            "title": "Apresentações Orais – Seções 21 a 24",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 03)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 21 a 24."
+          },
+          {
+            "time": "15:00",
+            "title": "COFFEE BREAK & Visitação de Stands",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Intervalo para networking e visita aos expositores."
+          },
+          {
+            "time": "15:30",
+            "title": "Palestra – Prof. Dr. Ian Vázquez-Rowe",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Palestra",
+            "speakers": "Ian Vázquez-Rowe",
+            "description": "Emission pathways of macro- and microplastics to the Pacific Ocean in Peru: detection and quantification."
+          },
+          {
+            "time": "16:15",
+            "title": "Apresentações Orais – Seções 25 a 27",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 01)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 25 a 27."
+          },
+          {
+            "time": "16:15",
+            "title": "Apresentações Orais – Seções 28 a 30",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 03)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 28 a 30."
+          },
+          {
+            "time": "17:00",
+            "title": "Discussão sobre monitoramento de plásticos marinhos",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Palestra",
+            "speakers": "-",
+            "description": "Debate técnico sobre estratégias e indicadores de monitoramento."
+          },
+          {
+            "time": "18:00",
+            "title": "Encerramento das Atividades Acadêmicas",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Cerimônia",
+            "speakers": "-",
+            "description": "Fechamento das atividades do dia."
+          }
+        ]
+      },
+      {
+        "day": "Sexta-feira",
+        "date": "2025-09-19",
+        "events": [
+          {
+            "time": "09:00",
+            "title": "Apresentações Orais – Seções 31 a 34",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 02)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 31 a 34."
+          },
+          {
+            "time": "09:00",
+            "title": "Apresentações Orais – Seções 35 a 38",
+            "location": "Complexo de Inovações Pedagógicas CESMAC (Sala 04)",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 35 a 38."
+          },
+          {
+            "time": "10:00",
+            "title": "COFFEE BREAK & Visitação de Stands",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Intervalo para networking e visita aos expositores."
+          },
+          {
+            "time": "10:30",
+            "title": "Palestra – Prof. Dr. Clemilson Marques Batista",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Palestra",
+            "speakers": "Clemilson Marques Batista",
+            "description": "Palestra principal da manhã."
+          },
+          {
+            "time": "11:15",
+            "title": "Apresentações Orais – Seções 39 a 41",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Apresentação",
+            "speakers": "-",
+            "description": "Trabalhos selecionados – seções 39 a 41."
+          },
+          {
+            "time": "12:30",
+            "title": "HORÁRIO DE ALMOÇO",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Pausa para almoço."
+          },
+          {
+            "time": "14:00",
+            "title": "CINE AMBIENTAL & DEBATE",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Exibição",
+            "speakers": "-",
+            "description": "Exibição de filmes ambientais seguida de debate com convidados."
+          },
+          {
+            "time": "15:00",
+            "title": "COFFEE BREAK & Visitação de Stands",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Outro",
+            "speakers": "-",
+            "description": "Intervalo para networking e visita aos expositores."
+          },
+          {
+            "time": "15:30",
+            "title": "Mesa Redonda 02",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Mesa Redonda",
+            "speakers": "-",
+            "description": "Mesa temática (2)."
+          },
+          {
+            "time": "15:30",
+            "title": "Mesa Redonda 03",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Mesa Redonda",
+            "speakers": "-",
+            "description": "Mesa temática (3)."
+          },
+          {
+            "time": "16:15",
+            "title": "Momento de Reconhecimento e Premiações – Prêmio Selo de Atitude Sustentável",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Cerimônia",
+            "speakers": "Carol Basílio",
+            "description": "Vozes que valorizamos, esforços que celebramos."
+          },
+          {
+            "time": "17:00",
+            "title": "Palestra de Encerramento – Discussão sobre políticas e soluções para plásticos",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Palestra",
+            "speakers": "Prof. Dr. Scott Paton Wilson e Prof. Dr. Alireza Moghayedi",
+            "description": "Encerramento técnico com perspectivas de políticas e inovação."
+          },
+          {
+            "time": "18:00",
+            "title": "Cerimônia de Encerramento do 2º IWPPO e Protocolo de Compromissos Futuros (3º IWPPO)",
+            "location": "Complexo de Inovações Pedagógicas CESMAC",
+            "nature": "Cerimônia",
+            "speakers": "-",
+            "description": "Encerramento oficial e compromissos para o próximo evento."
+          }
+        ]
+      }
+    ]
+  },
+
+
     "SubscribeSection": {
         "title": "Inscrições",
         "options": [
