@@ -48,34 +48,12 @@ type ProgrammingScheduleProps = {
 };
 
 // ---------------------------------------------------------
-// Utilidades
+// Utilidades (corrigem o bug de fuso horário)
 // ---------------------------------------------------------
-const natureColors: Record<string, string> = {
-  Palestra: "bg-amber-100 text-amber-800 ring-amber-200",
-  "Mesa Redonda": "bg-violet-100 text-violet-800 ring-violet-200",
-  Cerimônia: "bg-emerald-100 text-emerald-800 ring-emerald-200",
-  Apresentação: "bg-blue-100 text-blue-800 ring-blue-200",
-  Exibição: "bg-rose-100 text-rose-800 ring-rose-200",
-  Outro: "bg-slate-100 text-slate-700 ring-slate-200",
-};
-
-const natureIcon = (nature?: string) => {
-  switch (nature) {
-    case "Palestra":
-      return <Mic className="h-3.5 w-3.5" />;
-    case "Mesa Redonda":
-      return <Users className="h-3.5 w-3.5" />;
-    case "Cerimônia":
-      return <Award className="h-3.5 w-3.5" />;
-    case "Apresentação":
-      return <FileText className="h-3.5 w-3.5" />;
-    case "Exibição":
-      return <Film className="h-3.5 w-3.5" />;
-    case "Outro":
-      return <Coffee className="h-3.5 w-3.5" />;
-    default:
-      return <Calendar className="h-3.5 w-3.5" />;
-  }
+const toLocalDate = (s: string) => {
+  // Constrói sempre em horário local (evita que "YYYY-MM-DD" seja interpretado como UTC)
+  const [y, m, d] = s.split("-").map(Number);
+  return new Date(y, m - 1, d);
 };
 
 const parseHHmm = (time: string) => {
@@ -85,10 +63,10 @@ const parseHHmm = (time: string) => {
 };
 
 const eventDateTime = (date: string, time: string) => {
-  const { h, m } = parseHHmm(time);
-  const d = new Date(date + "T00:00:00");
-  d.setHours(h, m, 0, 0);
-  return d;
+  // Monta a data-hora em local time
+  const [y, m, d] = date.split("-").map(Number);
+  const { h, m: mm } = parseHHmm(time);
+  return new Date(y, m - 1, d, h, mm, 0, 0);
 };
 
 const isNowWindow = (date?: string, time?: string, minutes = 60) => {
@@ -140,6 +118,34 @@ const copyToClipboard = async (text: string) => {
 // ---------------------------------------------------------
 // Cartão de Evento
 // ---------------------------------------------------------
+const natureColors: Record<string, string> = {
+  Palestra: "bg-amber-100 text-amber-800 ring-amber-200",
+  "Mesa Redonda": "bg-violet-100 text-violet-800 ring-violet-200",
+  Cerimônia: "bg-emerald-100 text-emerald-800 ring-emerald-200",
+  Apresentação: "bg-blue-100 text-blue-800 ring-blue-200",
+  Exibição: "bg-rose-100 text-rose-800 ring-rose-200",
+  Outro: "bg-slate-100 text-slate-700 ring-slate-200",
+};
+
+const natureIcon = (nature?: string) => {
+  switch (nature) {
+    case "Palestra":
+      return <Mic className="h-3.5 w-3.5" />;
+    case "Mesa Redonda":
+      return <Users className="h-3.5 w-3.5" />;
+    case "Cerimônia":
+      return <Award className="h-3.5 w-3.5" />;
+    case "Apresentação":
+      return <FileText className="h-3.5 w-3.5" />;
+    case "Exibição":
+      return <Film className="h-3.5 w-3.5" />;
+    case "Outro":
+      return <Coffee className="h-3.5 w-3.5" />;
+    default:
+      return <Calendar className="h-3.5 w-3.5" />;
+  }
+};
+
 const EventCard = ({
   time,
   title,
@@ -151,7 +157,7 @@ const EventCard = ({
 }: EventProps) => {
   const t = useTranslations("ProgramacaoPage");
   const [expanded, setExpanded] = useState(false);
-  const today = date ? isSameDay(new Date(date), new Date()) : false;
+  const today = date ? isSameDay(toLocalDate(date), new Date()) : false;
   const live = isNowWindow(date, time, 60);
 
   const badgeClass = natureColors[nature || "Outro"] || natureColors["Outro"];
@@ -243,7 +249,7 @@ const EventCard = ({
               {date && (
                 <span className="inline-flex items-center">
                   <Calendar className="h-3.5 w-3.5 mr-1" />
-                  {format(new Date(date), "dd/MM", { locale: ptBR })}
+                  {format(toLocalDate(date), "dd/MM", { locale: ptBR })}
                 </span>
               )}
               {today && (
@@ -318,9 +324,10 @@ const EventCard = ({
 // Bloco de Dia
 // ---------------------------------------------------------
 const DaySchedule = ({ day, date, events }: DayScheduleProps) => {
+  const t = useTranslations("ProgramacaoPage");
   const [collapsed, setCollapsed] = useState(false);
   const hasToday = events.some((e) =>
-    isSameDay(new Date(e.date || date), new Date())
+    isSameDay(toLocalDate(e.date || date), new Date())
   );
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -342,10 +349,10 @@ const DaySchedule = ({ day, date, events }: DayScheduleProps) => {
         aria-expanded={!collapsed}
       >
         <h2 className="text-blue-950 font-extrabold text-lg sm:text-xl">
-          {day} • {format(new Date(date), "dd/MM", { locale: ptBR })}
+          {day} • {format(toLocalDate(date), "dd/MM", { locale: ptBR })}
           {hasToday && (
             <span className="ml-2 text-xs px-2 py-0.5 bg-blue-100 text-blue-800 rounded-full">
-              Hoje
+              {t("hoje")}
             </span>
           )}
         </h2>
@@ -414,7 +421,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
           const matchesFilter =
             filter === "all" ||
             (filter === "today" &&
-              isSameDay(new Date(event.date || day.date), new Date())) ||
+              isSameDay(toLocalDate(event.date || day.date), new Date())) ||
             (flatTypes.includes(filter) &&
               (event.nature || "Outro") === filter);
 
@@ -494,7 +501,7 @@ export default function ProgramacaoItem({ days }: ProgrammingScheduleProps) {
             <Calendar className="h-3.5 w-3.5" />
             <span className="font-semibold text-blue-900">{d.day}</span>
             <span className="text-slate-500">
-              {format(new Date(d.date), "dd/MM", { locale: ptBR })}
+              {format(toLocalDate(d.date), "dd/MM", { locale: ptBR })}
             </span>
           </a>
         ))}
