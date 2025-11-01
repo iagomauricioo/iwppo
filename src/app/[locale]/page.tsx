@@ -1,5 +1,6 @@
 "use client"
 
+import ResultadosEvento from "@/components/resultados-evento";
 import Navbar from "@/components/navbar"
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
@@ -19,6 +20,7 @@ import MesaDeAbertura from "@/components/mesa-de-abertura";
 import MainLocationSection from "@/components/localizacao-evento";
 import RevistaSection from "@/components/revistas-section";
 import CineAmbientalCTA from "@/components/cine-ambiental-cta";
+import EdicaoAnteriorCTA from "@/components/edicao-anterior-cta";
 
 
 
@@ -31,6 +33,7 @@ export default function Home() {
       <main className="flex-1 bg-white">
         <ZeroResiduo />
         <AboutSection />
+        <EdicaoAnteriorCTA />
         <CineAmbientalCTA className="mt-12" />
         <MesaDeAbertura />
         <PalestrantesConfirmados />

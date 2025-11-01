@@ -1172,5 +1172,49 @@
             "title": "Comitê Científico",
             "subtitle": "2nd International Workshop on Plastic Pollution in the Oceans",
             "description": "Nosso comitê científico é formado por pesquisadores renomados dedicados ao avanço do conhecimento sobre a poluição plástica nos oceanos."
-        }
+        },
+
+        "ResultadosEvento": {
+        "titulo": "Resultados do II IWPPO",
+        "descricao": "O II IWPPO foi um sucesso, reunindo pesquisadores, estudantes e profissionais de diversos países. Veja alguns destaques:",
+        "labels": {
+            "inscritos": "Participantes inscritos",
+            "paises": "Países representados",
+            "apresentacoes": "Apresentações científicas",
+            "premios": "Menções honrosas"
+        },
+        "dados": {
+            "inscritos": 210,
+            "paises":  5,
+            "apresentacoes": 40,
+            "premios": 17
+        },
+        "fotos": {
+            "titulo": "Galeria de Fotos",
+            "albuns": [
+            { "label": "Baixar fotos — Dia 2 (Parte 1)", "href": "https://www.transfernow.net/dl/20250924Ixqkttjp/VRxqGhIA" },
+            { "label": "Baixar fotos — Dia 2 (Parte 2)", "href": "https://www.transfernow.net/dl/20250924uSk38SSI/3yM9dlTx" },
+            { "label": "Baixar fotos — Dia 3", "href": "https://www.transfernow.net/dl/20250924B7SqIRpe/SZvChmhr" }
+            ],
+            "thumbs": [
+            { "src": "/images/evento/dia2_001.jpg", "alt": "Dia 2 — auditório", "href": "https://www.transfernow.net/dl/20250924Ixqkttjp/VRxqGhIA" },
+            { "src": "/images/evento/dia2_002.jpg", "alt": "Dia 2 — sessão de banners", "href": "https://www.transfernow.net/dl/20250924uSk38SSI/3yM9dlTx" },
+            { "src": "/images/evento/dia3_001.jpg", "alt": "Dia 3 — premiação", "href": "https://www.transfernow.net/dl/20250924B7SqIRpe/SZvChmhr" },
+            { "src": "/images/evento/dia3_002.jpg", "alt": "Dia 3 — mesa redonda", "href": "https://www.transfernow.net/dl/20250924B7SqIRpe/SZvChmhr" }
+            ],
+            "sem_fotos": "Aguardando liberação dos álbuns oficiais."
+        },
+        "ultima_atualizacao": "Atualizado em novembro de 2025"
+        },
+
+        "EdicaoAnterior": {
+            "titulo": "Veja a 1ª edição do IWPPO",
+            "descricao": "Conheça o site do primeiro IWPPO e confira programação, registros e resultados daquela edição.",
+            "badge": "IWPPO 2024",
+            "cta": "Visitar o site da 1ª edição",
+            "url": "https://www.advancesincleanerproduction.net/13th/site/index.html"
+            }
+
+
     }
+
